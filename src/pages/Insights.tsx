@@ -1047,7 +1047,7 @@ const InsightsPage = () => {
 
             {showChart && (
               <Card className="border-border/60 mb-4">
-                <CardContent className="flex h-[320px] flex-col space-y-3 overflow-hidden pb-4 pt-4">
+                <CardContent className="flex h-[380px] sm:h-[320px] flex-col space-y-3 overflow-hidden pb-4 pt-4">
                   <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
                     <div className="flex flex-wrap items-center gap-2">
                       <button
@@ -1136,7 +1136,7 @@ const InsightsPage = () => {
                   </div>
                   <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
                     {selectedTopics.map((topic) => (
-                      <span key={topic} className="flex items-center gap-1 text-foreground">
+                      <span key={topic} className="flex items-center gap-2 text-foreground">
                         <button
                           type="button"
                           className="h-2 w-2 rounded-full"
@@ -1144,7 +1144,7 @@ const InsightsPage = () => {
                           onClick={() => cycleTopicColor(topic)}
                           title="Change line color"
                         />
-                        {topic}
+                        <span className="hidden sm:inline">{topic}</span>
                       </span>
                     ))}
                   </div>
@@ -1328,7 +1328,7 @@ const InsightsPage = () => {
                 <thead className="bg-muted/60">
                   <tr>
                     <th className="px-3 py-2 font-semibold text-foreground">Topic</th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
+                    <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                       <button
                         type="button"
                         className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1342,7 +1342,7 @@ const InsightsPage = () => {
                       </button>
                     </th>
                     {compareMode && (
-                      <th className="px-3 py-2 font-semibold text-foreground">
+                      <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                         <button
                           type="button"
                           className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1357,7 +1357,7 @@ const InsightsPage = () => {
                       </th>
                     )}
                     {compareMode && (
-                      <th className="px-3 py-2 font-semibold text-foreground">
+                      <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                         <button
                           type="button"
                           className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1371,7 +1371,7 @@ const InsightsPage = () => {
                         </button>
                       </th>
                     )}
-                    <th className="px-3 py-2 font-semibold text-foreground">
+                    <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                       <button
                         type="button"
                         className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1385,7 +1385,7 @@ const InsightsPage = () => {
                       </button>
                     </th>
                     {compareMode && (
-                      <th className="px-3 py-2 font-semibold text-foreground">
+                      <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                         <button
                           type="button"
                           className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1400,7 +1400,7 @@ const InsightsPage = () => {
                       </th>
                     )}
                     {compareMode && (
-                      <th className="px-3 py-2 font-semibold text-foreground">
+                      <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                         <button
                           type="button"
                           className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1462,50 +1462,50 @@ const InsightsPage = () => {
                         </td>
                         {compareMode ? (
                           <>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeA)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.pubsA}
-                              </Link>
-                            </td>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeB)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.pubsB}
-                              </Link>
-                            </td>
-                            <td className="px-3 py-2">
-                              <span className={deltaClass(row.pubsDeltaPct)}>{formatPct(row.pubsDeltaPct)}</span>
-                            </td>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeA)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.citesA.toLocaleString()}
-                              </Link>
-                            </td>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeB)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.citesB.toLocaleString()}
-                              </Link>
-                            </td>
-                            <td className="px-3 py-2">
-                              <span className={deltaClass(row.citesDeltaPct)}>{formatPct(row.citesDeltaPct)}</span>
-                            </td>
-                            <td className="px-3 py-2 text-muted-foreground">
-                              <div className="flex flex-wrap items-center gap-2">
-                                <span
-                                  className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
-                                  title={`Publications: ${pubsStatus}`}
-                                >
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.pubsA}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeB)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.pubsB}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <span className={deltaClass(row.pubsDeltaPct)}>{formatPct(row.pubsDeltaPct)}</span>
+                        </td>
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.citesA.toLocaleString()}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeB)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.citesB.toLocaleString()}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <span className={deltaClass(row.citesDeltaPct)}>{formatPct(row.citesDeltaPct)}</span>
+                        </td>
+                        <td className="px-3 py-2 text-muted-foreground">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span
+                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
+                              title={`Publications: ${pubsStatus}`}
+                            >
                                   <BookOpen className="h-3 w-3" />
                                 </span>
                                 <span
@@ -1514,26 +1514,26 @@ const InsightsPage = () => {
                                 >
                                   <BarChart3 className="h-3 w-3" />
                                 </span>
-                                <span className="text-xs text-muted-foreground">{row.insight}</span>
-                              </div>
-                            </td>
+                            <span className="text-xs text-muted-foreground">{row.insight}</span>
+                          </div>
+                        </td>
                           </>
                         ) : (
                           <>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeA)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.pubsA}
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.pubsA}
                               </Link>
                             </td>
-                            <td className="px-3 py-2">
-                              <Link
-                                to={buildTopicLink(row.topic, rangeA)}
-                                className="text-primary hover:underline"
-                              >
-                                {row.citesA.toLocaleString()}
+                        <td className="px-3 py-2 hidden sm:table-cell">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.citesA.toLocaleString()}
                               </Link>
                             </td>
                           </>

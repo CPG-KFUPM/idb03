@@ -1351,7 +1351,7 @@ export default function AuthorDetail() {
                               <span className="inline-block h-0 w-5 border-t-2 border-dashed border-current" />
                             </button>
                           </div>
-                          <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap">
+                          <div className="flex flex-wrap items-center gap-2">
                             {selectedInsightTopics.map((topic) => (
                               <span key={topic} className="inline-flex items-center gap-2">
                                 <span
