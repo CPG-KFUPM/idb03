@@ -284,6 +284,7 @@ export default function AuthorDetail() {
     setInsightsRangeA({ from: min, to: max });
   }, [compareInsights, allYears]);
 
+
   useEffect(() => {
     setVisibleInsightCount(INSIGHTS_PAGE_SIZE);
   }, [insightsRangeA.from, insightsRangeA.to, insightsRangeB.from, insightsRangeB.to, id, compareInsights]);
@@ -1489,7 +1490,7 @@ export default function AuthorDetail() {
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
                         </th>
-                        <th className="px-3 py-2 font-semibold text-foreground">
+                        <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                           <button
                             type="button"
                             className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1538,7 +1539,7 @@ export default function AuthorDetail() {
                             </button>
                           </th>
                         )}
-                        <th className="px-3 py-2 font-semibold text-foreground">
+                        <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                           <button
                             type="button"
                             className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1639,7 +1640,7 @@ export default function AuthorDetail() {
                             </td>
                             {compareInsights ? (
                               <>
-                                <td className="px-3 py-2">
+                                <td className="px-3 py-2 hidden sm:table-cell">
                                   <Link
                                     to={buildInsightPublicationsPath(row.topic, insightsRangeA)}
                                     className="text-primary hover:underline"
@@ -1660,7 +1661,7 @@ export default function AuthorDetail() {
                                     {formatPct(row.pubsDeltaPct)}
                                   </span>
                                 </td>
-                                <td className="px-3 py-2">
+                                <td className="px-3 py-2 hidden sm:table-cell">
                                   <Link
                                     to={buildInsightCitationsPath(row.topic, insightsRangeA)}
                                     className="text-primary hover:underline"
@@ -1681,7 +1682,7 @@ export default function AuthorDetail() {
                                     {formatPct(row.citesDeltaPct)}
                                   </span>
                                 </td>
-                                <td className="px-3 py-2 text-muted-foreground hidden sm:table-cell">
+                                <td className="px-3 py-2 text-muted-foreground">
                                   <div className="flex flex-wrap items-center gap-2">
                                     <span
                                       className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
