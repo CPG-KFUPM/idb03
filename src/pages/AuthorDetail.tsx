@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { FileText, ArrowUpDown, Download, Linkedin, Link as LinkIcon, User, Network, BarChart3, ArrowLeft, Award, Tags, Building2, ChevronDown, ChevronUp, BookOpen } from "lucide-react";
+import { FileText, ArrowUpDown, Download, Linkedin, Link as LinkIcon, User, Network, BarChart3, ArrowLeft, Award, Tags, Tag, Building2, ChevronDown, ChevronUp, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -68,6 +68,24 @@ const deltaClass = (value: number | null) => {
   return "text-slate-600";
 };
 
+const classifyMetricChange = (delta: number | null) => {
+  if (delta === Infinity) return "Emerging";
+  if (delta === -Infinity) return "Absent";
+  if (delta == null || !isFinite(delta)) return "N/A";
+  if (delta >= 0.5) return "Rising";
+  if (delta >= 0.2) return "Up";
+  if (delta <= -0.5) return "Declining";
+  if (delta <= -0.2) return "Softening";
+  return "Stable";
+};
+
+const badgeTone = (status: string) => {
+  if (status === "Emerging" || status === "Rising" || status === "Up") return "bg-emerald-100 text-emerald-700";
+  if (status === "Declining" || status === "Softening" || status === "Absent") return "bg-rose-100 text-rose-700";
+  if (status === "Stable") return "bg-slate-100 text-slate-700";
+  return "bg-muted text-muted-foreground";
+};
+
 const deriveInsight = (row: TopicInsight) => {
   const { pubsA, pubsB, citesA, citesB } = row;
   const pubsGrowth = pubsA === 0 ? (pubsB > 0 ? Infinity : 0) : pubsB / pubsA;
@@ -131,6 +149,7 @@ export default function AuthorDetail() {
   const [showInsights, setShowInsights] = useState(false);
   const [showInsightsChart, setShowInsightsChart] = useState(true);
   const [showInsightsLegend, setShowInsightsLegend] = useState(false);
+  const [compareInsights, setCompareInsights] = useState(true);
   const [showInsightsPubs, setShowInsightsPubs] = useState(true);
   const [showInsightsCites, setShowInsightsCites] = useState(false);
   const [selectedInsightTopics, setSelectedInsightTopics] = useState<string[]>([]);
@@ -253,8 +272,21 @@ export default function AuthorDetail() {
   }, [allYears]);
 
   useEffect(() => {
+    if (compareInsights) return;
+    if (insightsSortKey === "topic" || insightsSortKey === "pubsA" || insightsSortKey === "citesA") return;
+    setInsightsSortKey("pubsA");
+  }, [compareInsights, insightsSortKey]);
+
+  useEffect(() => {
+    if (compareInsights || !allYears.length) return;
+    const min = allYears[0];
+    const max = allYears[allYears.length - 1];
+    setInsightsRangeA({ from: min, to: max });
+  }, [compareInsights, allYears]);
+
+  useEffect(() => {
     setVisibleInsightCount(INSIGHTS_PAGE_SIZE);
-  }, [insightsRangeA.from, insightsRangeA.to, insightsRangeB.from, insightsRangeB.to, id]);
+  }, [insightsRangeA.from, insightsRangeA.to, insightsRangeB.from, insightsRangeB.to, id, compareInsights]);
 
 
   const filteredYearlyStats = useMemo(() => {
@@ -297,19 +329,56 @@ export default function AuthorDetail() {
     });
   }, [rangeFilteredWorks, workSearch]);
 
+  const applyInsightsPreset = (span: number) => {
+    if (!allYears.length) return;
+    const min = allYears[0];
+    const max = allYears[allYears.length - 1];
+    const total = max - min + 1;
+    if (total < span * 2) {
+      const mid = Math.floor((min + max) / 2);
+      setInsightsRangeA({ from: min, to: mid });
+      setInsightsRangeB({ from: mid + 1, to: max });
+      setCompareInsights(true);
+      return;
+    }
+    const aFrom = max - span * 2 + 1;
+    const aTo = max - span;
+    const bFrom = max - span + 1;
+    const bTo = max;
+    setInsightsRangeA({ from: aFrom, to: aTo });
+    setInsightsRangeB({ from: bFrom, to: bTo });
+    setCompareInsights(true);
+  };
+
   const authorInsights = useMemo<TopicInsight[]>(() => {
     if (!allYears.length) return [];
     const aggA = buildAggregates(insightsRangeA.from, insightsRangeA.to, uniqueAuthorWorks);
-    const aggB = buildAggregates(insightsRangeB.from, insightsRangeB.to, uniqueAuthorWorks);
-    const topics = new Set<string>([...aggA.keys(), ...aggB.keys()]);
+    const aggB = compareInsights
+      ? buildAggregates(insightsRangeB.from, insightsRangeB.to, uniqueAuthorWorks)
+      : new Map();
+    const topics = new Set<string>(compareInsights ? [...aggA.keys(), ...aggB.keys()] : [...aggA.keys()]);
     const rows: TopicInsight[] = [];
     topics.forEach((topic) => {
       const a = aggA.get(topic) || { pubs: 0, cites: 0 };
       const b = aggB.get(topic) || { pubs: 0, cites: 0 };
-      const pubsDeltaPct =
-        a.pubs === 0 ? (b.pubs > 0 ? Infinity : 0) : b.pubs === 0 ? -Infinity : (b.pubs - a.pubs) / a.pubs;
-      const citesDeltaPct =
-        a.cites === 0 ? (b.cites > 0 ? Infinity : 0) : b.cites === 0 ? -Infinity : (b.cites - a.cites) / a.cites;
+      const pubsDeltaPct = compareInsights
+        ? a.pubs === 0
+          ? b.pubs > 0
+            ? Infinity
+            : 0
+          : b.pubs === 0
+            ? -Infinity
+            : (b.pubs - a.pubs) / a.pubs
+        : null;
+      const citesDeltaPct = compareInsights
+        ? a.cites === 0
+          ? b.cites > 0
+            ? Infinity
+            : 0
+          : b.cites === 0
+            ? -Infinity
+            : (b.cites - a.cites) / a.cites
+        : null;
       const row: TopicInsight = {
         topic,
         pubsA: a.pubs,
@@ -320,7 +389,7 @@ export default function AuthorDetail() {
         citesDeltaPct,
         insight: "",
       };
-      row.insight = deriveInsight(row);
+      row.insight = compareInsights ? deriveInsight(row) : "";
       rows.push(row);
     });
     const dir = insightsSortDir === "asc" ? 1 : -1;
@@ -331,15 +400,20 @@ export default function AuthorDetail() {
       if (yv === Infinity && xv !== Infinity) return -1;
       return (xv - yv) * dir;
     };
+    const resolvedSortKey = compareInsights
+      ? insightsSortKey
+      : insightsSortKey === "topic" || insightsSortKey === "pubsA" || insightsSortKey === "citesA"
+        ? insightsSortKey
+        : "pubsA";
     const sorted = [...rows].sort((a, b) => {
-      if (insightsSortKey === "topic") return a.topic.localeCompare(b.topic) * dir;
-      if (insightsSortKey === "insight") return a.insight.localeCompare(b.insight) * dir;
-      if (insightsSortKey === "pubsA") return compare(a.pubsA, b.pubsA);
-      if (insightsSortKey === "pubsB") return compare(a.pubsB, b.pubsB);
-      if (insightsSortKey === "pubsDelta") return compare(a.pubsDeltaPct, b.pubsDeltaPct);
-      if (insightsSortKey === "citesA") return compare(a.citesA, b.citesA);
-      if (insightsSortKey === "citesB") return compare(a.citesB, b.citesB);
-      if (insightsSortKey === "citesDelta") return compare(a.citesDeltaPct, b.citesDeltaPct);
+      if (resolvedSortKey === "topic") return a.topic.localeCompare(b.topic) * dir;
+      if (resolvedSortKey === "insight") return a.insight.localeCompare(b.insight) * dir;
+      if (resolvedSortKey === "pubsA") return compare(a.pubsA, b.pubsA);
+      if (resolvedSortKey === "pubsB") return compare(a.pubsB, b.pubsB);
+      if (resolvedSortKey === "pubsDelta") return compare(a.pubsDeltaPct, b.pubsDeltaPct);
+      if (resolvedSortKey === "citesA") return compare(a.citesA, b.citesA);
+      if (resolvedSortKey === "citesB") return compare(a.citesB, b.citesB);
+      if (resolvedSortKey === "citesDelta") return compare(a.citesDeltaPct, b.citesDeltaPct);
       return 0;
     });
     return sorted;
@@ -352,6 +426,7 @@ export default function AuthorDetail() {
     insightsRangeB.from,
     insightsRangeB.to,
     uniqueAuthorWorks,
+    compareInsights,
   ]);
 
   useEffect(() => {
@@ -371,10 +446,14 @@ export default function AuthorDetail() {
     if (!allYears.length) return { from: null as number | null, to: null as number | null };
     const minYear = allYears[0];
     const maxYear = allYears[allYears.length - 1];
-    const start = Math.min(insightsRangeA.from ?? minYear, insightsRangeB.from ?? minYear);
-    const end = Math.max(insightsRangeA.to ?? maxYear, insightsRangeB.to ?? maxYear);
+    const start = compareInsights
+      ? Math.min(insightsRangeA.from ?? minYear, insightsRangeB.from ?? minYear)
+      : (insightsRangeA.from ?? minYear);
+    const end = compareInsights
+      ? Math.max(insightsRangeA.to ?? maxYear, insightsRangeB.to ?? maxYear)
+      : (insightsRangeA.to ?? maxYear);
     return { from: start, to: end };
-  }, [allYears, insightsRangeA.from, insightsRangeA.to, insightsRangeB.from, insightsRangeB.to]);
+  }, [allYears, insightsRangeA.from, insightsRangeA.to, insightsRangeB.from, insightsRangeB.to, compareInsights]);
 
   const insightChartData = useMemo(() => {
     if (!selectedInsightTopics.length || insightChartYearRange.from == null || insightChartYearRange.to == null) {
@@ -1046,207 +1125,303 @@ export default function AuthorDetail() {
                       Show
                     </>
                   )}
+                  {showInsightsLegend && !compareInsights && (
+                    <div className="rounded-md border border-border/60 bg-muted/40 p-3 text-[11px] text-muted-foreground">
+                      <div className="space-y-2">
+                        <div className="font-semibold text-foreground">Legend</div>
+                        <div className="grid gap-1 sm:grid-cols-2">
+                          <span className="inline-flex items-center gap-2">
+                            <BookOpen className="h-3 w-3 text-primary" />
+                            Pubs = publications in selected period
+                          </span>
+                          <span className="inline-flex items-center gap-2">
+                            <BarChart3 className="h-3 w-3 text-primary" />
+                            Cites = citations in selected period
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </Button>
-              </div>
-              <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-semibold text-foreground">Period A:</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={insightsRangeA.from ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setInsightsRangeA((prev) => ({
-                        from: value,
-                        to: prev.to != null && value > prev.to ? value : prev.to,
-                      }));
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={`a-from-${y}`} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                  <span>to</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={insightsRangeA.to ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setInsightsRangeA((prev) => ({
-                        from: prev.from != null && value < prev.from ? value : prev.from,
-                        to: value,
-                      }));
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={`a-to-${y}`} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-semibold text-foreground">Period B:</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={insightsRangeB.from ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setInsightsRangeB((prev) => ({
-                        from: value,
-                        to: prev.to != null && value > prev.to ? value : prev.to,
-                      }));
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={`b-from-${y}`} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                  <span>to</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={insightsRangeB.to ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setInsightsRangeB((prev) => ({
-                        from: prev.from != null && value < prev.from ? value : prev.from,
-                        to: value,
-                      }));
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={`b-to-${y}`} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                </div>
               </div>
             </CardHeader>
             {showInsights && (
               <CardContent>
                 <div className="mb-4 space-y-3">
+                  <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-semibold text-foreground">View</span>
+                      <button
+                        type="button"
+                        className={`rounded px-2 py-1 text-[11px] ${compareInsights ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
+                        onClick={() => setCompareInsights(true)}
+                      >
+                        Compare A vs B
+                      </button>
+                      <button
+                        type="button"
+                        className={`rounded px-2 py-1 text-[11px] ${!compareInsights ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
+                        onClick={() => setCompareInsights(false)}
+                      >
+                        Single period
+                      </button>
+                    </div>
+                    {compareInsights && (
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="font-semibold text-foreground">Quick presets</span>
+                        <button
+                          type="button"
+                          className="rounded px-2 py-1 text-[11px] text-muted-foreground hover:bg-muted/40"
+                          onClick={() => applyInsightsPreset(5)}
+                        >
+                          Last 5y vs prior 5y
+                        </button>
+                        <button
+                          type="button"
+                          className="rounded px-2 py-1 text-[11px] text-muted-foreground hover:bg-muted/40"
+                          onClick={() => applyInsightsPreset(3)}
+                        >
+                          Last 3y vs prior 3y
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground justify-end">
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold text-foreground">{compareInsights ? "Period A" : "Period"}</span>
+                      {compareInsights ? (
+                        <>
+                          <label className="font-semibold text-foreground">From</label>
+                          <select
+                            className="h-7 rounded border border-border bg-background px-2 text-xs"
+                            value={insightsRangeA.from ?? ""}
+                            onChange={(e) => {
+                              const value = Number(e.target.value);
+                              setInsightsRangeA((prev) => ({
+                                from: value,
+                                to: prev.to != null && value > prev.to ? value : prev.to,
+                              }));
+                            }}
+                          >
+                            {allYears.map((y) => (
+                              <option key={`a-from-${y}`} value={y}>
+                                {y}
+                              </option>
+                            ))}
+                          </select>
+                          <label className="font-semibold text-foreground">to</label>
+                          <select
+                            className="h-7 rounded border border-border bg-background px-2 text-xs"
+                            value={insightsRangeA.to ?? ""}
+                            onChange={(e) => {
+                              const value = Number(e.target.value);
+                              setInsightsRangeA((prev) => ({
+                                from: prev.from != null && value < prev.from ? value : prev.from,
+                                to: value,
+                              }));
+                            }}
+                          >
+                            {allYears.map((y) => (
+                              <option key={`a-to-${y}`} value={y}>
+                                {y}
+                              </option>
+                            ))}
+                          </select>
+                        </>
+                      ) : (
+                        <span className="rounded border border-border bg-muted/40 px-2 py-1 text-[11px] text-foreground">
+                          All years {insightsRangeA.from ?? ""}-{insightsRangeA.to ?? ""}
+                        </span>
+                      )}
+                    </div>
+                    {compareInsights && (
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold text-foreground">Period B</span>
+                        <label className="font-semibold text-foreground">From</label>
+                        <select
+                          className="h-7 rounded border border-border bg-background px-2 text-xs"
+                          value={insightsRangeB.from ?? ""}
+                          onChange={(e) => {
+                            const value = Number(e.target.value);
+                            setInsightsRangeB((prev) => ({
+                              from: value,
+                              to: prev.to != null && value > prev.to ? value : prev.to,
+                            }));
+                          }}
+                        >
+                          {allYears.map((y) => (
+                            <option key={`b-from-${y}`} value={y}>
+                              {y}
+                            </option>
+                          ))}
+                        </select>
+                        <label className="font-semibold text-foreground">to</label>
+                        <select
+                          className="h-7 rounded border border-border bg-background px-2 text-xs"
+                          value={insightsRangeB.to ?? ""}
+                          onChange={(e) => {
+                            const value = Number(e.target.value);
+                            setInsightsRangeB((prev) => ({
+                              from: prev.from != null && value < prev.from ? value : prev.from,
+                              to: value,
+                            }));
+                          }}
+                        >
+                          {allYears.map((y) => (
+                            <option key={`b-to-${y}`} value={y}>
+                              {y}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                    )}
+                  </div>
                   <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                     <Button
-                      type="button"
                       variant="outline"
                       size="sm"
-                      className={showInsightsChart ? "bg-muted text-foreground" : "text-muted-foreground"}
-                      onClick={() => setShowInsightsChart((prev) => !prev)}
-                    >
-                      {showInsightsChart ? "Hide chart" : "Show chart"}
-                    </Button>
-                    <Button
-                      type="button"
-                      variant="outline"
-                      size="sm"
-                      className={showInsightsLegend ? "bg-muted text-foreground" : "text-muted-foreground"}
+                      className="h-7 text-[11px]"
                       onClick={() => setShowInsightsLegend((prev) => !prev)}
                     >
-                      {showInsightsLegend ? "Hide legend" : "Show legend"}
+                      {showInsightsLegend ? (
+                        <>
+                          <ChevronUp className="h-3 w-3" />
+                          Hide legend
+                        </>
+                      ) : (
+                        <>
+                          <ChevronDown className="h-3 w-3" />
+                          Show legend
+                        </>
+                      )}
                     </Button>
                     <Button
-                      type="button"
                       variant="outline"
                       size="sm"
-                      className={showInsightsPubs ? "bg-muted text-foreground" : "text-muted-foreground"}
-                      onClick={() => setShowInsightsPubs((prev) => !prev)}
+                      className="h-7 text-[11px]"
+                      onClick={() => setShowInsightsChart((prev) => !prev)}
                     >
-                      Pubs
+                      {showInsightsChart ? (
+                        <>
+                          <ChevronUp className="h-3 w-3" />
+                          Hide chart
+                        </>
+                      ) : (
+                        <>
+                          <ChevronDown className="h-3 w-3" />
+                          Show chart
+                        </>
+                      )}
                     </Button>
-                    <Button
-                      type="button"
-                      variant="outline"
-                      size="sm"
-                      className={showInsightsCites ? "bg-muted text-foreground" : "text-muted-foreground"}
-                      onClick={() => setShowInsightsCites((prev) => !prev)}
-                    >
-                      Cites
-                    </Button>
+                    <span className="text-xs text-muted-foreground">
+                      {selectedInsightTopics.length
+                        ? `${selectedInsightTopics.length} topic${selectedInsightTopics.length > 1 ? "s" : ""} selected`
+                        : "Click a topic to plot it"}
+                    </span>
                   </div>
 
                   {showInsightsChart && (
-                    <div className="rounded-md border border-border/60 bg-card/40 p-3">
-                      <div className="mb-2 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
-                        <span className="font-semibold text-foreground">Selected topics:</span>
+                    <Card className="border-border/60 mb-4">
+                      <CardContent className="flex h-[360px] sm:h-[300px] flex-col space-y-3 overflow-hidden pb-4 pt-4">
+                        <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <button
+                              type="button"
+                              className={`flex items-center gap-2 rounded px-2 py-1 transition ${
+                                showInsightsPubs ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
+                              }`}
+                              onClick={() => setShowInsightsPubs((prev) => !prev)}
+                              title="Publications (solid)"
+                              aria-label="Publications (solid)"
+                            >
+                              <BookOpen className="h-3 w-3" />
+                              <span className="inline-block h-0.5 w-4 rounded bg-current" />
+                            </button>
+                            <button
+                              type="button"
+                              className={`flex items-center gap-2 rounded px-2 py-1 transition ${
+                                showInsightsCites ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
+                              }`}
+                              onClick={() => setShowInsightsCites((prev) => !prev)}
+                              title="Citations (dashed)"
+                              aria-label="Citations (dashed)"
+                            >
+                              <BarChart3 className="h-3 w-3" />
+                              <span className="inline-block h-0 w-5 border-t-2 border-dashed border-current" />
+                            </button>
+                          </div>
+                          <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap">
+                            {selectedInsightTopics.map((topic) => (
+                              <span key={topic} className="inline-flex items-center gap-2">
+                                <span
+                                  className="inline-block h-2 w-2 rounded-full"
+                                  style={{ backgroundColor: insightTopicColors.get(topic) }}
+                                  aria-hidden
+                                />
+                                <span className="hidden sm:inline">{topic}</span>
+                              </span>
+                            ))}
+                          </div>
+                        </div>
                         {selectedInsightTopics.length === 0 ? (
-                          <span>None</span>
+                          <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+                            Select topics to plot.
+                          </div>
                         ) : (
-                          selectedInsightTopics.map((topic) => (
-                            <span key={topic} className="inline-flex items-center gap-1">
-                              <span
-                                className="inline-block h-2.5 w-2.5 rounded-full"
-                                style={{ backgroundColor: insightTopicColors.get(topic) }}
-                                aria-hidden
-                              />
-                              {topic}
-                            </span>
-                          ))
+                          <div className="w-full flex-1 min-h-0">
+                            <ResponsiveContainer width="100%" height="100%">
+                              <LineChart data={insightChartData}>
+                                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                                <XAxis
+                                  dataKey="year"
+                                  stroke="hsl(var(--muted-foreground))"
+                                  tick={{
+                                    fill: "hsl(var(--muted-foreground))",
+                                    fontSize: 11,
+                                    fontWeight: 500,
+                                  }}
+                                />
+                                <YAxis
+                                  stroke="hsl(var(--muted-foreground))"
+                                  tick={{
+                                    fill: "hsl(var(--muted-foreground))",
+                                    fontSize: 11,
+                                  }}
+                                />
+                                {showInsightsPubs &&
+                                  selectedInsightTopics.map((topic) => (
+                                    <Line
+                                      key={`${topic}-pubs`}
+                                      type="monotone"
+                                      dataKey={`${topic}-pubs`}
+                                      name={`${topic} pubs`}
+                                      stroke={insightTopicColors.get(topic)}
+                                      strokeWidth={2}
+                                      dot={false}
+                                    />
+                                  ))}
+                                {showInsightsCites &&
+                                  selectedInsightTopics.map((topic) => (
+                                    <Line
+                                      key={`${topic}-cites`}
+                                      type="monotone"
+                                      dataKey={`${topic}-cites`}
+                                      name={`${topic} cites`}
+                                      stroke={insightTopicColors.get(topic)}
+                                      strokeWidth={2}
+                                      strokeDasharray="4 2"
+                                      dot={false}
+                                    />
+                                  ))}
+                              </LineChart>
+                            </ResponsiveContainer>
+                          </div>
                         )}
-                      </div>
-                      <div className="h-56 w-full">
-                        <ResponsiveContainer width="100%" height="100%">
-                          <LineChart data={insightChartData}>
-                            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                            <XAxis
-                              dataKey="year"
-                              stroke="hsl(var(--muted-foreground))"
-                              tick={{
-                                fill: "hsl(var(--muted-foreground))",
-                                fontSize: 11,
-                                fontWeight: 500,
-                              }}
-                            />
-                            <YAxis
-                              stroke="hsl(var(--muted-foreground))"
-                              tick={{
-                                fill: "hsl(var(--muted-foreground))",
-                                fontSize: 11,
-                              }}
-                            />
-                            <RechartsTooltip
-                              contentStyle={{
-                                backgroundColor: "hsl(var(--card))",
-                                border: "1px solid hsl(var(--border))",
-                                borderRadius: "6px",
-                              }}
-                            />
-                            {showInsightsPubs &&
-                              selectedInsightTopics.map((topic) => (
-                                <Line
-                                  key={`${topic}-pubs`}
-                                  type="monotone"
-                                  dataKey={`${topic}-pubs`}
-                                  name={`${topic} pubs`}
-                                  stroke={insightTopicColors.get(topic)}
-                                  strokeWidth={2}
-                                  dot={false}
-                                />
-                              ))}
-                            {showInsightsCites &&
-                              selectedInsightTopics.map((topic) => (
-                                <Line
-                                  key={`${topic}-cites`}
-                                  type="monotone"
-                                  dataKey={`${topic}-cites`}
-                                  name={`${topic} cites`}
-                                  stroke={insightTopicColors.get(topic)}
-                                  strokeWidth={2}
-                                  strokeDasharray="4 2"
-                                  dot={false}
-                                />
-                              ))}
-                          </LineChart>
-                        </ResponsiveContainer>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
                   )}
 
-                  {showInsightsLegend && (
+                  {showInsightsLegend && compareInsights && (
                     <div className="rounded-md border border-border/60 bg-muted/40 p-3 text-[11px] text-muted-foreground">
                       <div className="grid gap-3 md:grid-cols-2">
                         <div className="space-y-2">
@@ -1295,11 +1470,11 @@ export default function AuthorDetail() {
                   )}
                 </div>
 
-                <div className="overflow-x-auto rounded-md border border-border/60 bg-card/40">
-                  <Table className="min-w-full">
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead>
+                <div className="overflow-auto rounded-md border border-border/60">
+                  <table className="min-w-full text-sm">
+                    <thead className="bg-muted/60">
+                      <tr>
+                        <th className="px-3 py-2 font-semibold text-foreground">
                           <button
                             type="button"
                             className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
@@ -1313,11 +1488,11 @@ export default function AuthorDetail() {
                             Topic
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
-                        </TableHead>
-                        <TableHead className="text-right">
+                        </th>
+                        <th className="px-3 py-2 font-semibold text-foreground">
                           <button
                             type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                            className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
                             onClick={() => {
                               setInsightsSortKey("pubsA");
                               setInsightsSortDir((prev) =>
@@ -1325,44 +1500,48 @@ export default function AuthorDetail() {
                               );
                             }}
                           >
-                            Pubs A
+                            {compareInsights ? "Pubs A" : "Pubs"}
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
-                        </TableHead>
-                        <TableHead className="text-right">
+                        </th>
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
+                            <button
+                              type="button"
+                              className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                              onClick={() => {
+                                setInsightsSortKey("pubsB");
+                                setInsightsSortDir((prev) =>
+                                  insightsSortKey === "pubsB" && prev === "desc" ? "asc" : "desc",
+                                );
+                              }}
+                            >
+                              Pubs B
+                              <ArrowUpDown className="h-3 w-3" />
+                            </button>
+                          </th>
+                        )}
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
+                            <button
+                              type="button"
+                              className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                              onClick={() => {
+                                setInsightsSortKey("pubsDelta");
+                                setInsightsSortDir((prev) =>
+                                  insightsSortKey === "pubsDelta" && prev === "desc" ? "asc" : "desc",
+                                );
+                              }}
+                            >
+                              Pubs Δ%
+                              <ArrowUpDown className="h-3 w-3" />
+                            </button>
+                          </th>
+                        )}
+                        <th className="px-3 py-2 font-semibold text-foreground">
                           <button
                             type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                            onClick={() => {
-                              setInsightsSortKey("pubsB");
-                              setInsightsSortDir((prev) =>
-                                insightsSortKey === "pubsB" && prev === "desc" ? "asc" : "desc",
-                              );
-                            }}
-                          >
-                            Pubs B
-                            <ArrowUpDown className="h-3 w-3" />
-                          </button>
-                        </TableHead>
-                        <TableHead className="text-right">
-                          <button
-                            type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                            onClick={() => {
-                              setInsightsSortKey("pubsDelta");
-                              setInsightsSortDir((prev) =>
-                                insightsSortKey === "pubsDelta" && prev === "desc" ? "asc" : "desc",
-                              );
-                            }}
-                          >
-                            Pubs Δ%
-                            <ArrowUpDown className="h-3 w-3" />
-                          </button>
-                        </TableHead>
-                        <TableHead className="text-right">
-                          <button
-                            type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                            className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
                             onClick={() => {
                               setInsightsSortKey("citesA");
                               setInsightsSortDir((prev) =>
@@ -1370,140 +1549,191 @@ export default function AuthorDetail() {
                               );
                             }}
                           >
-                            Cites A
+                            {compareInsights ? "Cites A" : "Cites"}
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
-                        </TableHead>
-                        <TableHead className="text-right">
-                          <button
-                            type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                            onClick={() => {
-                              setInsightsSortKey("citesB");
-                              setInsightsSortDir((prev) =>
-                                insightsSortKey === "citesB" && prev === "desc" ? "asc" : "desc",
-                              );
-                            }}
-                          >
-                            Cites B
-                            <ArrowUpDown className="h-3 w-3" />
-                          </button>
-                        </TableHead>
-                        <TableHead className="text-right">
-                          <button
-                            type="button"
-                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                            onClick={() => {
-                              setInsightsSortKey("citesDelta");
-                              setInsightsSortDir((prev) =>
-                                insightsSortKey === "citesDelta" && prev === "desc" ? "asc" : "desc",
-                              );
-                            }}
-                          >
-                            Cites Δ%
-                            <ArrowUpDown className="h-3 w-3" />
-                          </button>
-                        </TableHead>
-                        <TableHead>
-                          <button
-                            type="button"
-                            className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                            onClick={() => {
-                              setInsightsSortKey("insight");
-                              setInsightsSortDir((prev) =>
-                                insightsSortKey === "insight" && prev === "desc" ? "asc" : "desc",
-                              );
-                            }}
-                          >
-                            Insights
-                            <ArrowUpDown className="h-3 w-3" />
-                          </button>
-                        </TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      {authorInsights.slice(0, visibleInsightCount).map((row) => (
-                        <TableRow key={row.topic}>
-                          <TableCell className="font-medium text-foreground">
-                            <div className="flex items-center gap-2">
-                              {showInsightsChart && (
-                                <button
-                                  type="button"
-                                  onClick={() => toggleInsightTopicSelection(row.topic)}
-                                  className={`h-6 w-6 rounded border px-1 text-xs font-semibold transition ${
-                                    selectedInsightTopics.includes(row.topic)
-                                      ? "border-primary bg-primary/10 text-primary"
-                                      : "border-border bg-background text-muted-foreground"
-                                  }`}
-                                  title={
-                                    selectedInsightTopics.includes(row.topic)
-                                      ? "Remove from chart"
-                                      : "Add to chart"
-                                  }
+                        </th>
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
+                            <button
+                              type="button"
+                              className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                              onClick={() => {
+                                setInsightsSortKey("citesB");
+                                setInsightsSortDir((prev) =>
+                                  insightsSortKey === "citesB" && prev === "desc" ? "asc" : "desc",
+                                );
+                              }}
+                            >
+                              Cites B
+                              <ArrowUpDown className="h-3 w-3" />
+                            </button>
+                          </th>
+                        )}
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
+                            <button
+                              type="button"
+                              className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                              onClick={() => {
+                                setInsightsSortKey("citesDelta");
+                                setInsightsSortDir((prev) =>
+                                  insightsSortKey === "citesDelta" && prev === "desc" ? "asc" : "desc",
+                                );
+                              }}
+                            >
+                              Cites Δ%
+                              <ArrowUpDown className="h-3 w-3" />
+                            </button>
+                          </th>
+                        )}
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
+                            <button
+                              type="button"
+                              className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                              onClick={() => {
+                                setInsightsSortKey("insight");
+                                setInsightsSortDir((prev) =>
+                                  insightsSortKey === "insight" && prev === "desc" ? "asc" : "desc",
+                                );
+                              }}
+                            >
+                              Insights
+                              <ArrowUpDown className="h-3 w-3" />
+                            </button>
+                          </th>
+                        )}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {authorInsights.slice(0, visibleInsightCount).map((row) => {
+                        const pubsStatus = classifyMetricChange(row.pubsDeltaPct);
+                        const citesStatus = classifyMetricChange(row.citesDeltaPct);
+                        const selected = selectedInsightTopics.includes(row.topic);
+                        return (
+                          <tr key={row.topic} className="border-t border-border/60">
+                            <td className="px-3 py-2 font-semibold text-foreground">
+                              <div className="flex items-center gap-2">
+                                {showInsightsChart && (
+                                  <button
+                                    type="button"
+                                    onClick={() => toggleInsightTopicSelection(row.topic)}
+                                    className={`h-6 w-6 rounded border px-1 text-xs font-semibold transition ${
+                                      selected
+                                        ? "border-primary bg-primary/10 text-primary"
+                                        : "border-border bg-background text-muted-foreground"
+                                    }`}
+                                    title={selected ? "Remove from chart" : "Add to chart"}
+                                  >
+                                    {selected ? "-" : "+"}
+                                  </button>
+                                )}
+                                <Tag className="h-3.5 w-3.5 text-primary" />
+                                <span
+                                  className={`min-w-0 break-words sm:break-normal ${selected ? "text-primary" : ""}`}
                                 >
-                                  {selectedInsightTopics.includes(row.topic) ? "-" : "+"}
-                                </button>
-                              )}
-                              <Tags className="h-3.5 w-3.5 text-primary" />
-                              <span>{row.topic}</span>
-                            </div>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <Link
-                              to={buildInsightPublicationsPath(row.topic, insightsRangeA)}
-                              className="text-primary hover:underline"
-                            >
-                              {row.pubsA}
-                            </Link>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <Link
-                              to={buildInsightPublicationsPath(row.topic, insightsRangeB)}
-                              className="text-primary hover:underline"
-                            >
-                              {row.pubsB}
-                            </Link>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <span className={deltaClass(row.pubsDeltaPct)}>
-                              {formatPct(row.pubsDeltaPct)}
-                            </span>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <Link
-                              to={buildInsightCitationsPath(row.topic, insightsRangeA)}
-                              className="text-primary hover:underline"
-                            >
-                              {row.citesA.toLocaleString()}
-                            </Link>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <Link
-                              to={buildInsightCitationsPath(row.topic, insightsRangeB)}
-                              className="text-primary hover:underline"
-                            >
-                              {row.citesB.toLocaleString()}
-                            </Link>
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <span className={deltaClass(row.citesDeltaPct)}>
-                              {formatPct(row.citesDeltaPct)}
-                            </span>
-                          </TableCell>
-                          <TableCell className="text-muted-foreground">
-                            {row.insight}
-                          </TableCell>
-                        </TableRow>
-                      ))}
+                                  {row.topic}
+                                </span>
+                              </div>
+                            </td>
+                            {compareInsights ? (
+                              <>
+                                <td className="px-3 py-2">
+                                  <Link
+                                    to={buildInsightPublicationsPath(row.topic, insightsRangeA)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.pubsA}
+                                  </Link>
+                                </td>
+                                <td className="px-3 py-2 hidden sm:table-cell">
+                                  <Link
+                                    to={buildInsightPublicationsPath(row.topic, insightsRangeB)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.pubsB}
+                                  </Link>
+                                </td>
+                                <td className="px-3 py-2 hidden sm:table-cell">
+                                  <span className={deltaClass(row.pubsDeltaPct)}>
+                                    {formatPct(row.pubsDeltaPct)}
+                                  </span>
+                                </td>
+                                <td className="px-3 py-2">
+                                  <Link
+                                    to={buildInsightCitationsPath(row.topic, insightsRangeA)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.citesA.toLocaleString()}
+                                  </Link>
+                                </td>
+                                <td className="px-3 py-2 hidden sm:table-cell">
+                                  <Link
+                                    to={buildInsightCitationsPath(row.topic, insightsRangeB)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.citesB.toLocaleString()}
+                                  </Link>
+                                </td>
+                                <td className="px-3 py-2 hidden sm:table-cell">
+                                  <span className={deltaClass(row.citesDeltaPct)}>
+                                    {formatPct(row.citesDeltaPct)}
+                                  </span>
+                                </td>
+                                <td className="px-3 py-2 text-muted-foreground hidden sm:table-cell">
+                                  <div className="flex flex-wrap items-center gap-2">
+                                    <span
+                                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
+                                      title={`Publications: ${pubsStatus}`}
+                                    >
+                                      <BookOpen className="h-3 w-3" />
+                                    </span>
+                                    <span
+                                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(citesStatus)}`}
+                                      title={`Citations: ${citesStatus}`}
+                                    >
+                                      <BarChart3 className="h-3 w-3" />
+                                    </span>
+                                    <span className="text-xs text-muted-foreground">{row.insight}</span>
+                                  </div>
+                                </td>
+                              </>
+                            ) : (
+                              <>
+                                <td className="px-3 py-2">
+                                  <Link
+                                    to={buildInsightPublicationsPath(row.topic, insightsRangeA)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.pubsA}
+                                  </Link>
+                                </td>
+                                <td className="px-3 py-2">
+                                  <Link
+                                    to={buildInsightCitationsPath(row.topic, insightsRangeA)}
+                                    className="text-primary hover:underline"
+                                  >
+                                    {row.citesA.toLocaleString()}
+                                  </Link>
+                                </td>
+                              </>
+                            )}
+                          </tr>
+                        );
+                      })}
                       {authorInsights.length === 0 && (
-                        <TableRow>
-                          <TableCell colSpan={8} className="text-center text-muted-foreground py-6">
+                        <tr>
+                          <td
+                            colSpan={compareInsights ? 8 : 3}
+                            className="text-center text-muted-foreground py-6"
+                          >
                             No topic insights found for this author.
-                          </TableCell>
-                        </TableRow>
+                          </td>
+                        </tr>
                       )}
-                    </TableBody>
-                  </Table>
+                    </tbody>
+                  </table>
                 </div>
                 {authorInsights.length > visibleInsightCount && (
                   <div className="flex justify-center gap-2 pt-4">

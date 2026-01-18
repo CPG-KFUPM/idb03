@@ -159,6 +159,7 @@ const InsightsPage = () => {
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [showLegend, setShowLegend] = useState(false);
   const [showChart, setShowChart] = useState(true);
+  const [compareMode, setCompareMode] = useState(true);
   const [chartScale, setChartScale] = useState<"linear" | "log">("linear");
   const [xDomain, setXDomain] = useState<[number, number] | null>(null);
   const [yDomain, setYDomain] = useState<[number, number] | null>(null);
@@ -211,31 +212,46 @@ const InsightsPage = () => {
     setRangeB(normalizeRange(resolvedBFrom, resolvedBTo));
   }, [allYears]);
 
+  useEffect(() => {
+    if (compareMode) return;
+    if (sortKey === "topic" || sortKey === "pubsA" || sortKey === "citesA") return;
+    setSortKey("pubsA");
+  }, [compareMode, sortKey]);
+
+  useEffect(() => {
+    if (compareMode || !allYears.length) return;
+    const min = allYears[0];
+    const max = allYears[allYears.length - 1];
+    setRangeA({ from: min, to: max });
+  }, [compareMode, allYears]);
+
   const insights = useMemo<TopicInsight[]>(() => {
     if (!allYears.length) return [];
     const aggA = buildAggregates(rangeA.from, rangeA.to, cleanWorks);
-    const aggB = buildAggregates(rangeB.from, rangeB.to, cleanWorks);
-    const topics = new Set<string>([...aggA.keys(), ...aggB.keys()]);
+    const aggB = compareMode ? buildAggregates(rangeB.from, rangeB.to, cleanWorks) : new Map();
+    const topics = new Set<string>(compareMode ? [...aggA.keys(), ...aggB.keys()] : [...aggA.keys()]);
     const rows: TopicInsight[] = [];
     topics.forEach((topic) => {
       const a = aggA.get(topic) || { pubs: 0, cites: 0 };
       const b = aggB.get(topic) || { pubs: 0, cites: 0 };
-      const pubsDeltaPct =
-        a.pubs === 0
+      const pubsDeltaPct = compareMode
+        ? a.pubs === 0
           ? b.pubs > 0
             ? Infinity
             : 0
           : b.pubs === 0
             ? -Infinity
-            : (b.pubs - a.pubs) / a.pubs;
-      const citesDeltaPct =
-        a.cites === 0
+            : (b.pubs - a.pubs) / a.pubs
+        : null;
+      const citesDeltaPct = compareMode
+        ? a.cites === 0
           ? b.cites > 0
             ? Infinity
             : 0
           : b.cites === 0
             ? -Infinity
-            : (b.cites - a.cites) / a.cites;
+            : (b.cites - a.cites) / a.cites
+        : null;
       const row: TopicInsight = {
         topic,
         pubsA: a.pubs,
@@ -246,7 +262,7 @@ const InsightsPage = () => {
         citesDeltaPct,
         insight: "",
       };
-      row.insight = deriveInsight(row);
+      row.insight = compareMode ? deriveInsight(row) : "";
       rows.push(row);
     });
     const query = searchQuery.trim().toLowerCase();
@@ -254,10 +270,15 @@ const InsightsPage = () => {
       ? rows.filter(
           (row) =>
             row.topic.toLowerCase().includes(query) ||
-            row.insight.toLowerCase().includes(query),
+            (compareMode && row.insight.toLowerCase().includes(query)),
         )
       : rows;
     const dir = sortDir === "asc" ? 1 : -1;
+    const resolvedSortKey = compareMode
+      ? sortKey
+      : sortKey === "topic" || sortKey === "pubsA" || sortKey === "citesA"
+        ? sortKey
+        : "pubsA";
     const sorted = [...filtered].sort((a, b) => {
       const compare = (x: number | null, y: number | null) => {
         const xv = x ?? -Infinity;
@@ -266,18 +287,29 @@ const InsightsPage = () => {
         if (yv === Infinity && xv !== Infinity) return -1;
         return (xv - yv) * dir;
       };
-      if (sortKey === "topic") return a.topic.localeCompare(b.topic) * dir;
-      if (sortKey === "insight") return a.insight.localeCompare(b.insight) * dir;
-      if (sortKey === "pubsA") return compare(a.pubsA, b.pubsA);
-      if (sortKey === "citesA") return compare(a.citesA, b.citesA);
-      if (sortKey === "pubsDelta") return compare(a.pubsDeltaPct, b.pubsDeltaPct);
-      if (sortKey === "citesDelta") return compare(a.citesDeltaPct, b.citesDeltaPct);
-      if (sortKey === "pubsB") return compare(a.pubsB, b.pubsB);
-      if (sortKey === "citesB") return compare(a.citesB, b.citesB);
+      if (resolvedSortKey === "topic") return a.topic.localeCompare(b.topic) * dir;
+      if (resolvedSortKey === "insight") return a.insight.localeCompare(b.insight) * dir;
+      if (resolvedSortKey === "pubsA") return compare(a.pubsA, b.pubsA);
+      if (resolvedSortKey === "citesA") return compare(a.citesA, b.citesA);
+      if (resolvedSortKey === "pubsDelta") return compare(a.pubsDeltaPct, b.pubsDeltaPct);
+      if (resolvedSortKey === "citesDelta") return compare(a.citesDeltaPct, b.citesDeltaPct);
+      if (resolvedSortKey === "pubsB") return compare(a.pubsB, b.pubsB);
+      if (resolvedSortKey === "citesB") return compare(a.citesB, b.citesB);
       return 0;
     });
     return sorted;
-  }, [allYears.length, cleanWorks, rangeA.from, rangeA.to, rangeB.from, rangeB.to, searchQuery, sortDir, sortKey]);
+  }, [
+    allYears.length,
+    cleanWorks,
+    rangeA.from,
+    rangeA.to,
+    rangeB.from,
+    rangeB.to,
+    searchQuery,
+    sortDir,
+    sortKey,
+    compareMode,
+  ]);
 
   const toggleTopicSelection = (topic: string) => {
     setSelectedTopics((prev) => (prev.includes(topic) ? prev.filter((t) => t !== topic) : [...prev, topic]));
@@ -287,10 +319,10 @@ const InsightsPage = () => {
     if (!allYears.length) return { from: null as number | null, to: null as number | null };
     const minYear = allYears[0];
     const maxYear = allYears[allYears.length - 1];
-    const start = Math.min(rangeA.from ?? minYear, rangeB.from ?? minYear);
-    const end = Math.max(rangeA.to ?? maxYear, rangeB.to ?? maxYear);
+    const start = compareMode ? Math.min(rangeA.from ?? minYear, rangeB.from ?? minYear) : (rangeA.from ?? minYear);
+    const end = compareMode ? Math.max(rangeA.to ?? maxYear, rangeB.to ?? maxYear) : (rangeA.to ?? maxYear);
     return { from: start, to: end };
-  }, [allYears, rangeA.from, rangeA.to, rangeB.from, rangeB.to]);
+  }, [allYears, rangeA.from, rangeA.to, rangeB.from, rangeB.to, compareMode]);
 
   const chartData = useMemo(() => {
     if (!selectedTopics.length || chartYearRange.from == null || chartYearRange.to == null) return [];
@@ -565,28 +597,45 @@ const InsightsPage = () => {
   }, [searchQuery, sortKey, sortDir, rangeA.from, rangeA.to, rangeB.from, rangeB.to]);
 
   const handleExportCsv = () => {
-    const headers = [
-      "Topic",
-      `Pubs ${rangeA.from ?? ""}-${rangeA.to ?? ""}`,
-      `Pubs ${rangeB.from ?? ""}-${rangeB.to ?? ""}`,
-      `Cites ${rangeA.from ?? ""}-${rangeA.to ?? ""}`,
-      `Cites ${rangeB.from ?? ""}-${rangeB.to ?? ""}`,
-      "Pubs change",
-      "Cites change",
-      "Insight",
-    ];
-    const lines = insights.map((row) =>
-      [
-        row.topic.replace(/"/g, '""'),
-        row.pubsA,
-        row.pubsB,
-        row.citesA,
-        row.citesB,
-        formatPct(row.pubsDeltaPct),
-        formatPct(row.citesDeltaPct),
-        row.insight.replace(/"/g, '""'),
-      ].map((cell) => `"${cell}"`).join(","),
-    );
+    const headers = compareMode
+      ? [
+          "Mode",
+          "Period A",
+          "Period B",
+          "Topic",
+          "Pubs A",
+          "Pubs B",
+          "Cites A",
+          "Cites B",
+          "Pubs change",
+          "Cites change",
+          "Insight",
+        ]
+      : ["Mode", "Period", "Topic", "Pubs", "Cites"];
+    const lines = insights.map((row) => {
+      const cells = compareMode
+        ? [
+            "Compare",
+            `${rangeA.from ?? ""}-${rangeA.to ?? ""}`,
+            `${rangeB.from ?? ""}-${rangeB.to ?? ""}`,
+            row.topic.replace(/"/g, '""'),
+            row.pubsA,
+            row.pubsB,
+            row.citesA,
+            row.citesB,
+            formatPct(row.pubsDeltaPct),
+            formatPct(row.citesDeltaPct),
+            row.insight.replace(/"/g, '""'),
+          ]
+        : [
+            "Single",
+            `${rangeA.from ?? ""}-${rangeA.to ?? ""}`,
+            row.topic.replace(/"/g, '""'),
+            row.pubsA,
+            row.citesA,
+          ];
+      return cells.map((cell) => `"${cell}"`).join(",");
+    });
     const csv = [headers.join(","), ...lines].join("\n");
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
     const url = URL.createObjectURL(blob);
@@ -635,7 +684,7 @@ const InsightsPage = () => {
     const html = `
       <div style="font-family: Inter, system-ui, -apple-system, sans-serif; font-size: 12px; padding: 12px; color: #111827;">
         <div style="display:flex; justify-content: space-between; align-items:center; margin-bottom: 8px;">
-          <div><strong>Year range:</strong> ${rangeA.from ?? ""}-${rangeA.to ?? ""} vs ${rangeB.from ?? ""}-${rangeB.to ?? ""}</div>
+          <div><strong>Year range:</strong> ${compareMode ? `${rangeA.from ?? ""}-${rangeA.to ?? ""} vs ${rangeB.from ?? ""}-${rangeB.to ?? ""}` : `${rangeA.from ?? ""}-${rangeA.to ?? ""}`}</div>
           <div><strong>Visible series:</strong> Topics${showInstitutions ? ", Institutions" : ""}${showPublications ? ", Publications" : ""}${showCitations ? ", Citations" : ""}</div>
         </div>
         ${clone.outerHTML}
@@ -744,15 +793,36 @@ const InsightsPage = () => {
   ) => {
     if (which === "A") {
       setRangeA((prev) => ({ ...prev, [field]: value }));
-      if (field === "to" && rangeB.from != null && value >= rangeB.from) {
+      if (compareMode && field === "to" && rangeB.from != null && value >= rangeB.from) {
         setRangeB((prev) => ({ ...prev, from: value + 1 }));
       }
     } else {
       setRangeB((prev) => ({ ...prev, [field]: value }));
-      if (field === "from" && rangeA.to != null && value <= rangeA.to) {
+      if (compareMode && field === "from" && rangeA.to != null && value <= rangeA.to) {
         setRangeA((prev) => ({ ...prev, to: value - 1 }));
       }
     }
+  };
+
+  const applyRollingPreset = (span: number) => {
+    if (!allYears.length) return;
+    const min = allYears[0];
+    const max = allYears[allYears.length - 1];
+    const total = max - min + 1;
+    if (total < span * 2) {
+      const mid = Math.floor((min + max) / 2);
+      setRangeA({ from: min, to: mid });
+      setRangeB({ from: mid + 1, to: max });
+      setCompareMode(true);
+      return;
+    }
+    const aFrom = max - span * 2 + 1;
+    const aTo = max - span;
+    const bFrom = max - span + 1;
+    const bTo = max;
+    setRangeA({ from: aFrom, to: aTo });
+    setRangeB({ from: bFrom, to: bTo });
+    setCompareMode(true);
   };
 
   return (
@@ -828,61 +898,109 @@ const InsightsPage = () => {
             </div>
           </CardHeader>
           <CardContent className="space-y-3">
+            <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="font-semibold text-foreground">View</span>
+                <button
+                  type="button"
+                  className={`rounded px-2 py-1 text-[11px] ${compareMode ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
+                  onClick={() => setCompareMode(true)}
+                >
+                  Compare A vs B
+                </button>
+                <button
+                  type="button"
+                  className={`rounded px-2 py-1 text-[11px] ${!compareMode ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
+                  onClick={() => setCompareMode(false)}
+                >
+                  Single period
+                </button>
+              </div>
+              {compareMode && (
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="font-semibold text-foreground">Quick presets</span>
+                  <button
+                    type="button"
+                    className="rounded px-2 py-1 text-[11px] text-muted-foreground hover:bg-muted/40"
+                    onClick={() => applyRollingPreset(5)}
+                  >
+                    Last 5y vs prior 5y
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded px-2 py-1 text-[11px] text-muted-foreground hover:bg-muted/40"
+                    onClick={() => applyRollingPreset(3)}
+                  >
+                    Last 3y vs prior 3y
+                  </button>
+                </div>
+              )}
+            </div>
             <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground justify-end">
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-foreground">Period A</span>
-                <label className="font-semibold text-foreground">From</label>
-                <select
-                  className="h-8 rounded border border-border bg-background px-2 text-xs"
-                  value={rangeA.from ?? ""}
-                  onChange={(e) => handleRangeChange("A", "from", Number(e.target.value))}
-                >
-                  {allYears.map((y) => (
-                    <option key={y} value={y}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
-                <label className="font-semibold text-foreground">to</label>
-                <select
-                  className="h-8 rounded border border-border bg-background px-2 text-xs"
-                  value={rangeA.to ?? ""}
-                  onChange={(e) => handleRangeChange("A", "to", Number(e.target.value))}
-                >
-                  {allYears.map((y) => (
-                    <option key={y} value={y}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
+                <span className="font-semibold text-foreground">{compareMode ? "Period A" : "Period"}</span>
+                {compareMode ? (
+                  <>
+                    <label className="font-semibold text-foreground">From</label>
+                    <select
+                      className="h-8 rounded border border-border bg-background px-2 text-xs"
+                      value={rangeA.from ?? ""}
+                      onChange={(e) => handleRangeChange("A", "from", Number(e.target.value))}
+                    >
+                      {allYears.map((y) => (
+                        <option key={y} value={y}>
+                          {y}
+                        </option>
+                      ))}
+                    </select>
+                    <label className="font-semibold text-foreground">to</label>
+                    <select
+                      className="h-8 rounded border border-border bg-background px-2 text-xs"
+                      value={rangeA.to ?? ""}
+                      onChange={(e) => handleRangeChange("A", "to", Number(e.target.value))}
+                    >
+                      {allYears.map((y) => (
+                        <option key={y} value={y}>
+                          {y}
+                        </option>
+                      ))}
+                    </select>
+                  </>
+                ) : (
+                  <span className="rounded border border-border bg-muted/40 px-2 py-1 text-[11px] text-foreground">
+                    All years {rangeA.from ?? ""}-{rangeA.to ?? ""}
+                  </span>
+                )}
               </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-foreground">Period B</span>
-                <label className="font-semibold text-foreground">From</label>
-                <select
-                  className="h-8 rounded border border-border bg-background px-2 text-xs"
-                  value={rangeB.from ?? ""}
-                  onChange={(e) => handleRangeChange("B", "from", Number(e.target.value))}
-                >
-                  {allYears.map((y) => (
-                    <option key={y} value={y}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
-                <label className="font-semibold text-foreground">to</label>
-                <select
-                  className="h-8 rounded border border-border bg-background px-2 text-xs"
-                  value={rangeB.to ?? ""}
-                  onChange={(e) => handleRangeChange("B", "to", Number(e.target.value))}
-                >
-                  {allYears.map((y) => (
-                    <option key={y} value={y}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
-              </div>
+              {compareMode && (
+                <div className="flex items-center gap-2">
+                  <span className="font-semibold text-foreground">Period B</span>
+                  <label className="font-semibold text-foreground">From</label>
+                  <select
+                    className="h-8 rounded border border-border bg-background px-2 text-xs"
+                    value={rangeB.from ?? ""}
+                    onChange={(e) => handleRangeChange("B", "from", Number(e.target.value))}
+                  >
+                    {allYears.map((y) => (
+                      <option key={y} value={y}>
+                        {y}
+                      </option>
+                    ))}
+                  </select>
+                  <label className="font-semibold text-foreground">to</label>
+                  <select
+                    className="h-8 rounded border border-border bg-background px-2 text-xs"
+                    value={rangeB.to ?? ""}
+                    onChange={(e) => handleRangeChange("B", "to", Number(e.target.value))}
+                  >
+                    {allYears.map((y) => (
+                      <option key={y} value={y}>
+                        {y}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
             </div>
 
             <div className="flex flex-wrap items-center gap-3">
@@ -934,26 +1052,29 @@ const InsightsPage = () => {
                     <div className="flex flex-wrap items-center gap-2">
                       <button
                         type="button"
-                        className={`flex items-center gap-1 rounded px-2 py-1 transition ${
+                        className={`flex items-center gap-2 rounded px-2 py-1 transition ${
                           showPubsSeries ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
                         }`}
                         onClick={() => setShowPubsSeries((prev) => !prev)}
+                        title="Publications (solid)"
+                        aria-label="Publications (solid)"
                       >
                         <BookOpen className="h-3 w-3" />
-                        Publications (solid)
+                        <span className="inline-block h-0.5 w-4 rounded bg-current" />
                       </button>
                       <button
                         type="button"
-                        className={`flex items-center gap-1 rounded px-2 py-1 transition ${
+                        className={`flex items-center gap-2 rounded px-2 py-1 transition ${
                           showCitesSeries ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
                         }`}
                         onClick={() => setShowCitesSeries((prev) => !prev)}
+                        title="Citations (dashed)"
+                        aria-label="Citations (dashed)"
                       >
                         <BarChart3 className="h-3 w-3" />
-                        Citations (dash)
+                        <span className="inline-block h-0 w-5 border-t-2 border-dashed border-current" />
                       </button>
                       <span className="flex items-center gap-2 text-[11px] text-muted-foreground">
-                        <span className="text-foreground">Scale:</span>
                         <button
                           className={`rounded px-2 py-1 text-[11px] ${chartScale === "linear" ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
                           onClick={() => setChartScale("linear")}
@@ -1125,64 +1246,80 @@ const InsightsPage = () => {
 
             {showLegend && (
               <div className="rounded-md border border-border/60 bg-muted/40 p-3 text-[11px] text-muted-foreground">
-                <div className="grid gap-3 md:grid-cols-2">
+                {compareMode ? (
+                  <div className="grid gap-3 md:grid-cols-2">
+                    <div className="space-y-2">
+                      <div className="font-semibold text-foreground">Legend</div>
+                      <div className="grid gap-1 sm:grid-cols-2">
+                        <span className="inline-flex items-center gap-2">
+                          <BookOpen className="h-3 w-3 text-primary" />
+                          Pubs A = Period A publications
+                        </span>
+                        <span className="inline-flex items-center gap-2">
+                          <BookOpen className="h-3 w-3 text-primary" />
+                          Pubs B = Period B publications
+                        </span>
+                        <span className="inline-flex items-center gap-2">
+                          <BookOpen className="h-3 w-3 text-primary" />
+                          Pubs Δ% = % change from Period A to B
+                        </span>
+                        <span className="inline-flex items-center gap-2">
+                          <BarChart3 className="h-3 w-3 text-primary" />
+                          Cites A = Period A citations
+                        </span>
+                        <span className="inline-flex items-center gap-2">
+                          <BarChart3 className="h-3 w-3 text-primary" />
+                          Cites B = Period B citations
+                        </span>
+                        <span className="inline-flex items-center gap-2">
+                          <BarChart3 className="h-3 w-3 text-primary" />
+                          Cites Δ% = % change from Period A to B
+                        </span>
+                      </div>
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span className="font-semibold text-foreground">Badges:</span>
+                        <span className="inline-flex items-center gap-1">
+                          <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
+                            <BookOpen className="h-3 w-3" />
+                          </span>
+                          Publications trend
+                        </span>
+                        <span className="inline-flex items-center gap-1">
+                          <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
+                            <BarChart3 className="h-3 w-3" />
+                          </span>
+                          Citations trend
+                        </span>
+                      </div>
+                    </div>
+                    <div className="space-y-1 text-foreground">
+                      <div className="font-semibold">Insights</div>
+                      <ul className="list-disc pl-4 space-y-0.5">
+                        <li>Emerging: only in Period B</li>
+                        <li>Declining: missing in Period B or both drop &gt;20%</li>
+                        <li>Strong surge: publications ≥2x and citations ≥2x</li>
+                        <li>Growing priority: publications ≥1.5x and citations ≥1.2x</li>
+                        <li>Impact-led: citations ≥1.5x with publications flat/declining</li>
+                        <li>Output rising, impact softening: publications ≥1.2x but citations &lt;0.9x</li>
+                        <li>Stable: otherwise</li>
+                      </ul>
+                    </div>
+                  </div>
+                ) : (
                   <div className="space-y-2">
                     <div className="font-semibold text-foreground">Legend</div>
                     <div className="grid gap-1 sm:grid-cols-2">
                       <span className="inline-flex items-center gap-2">
                         <BookOpen className="h-3 w-3 text-primary" />
-                        Pubs A = Period A publications
-                      </span>
-                      <span className="inline-flex items-center gap-2">
-                        <BookOpen className="h-3 w-3 text-primary" />
-                        Pubs B = Period B publications
-                      </span>
-                      <span className="inline-flex items-center gap-2">
-                        <BookOpen className="h-3 w-3 text-primary" />
-                        Pubs Δ% = % change from Period A to B
+                        Pubs = publications in selected period
                       </span>
                       <span className="inline-flex items-center gap-2">
                         <BarChart3 className="h-3 w-3 text-primary" />
-                        Cites A = Period A citations
-                      </span>
-                      <span className="inline-flex items-center gap-2">
-                        <BarChart3 className="h-3 w-3 text-primary" />
-                        Cites B = Period B citations
-                      </span>
-                      <span className="inline-flex items-center gap-2">
-                        <BarChart3 className="h-3 w-3 text-primary" />
-                        Cites Δ% = % change from Period A to B
-                      </span>
-                    </div>
-                    <div className="flex flex-wrap items-center gap-3">
-                      <span className="font-semibold text-foreground">Badges:</span>
-                      <span className="inline-flex items-center gap-1">
-                        <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
-                          <BookOpen className="h-3 w-3" />
-                        </span>
-                        Publications trend
-                      </span>
-                      <span className="inline-flex items-center gap-1">
-                        <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
-                          <BarChart3 className="h-3 w-3" />
-                        </span>
-                        Citations trend
+                        Cites = citations in selected period
                       </span>
                     </div>
                   </div>
-                  <div className="space-y-1 text-foreground">
-                    <div className="font-semibold">Insights</div>
-                    <ul className="list-disc pl-4 space-y-0.5">
-                      <li>Emerging: only in Period B</li>
-                      <li>Declining: missing in Period B or both drop &gt;20%</li>
-                      <li>Strong surge: publications ≥2x and citations ≥2x</li>
-                      <li>Growing priority: publications ≥1.5x and citations ≥1.2x</li>
-                      <li>Impact-led: citations ≥1.5x with publications flat/declining</li>
-                      <li>Output rising, impact softening: publications ≥1.2x but citations &lt;0.9x</li>
-                      <li>Stable: otherwise</li>
-                    </ul>
-                  </div>
-                </div>
+                )}
               </div>
             )}
 
@@ -1200,36 +1337,40 @@ const InsightsPage = () => {
                           setSortDir((prev) => (sortKey === "pubsA" && prev === "desc" ? "asc" : "desc"));
                         }}
                       >
-                        Pubs A
+                        {compareMode ? "Pubs A" : "Pubs"}
                         <ArrowUpDown className="h-3 w-3" />
                       </button>
                     </th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
-                      <button
-                        type="button"
-                        className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                        onClick={() => {
-                          setSortKey("pubsB");
-                          setSortDir((prev) => (sortKey === "pubsB" && prev === "desc" ? "asc" : "desc"));
-                        }}
-                      >
-                        Pubs B
-                        <ArrowUpDown className="h-3 w-3" />
-                      </button>
-                    </th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
-                      <button
-                        type="button"
-                        className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                        onClick={() => {
-                          setSortKey("pubsDelta");
-                          setSortDir((prev) => (sortKey === "pubsDelta" && prev === "desc" ? "asc" : "desc"));
-                        }}
-                      >
-                        Pubs Δ%
-                        <ArrowUpDown className="h-3 w-3" />
-                      </button>
-                    </th>
+                    {compareMode && (
+                      <th className="px-3 py-2 font-semibold text-foreground">
+                        <button
+                          type="button"
+                          className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                          onClick={() => {
+                            setSortKey("pubsB");
+                            setSortDir((prev) => (sortKey === "pubsB" && prev === "desc" ? "asc" : "desc"));
+                          }}
+                        >
+                          Pubs B
+                          <ArrowUpDown className="h-3 w-3" />
+                        </button>
+                      </th>
+                    )}
+                    {compareMode && (
+                      <th className="px-3 py-2 font-semibold text-foreground">
+                        <button
+                          type="button"
+                          className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                          onClick={() => {
+                            setSortKey("pubsDelta");
+                            setSortDir((prev) => (sortKey === "pubsDelta" && prev === "desc" ? "asc" : "desc"));
+                          }}
+                        >
+                          Pubs Δ%
+                          <ArrowUpDown className="h-3 w-3" />
+                        </button>
+                      </th>
+                    )}
                     <th className="px-3 py-2 font-semibold text-foreground">
                       <button
                         type="button"
@@ -1239,51 +1380,57 @@ const InsightsPage = () => {
                           setSortDir((prev) => (sortKey === "citesA" && prev === "desc" ? "asc" : "desc"));
                         }}
                       >
-                        Cites A
+                        {compareMode ? "Cites A" : "Cites"}
                         <ArrowUpDown className="h-3 w-3" />
                       </button>
                     </th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
-                      <button
-                        type="button"
-                        className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                        onClick={() => {
-                          setSortKey("citesB");
-                          setSortDir((prev) => (sortKey === "citesB" && prev === "desc" ? "asc" : "desc"));
-                        }}
-                      >
-                        Cites B
-                        <ArrowUpDown className="h-3 w-3" />
-                      </button>
-                    </th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
-                      <button
-                        type="button"
-                        className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
-                        onClick={() => {
-                          setSortKey("citesDelta");
-                          setSortDir((prev) => (sortKey === "citesDelta" && prev === "desc" ? "asc" : "desc"));
-                        }}
-                      >
-                        Cites Δ%
-                        <ArrowUpDown className="h-3 w-3" />
-                      </button>
-                    </th>
-                    <th className="px-3 py-2 font-semibold text-foreground">
-                      <div className="flex items-center gap-1">
+                    {compareMode && (
+                      <th className="px-3 py-2 font-semibold text-foreground">
                         <button
                           type="button"
                           className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
                           onClick={() => {
-                            setSortKey("insight");
-                            setSortDir((prev) => (sortKey === "insight" && prev === "desc" ? "asc" : "desc"));
+                            setSortKey("citesB");
+                            setSortDir((prev) => (sortKey === "citesB" && prev === "desc" ? "asc" : "desc"));
                           }}
                         >
-                          Insights
+                          Cites B
                           <ArrowUpDown className="h-3 w-3" />
                         </button>
-                      </div>
-                    </th>
+                      </th>
+                    )}
+                    {compareMode && (
+                      <th className="px-3 py-2 font-semibold text-foreground">
+                        <button
+                          type="button"
+                          className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                          onClick={() => {
+                            setSortKey("citesDelta");
+                            setSortDir((prev) => (sortKey === "citesDelta" && prev === "desc" ? "asc" : "desc"));
+                          }}
+                        >
+                          Cites Δ%
+                          <ArrowUpDown className="h-3 w-3" />
+                        </button>
+                      </th>
+                    )}
+                    {compareMode && (
+                      <th className="px-3 py-2 font-semibold text-foreground">
+                        <div className="flex items-center gap-1">
+                          <button
+                            type="button"
+                            className="flex items-center gap-1 bg-transparent p-0 text-xs font-semibold text-foreground hover:underline"
+                            onClick={() => {
+                              setSortKey("insight");
+                              setSortDir((prev) => (sortKey === "insight" && prev === "desc" ? "asc" : "desc"));
+                            }}
+                          >
+                            Insights
+                            <ArrowUpDown className="h-3 w-3" />
+                          </button>
+                        </div>
+                      </th>
+                    )}
                   </tr>
                 </thead>
                 <tbody>
@@ -1313,61 +1460,84 @@ const InsightsPage = () => {
                             <span className={selected ? "text-primary" : ""}>{row.topic}</span>
                           </div>
                         </td>
-                        <td className="px-3 py-2">
-                          <Link
-                            to={buildTopicLink(row.topic, rangeA)}
-                            className="text-primary hover:underline"
-                          >
-                            {row.pubsA}
-                          </Link>
-                        </td>
-                        <td className="px-3 py-2">
-                          <Link
-                            to={buildTopicLink(row.topic, rangeB)}
-                            className="text-primary hover:underline"
-                          >
-                            {row.pubsB}
-                          </Link>
-                        </td>
-                        <td className="px-3 py-2">
-                          <span className={deltaClass(row.pubsDeltaPct)}>{formatPct(row.pubsDeltaPct)}</span>
-                        </td>
-                        <td className="px-3 py-2">
-                          <Link
-                            to={buildTopicLink(row.topic, rangeA)}
-                            className="text-primary hover:underline"
-                          >
-                            {row.citesA.toLocaleString()}
-                          </Link>
-                        </td>
-                        <td className="px-3 py-2">
-                          <Link
-                            to={buildTopicLink(row.topic, rangeB)}
-                            className="text-primary hover:underline"
-                          >
-                            {row.citesB.toLocaleString()}
-                          </Link>
-                        </td>
-                        <td className="px-3 py-2">
-                          <span className={deltaClass(row.citesDeltaPct)}>{formatPct(row.citesDeltaPct)}</span>
-                        </td>
-                        <td className="px-3 py-2 text-muted-foreground">
-                          <div className="flex flex-wrap items-center gap-2">
-                            <span
-                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
-                              title={`Publications: ${pubsStatus}`}
-                            >
-                              <BookOpen className="h-3 w-3" />
-                            </span>
-                            <span
-                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(citesStatus)}`}
-                              title={`Citations: ${citesStatus}`}
-                            >
-                              <BarChart3 className="h-3 w-3" />
-                            </span>
-                            <span className="text-xs text-muted-foreground">{row.insight}</span>
-                          </div>
-                        </td>
+                        {compareMode ? (
+                          <>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeA)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.pubsA}
+                              </Link>
+                            </td>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeB)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.pubsB}
+                              </Link>
+                            </td>
+                            <td className="px-3 py-2">
+                              <span className={deltaClass(row.pubsDeltaPct)}>{formatPct(row.pubsDeltaPct)}</span>
+                            </td>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeA)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.citesA.toLocaleString()}
+                              </Link>
+                            </td>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeB)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.citesB.toLocaleString()}
+                              </Link>
+                            </td>
+                            <td className="px-3 py-2">
+                              <span className={deltaClass(row.citesDeltaPct)}>{formatPct(row.citesDeltaPct)}</span>
+                            </td>
+                            <td className="px-3 py-2 text-muted-foreground">
+                              <div className="flex flex-wrap items-center gap-2">
+                                <span
+                                  className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
+                                  title={`Publications: ${pubsStatus}`}
+                                >
+                                  <BookOpen className="h-3 w-3" />
+                                </span>
+                                <span
+                                  className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(citesStatus)}`}
+                                  title={`Citations: ${citesStatus}`}
+                                >
+                                  <BarChart3 className="h-3 w-3" />
+                                </span>
+                                <span className="text-xs text-muted-foreground">{row.insight}</span>
+                              </div>
+                            </td>
+                          </>
+                        ) : (
+                          <>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeA)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.pubsA}
+                              </Link>
+                            </td>
+                            <td className="px-3 py-2">
+                              <Link
+                                to={buildTopicLink(row.topic, rangeA)}
+                                className="text-primary hover:underline"
+                              >
+                                {row.citesA.toLocaleString()}
+                              </Link>
+                            </td>
+                          </>
+                        )}
                       </tr>
                     );
                   })}
