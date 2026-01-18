@@ -1490,6 +1490,11 @@ export default function AuthorDetail() {
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
                         </th>
+                        {compareInsights && (
+                          <th className="px-3 py-2 font-semibold text-foreground sm:hidden">
+                            Insights
+                          </th>
+                        )}
                         <th className="px-3 py-2 font-semibold text-foreground hidden sm:table-cell">
                           <button
                             type="button"
