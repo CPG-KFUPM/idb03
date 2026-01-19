@@ -849,8 +849,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/8",
           "score": 0.4699999988079071,
+          "id": "https://metadata.un.org/sdg/8",
           "display_name": "Decent work and economic growth"
         }
       ],
@@ -2266,8 +2266,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "score": 0.5299999713897705,
+          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production"
         }
       ],
@@ -3714,12 +3714,46 @@
             "display_name": "Ahmed Al‐Yaseri",
             "orcid": "https://orcid.org/0000-0001-9094-1258"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210118538",
+              "display_name": "University of Petroleum",
+              "ror": "https://ror.org/02em1tr51",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "ID",
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Ahmed Al-Yaseri",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113",
+                "https://openalex.org/I4210118538"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -3728,12 +3762,34 @@
             "display_name": "Mahmoud Desouky",
             "orcid": "https://orcid.org/0000-0002-6767-171X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Mahmoud Desouky",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, KFUPM, 31261, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, KFUPM, 31261, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -3742,12 +3798,53 @@
             "display_name": "Murtada Saleh Aljawad",
             "orcid": "https://orcid.org/0000-0002-3540-6807"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210118538",
+              "display_name": "University of Petroleum",
+              "ror": "https://ror.org/02em1tr51",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "ID",
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Murtada Saleh Aljawad",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia",
+            "Department of Petroleum Engineering, KFUPM, 31261, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113",
+                "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, KFUPM, 31261, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -3756,21 +3853,46 @@
             "display_name": "Aliakbar Hassanpouryouzband",
             "orcid": "https://orcid.org/0000-0003-4183-336X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I98677209",
+              "display_name": "University of Edinburgh",
+              "ror": "https://ror.org/01nrxwf90",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I98677209"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Aliakbar Hassanpouryouzband",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "School of Geosciences, University of Edinburgh, Grant Institute, West Main Road, Edinburgh, EH9 3JW, UK"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Geosciences, University of Edinburgh, Grant Institute, West Main Road, Edinburgh, EH9 3JW, UK",
+              "institution_ids": [
+                "https://openalex.org/I98677209"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 3,
       "institutions_distinct_count": 4,
       "corresponding_author_ids": [
         "https://openalex.org/A5059738250"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210118538",
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 3400,
         "currency": "USD",
@@ -3781,7 +3903,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.98869543,
+        "value": 0.98684952,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -3988,7 +4110,7 @@
         }
       ],
       "mesh": [],
-      "locations_count": 2,
+      "locations_count": 3,
       "locations": [
         {
           "id": "doi:10.1016/j.ijhydene.2024.12.448",
@@ -4047,9 +4169,38 @@
           },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Al-Yaseri, A, Desouky, M, Aljawad, M S & Hassanpouryouzband, A 2025, 'Evidence of hydrogen release during CO 2 sequestration in basalt', International journal of hydrogen energy, vol. 101, pp. 1183-1190. https://doi.org/10.1016/j.ijhydene.2024.12.448",
+          "raw_type": "info:eu-repo/semantics/publishedVersion"
+        },
+        {
+          "id": "pmh:oai:pure.ed.ac.uk:publications/9f293353-b0ad-49f4-883f-5afa8564b8fa",
+          "is_oa": true,
+          "landing_page_url": "https://hdl.handle.net/20.500.11820/9f293353-b0ad-49f4-883f-5afa8564b8fa",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400320",
+            "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I98677209",
+            "host_organization_name": "University of Edinburgh",
+            "host_organization_lineage": [
+              "https://openalex.org/I98677209"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
           "raw_source_name": "Al-Yaseri, A, Desouky, M, Aljawad, M S & Hassanpouryouzband, A 2025, 'Evidence of hydrogen release during CO 2 sequestration in basalt', International journal of hydrogen energy, vol. 101, pp. 1183-1190. https://doi.org/10.1016/j.ijhydene.2024.12.448",
           "raw_type": "info:eu-repo/semantics/publishedVersion"
         }
@@ -4077,9 +4228,9 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
         "raw_source_name": "Al-Yaseri, A, Desouky, M, Aljawad, M S & Hassanpouryouzband, A 2025, 'Evidence of hydrogen release during CO 2 sequestration in basalt', International journal of hydrogen energy, vol. 101, pp. 1183-1190. https://doi.org/10.1016/j.ijhydene.2024.12.448",
         "raw_type": "info:eu-repo/semantics/publishedVersion"
       },
@@ -4144,8 +4295,8 @@
         "https://openalex.org/W2953400694",
         "https://openalex.org/W2026967280",
         "https://openalex.org/W3208704500",
-        "https://openalex.org/W4386038484",
-        "https://openalex.org/W2152445548"
+        "https://openalex.org/W2152445548",
+        "https://openalex.org/W4386038484"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -4166,7 +4317,7 @@
           "cited_by_count": 11
         }
       ],
-      "updated_date": "2025-12-27T23:08:20.325037",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8560,8 +8711,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/15",
           "score": 0.6800000071525574,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land"
         }
       ],
@@ -12687,8 +12838,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/15",
           "score": 0.4399999976158142,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land"
         }
       ],
@@ -13989,8 +14140,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production"
         }
       ],
@@ -15345,8 +15496,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/8",
           "score": 0.6499999761581421,
+          "id": "https://metadata.un.org/sdg/8",
           "display_name": "Decent work and economic growth"
         }
       ],
@@ -16828,8 +16979,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "score": 0.5,
+          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production"
         }
       ],

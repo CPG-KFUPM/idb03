@@ -27170,12 +27170,34 @@
             "display_name": "Sivabalan Sakthivel",
             "orcid": "https://orcid.org/0000-0002-0738-2895"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Sivabalan Sakthivel",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -27184,12 +27206,34 @@
             "display_name": "Safwat Abdel‐Azeim",
             "orcid": "https://orcid.org/0000-0001-8611-1251"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
           "raw_author_name": "Safwat Abdel-Azeim",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -27198,21 +27242,46 @@
             "display_name": "Vishnu Chandrasekharan Nair",
             "orcid": "https://orcid.org/0000-0002-2234-9081"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I145894827",
+              "display_name": "Indian Institute of Technology Kharagpur",
+              "ror": "https://ror.org/03w5sq511",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Vishnu Chandrasekharan Nair",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, India",
+              "institution_ids": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 2,
       "institutions_distinct_count": 3,
       "corresponding_author_ids": [
-        "https://openalex.org/A5005897140"
+        "https://openalex.org/A5005897140",
+        "https://openalex.org/A5056134895"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 3380,
         "currency": "USD",
@@ -27223,7 +27292,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.94557575,
+        "value": 0.93675851,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -27567,11 +27636,11 @@
         "https://openalex.org/W4296209025",
         "https://openalex.org/W2058065178",
         "https://openalex.org/W2036042608",
-        "https://openalex.org/W2281767372",
         "https://openalex.org/W1991794210",
-        "https://openalex.org/W3017026356",
         "https://openalex.org/W4232395940",
-        "https://openalex.org/W2465311897"
+        "https://openalex.org/W2465311897",
+        "https://openalex.org/W2281767372",
+        "https://openalex.org/W3017026356"
       ],
       "related_works": [
         "https://openalex.org/W2002226878",
@@ -27592,7 +27661,7 @@
           "cited_by_count": 8
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -35263,7 +35332,7 @@
           "countries": [
             "SA"
           ],
-          "is_corresponding": true,
+          "is_corresponding": false,
           "raw_author_name": "Sivabalan Sakthivel",
           "raw_affiliation_strings": [
             "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
@@ -35320,9 +35389,22 @@
             "display_name": "Mahmoud A. Abdulhamid",
             "orcid": "https://orcid.org/0000-0002-6630-3958"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
           "raw_author_name": "Mahmoud A. Abdulhamid",
           "raw_affiliation_strings": [
             "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: mahmoud.abdulhamid@kfupm.edu.sa"
@@ -35330,7 +35412,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: mahmoud.abdulhamid@kfupm.edu.sa",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         }
@@ -35339,7 +35423,7 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 3,
       "corresponding_author_ids": [
-        "https://openalex.org/A5005897140"
+        "https://openalex.org/A5083774843"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -35354,7 +35438,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.85219184,
+        "value": 0.85135098,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -35827,8 +35911,8 @@
         "https://openalex.org/W2115923359",
         "https://openalex.org/W2471517024",
         "https://openalex.org/W4390937195",
-        "https://openalex.org/W4317929998",
-        "https://openalex.org/W4232395940"
+        "https://openalex.org/W4232395940",
+        "https://openalex.org/W4317929998"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -35849,7 +35933,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {

@@ -1728,8 +1728,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5600000023841858,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5600000023841858,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -6489,8 +6489,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4099999964237213,
           "id": "https://metadata.un.org/sdg/13",
+          "score": 0.4099999964237213,
           "display_name": "Climate action"
         }
       ],
@@ -8160,12 +8160,34 @@
             "display_name": "Mohamed Gamal Rezk",
             "orcid": "https://orcid.org/0000-0001-9335-0883"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": true,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
           "raw_author_name": "Mohamed Gamal Rezk",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), KFUPM - Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), KFUPM - Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -8174,21 +8196,52 @@
             "display_name": "Ahmed Farid Ibrahim",
             "orcid": "https://orcid.org/0000-0001-7258-8542"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
           "raw_author_name": "Ahmed Farid Ibrahim",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), KFUPM - Dhahran, 31261, Saudi Arabia",
+            "College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM - Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), KFUPM - Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM - Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 1,
       "institutions_distinct_count": 2,
       "corresponding_author_ids": [
-        "https://openalex.org/A5024668081"
+        "https://openalex.org/A5048634311"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 4080,
         "currency": "USD",
@@ -8199,7 +8252,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.9550593,
+        "value": 0.94847159,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8580,9 +8633,9 @@
         "https://openalex.org/W1748749916",
         "https://openalex.org/W2149852178",
         "https://openalex.org/W2032969947",
+        "https://openalex.org/W1572307759",
         "https://openalex.org/W2479408808",
         "https://openalex.org/W4281783819",
-        "https://openalex.org/W1572307759",
         "https://openalex.org/W4249106077"
       ],
       "related_works": [
@@ -8608,7 +8661,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-12-28T23:10:05.387466",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -9785,8 +9838,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.4699999988079071,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -12700,8 +12753,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/13",
+          "score": 0.6299999952316284,
           "display_name": "Climate action"
         }
       ],
@@ -17635,8 +17688,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5899999737739563,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5899999737739563,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -22419,8 +22472,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8799999952316284,
           "id": "https://metadata.un.org/sdg/7",
+          "score": 0.8799999952316284,
           "display_name": "Affordable and clean energy"
         }
       ],
@@ -23381,8 +23434,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5799999833106995,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5799999833106995,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -25582,12 +25635,34 @@
             "display_name": "Aymn Abdulrahman",
             "orcid": "https://orcid.org/0000-0002-8616-852X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210099699",
+              "display_name": "Jeddah University",
+              "ror": "https://ror.org/015ya8798",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210099699"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Aymn Abdulrahman",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Chemical Engineering Department, University of Jeddah, Jeddah, Kingdom of Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chemical Engineering Department, University of Jeddah, Jeddah, Kingdom of Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210099699"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25596,12 +25671,34 @@
             "display_name": "Tausif Ahmad",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Tausif Ahmad",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Physical Science and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Physical Science and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25610,12 +25707,34 @@
             "display_name": "Achinta Bera",
             "orcid": "https://orcid.org/0000-0003-0390-6177"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33586908",
+              "display_name": "Pandit Deendayal Petroleum University",
+              "ror": "https://ror.org/02nsv5p42",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I33586908"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Achinta Bera",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, School of Energy Technology, Pandit Deendayal Energy University, Gandhinagar, Gujarat, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, School of Energy Technology, Pandit Deendayal Energy University, Gandhinagar, Gujarat, India",
+              "institution_ids": [
+                "https://openalex.org/I33586908"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25624,12 +25743,34 @@
             "display_name": "Hosein Doryani",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I195460627",
+              "display_name": "University of Aberdeen",
+              "ror": "https://ror.org/016476m91",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I195460627"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Hosein Doryani",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "School of Engineering, University of Aberdeen, Aberdeen, United Kingdom"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Engineering, University of Aberdeen, Aberdeen, United Kingdom",
+              "institution_ids": [
+                "https://openalex.org/I195460627"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25638,12 +25779,52 @@
             "display_name": "Ahmed M. Elberry",
             "orcid": "https://orcid.org/0000-0002-5013-1960"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210109387",
+              "display_name": "Energy Transitions (United Kingdom)",
+              "ror": "https://ror.org/02m4v1f10",
+              "country_code": "GB",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210109387"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I887064364",
+              "display_name": "University of Amsterdam",
+              "ror": "https://ror.org/04dkp9463",
+              "country_code": "NL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I887064364"
+              ]
+            }
+          ],
+          "countries": [
+            "GB",
+            "NL"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ahmed Elberry",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Faculty of Science (HIMS), University of Amsterdam, Amsterdam, The Netherlands",
+            "TNO Energy and Materials Transition, Amsterdam, The Netherlands"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Science (HIMS), University of Amsterdam, Amsterdam, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I887064364"
+              ]
+            },
+            {
+              "raw_affiliation_string": "TNO Energy and Materials Transition, Amsterdam, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I4210109387"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25652,12 +25833,34 @@
             "display_name": "Omar El-Khatib",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210140794",
+              "display_name": "Houston Methodist Sugar Land Hospital",
+              "ror": "https://ror.org/04ywqtw26",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210140794"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Omar Elkhatib",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "ChampionX USA Inc., Sugar Land, TX, United States"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "ChampionX USA Inc., Sugar Land, TX, United States",
+              "institution_ids": [
+                "https://openalex.org/I4210140794"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25666,12 +25869,34 @@
             "display_name": "Ramesh K. Guduru",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33586908",
+              "display_name": "Pandit Deendayal Petroleum University",
+              "ror": "https://ror.org/02nsv5p42",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I33586908"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ramesh Guduru",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, School of Technology, Pandit Deendayal Energy University, Gandhinagar, Gujarat, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, School of Technology, Pandit Deendayal Energy University, Gandhinagar, Gujarat, India",
+              "institution_ids": [
+                "https://openalex.org/I33586908"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25680,12 +25905,34 @@
             "display_name": "Dharmendra Kumar Gupta",
             "orcid": "https://orcid.org/0000-0001-7088-7354"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I5847235",
+              "display_name": "University of Petroleum and Energy Studies",
+              "ror": "https://ror.org/04q2jes40",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I5847235"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Dharmendra Kumar Gupta",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Sustainability, School of Advanced Engineering, UPES, Dehradun, Uttarakhand, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Sustainability, School of Advanced Engineering, UPES, Dehradun, Uttarakhand, India",
+              "institution_ids": [
+                "https://openalex.org/I5847235"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25694,12 +25941,34 @@
             "display_name": "B. Hagemann",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43980791",
+              "display_name": "Clausthal University of Technology",
+              "ror": "https://ror.org/04qb8nc58",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Birger Hagemann",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany",
+              "institution_ids": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25708,12 +25977,34 @@
             "display_name": "Sebastian Hogeweg",
             "orcid": "https://orcid.org/0000-0001-8224-8138"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43980791",
+              "display_name": "Clausthal University of Technology",
+              "ror": "https://ror.org/04qb8nc58",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Sebastian Hogeweg",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany",
+              "institution_ids": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25722,12 +26013,34 @@
             "display_name": "Suhaib Umer Ilyas",
             "orcid": "https://orcid.org/0000-0002-7690-0668"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210099699",
+              "display_name": "Jeddah University",
+              "ror": "https://ror.org/015ya8798",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210099699"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Suhaib Umer Ilyas",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Chemical Engineering Department, University of Jeddah, Jeddah, Kingdom of Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chemical Engineering Department, University of Jeddah, Jeddah, Kingdom of Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210099699"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25736,12 +26049,34 @@
             "display_name": "Prashant Jadhawar",
             "orcid": "https://orcid.org/0000-0002-2049-0460"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I195460627",
+              "display_name": "University of Aberdeen",
+              "ror": "https://ror.org/016476m91",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I195460627"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Prashant Jadhawar",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "School of Engineering, University of Aberdeen, Aberdeen, United Kingdom"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Engineering, University of Aberdeen, Aberdeen, United Kingdom",
+              "institution_ids": [
+                "https://openalex.org/I195460627"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25750,12 +26085,37 @@
             "display_name": "Sanket J. Joshi",
             "orcid": "https://orcid.org/0000-0001-7746-9905"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210147764",
+              "display_name": "Institute of Microbial Technology",
+              "ror": "https://ror.org/055rjs771",
+              "country_code": "IN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I2799351866",
+                "https://openalex.org/I4210134808",
+                "https://openalex.org/I4210147764",
+                "https://openalex.org/I66760702"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Sanket Joshi",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Amity Institute of Microbial Technology, Amity University, Jaipur, Rajasthan, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Amity Institute of Microbial Technology, Amity University, Jaipur, Rajasthan, India",
+              "institution_ids": [
+                "https://openalex.org/I4210147764"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25764,12 +26124,34 @@
             "display_name": "Shwetank Krishna",
             "orcid": "https://orcid.org/0000-0002-2074-0386"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I182712176",
+              "display_name": "Montanuniversität Leoben",
+              "ror": "https://ror.org/02fhfw393",
+              "country_code": "AT",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I182712176"
+              ]
+            }
+          ],
+          "countries": [
+            "AT"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Shwetank Krishna",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Chair of Drilling and Completion Engineering, Department Geo Energy, Montanuniversität Leoben, Leoben, Austria"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chair of Drilling and Completion Engineering, Department Geo Energy, Montanuniversität Leoben, Leoben, Austria",
+              "institution_ids": [
+                "https://openalex.org/I182712176"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25778,12 +26160,34 @@
             "display_name": "Suhas Kulkarni",
             "orcid": "https://orcid.org/0009-0007-9733-2640"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I145894827",
+              "display_name": "Indian Institute of Technology Kharagpur",
+              "ror": "https://ror.org/03w5sq511",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Sandeep D. Kulkarni",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, Kharagpur, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, Kharagpur, India",
+              "institution_ids": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25792,12 +26196,34 @@
             "display_name": "Narendra Kumar",
             "orcid": "https://orcid.org/0000-0001-5560-0984"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Narendra Kumar",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Ali I. Al-Naimi Petroleum Engineering Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ali I. Al-Naimi Petroleum Engineering Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25806,12 +26232,35 @@
             "display_name": "Sunil Kumar",
             "orcid": "https://orcid.org/0000-0002-7845-1341"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I11793825",
+              "display_name": "National Institute of Technology Patna",
+              "ror": "https://ror.org/056wyhh33",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I11793825",
+                "https://openalex.org/I4210152752"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Sunil Kumar",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "RINOLYST, SciGlyph Exploration Private Limited, Patna, Bihar, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "RINOLYST, SciGlyph Exploration Private Limited, Patna, Bihar, India",
+              "institution_ids": [
+                "https://openalex.org/I11793825"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25820,12 +26269,34 @@
             "display_name": "Anooja Sara Mathew",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I145894827",
+              "display_name": "Indian Institute of Technology Kharagpur",
+              "ror": "https://ror.org/03w5sq511",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Anooja Sara Mathew",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, Kharagpur, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Deysarkar Centre of Excellence in Petroleum Engineering, IIT Kharagpur, Kharagpur, India",
+              "institution_ids": [
+                "https://openalex.org/I145894827"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25834,12 +26305,34 @@
             "display_name": "Julia Michelsen",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43980791",
+              "display_name": "Clausthal University of Technology",
+              "ror": "https://ror.org/04qb8nc58",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Julia Michelsen",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department Reservoir Engineering, Clausthal University of Technology, Institute of Subsurface Energy Systems, Clausthal-Zellerfeld, Germany",
+              "institution_ids": [
+                "https://openalex.org/I43980791"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -25848,12 +26341,34 @@
             "display_name": "Ajay Mittal",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I5847235",
+              "display_name": "University of Petroleum and Energy Studies",
+              "ror": "https://ror.org/04q2jes40",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I5847235"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ajay Mittal",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Chemical Engineering, Energy Cluster, School of Advanced Engineering, UPES, Dehradun, Uttarakhand, India"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Chemical Engineering, Energy Cluster, School of Advanced Engineering, UPES, Dehradun, Uttarakhand, India",
+              "institution_ids": [
+                "https://openalex.org/I5847235"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -26151,12 +26666,14 @@
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 7,
       "institutions_distinct_count": 41,
       "corresponding_author_ids": [
         "https://openalex.org/A5063326421"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210099699"
+      ],
       "apc_list": null,
       "apc_paid": null,
       "fwci": null,
@@ -26304,7 +26821,7 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2025-12-27T23:08:20.325037",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2024-10-12T00:00:00"
     },
     {
@@ -26809,8 +27326,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5799999833106995,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5799999833106995,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -26903,12 +27420,34 @@
             "display_name": "Abdulrauf R. Adebayo",
             "orcid": "https://orcid.org/0000-0002-0188-2688"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Abdulrauf R. Adebayo",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -26917,12 +27456,34 @@
             "display_name": "Mohamed Gamal Rezk",
             "orcid": "https://orcid.org/0000-0001-9335-0883"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Mohamed Gamal Rezk",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -26931,12 +27492,47 @@
             "display_name": "Zuhair AlYousef",
             "orcid": "https://orcid.org/0000-0003-3839-1011"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I62856769",
+              "display_name": "Saudi Aramco (United States)",
+              "ror": "https://ror.org/035n7q728",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210143841",
+                "https://openalex.org/I62856769"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210143841",
+              "display_name": "Saudi Aramco (Saudi Arabia)",
+              "ror": "https://ror.org/03ypap427",
+              "country_code": "SA",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210143841"
+              ]
+            }
+          ],
+          "countries": [
+            "SA",
+            "US"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Zuhair AlYousef",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "EXPEC ARC, Reservoir Engineering Technology Division, Saudi Aramco, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "EXPEC ARC, Reservoir Engineering Technology Division, Saudi Aramco, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210143841",
+                "https://openalex.org/I62856769"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -26945,12 +27541,34 @@
             "display_name": "Rahul B. Salin",
             "orcid": "https://orcid.org/0000-0003-1934-8149"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Rahul S. Babu",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -26959,21 +27577,58 @@
             "display_name": "Almohannad Alhashboul",
             "orcid": "https://orcid.org/0009-0007-4386-5425"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210143841",
+              "display_name": "Saudi Aramco (Saudi Arabia)",
+              "ror": "https://ror.org/03ypap427",
+              "country_code": "SA",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210143841"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I62856769",
+              "display_name": "Saudi Aramco (United States)",
+              "ror": "https://ror.org/035n7q728",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210143841",
+                "https://openalex.org/I62856769"
+              ]
+            }
+          ],
+          "countries": [
+            "SA",
+            "US"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Almohannad Alhashboul",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "EXPEC ARC, Reservoir Engineering Technology Division, Saudi Aramco, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "EXPEC ARC, Reservoir Engineering Technology Division, Saudi Aramco, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I4210143841",
+                "https://openalex.org/I62856769"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 2,
       "institutions_distinct_count": 5,
       "corresponding_author_ids": [
         "https://openalex.org/A5010595990"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 3980,
         "currency": "USD",
@@ -26984,7 +27639,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12323997,
+        "value": 0.10764606,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27338,8 +27993,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6700000166893005,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -27406,7 +28061,7 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2025-12-28T23:10:05.387466",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -28816,12 +29471,34 @@
             "display_name": "Mohamed Gamal Rezk",
             "orcid": "https://orcid.org/0000-0001-9335-0883"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Mohamed Gamal Rezk",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -28830,21 +29507,45 @@
             "display_name": "Ahmed Farid Ibrahim",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ahmed Farid Ibrahim",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals, KFUPM, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 1,
       "institutions_distinct_count": 2,
       "corresponding_author_ids": [
         "https://openalex.org/A5024668081"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 2000,
         "currency": "USD",
@@ -28859,7 +29560,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.69961289,
+        "value": 0.67201632,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29171,7 +29872,7 @@
       "related_works": [],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-01-11T23:08:45.486102",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2026-01-01T00:00:00"
     },
     {

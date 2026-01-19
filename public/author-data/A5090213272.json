@@ -3631,8 +3631,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5099999904632568,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -4340,8 +4340,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6399999856948853,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -5448,8 +5448,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.8600000143051147,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -6359,8 +6359,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.7200000286102295,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -7938,8 +7938,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6100000143051147,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -9738,8 +9738,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5299999713897705,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -10501,8 +10501,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/9",
+          "score": 0.4399999976158142,
           "display_name": "Industry, innovation and infrastructure"
         }
       ],
@@ -11699,8 +11699,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6700000166893005,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -14503,8 +14503,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.47999998927116394,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -15612,8 +15612,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/6",
+          "score": 0.46000000834465027,
           "display_name": "Clean water and sanitation"
         }
       ],
@@ -16711,8 +16711,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5699999928474426,
           "id": "https://metadata.un.org/sdg/13",
+          "score": 0.5699999928474426,
           "display_name": "Climate action"
         }
       ],
@@ -16885,12 +16885,39 @@
             "display_name": "Dmitrii Pereponov",
             "orcid": "https://orcid.org/0000-0002-5160-7983"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125989756",
+              "display_name": "Skolkovo Institute of Science and Technology",
+              "ror": "https://ror.org/03f9nc143",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Dmitrii Pereponov",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "LABADVANCE LLC, Moscow, Russia",
+            "Skolkovo Institute of Science and Technology, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LABADVANCE LLC, Moscow, Russia",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -16899,12 +16926,39 @@
             "display_name": "Vitaly Kazaku",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125989756",
+              "display_name": "Skolkovo Institute of Science and Technology",
+              "ror": "https://ror.org/03f9nc143",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Vitaly Kazaku",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "LABADVANCE LLC, Moscow, Russia",
+            "Skolkovo Institute of Science and Technology, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LABADVANCE LLC, Moscow, Russia",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -16913,12 +16967,34 @@
             "display_name": "Alexandra Scerbacova",
             "orcid": "https://orcid.org/0000-0003-3132-7850"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Alexandra Scerbacova",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -16941,12 +17017,34 @@
             "display_name": "Michael Tarkhov",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1313323035",
+              "display_name": "Russian Academy of Sciences",
+              "ror": "https://ror.org/05qrfxd25",
+              "country_code": "RU",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Michael Tarkhov",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -16955,12 +17053,34 @@
             "display_name": "Alexandre I. Rykov",
             "orcid": "https://orcid.org/0000-0002-0290-2337"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1313323035",
+              "display_name": "Russian Academy of Sciences",
+              "ror": "https://ror.org/05qrfxd25",
+              "country_code": "RU",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Alexander Rykov",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -16969,12 +17089,34 @@
             "display_name": "Ivan Filippov",
             "orcid": "https://orcid.org/0000-0002-6209-0086"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1313323035",
+              "display_name": "Russian Academy of Sciences",
+              "ror": "https://ror.org/05qrfxd25",
+              "country_code": "RU",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ivan Filippov",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Nanotechnology of Microelectronics of the Russian Academy of Sciences, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I1313323035"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -17011,12 +17153,39 @@
             "display_name": "Аlexey Cheremisin",
             "orcid": "https://orcid.org/0000-0002-3580-9120"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125989756",
+              "display_name": "Skolkovo Institute of Science and Technology",
+              "ror": "https://ror.org/03f9nc143",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Alexey Cheremisin",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "LABADVANCE LLC, Moscow, Russia",
+            "Skolkovo Institute of Science and Technology, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LABADVANCE LLC, Moscow, Russia",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -17025,21 +17194,50 @@
             "display_name": "Evgeny Shilov",
             "orcid": "https://orcid.org/0000-0001-9704-2298"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125989756",
+              "display_name": "Skolkovo Institute of Science and Technology",
+              "ror": "https://ror.org/03f9nc143",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Evgeny Shilov",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "LABADVANCE LLC, Moscow, Russia",
+            "Skolkovo Institute of Science and Technology, Moscow, Russia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LABADVANCE LLC, Moscow, Russia",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 2,
       "institutions_distinct_count": 11,
       "corresponding_author_ids": [
         "https://openalex.org/A5083820866"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I125989756"
+      ],
       "apc_list": {
         "value": 3380,
         "currency": "USD",
@@ -17050,7 +17248,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.63228411,
+        "value": 0.60990627,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17359,8 +17557,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/13",
+          "score": 0.6899999976158142,
           "display_name": "Climate action"
         }
       ],
@@ -17464,19 +17662,19 @@
         "https://openalex.org/W2413778174",
         "https://openalex.org/W2611424285",
         "https://openalex.org/W2029188744",
-        "https://openalex.org/W3205419042",
-        "https://openalex.org/W4379347728",
         "https://openalex.org/W2943098170",
-        "https://openalex.org/W3004327159",
-        "https://openalex.org/W4212773366",
-        "https://openalex.org/W2317481205",
+        "https://openalex.org/W2935817180",
+        "https://openalex.org/W4379347728",
         "https://openalex.org/W4365451773",
         "https://openalex.org/W4312648657",
         "https://openalex.org/W3035188260",
-        "https://openalex.org/W2935817180",
-        "https://openalex.org/W4206105069",
+        "https://openalex.org/W3004327159",
+        "https://openalex.org/W2317481205",
+        "https://openalex.org/W4229709421",
+        "https://openalex.org/W4212773366",
         "https://openalex.org/W3207433824",
-        "https://openalex.org/W4229709421"
+        "https://openalex.org/W3205419042",
+        "https://openalex.org/W4206105069"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -17497,7 +17695,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-12-27T23:08:20.325037",
+      "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -20198,8 +20396,8 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/10",
+          "score": 0.6399999856948853,
           "display_name": "Reduced inequalities"
         }
       ],
