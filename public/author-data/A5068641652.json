@@ -709,9 +709,9 @@
       "apc_paid": null,
       "fwci": 44.62169081,
       "has_fulltext": false,
-      "cited_by_count": 608,
+      "cited_by_count": 609,
       "citation_normalized_percentile": {
-        "value": 0.99934338,
+        "value": 0.99932732,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -1077,9 +1077,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.800000011920929,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.800000011920929
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -1141,6 +1141,10 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
         {
           "year": 2025,
           "cited_by_count": 24
@@ -1549,7 +1553,7 @@
       "has_fulltext": false,
       "cited_by_count": 126,
       "citation_normalized_percentile": {
-        "value": 0.95374039,
+        "value": 0.95373241,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2045,14 +2049,14 @@
         "https://openalex.org/W1985254394",
         "https://openalex.org/W1510841103",
         "https://openalex.org/W1719260024",
+        "https://openalex.org/W601206597",
+        "https://openalex.org/W1698701323",
         "https://openalex.org/W2952363878",
         "https://openalex.org/W4256544619",
         "https://openalex.org/W4236709029",
         "https://openalex.org/W4234347480",
         "https://openalex.org/W2054621372",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W601206597",
-        "https://openalex.org/W1698701323"
+        "https://openalex.org/W2041902442"
       ],
       "related_works": [
         "https://openalex.org/W3183948672",
@@ -2678,7 +2682,7 @@
       "has_fulltext": true,
       "cited_by_count": 77,
       "citation_normalized_percentile": {
-        "value": 0.98049749,
+        "value": 0.9803518,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3226,20 +3230,20 @@
         "https://openalex.org/W2155738850",
         "https://openalex.org/W2020375630",
         "https://openalex.org/W1943043400",
-        "https://openalex.org/W2182213078",
-        "https://openalex.org/W2914510865",
-        "https://openalex.org/W2804659839",
-        "https://openalex.org/W2552229827",
-        "https://openalex.org/W2774503624",
-        "https://openalex.org/W2485115270",
         "https://openalex.org/W2552644464",
+        "https://openalex.org/W2552229827",
         "https://openalex.org/W1569734557",
-        "https://openalex.org/W2984395102",
-        "https://openalex.org/W2783987265",
+        "https://openalex.org/W2804659839",
+        "https://openalex.org/W2914510865",
+        "https://openalex.org/W2182213078",
         "https://openalex.org/W3114329363",
-        "https://openalex.org/W2768935871",
+        "https://openalex.org/W2485115270",
+        "https://openalex.org/W2984395102",
+        "https://openalex.org/W4251848981",
         "https://openalex.org/W2788753605",
-        "https://openalex.org/W4251848981"
+        "https://openalex.org/W2774503624",
+        "https://openalex.org/W2768935871",
+        "https://openalex.org/W2783987265"
       ],
       "related_works": [
         "https://openalex.org/W2371502604",
@@ -4157,7 +4161,7 @@
       "has_fulltext": false,
       "cited_by_count": 52,
       "citation_normalized_percentile": {
-        "value": 0.96831741,
+        "value": 0.96790729,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4511,9 +4515,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -4560,9 +4564,9 @@
         "https://openalex.org/W2014043245",
         "https://openalex.org/W1980838290",
         "https://openalex.org/W2054650487",
-        "https://openalex.org/W2011661955",
         "https://openalex.org/W2072497460",
-        "https://openalex.org/W2302325440"
+        "https://openalex.org/W2302325440",
+        "https://openalex.org/W2011661955"
       ],
       "related_works": [
         "https://openalex.org/W2362191124",
@@ -5067,7 +5071,7 @@
       "has_fulltext": false,
       "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.82129871,
+        "value": 0.8213072,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5543,9 +5547,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.41999998688697815,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.41999998688697815
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -5634,14 +5638,14 @@
         "https://openalex.org/W2044675203",
         "https://openalex.org/W1976105348",
         "https://openalex.org/W2002674528",
+        "https://openalex.org/W2314443527",
+        "https://openalex.org/W2521385059",
         "https://openalex.org/W2592038517",
         "https://openalex.org/W2743748667",
         "https://openalex.org/W2782064020",
-        "https://openalex.org/W2314443527",
-        "https://openalex.org/W2009331238",
         "https://openalex.org/W2910016115",
         "https://openalex.org/W2920320441",
-        "https://openalex.org/W2521385059"
+        "https://openalex.org/W2009331238"
       ],
       "related_works": [
         "https://openalex.org/W2259847155",
@@ -5839,7 +5843,7 @@
       "has_fulltext": true,
       "cited_by_count": 26,
       "citation_normalized_percentile": {
-        "value": 0.93300287,
+        "value": 0.92768244,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6262,9 +6266,9 @@
         "https://openalex.org/W3089090942",
         "https://openalex.org/W3094121619",
         "https://openalex.org/W2438942984",
-        "https://openalex.org/W2725234308",
         "https://openalex.org/W2086264303",
-        "https://openalex.org/W2776328084"
+        "https://openalex.org/W2776328084",
+        "https://openalex.org/W2725234308"
       ],
       "related_works": [
         "https://openalex.org/W2377300641",
@@ -6821,7 +6825,7 @@
       "has_fulltext": true,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.81821702,
+        "value": 0.80530731,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7191,9 +7195,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.4699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -7771,6 +7775,967 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
+      "id": "https://openalex.org/W4392004763",
+      "doi": "https://doi.org/10.1103/physreve.109.024310",
+      "title": "Variable-order porous media equations: Application on modeling the S&amp;P500 and Bitcoin price return",
+      "display_name": "Variable-order porous media equations: Application on modeling the S&amp;P500 and Bitcoin price return",
+      "publication_year": 2024,
+      "publication_date": "2024-02-21",
+      "ids": {
+        "openalex": "https://openalex.org/W4392004763",
+        "doi": "https://doi.org/10.1103/physreve.109.024310",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/38491659"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1103/physreve.109.024310",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1103/physreve.109.024310",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210235286",
+          "display_name": "Physical review. E",
+          "issn_l": "2470-0045",
+          "issn": [
+            "2470-0045",
+            "2470-0053",
+            "2470-0061"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review E",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5082717067",
+            "display_name": "Yaoyue Tang",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I129604602",
+              "display_name": "University of Sydney",
+              "ror": "https://ror.org/0384j8v12",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I129604602"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Yaoyue Tang",
+          "raw_affiliation_strings": [
+            "Modelling and Simulation Research Group, The University of Sydney, Sydney NSW 2006, Australia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Modelling and Simulation Research Group, The University of Sydney, Sydney NSW 2006, Australia",
+              "institution_ids": [
+                "https://openalex.org/I129604602"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5014812079",
+            "display_name": "Fatemeh Gharari",
+            "orcid": "https://orcid.org/0000-0001-5323-3770"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I72341708",
+              "display_name": "University of Mohaghegh Ardabili",
+              "ror": "https://ror.org/045zrcm98",
+              "country_code": "IR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I72341708"
+              ]
+            }
+          ],
+          "countries": [
+            "IR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fatemeh Gharari",
+          "raw_affiliation_strings": [
+            "Department of Statistics and Computer Science, University of Mohaghegh Ardabili, Ardabil 56199, Iran"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Statistics and Computer Science, University of Mohaghegh Ardabili, Ardabil 56199, Iran",
+              "institution_ids": [
+                "https://openalex.org/I72341708"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5050408679",
+            "display_name": "Karina Arias-Calluari",
+            "orcid": "https://orcid.org/0000-0001-6013-5490"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I129604602",
+              "display_name": "University of Sydney",
+              "ror": "https://ror.org/0384j8v12",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I129604602"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Karina Arias-Calluari",
+          "raw_affiliation_strings": [
+            "School of Mathematics and Statistics, The University of Sydney, Sydney NSW 2006, Australia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Mathematics and Statistics, The University of Sydney, Sydney NSW 2006, Australia",
+              "institution_ids": [
+                "https://openalex.org/I129604602"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5068641652",
+            "display_name": "Fernando Alonso-Marroquín",
+            "orcid": "https://orcid.org/0000-0001-9051-6120"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fernando Alonso-Marroquin",
+          "raw_affiliation_strings": [
+            "CIPR, King Fahd University of Petroleum and Minerals, Dhahran 31261, Kingdom of Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CIPR, King Fahd University of Petroleum and Minerals, Dhahran 31261, Kingdom of Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5021019538",
+            "display_name": "M. N. Najafi",
+            "orcid": "https://orcid.org/0000-0001-8949-6855"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I72341708",
+              "display_name": "University of Mohaghegh Ardabili",
+              "ror": "https://ror.org/045zrcm98",
+              "country_code": "IR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I72341708"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I110152177",
+              "display_name": "University of Akron",
+              "ror": "https://ror.org/02kyckx55",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I110152177"
+              ]
+            }
+          ],
+          "countries": [
+            "IR",
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M. N. Najafi",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, University of Akron, Akron, Ohio 44325, USA",
+            "Department of Physics, University of Mohaghegh Ardabili, P.O. Box 179, Ardabil 11367, Iran"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, University of Akron, Akron, Ohio 44325, USA",
+              "institution_ids": [
+                "https://openalex.org/I110152177"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Physics, University of Mohaghegh Ardabili, P.O. Box 179, Ardabil 11367, Iran",
+              "institution_ids": [
+                "https://openalex.org/I72341708"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 4,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5082717067"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I129604602"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.99902742,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.92373448,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "109",
+        "issue": "2",
+        "first_page": "024310",
+        "last_page": "024310"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11270",
+        "display_name": "Complex Systems and Time Series Analysis",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11270",
+          "display_name": "Complex Systems and Time Series Analysis",
+          "score": 0.9983000159263611,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2002",
+            "display_name": "Economics and Econometrics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/20",
+            "display_name": "Economics, Econometrics and Finance"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11052",
+          "display_name": "Energy Load and Power Forecasting",
+          "score": 0.9613999724388123,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11326",
+          "display_name": "Stock Market Forecasting Methods",
+          "score": 0.9557999968528748,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/variable",
+          "display_name": "Variable (mathematics)",
+          "score": 0.7114855051040649
+        },
+        {
+          "id": "https://openalex.org/keywords/order",
+          "display_name": "Order (exchange)",
+          "score": 0.6279003620147705
+        },
+        {
+          "id": "https://openalex.org/keywords/economics",
+          "display_name": "Economics",
+          "score": 0.5252149701118469
+        },
+        {
+          "id": "https://openalex.org/keywords/porous-medium",
+          "display_name": "Porous medium",
+          "score": 0.5095484256744385
+        },
+        {
+          "id": "https://openalex.org/keywords/econometrics",
+          "display_name": "Econometrics",
+          "score": 0.48930928111076355
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-economics",
+          "display_name": "Mathematical economics",
+          "score": 0.36990612745285034
+        },
+        {
+          "id": "https://openalex.org/keywords/monetary-economics",
+          "display_name": "Monetary economics",
+          "score": 0.356339693069458
+        },
+        {
+          "id": "https://openalex.org/keywords/porosity",
+          "display_name": "Porosity",
+          "score": 0.34053850173950195
+        },
+        {
+          "id": "https://openalex.org/keywords/financial-economics",
+          "display_name": "Financial economics",
+          "score": 0.3248031735420227
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.3008434772491455
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.18013116717338562
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-analysis",
+          "display_name": "Mathematical analysis",
+          "score": 0.1383090615272522
+        },
+        {
+          "id": "https://openalex.org/keywords/geotechnical-engineering",
+          "display_name": "Geotechnical engineering",
+          "score": 0.0906606912612915
+        },
+        {
+          "id": "https://openalex.org/keywords/finance",
+          "display_name": "Finance",
+          "score": 0.07392144203186035
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C182365436",
+          "wikidata": "https://www.wikidata.org/wiki/Q50701",
+          "display_name": "Variable (mathematics)",
+          "level": 2,
+          "score": 0.7114855051040649
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.6279003620147705
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.5252149701118469
+        },
+        {
+          "id": "https://openalex.org/C105569014",
+          "wikidata": "https://www.wikidata.org/wiki/Q3271208",
+          "display_name": "Porous medium",
+          "level": 3,
+          "score": 0.5095484256744385
+        },
+        {
+          "id": "https://openalex.org/C149782125",
+          "wikidata": "https://www.wikidata.org/wiki/Q160039",
+          "display_name": "Econometrics",
+          "level": 1,
+          "score": 0.48930928111076355
+        },
+        {
+          "id": "https://openalex.org/C144237770",
+          "wikidata": "https://www.wikidata.org/wiki/Q747534",
+          "display_name": "Mathematical economics",
+          "level": 1,
+          "score": 0.36990612745285034
+        },
+        {
+          "id": "https://openalex.org/C556758197",
+          "wikidata": "https://www.wikidata.org/wiki/Q580018",
+          "display_name": "Monetary economics",
+          "level": 1,
+          "score": 0.356339693069458
+        },
+        {
+          "id": "https://openalex.org/C6648577",
+          "wikidata": "https://www.wikidata.org/wiki/Q622669",
+          "display_name": "Porosity",
+          "level": 2,
+          "score": 0.34053850173950195
+        },
+        {
+          "id": "https://openalex.org/C106159729",
+          "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+          "display_name": "Financial economics",
+          "level": 1,
+          "score": 0.3248031735420227
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.3008434772491455
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.18013116717338562
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.1383090615272522
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.0906606912612915
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.07392144203186035
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1103/physreve.109.024310",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/physreve.109.024310",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210235286",
+            "display_name": "Physical review. E",
+            "issn_l": "2470-0045",
+            "issn": [
+              "2470-0045",
+              "2470-0053",
+              "2470-0061"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical Review E",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:38491659",
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38491659",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical review. E",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "referenced_works_count": 62,
+      "referenced_works": [
+        "https://openalex.org/W2012021517",
+        "https://openalex.org/W1971359112",
+        "https://openalex.org/W2963589517",
+        "https://openalex.org/W2001509015",
+        "https://openalex.org/W2016533177",
+        "https://openalex.org/W2156961733",
+        "https://openalex.org/W2062515939",
+        "https://openalex.org/W2920150917",
+        "https://openalex.org/W3215284348",
+        "https://openalex.org/W2167500235",
+        "https://openalex.org/W2054912878",
+        "https://openalex.org/W2021993229",
+        "https://openalex.org/W1770985123",
+        "https://openalex.org/W2156426814",
+        "https://openalex.org/W2033402214",
+        "https://openalex.org/W145038029",
+        "https://openalex.org/W2071945239",
+        "https://openalex.org/W2963311973",
+        "https://openalex.org/W2922428687",
+        "https://openalex.org/W1982139883",
+        "https://openalex.org/W1968722346",
+        "https://openalex.org/W3003580795",
+        "https://openalex.org/W4249046827",
+        "https://openalex.org/W1509033271",
+        "https://openalex.org/W3039400575",
+        "https://openalex.org/W2105131247",
+        "https://openalex.org/W2073422405",
+        "https://openalex.org/W1984762618",
+        "https://openalex.org/W2564959017",
+        "https://openalex.org/W2510717660",
+        "https://openalex.org/W1985037772",
+        "https://openalex.org/W2793683090",
+        "https://openalex.org/W4211196861",
+        "https://openalex.org/W3204405876",
+        "https://openalex.org/W1973950856",
+        "https://openalex.org/W2025843255",
+        "https://openalex.org/W2022352949",
+        "https://openalex.org/W2013855261",
+        "https://openalex.org/W2031753087",
+        "https://openalex.org/W2947977784",
+        "https://openalex.org/W1974797828",
+        "https://openalex.org/W2156088880",
+        "https://openalex.org/W1983874169",
+        "https://openalex.org/W2053333723",
+        "https://openalex.org/W2004097100",
+        "https://openalex.org/W1595668191",
+        "https://openalex.org/W2928839578",
+        "https://openalex.org/W3098690120",
+        "https://openalex.org/W3043321917",
+        "https://openalex.org/W2605402017",
+        "https://openalex.org/W1984997594",
+        "https://openalex.org/W2137696066",
+        "https://openalex.org/W2057116804",
+        "https://openalex.org/W2071602085",
+        "https://openalex.org/W2094249936",
+        "https://openalex.org/W2003179717",
+        "https://openalex.org/W2036007974",
+        "https://openalex.org/W4293833212",
+        "https://openalex.org/W3151941575",
+        "https://openalex.org/W4299784281",
+        "https://openalex.org/W4255767226",
+        "https://openalex.org/W4253916951"
+      ],
+      "related_works": [
+        "https://openalex.org/W2393554192",
+        "https://openalex.org/W2359463116",
+        "https://openalex.org/W2362875760",
+        "https://openalex.org/W392422591",
+        "https://openalex.org/W1968527418",
+        "https://openalex.org/W2392518446",
+        "https://openalex.org/W2087134426",
+        "https://openalex.org/W2214518107",
+        "https://openalex.org/W2122637380",
+        "https://openalex.org/W2362127092"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "article": [
+          1
+        ],
+        "reveals": [
+          2
+        ],
+        "a": [
+          3,
+          54
+        ],
+        "specific": [
+          4
+        ],
+        "category": [
+          5
+        ],
+        "of": [
+          6,
+          62,
+          74
+        ],
+        "solutions": [
+          7,
+          19
+        ],
+        "for": [
+          8,
+          58
+        ],
+        "the": [
+          9,
+          59,
+          71,
+          75,
+          87
+        ],
+        "1+1": [
+          10
+        ],
+        "variable": [
+          11
+        ],
+        "order": [
+          12
+        ],
+        "(VO)": [
+          13
+        ],
+        "nonlinear": [
+          14
+        ],
+        "fractional": [
+          15
+        ],
+        "Fokker-Planck": [
+          16
+        ],
+        "equations.": [
+          17
+        ],
+        "These": [
+          18
+        ],
+        "are": [
+          20,
+          84
+        ],
+        "formulated": [
+          21
+        ],
+        "using": [
+          22
+        ],
+        "VO": [
+          23,
+          50
+        ],
+        "q-Gaussian": [
+          24,
+          51
+        ],
+        "functions,": [
+          25
+        ],
+        "granting": [
+          26
+        ],
+        "them": [
+          27
+        ],
+        "significant": [
+          28
+        ],
+        "versatility": [
+          29
+        ],
+        "in": [
+          30,
+          65,
+          91
+        ],
+        "their": [
+          31
+        ],
+        "application": [
+          32
+        ],
+        "to": [
+          33,
+          47
+        ],
+        "various": [
+          34
+        ],
+        "real-world": [
+          35,
+          66
+        ],
+        "systems,": [
+          36
+        ],
+        "such": [
+          37
+        ],
+        "as": [
+          38
+        ],
+        "financial": [
+          39
+        ],
+        "economy": [
+          40
+        ],
+        "areas": [
+          41
+        ],
+        "spanning": [
+          42
+        ],
+        "from": [
+          43,
+          80
+        ],
+        "conventional": [
+          44
+        ],
+        "stock": [
+          45
+        ],
+        "markets": [
+          46
+        ],
+        "cryptocurrencies.": [
+          48
+        ],
+        "The": [
+          49
+        ],
+        "functions": [
+          52
+        ],
+        "provide": [
+          53
+        ],
+        "more": [
+          55
+        ],
+        "robust": [
+          56
+        ],
+        "expression": [
+          57
+        ],
+        "distribution": [
+          60
+        ],
+        "function": [
+          61
+        ],
+        "price": [
+          63
+        ],
+        "returns": [
+          64
+        ],
+        "systems.": [
+          67
+        ],
+        "Additionally,": [
+          68
+        ],
+        "we": [
+          69
+        ],
+        "analyzed": [
+          70
+        ],
+        "temporal": [
+          72
+        ],
+        "evolution": [
+          73
+        ],
+        "anomalous": [
+          76
+        ],
+        "characteristic": [
+          77
+        ],
+        "exponents": [
+          78
+        ],
+        "derived": [
+          79
+        ],
+        "our": [
+          81
+        ],
+        "study,": [
+          82
+        ],
+        "which": [
+          83
+        ],
+        "associated": [
+          85
+        ],
+        "with": [
+          86
+        ],
+        "long-term": [
+          88
+        ],
+        "(power-law)": [
+          89
+        ],
+        "memory": [
+          90
+        ],
+        "time": [
+          92
+        ],
+        "series": [
+          93
+        ],
+        "data": [
+          94
+        ],
+        "and": [
+          95
+        ],
+        "autocorrelation": [
+          96
+        ],
+        "patterns.": [
+          97
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2024-02-22T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W2148379661",
       "doi": "https://doi.org/10.1103/physreve.71.051304",
       "title": "Role of anisotropy in the elastoplastic response of a polygonal packing",
@@ -8079,7 +9044,7 @@
       "has_fulltext": false,
       "cited_by_count": 146,
       "citation_normalized_percentile": {
-        "value": 0.99690585,
+        "value": 0.99692935,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -8631,10 +9596,10 @@
         "https://openalex.org/W2319332873",
         "https://openalex.org/W1963861296",
         "https://openalex.org/W2334779980",
-        "https://openalex.org/W2092924973",
         "https://openalex.org/W2144711843",
-        "https://openalex.org/W2058271774",
-        "https://openalex.org/W2041902442",
+        "https://openalex.org/W601206597",
+        "https://openalex.org/W1588835142",
+        "https://openalex.org/W2092924973",
         "https://openalex.org/W3100637966",
         "https://openalex.org/W3175579702",
         "https://openalex.org/W3099212525",
@@ -8642,8 +9607,8 @@
         "https://openalex.org/W4234347480",
         "https://openalex.org/W4211238133",
         "https://openalex.org/W2485090060",
-        "https://openalex.org/W601206597",
-        "https://openalex.org/W1588835142"
+        "https://openalex.org/W2058271774",
+        "https://openalex.org/W2041902442"
       ],
       "related_works": [
         "https://openalex.org/W2020909610",
@@ -9122,7 +10087,7 @@
       "has_fulltext": false,
       "cited_by_count": 126,
       "citation_normalized_percentile": {
-        "value": 0.99360039,
+        "value": 0.9936022,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -9552,9 +10517,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7200000286102295
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -9981,7 +10946,7 @@
       "has_fulltext": false,
       "cited_by_count": 104,
       "citation_normalized_percentile": {
-        "value": 0.92523481,
+        "value": 0.92465128,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10421,9 +11386,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.47999998927116394
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -10446,13 +11411,13 @@
         "https://openalex.org/W2059033119",
         "https://openalex.org/W2106140689",
         "https://openalex.org/W2143847498",
-        "https://openalex.org/W622972408",
-        "https://openalex.org/W399619942",
         "https://openalex.org/W4236709029",
+        "https://openalex.org/W399619942",
+        "https://openalex.org/W286897637",
         "https://openalex.org/W1636434241",
         "https://openalex.org/W1874531505",
-        "https://openalex.org/W286897637",
-        "https://openalex.org/W1589352600"
+        "https://openalex.org/W1589352600",
+        "https://openalex.org/W622972408"
       ],
       "related_works": [
         "https://openalex.org/W2363861645",
@@ -10994,7 +11959,7 @@
       "has_fulltext": false,
       "cited_by_count": 104,
       "citation_normalized_percentile": {
-        "value": 0.95532754,
+        "value": 0.95506428,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -11304,9 +12269,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5400000214576721,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.5400000214576721
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -11345,16 +12310,16 @@
         "https://openalex.org/W2052580135",
         "https://openalex.org/W2102652927",
         "https://openalex.org/W2078840329",
-        "https://openalex.org/W2006872095",
-        "https://openalex.org/W622972408",
-        "https://openalex.org/W4235252813",
-        "https://openalex.org/W2117840152",
-        "https://openalex.org/W1698701323",
         "https://openalex.org/W2131573942",
-        "https://openalex.org/W1636434241",
-        "https://openalex.org/W4236709029",
-        "https://openalex.org/W2999776842",
+        "https://openalex.org/W2117840152",
         "https://openalex.org/W399619942",
+        "https://openalex.org/W622972408",
+        "https://openalex.org/W1636434241",
+        "https://openalex.org/W1698701323",
+        "https://openalex.org/W2999776842",
+        "https://openalex.org/W4235252813",
+        "https://openalex.org/W4236709029",
+        "https://openalex.org/W2006872095",
         "https://openalex.org/W2107234242"
       ],
       "related_works": [
@@ -11683,7 +12648,7 @@
       "has_fulltext": false,
       "cited_by_count": 76,
       "citation_normalized_percentile": {
-        "value": 0.97501095,
+        "value": 0.9750463,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12164,9 +13129,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6200000047683716,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.6200000047683716
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -12637,7 +13602,7 @@
       "has_fulltext": false,
       "cited_by_count": 73,
       "citation_normalized_percentile": {
-        "value": 0.96190413,
+        "value": 0.96190667,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13014,9 +13979,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/16",
-          "display_name": "Peace, Justice and strong institutions",
-          "score": 0.7699999809265137
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -13046,9 +14011,9 @@
         "https://openalex.org/W1626112952",
         "https://openalex.org/W1534172507",
         "https://openalex.org/W1601684190",
-        "https://openalex.org/W1983075346",
         "https://openalex.org/W3100637966",
-        "https://openalex.org/W3102635493"
+        "https://openalex.org/W3102635493",
+        "https://openalex.org/W1983075346"
       ],
       "related_works": [
         "https://openalex.org/W4391375266",
@@ -13575,7 +14540,7 @@
       "has_fulltext": false,
       "cited_by_count": 69,
       "citation_normalized_percentile": {
-        "value": 0.98249349,
+        "value": 0.98247872,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13956,9 +14921,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7699999809265137
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -13997,23 +14962,23 @@
         "https://openalex.org/W4211238133",
         "https://openalex.org/W4230982142",
         "https://openalex.org/W4236709029",
-        "https://openalex.org/W2039879435",
-        "https://openalex.org/W2486133240",
         "https://openalex.org/W2122286418",
+        "https://openalex.org/W2010575009",
+        "https://openalex.org/W2018358483",
+        "https://openalex.org/W2039879435",
+        "https://openalex.org/W2084806390",
+        "https://openalex.org/W2060617486",
+        "https://openalex.org/W2078840329",
+        "https://openalex.org/W2486133240",
         "https://openalex.org/W2106140689",
         "https://openalex.org/W2106286182",
         "https://openalex.org/W2319973481",
         "https://openalex.org/W2151807147",
         "https://openalex.org/W2164741953",
         "https://openalex.org/W2259445200",
-        "https://openalex.org/W2010575009",
-        "https://openalex.org/W2018358483",
         "https://openalex.org/W622972408",
         "https://openalex.org/W1698701323",
-        "https://openalex.org/W399619942",
-        "https://openalex.org/W2084806390",
-        "https://openalex.org/W2060617486",
-        "https://openalex.org/W2078840329"
+        "https://openalex.org/W399619942"
       ],
       "related_works": [
         "https://openalex.org/W3023863392",
@@ -14754,7 +15719,7 @@
       "has_fulltext": false,
       "cited_by_count": 68,
       "citation_normalized_percentile": {
-        "value": 0.89856619,
+        "value": 0.89859918,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15218,9 +16183,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6600000262260437,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6600000262260437
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -15820,7 +16785,7 @@
       "has_fulltext": false,
       "cited_by_count": 67,
       "citation_normalized_percentile": {
-        "value": 0.98012132,
+        "value": 0.98010892,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16120,9 +17085,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7599999904632568
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -16166,20 +17131,20 @@
         "https://openalex.org/W1974563879",
         "https://openalex.org/W2888852757",
         "https://openalex.org/W2087019643",
-        "https://openalex.org/W1698701323",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W3109178810",
-        "https://openalex.org/W2971141138",
-        "https://openalex.org/W613456850",
-        "https://openalex.org/W2794833024",
-        "https://openalex.org/W2346924168",
         "https://openalex.org/W113831185",
+        "https://openalex.org/W2050661869",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W1698701323",
+        "https://openalex.org/W2346924168",
+        "https://openalex.org/W2794833024",
+        "https://openalex.org/W3109178810",
         "https://openalex.org/W2610361285",
+        "https://openalex.org/W3102635493",
         "https://openalex.org/W4211238133",
         "https://openalex.org/W4255158910",
-        "https://openalex.org/W2050661869",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W3102635493"
+        "https://openalex.org/W2971141138",
+        "https://openalex.org/W613456850"
       ],
       "related_works": [
         "https://openalex.org/W4380682190",
@@ -16923,7 +17888,7 @@
       "has_fulltext": false,
       "cited_by_count": 63,
       "citation_normalized_percentile": {
-        "value": 0.96126205,
+        "value": 0.96090415,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -17237,9 +18202,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.550000011920929,
           "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure",
-          "score": 0.550000011920929
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
@@ -18445,7 +19410,7 @@
       "has_fulltext": false,
       "cited_by_count": 57,
       "citation_normalized_percentile": {
-        "value": 0.98170256,
+        "value": 0.98167183,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -18882,20 +19847,20 @@
         "https://openalex.org/W2098272641",
         "https://openalex.org/W2085173924",
         "https://openalex.org/W1663051848",
-        "https://openalex.org/W2109765294",
-        "https://openalex.org/W2011878080",
-        "https://openalex.org/W3038698521",
-        "https://openalex.org/W3100637966",
-        "https://openalex.org/W1998889358",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W2508854309",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W1970765391",
-        "https://openalex.org/W2024903647",
         "https://openalex.org/W4301774837",
+        "https://openalex.org/W3038698521",
+        "https://openalex.org/W2508854309",
+        "https://openalex.org/W3100637966",
+        "https://openalex.org/W2573780072",
+        "https://openalex.org/W1998889358",
+        "https://openalex.org/W2011878080",
+        "https://openalex.org/W2024903647",
+        "https://openalex.org/W2041902442",
         "https://openalex.org/W113836369",
         "https://openalex.org/W1496258437",
-        "https://openalex.org/W2573780072"
+        "https://openalex.org/W2109765294",
+        "https://openalex.org/W1970765391"
       ],
       "related_works": [
         "https://openalex.org/W1971258795",
@@ -19122,7 +20087,7 @@
       "has_fulltext": true,
       "cited_by_count": 50,
       "citation_normalized_percentile": {
-        "value": 0.98164326,
+        "value": 0.98139274,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19545,12 +20510,12 @@
         "https://openalex.org/W2591852554",
         "https://openalex.org/W2094989728",
         "https://openalex.org/W1963865353",
-        "https://openalex.org/W2148729570",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W2041902442",
         "https://openalex.org/W2062284130",
-        "https://openalex.org/W2259445200",
-        "https://openalex.org/W1846489754"
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W1846489754",
+        "https://openalex.org/W2148729570",
+        "https://openalex.org/W2259445200"
       ],
       "related_works": [
         "https://openalex.org/W2124719200",
@@ -19564,431 +20529,7 @@
         "https://openalex.org/W2791967653",
         "https://openalex.org/W2030062515"
       ],
-      "abstract_inverted_index": {
-        "Dry": [
-          0
-        ],
-        "granular": [
-          1,
-          108
-        ],
-        "materials": [
-          2
-        ],
-        "in": [
-          3,
-          23,
-          144
-        ],
-        "a": [
-          4,
-          70,
-          158,
-          163
-        ],
-        "split-bottom": [
-          5
-        ],
-        "ring": [
-          6
-        ],
-        "shear": [
-          7,
-          12
-        ],
-        "cell": [
-          8
-        ],
-        "geometry": [
-          9
-        ],
-        "show": [
-          10
-        ],
-        "wide": [
-          11
-        ],
-        "bands": [
-          13
-        ],
-        "under": [
-          14
-        ],
-        "slow,": [
-          15
-        ],
-        "quasi-static,": [
-          16
-        ],
-        "large": [
-          17
-        ],
-        "deformation.": [
-          18
-        ],
-        "This": [
-          19
-        ],
-        "system": [
-          20,
-          87
-        ],
-        "is": [
-          21,
-          102,
-          134,
-          170
-        ],
-        "studied": [
-          22
-        ],
-        "the": [
-          24,
-          30,
-          39,
-          41,
-          45,
-          55,
-          63,
-          83,
-          86,
-          92,
-          120,
-          124,
-          128,
-          151
-        ],
-        "presence": [
-          25
-        ],
-        "of": [
-          26,
-          66,
-          85,
-          123,
-          154,
-          167
-        ],
-        "contact": [
-          27,
-          125,
-          132
-        ],
-        "adhesion,": [
-          28
-        ],
-        "using": [
-          29
-        ],
-        "discrete": [
-          31
-        ],
-        "element": [
-          32
-        ],
-        "method": [
-          33,
-          153
-        ],
-        "(DEM).": [
-          34
-        ],
-        "Several": [
-          35
-        ],
-        "continuum": [
-          36
-        ],
-        "fields": [
-          37
-        ],
-        "like": [
-          38
-        ],
-        "density,": [
-          40
-        ],
-        "deformation": [
-          42
-        ],
-        "gradient": [
-          43
-        ],
-        "and": [
-          44,
-          51,
-          77,
-          80,
-          110,
-          136,
-          141,
-          173,
-          177
-        ],
-        "stress": [
-          46,
-          95,
-          161
-        ],
-        "tensor": [
-          47
-        ],
-        "are": [
-          48,
-          52
-        ],
-        "computed": [
-          49
-        ],
-        "locally": [
-          50
-        ],
-        "analyzed": [
-          53
-        ],
-        "with": [
-          54,
-          112
-        ],
-        "goal": [
-          56
-        ],
-        "to": [
-          57,
-          104,
-          119,
-          146,
-          156
-        ],
-        "formulate": [
-          58
-        ],
-        "objective": [
-          59
-        ],
-        "constitutive": [
-          60
-        ],
-        "relations": [
-          61
-        ],
-        "for": [
-          62,
-          106,
-          116,
-          175
-        ],
-        "flow": [
-          64
-        ],
-        "behavior": [
-          65
-        ],
-        "cohesive": [
-          67
-        ],
-        "powders.": [
-          68,
-          149
-        ],
-        "From": [
-          69
-        ],
-        "single": [
-          71,
-          164
-        ],
-        "simulation": [
-          72
-        ],
-        "only,": [
-          73
-        ],
-        "by": [
-          74
-        ],
-        "applying": [
-          75
-        ],
-        "time-": [
-          76
-        ],
-        "(local)": [
-          78
-        ],
-        "space-averaging,": [
-          79
-        ],
-        "focusing": [
-          81
-        ],
-        "on": [
-          82,
-          127
-        ],
-        "regions": [
-          84
-        ],
-        "that": [
-          88
-        ],
-        "experienced": [
-          89
-        ],
-        "considerable": [
-          90
-        ],
-        "deformations,": [
-          91
-        ],
-        "critical-state": [
-          93,
-          159
-        ],
-        "yield": [
-          94,
-          160
-        ],
-        "(termination": [
-          96
-        ],
-        "locus)": [
-          97
-        ],
-        "can": [
-          98
-        ],
-        "be": [
-          99
-        ],
-        "obtained.": [
-          100
-        ],
-        "It": [
-          101
-        ],
-        "close": [
-          103
-        ],
-        "linear,": [
-          105
-        ],
-        "non-cohesive": [
-          107
-        ],
-        "materials,": [
-          109
-        ],
-        "nonlinear": [
-          111,
-          121
-        ],
-        "peculiar": [
-          113
-        ],
-        "pressure": [
-          114
-        ],
-        "dependence,": [
-          115
-        ],
-        "adhesive": [
-          117
-        ],
-        "powders—due": [
-          118
-        ],
-        "dependence": [
-          122
-        ],
-        "adhesion": [
-          126
-        ],
-        "confining": [
-          129
-        ],
-        "forces.": [
-          130
-        ],
-        "The": [
-          131
-        ],
-        "model": [
-          133
-        ],
-        "simplified": [
-          135
-        ],
-        "possibly": [
-          137
-        ],
-        "will": [
-          138
-        ],
-        "need": [
-          139
-        ],
-        "refinements": [
-          140
-        ],
-        "additional": [
-          142
-        ],
-        "effects": [
-          143
-        ],
-        "order": [
-          145
-        ],
-        "resemble": [
-          147
-        ],
-        "realistic": [
-          148
-        ],
-        "However,": [
-          150
-        ],
-        "promising": [
-          152
-        ],
-        "how": [
-          155
-        ],
-        "obtain": [
-          157
-        ],
-        "from": [
-          162
-        ],
-        "numerical": [
-          165
-        ],
-        "test": [
-          166
-        ],
-        "one": [
-          168
-        ],
-        "material": [
-          169
-        ],
-        "generally": [
-          171
-        ],
-        "applicable": [
-          172
-        ],
-        "waits": [
-          174
-        ],
-        "calibration": [
-          176
-        ],
-        "validation.": [
-          178
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2023,
@@ -20035,7 +20576,7 @@
           "cited_by_count": 6
         }
       ],
-      "updated_date": "2026-01-13T21:40:15.123406",
+      "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -20316,7 +20857,7 @@
       "has_fulltext": false,
       "cited_by_count": 41,
       "citation_normalized_percentile": {
-        "value": 0.93125254,
+        "value": 0.93127621,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -20661,9 +21202,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.5400000214576721,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.5400000214576721
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -20715,9 +21256,9 @@
         "https://openalex.org/W2052834627",
         "https://openalex.org/W2056164385",
         "https://openalex.org/W1639938422",
-        "https://openalex.org/W2338528392",
-        "https://openalex.org/W754124115",
         "https://openalex.org/W2203060172",
+        "https://openalex.org/W754124115",
+        "https://openalex.org/W2338528392",
         "https://openalex.org/W2917141187",
         "https://openalex.org/W4285719527",
         "https://openalex.org/W4229919863"
@@ -21463,7 +22004,7 @@
       "has_fulltext": false,
       "cited_by_count": 40,
       "citation_normalized_percentile": {
-        "value": 0.87531922,
+        "value": 0.87368705,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21741,9 +22282,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8299999833106995,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8299999833106995
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -21783,13 +22324,13 @@
         "https://openalex.org/W2058046601",
         "https://openalex.org/W1980681442",
         "https://openalex.org/W1974588168",
-        "https://openalex.org/W2911645444",
-        "https://openalex.org/W2066523264",
         "https://openalex.org/W4235105494",
+        "https://openalex.org/W2911645444",
+        "https://openalex.org/W1506538766",
         "https://openalex.org/W1579134009",
         "https://openalex.org/W2286775570",
         "https://openalex.org/W2040627727",
-        "https://openalex.org/W1506538766"
+        "https://openalex.org/W2066523264"
       ],
       "related_works": [
         "https://openalex.org/W2072288597",
@@ -22141,7 +22682,7 @@
       "has_fulltext": false,
       "cited_by_count": 38,
       "citation_normalized_percentile": {
-        "value": 0.95559376,
+        "value": 0.95401826,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -23222,7 +23763,7 @@
       "has_fulltext": true,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.92932274,
+        "value": 0.92844583,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -23698,9 +24239,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8799999952316284,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8799999952316284
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -23749,19 +24290,19 @@
         "https://openalex.org/W2070664191",
         "https://openalex.org/W2087334785",
         "https://openalex.org/W2078840329",
-        "https://openalex.org/W648814226",
-        "https://openalex.org/W1527786550",
+        "https://openalex.org/W2188424859",
+        "https://openalex.org/W1932651143",
         "https://openalex.org/W4236709029",
         "https://openalex.org/W2983253721",
-        "https://openalex.org/W622972408",
         "https://openalex.org/W2949942402",
-        "https://openalex.org/W2158583770",
         "https://openalex.org/W4229748564",
-        "https://openalex.org/W1993608133",
         "https://openalex.org/W3101899695",
-        "https://openalex.org/W1932651143",
-        "https://openalex.org/W2188424859",
-        "https://openalex.org/W2074042643"
+        "https://openalex.org/W1527786550",
+        "https://openalex.org/W2158583770",
+        "https://openalex.org/W1993608133",
+        "https://openalex.org/W2074042643",
+        "https://openalex.org/W622972408",
+        "https://openalex.org/W648814226"
       ],
       "related_works": [
         "https://openalex.org/W2072691113",
@@ -24182,7 +24723,7 @@
       "has_fulltext": false,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.75048613,
+        "value": 0.74399352,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24546,9 +25087,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.6899999976158142
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -24619,9 +25160,9 @@
         "https://openalex.org/W2899450695",
         "https://openalex.org/W2948347429",
         "https://openalex.org/W2533394427",
-        "https://openalex.org/W2810715139",
-        "https://openalex.org/W2802466929",
         "https://openalex.org/W1137713420",
+        "https://openalex.org/W2802466929",
+        "https://openalex.org/W2810715139",
         "https://openalex.org/W2050443492"
       ],
       "related_works": [
@@ -24814,7 +25355,7 @@
       "has_fulltext": false,
       "cited_by_count": 24,
       "citation_normalized_percentile": {
-        "value": 0.83861412,
+        "value": 0.83323737,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25269,7 +25810,7 @@
       "has_fulltext": false,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.74433599,
+        "value": 0.74073212,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25618,12 +26159,12 @@
         "https://openalex.org/W2014147671",
         "https://openalex.org/W2018408460",
         "https://openalex.org/W381379432",
-        "https://openalex.org/W620238889",
-        "https://openalex.org/W601206597",
-        "https://openalex.org/W4243880111",
-        "https://openalex.org/W2405495999",
         "https://openalex.org/W597493179",
-        "https://openalex.org/W1982261166"
+        "https://openalex.org/W601206597",
+        "https://openalex.org/W620238889",
+        "https://openalex.org/W1982261166",
+        "https://openalex.org/W4243880111",
+        "https://openalex.org/W2405495999"
       ],
       "related_works": [
         "https://openalex.org/W3159588010",
@@ -25882,7 +26423,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.89405657,
+        "value": 0.89409024,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26347,9 +26888,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8100000023841858,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8100000023841858
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -26415,13 +26956,13 @@
         "https://openalex.org/W2067076712",
         "https://openalex.org/W2031520416",
         "https://openalex.org/W2007490108",
-        "https://openalex.org/W2066293147",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2095548376",
         "https://openalex.org/W194138633",
         "https://openalex.org/W122213848",
         "https://openalex.org/W106808929",
         "https://openalex.org/W1578771575",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2066293147",
+        "https://openalex.org/W2095548376",
         "https://openalex.org/W2158255304"
       ],
       "related_works": [
@@ -26661,7 +27202,7 @@
       "has_fulltext": false,
       "cited_by_count": 35,
       "citation_normalized_percentile": {
-        "value": 0.88420133,
+        "value": 0.88327718,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27054,24 +27595,24 @@
         "https://openalex.org/W2135338602",
         "https://openalex.org/W2060784511",
         "https://openalex.org/W2165009431",
-        "https://openalex.org/W126362881",
-        "https://openalex.org/W4236709029",
-        "https://openalex.org/W2144711843",
-        "https://openalex.org/W4252224394",
-        "https://openalex.org/W1698701323",
-        "https://openalex.org/W622972408",
-        "https://openalex.org/W29010912",
+        "https://openalex.org/W4205380404",
         "https://openalex.org/W2741635935",
-        "https://openalex.org/W3018210181",
-        "https://openalex.org/W3100410821",
-        "https://openalex.org/W1562163328",
-        "https://openalex.org/W564377794",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W2470105692",
         "https://openalex.org/W2969463290",
-        "https://openalex.org/W2085006859",
+        "https://openalex.org/W2470105692",
+        "https://openalex.org/W3100410821",
+        "https://openalex.org/W3018210181",
+        "https://openalex.org/W4236709029",
+        "https://openalex.org/W4252224394",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W4205380404"
+        "https://openalex.org/W1698701323",
+        "https://openalex.org/W1562163328",
+        "https://openalex.org/W622972408",
+        "https://openalex.org/W564377794",
+        "https://openalex.org/W126362881",
+        "https://openalex.org/W29010912",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W2144711843",
+        "https://openalex.org/W2085006859"
       ],
       "related_works": [
         "https://openalex.org/W4387497383",
@@ -27354,7 +27895,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.98154667,
+        "value": 0.98154193,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -27738,8 +28279,8 @@
         "https://openalex.org/W2085173924",
         "https://openalex.org/W1964926767",
         "https://openalex.org/W2807248814",
-        "https://openalex.org/W2115649828",
-        "https://openalex.org/W2610361285"
+        "https://openalex.org/W2610361285",
+        "https://openalex.org/W2115649828"
       ],
       "related_works": [
         "https://openalex.org/W3124004526",
@@ -28045,7 +28586,7 @@
       "has_fulltext": false,
       "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.85635988,
+        "value": 0.85638243,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28387,9 +28928,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/1",
-          "display_name": "No poverty",
-          "score": 0.7400000095367432
+          "display_name": "No poverty"
         }
       ],
       "awards": [
@@ -28436,10 +28977,10 @@
         "https://openalex.org/W2808737967",
         "https://openalex.org/W1873431535",
         "https://openalex.org/W2278678287",
+        "https://openalex.org/W3106438639",
         "https://openalex.org/W1631508188",
         "https://openalex.org/W239055887",
-        "https://openalex.org/W1601036473",
-        "https://openalex.org/W3106438639"
+        "https://openalex.org/W1601036473"
       ],
       "related_works": [
         "https://openalex.org/W2547468940",
@@ -28941,7 +29482,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.93389913,
+        "value": 0.93405297,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -29376,9 +29917,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/1",
-          "display_name": "No poverty",
-          "score": 0.6100000143051147
+          "display_name": "No poverty"
         }
       ],
       "awards": [
@@ -29430,15 +29971,15 @@
         "https://openalex.org/W2078345188",
         "https://openalex.org/W1489293997",
         "https://openalex.org/W2254476522",
-        "https://openalex.org/W3094381122",
-        "https://openalex.org/W4255383141",
-        "https://openalex.org/W1674341355",
-        "https://openalex.org/W3118338288",
         "https://openalex.org/W2502972556",
-        "https://openalex.org/W3103939335",
         "https://openalex.org/W3092222771",
+        "https://openalex.org/W3013308762",
+        "https://openalex.org/W3094381122",
+        "https://openalex.org/W3103939335",
+        "https://openalex.org/W3118338288",
         "https://openalex.org/W3123051895",
-        "https://openalex.org/W3013308762"
+        "https://openalex.org/W4255383141",
+        "https://openalex.org/W1674341355"
       ],
       "related_works": [
         "https://openalex.org/W1997578433",
@@ -29738,7 +30279,7 @@
       "has_fulltext": false,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.95946006,
+        "value": 0.95941977,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -30110,10 +30651,10 @@
         "https://openalex.org/W1980090051",
         "https://openalex.org/W1982904753",
         "https://openalex.org/W2097914940",
-        "https://openalex.org/W286897637",
         "https://openalex.org/W2021544026",
         "https://openalex.org/W622972408",
-        "https://openalex.org/W595147118"
+        "https://openalex.org/W595147118",
+        "https://openalex.org/W286897637"
       ],
       "related_works": [
         "https://openalex.org/W3023863392",
@@ -30350,7 +30891,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.8714418,
+        "value": 0.86974717,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30704,9 +31245,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.800000011920929,
           "id": "https://metadata.un.org/sdg/16",
-          "display_name": "Peace, Justice and strong institutions",
-          "score": 0.800000011920929
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -30728,11 +31269,11 @@
       },
       "referenced_works_count": 5,
       "referenced_works": [
-        "https://openalex.org/W2295862081",
         "https://openalex.org/W622972408",
+        "https://openalex.org/W1993608133",
         "https://openalex.org/W1932651143",
         "https://openalex.org/W2087334785",
-        "https://openalex.org/W1993608133"
+        "https://openalex.org/W2295862081"
       ],
       "related_works": [
         "https://openalex.org/W1963859303",
@@ -31394,7 +31935,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.87522253,
+        "value": 0.87364549,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31804,26 +32345,26 @@
         "https://openalex.org/W2136774414",
         "https://openalex.org/W2103484453",
         "https://openalex.org/W1993609416",
-        "https://openalex.org/W3022549607",
-        "https://openalex.org/W4292483811",
-        "https://openalex.org/W2913237648",
         "https://openalex.org/W1482886841",
-        "https://openalex.org/W639519915",
-        "https://openalex.org/W2969782567",
-        "https://openalex.org/W1499969990",
-        "https://openalex.org/W1578254027",
-        "https://openalex.org/W1534803028",
-        "https://openalex.org/W3102192856",
-        "https://openalex.org/W4302386442",
-        "https://openalex.org/W634268569",
-        "https://openalex.org/W2041173212",
-        "https://openalex.org/W2503619932",
-        "https://openalex.org/W2138079618",
-        "https://openalex.org/W3022089254",
-        "https://openalex.org/W3108159103",
-        "https://openalex.org/W2489540272",
         "https://openalex.org/W1797362001",
-        "https://openalex.org/W1651832595"
+        "https://openalex.org/W639519915",
+        "https://openalex.org/W1651832595",
+        "https://openalex.org/W3102192856",
+        "https://openalex.org/W3108159103",
+        "https://openalex.org/W3022089254",
+        "https://openalex.org/W2969782567",
+        "https://openalex.org/W3022549607",
+        "https://openalex.org/W634268569",
+        "https://openalex.org/W1578254027",
+        "https://openalex.org/W1499969990",
+        "https://openalex.org/W1534803028",
+        "https://openalex.org/W2489540272",
+        "https://openalex.org/W2503619932",
+        "https://openalex.org/W2913237648",
+        "https://openalex.org/W2138079618",
+        "https://openalex.org/W2041173212",
+        "https://openalex.org/W4292483811",
+        "https://openalex.org/W4302386442"
       ],
       "related_works": [
         "https://openalex.org/W4321505114",
@@ -32080,7 +32621,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.63697558,
+        "value": 0.63687122,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -32573,24 +33114,24 @@
         "https://openalex.org/W2036007974",
         "https://openalex.org/W2067255019",
         "https://openalex.org/W2065284654",
-        "https://openalex.org/W2556028656",
-        "https://openalex.org/W239055887",
-        "https://openalex.org/W1584611818",
-        "https://openalex.org/W1696729955",
-        "https://openalex.org/W3022549607",
-        "https://openalex.org/W2773838778",
         "https://openalex.org/W3122829276",
         "https://openalex.org/W3137950582",
         "https://openalex.org/W3151941575",
         "https://openalex.org/W3099006668",
+        "https://openalex.org/W2134604477",
+        "https://openalex.org/W2773838778",
+        "https://openalex.org/W4239731027",
         "https://openalex.org/W1553338987",
         "https://openalex.org/W1822373189",
-        "https://openalex.org/W2134604477",
         "https://openalex.org/W2482200903",
         "https://openalex.org/W2376008888",
+        "https://openalex.org/W3022549607",
+        "https://openalex.org/W2300974746",
+        "https://openalex.org/W239055887",
+        "https://openalex.org/W1584611818",
+        "https://openalex.org/W1696729955",
         "https://openalex.org/W1931704086",
-        "https://openalex.org/W4239731027",
-        "https://openalex.org/W2300974746"
+        "https://openalex.org/W2556028656"
       ],
       "related_works": [
         "https://openalex.org/W2528667048",
@@ -33337,7 +33878,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.73377261,
+        "value": 0.72028513,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33709,9 +34250,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.6299999952316284
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -33805,11 +34346,11 @@
         "https://openalex.org/W2156552284",
         "https://openalex.org/W1998292935",
         "https://openalex.org/W2034285706",
-        "https://openalex.org/W2160201434",
-        "https://openalex.org/W3006211509",
         "https://openalex.org/W2278036976",
         "https://openalex.org/W3134975885",
-        "https://openalex.org/W2883502900"
+        "https://openalex.org/W2883502900",
+        "https://openalex.org/W3006211509",
+        "https://openalex.org/W2160201434"
       ],
       "related_works": [
         "https://openalex.org/W3009367146",
@@ -34540,7 +35081,7 @@
       "has_fulltext": false,
       "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.88916005,
+        "value": 0.88779927,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -34924,7 +35465,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-13T21:40:15.123406",
+      "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -35053,7 +35594,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.98273921,
+        "value": 0.98275216,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -35483,9 +36024,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.75
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -35536,30 +36077,30 @@
         "https://openalex.org/W2055166044",
         "https://openalex.org/W229669324",
         "https://openalex.org/W2486014481",
-        "https://openalex.org/W564377794",
-        "https://openalex.org/W2317525227",
-        "https://openalex.org/W2506808205",
-        "https://openalex.org/W601206597",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W2054621372",
         "https://openalex.org/W2060957249",
         "https://openalex.org/W40608102",
-        "https://openalex.org/W2054621372",
-        "https://openalex.org/W2213644168",
-        "https://openalex.org/W1595335523",
-        "https://openalex.org/W2954292082",
-        "https://openalex.org/W3018210181",
-        "https://openalex.org/W2105518356",
-        "https://openalex.org/W2092924973",
-        "https://openalex.org/W2025544821",
-        "https://openalex.org/W2156832447",
-        "https://openalex.org/W214013630",
-        "https://openalex.org/W2019175602",
-        "https://openalex.org/W262208942",
-        "https://openalex.org/W2144711843",
-        "https://openalex.org/W1562163328",
         "https://openalex.org/W567955777",
-        "https://openalex.org/W2041902442",
+        "https://openalex.org/W262208942",
+        "https://openalex.org/W564377794",
+        "https://openalex.org/W214013630",
+        "https://openalex.org/W1595335523",
+        "https://openalex.org/W1562163328",
+        "https://openalex.org/W601206597",
+        "https://openalex.org/W2317525227",
+        "https://openalex.org/W2213644168",
+        "https://openalex.org/W2019175602",
+        "https://openalex.org/W2025544821",
+        "https://openalex.org/W2092924973",
+        "https://openalex.org/W2144711843",
+        "https://openalex.org/W2156832447",
+        "https://openalex.org/W2542062312",
+        "https://openalex.org/W3018210181",
+        "https://openalex.org/W2954292082",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W2542062312"
+        "https://openalex.org/W2506808205",
+        "https://openalex.org/W2105518356"
       ],
       "related_works": [
         "https://openalex.org/W3023863392",
@@ -35575,10 +36116,6 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [
-        {
-          "year": 2022,
-          "cited_by_count": 1
-        },
         {
           "year": 2021,
           "cited_by_count": 1
@@ -35597,7 +36134,7 @@
         },
         {
           "year": 2014,
-          "cited_by_count": 1
+          "cited_by_count": 2
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
@@ -35754,7 +36291,7 @@
       "has_fulltext": false,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.92639843,
+        "value": 0.92640267,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -36225,9 +36762,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7599999904632568
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -36277,11 +36814,11 @@
         "https://openalex.org/W2055166044",
         "https://openalex.org/W229669324",
         "https://openalex.org/W2486014481",
+        "https://openalex.org/W601206597",
         "https://openalex.org/W3018210181",
-        "https://openalex.org/W4252224394",
-        "https://openalex.org/W4247284649",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W601206597"
+        "https://openalex.org/W4252224394",
+        "https://openalex.org/W4247284649"
       ],
       "related_works": [
         "https://openalex.org/W3023863392",
@@ -36571,7 +37108,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.86068483,
+        "value": 0.8585467,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37049,8 +37586,8 @@
         "https://openalex.org/W2070993170",
         "https://openalex.org/W2230153062",
         "https://openalex.org/W2085173924",
-        "https://openalex.org/W3146850446",
-        "https://openalex.org/W2610361285"
+        "https://openalex.org/W2610361285",
+        "https://openalex.org/W3146850446"
       ],
       "related_works": [
         "https://openalex.org/W2377717744",
@@ -37481,7 +38018,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.83116727,
+        "value": 0.82877347,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37858,9 +38395,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5199999809265137,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.5199999809265137
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -37933,16 +38470,16 @@
         "https://openalex.org/W4250981202",
         "https://openalex.org/W2060538952",
         "https://openalex.org/W2152454959",
-        "https://openalex.org/W3102641601",
-        "https://openalex.org/W3103153287",
+        "https://openalex.org/W1971259318",
         "https://openalex.org/W2111388623",
         "https://openalex.org/W2097123058",
+        "https://openalex.org/W2295862081",
         "https://openalex.org/W349478044",
         "https://openalex.org/W622054917",
-        "https://openalex.org/W1971259318",
         "https://openalex.org/W1555441753",
-        "https://openalex.org/W3117341567",
-        "https://openalex.org/W2295862081"
+        "https://openalex.org/W3103153287",
+        "https://openalex.org/W3102641601",
+        "https://openalex.org/W3117341567"
       ],
       "related_works": [
         "https://openalex.org/W2523330964",
@@ -38203,7 +38740,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.69489024,
+        "value": 0.6949871,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -38745,17 +39282,17 @@
         "https://openalex.org/W2031046906",
         "https://openalex.org/W2027184748",
         "https://openalex.org/W4237351959",
-        "https://openalex.org/W4205295188",
-        "https://openalex.org/W3143536790",
+        "https://openalex.org/W4246756383",
+        "https://openalex.org/W4301734701",
+        "https://openalex.org/W4300223101",
         "https://openalex.org/W4230818032",
-        "https://openalex.org/W2129889116",
         "https://openalex.org/W623556437",
         "https://openalex.org/W603226872",
         "https://openalex.org/W1214703565",
         "https://openalex.org/W1547666981",
-        "https://openalex.org/W4246756383",
-        "https://openalex.org/W4301734701",
-        "https://openalex.org/W4300223101"
+        "https://openalex.org/W4205295188",
+        "https://openalex.org/W3143536790",
+        "https://openalex.org/W2129889116"
       ],
       "related_works": [
         "https://openalex.org/W3104725479",
@@ -39438,7 +39975,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.85147321,
+        "value": 0.85148532,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -39583,9 +40120,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7400000095367432
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -39596,8 +40133,8 @@
       },
       "referenced_works_count": 6,
       "referenced_works": [
-        "https://openalex.org/W2181313453",
         "https://openalex.org/W1698701323",
+        "https://openalex.org/W2181313453",
         "https://openalex.org/W2045587889",
         "https://openalex.org/W613456850",
         "https://openalex.org/W113831185",
@@ -39917,7 +40454,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-01-13T21:40:15.123406",
+      "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -40073,7 +40610,7 @@
       "has_fulltext": true,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.69846567,
+        "value": 0.6941813,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40563,12 +41100,12 @@
         "https://openalex.org/W2095605225",
         "https://openalex.org/W4239880762",
         "https://openalex.org/W2047325484",
-        "https://openalex.org/W3102641601",
-        "https://openalex.org/W3099425921",
-        "https://openalex.org/W3104598783",
         "https://openalex.org/W626811621",
-        "https://openalex.org/W3102612409",
-        "https://openalex.org/W3103709541"
+        "https://openalex.org/W3104598783",
+        "https://openalex.org/W3102641601",
+        "https://openalex.org/W3103709541",
+        "https://openalex.org/W3099425921",
+        "https://openalex.org/W3102612409"
       ],
       "related_works": [
         "https://openalex.org/W2341984281",
@@ -41118,7 +41655,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.61714357,
+        "value": 0.60102795,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41440,9 +41977,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/1",
-          "display_name": "No poverty",
-          "score": 0.6299999952316284
+          "display_name": "No poverty"
         }
       ],
       "awards": [],
@@ -42271,7 +42808,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.72239123,
+        "value": 0.71953528,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -42647,9 +43184,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8399999737739563
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -42701,16 +43238,16 @@
         "https://openalex.org/W2893878071",
         "https://openalex.org/W2771733934",
         "https://openalex.org/W2020744475",
+        "https://openalex.org/W2191822007",
         "https://openalex.org/W2014332302",
-        "https://openalex.org/W1996965608",
-        "https://openalex.org/W1987576086",
-        "https://openalex.org/W2730024858",
         "https://openalex.org/W2045852419",
-        "https://openalex.org/W2945128587",
+        "https://openalex.org/W2742843415",
+        "https://openalex.org/W2730024858",
         "https://openalex.org/W1978813277",
         "https://openalex.org/W2576795074",
-        "https://openalex.org/W2742843415",
-        "https://openalex.org/W2191822007"
+        "https://openalex.org/W2945128587",
+        "https://openalex.org/W1996965608",
+        "https://openalex.org/W1987576086"
       ],
       "related_works": [
         "https://openalex.org/W4319763421",
@@ -43073,7 +43610,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.11878312,
+        "value": 0.11880747,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -43374,9 +43911,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6800000071525574,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6800000071525574
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -43843,7 +44380,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.61108196,
+        "value": 0.61010107,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44124,9 +44661,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.4699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -44152,8 +44689,8 @@
         "https://openalex.org/W2030322991",
         "https://openalex.org/W1981822378",
         "https://openalex.org/W2131615812",
-        "https://openalex.org/W2280265466",
-        "https://openalex.org/W3010529582"
+        "https://openalex.org/W3010529582",
+        "https://openalex.org/W2280265466"
       ],
       "related_works": [
         "https://openalex.org/W3045203338",
@@ -44633,7 +45170,7 @@
       "has_fulltext": false,
       "cited_by_count": 33,
       "citation_normalized_percentile": {
-        "value": 0.94310698,
+        "value": 0.94307831,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -45131,9 +45668,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.7400000095367432
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -45183,14 +45720,14 @@
         "https://openalex.org/W2047586930",
         "https://openalex.org/W2076251693",
         "https://openalex.org/W1972030330",
-        "https://openalex.org/W2041902442",
         "https://openalex.org/W3175579702",
+        "https://openalex.org/W2041902442",
         "https://openalex.org/W2725327967",
         "https://openalex.org/W2470105692",
-        "https://openalex.org/W648814226",
-        "https://openalex.org/W601206597",
         "https://openalex.org/W4234347480",
-        "https://openalex.org/W4240711175"
+        "https://openalex.org/W4240711175",
+        "https://openalex.org/W648814226",
+        "https://openalex.org/W601206597"
       ],
       "related_works": [
         "https://openalex.org/W3095363060",
@@ -45769,7 +46306,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.90973631,
+        "value": 0.91001011,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -46266,7 +46803,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.89343231,
+        "value": 0.89340271,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -46607,9 +47144,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -47449,7 +47986,7 @@
       "has_fulltext": true,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.73701778,
+        "value": 0.73829708,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -47680,9 +48217,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.4000000059604645,
           "id": "https://metadata.un.org/sdg/5",
-          "display_name": "Gender equality",
-          "score": 0.4000000059604645
+          "display_name": "Gender equality"
         }
       ],
       "awards": [],
@@ -47702,19 +48239,19 @@
         "https://openalex.org/W2026715042",
         "https://openalex.org/W1978979105",
         "https://openalex.org/W2046004405",
-        "https://openalex.org/W1967587442",
-        "https://openalex.org/W2781286687",
-        "https://openalex.org/W2022320127",
-        "https://openalex.org/W3013186336",
-        "https://openalex.org/W2020117540",
-        "https://openalex.org/W2162873390",
         "https://openalex.org/W2044634392",
-        "https://openalex.org/W2018781213",
+        "https://openalex.org/W1971942537",
+        "https://openalex.org/W1967587442",
+        "https://openalex.org/W1970391398",
+        "https://openalex.org/W2162873390",
+        "https://openalex.org/W2781286687",
+        "https://openalex.org/W3013186336",
         "https://openalex.org/W4234497319",
         "https://openalex.org/W2000371019",
-        "https://openalex.org/W1971942537",
         "https://openalex.org/W2033988167",
-        "https://openalex.org/W1970391398"
+        "https://openalex.org/W2020117540",
+        "https://openalex.org/W2018781213",
+        "https://openalex.org/W2022320127"
       ],
       "related_works": [
         "https://openalex.org/W3036314732",
@@ -48104,7 +48641,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.8578263,
+        "value": 0.85791491,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -48372,11 +48909,11 @@
         "https://openalex.org/W2055166044",
         "https://openalex.org/W229669324",
         "https://openalex.org/W2486014481",
-        "https://openalex.org/W3018210181",
-        "https://openalex.org/W4234347480",
-        "https://openalex.org/W2092924973",
         "https://openalex.org/W4252224394",
-        "https://openalex.org/W601206597"
+        "https://openalex.org/W4234347480",
+        "https://openalex.org/W601206597",
+        "https://openalex.org/W2092924973",
+        "https://openalex.org/W3018210181"
       ],
       "related_works": [
         "https://openalex.org/W1979597421",
@@ -48574,7 +49111,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.91082172,
+        "value": 0.91093504,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -48947,9 +49484,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.4699999988079071
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -48960,30 +49497,30 @@
       },
       "referenced_works_count": 24,
       "referenced_works": [
-        "https://openalex.org/W2045264569",
-        "https://openalex.org/W2148379661",
         "https://openalex.org/W2025544821",
+        "https://openalex.org/W2016322370",
+        "https://openalex.org/W2017521596",
+        "https://openalex.org/W2021342927",
+        "https://openalex.org/W2138956889",
+        "https://openalex.org/W2499386125",
+        "https://openalex.org/W2148379661",
+        "https://openalex.org/W2156281587",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W2032907206",
+        "https://openalex.org/W2092924973",
+        "https://openalex.org/W2107234242",
         "https://openalex.org/W2971141138",
         "https://openalex.org/W2069530996",
         "https://openalex.org/W2081213310",
-        "https://openalex.org/W2021342927",
-        "https://openalex.org/W622972408",
-        "https://openalex.org/W2063609027",
-        "https://openalex.org/W1982904753",
-        "https://openalex.org/W2032907206",
-        "https://openalex.org/W2017521596",
         "https://openalex.org/W2073775990",
-        "https://openalex.org/W2092924973",
-        "https://openalex.org/W2499386125",
-        "https://openalex.org/W2047380783",
         "https://openalex.org/W2084956421",
-        "https://openalex.org/W2138956889",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W1990776114",
-        "https://openalex.org/W2107234242",
         "https://openalex.org/W2066091202",
-        "https://openalex.org/W2156281587",
-        "https://openalex.org/W2016322370"
+        "https://openalex.org/W2063609027",
+        "https://openalex.org/W622972408",
+        "https://openalex.org/W2047380783",
+        "https://openalex.org/W2045264569",
+        "https://openalex.org/W1990776114",
+        "https://openalex.org/W1982904753"
       ],
       "related_works": [
         "https://openalex.org/W2146717036",
@@ -49482,7 +50019,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.06396479,
+        "value": 0.06433389,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -49950,9 +50487,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5699999928474426,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.5699999928474426
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -49964,8 +50501,8 @@
       "referenced_works_count": 3,
       "referenced_works": [
         "https://openalex.org/W399619942",
-        "https://openalex.org/W2102945481",
-        "https://openalex.org/W2952101000"
+        "https://openalex.org/W2952101000",
+        "https://openalex.org/W2102945481"
       ],
       "related_works": [
         "https://openalex.org/W1987223552",
@@ -50759,7 +51296,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.77852797,
+        "value": 0.77836578,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51037,9 +51574,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.75
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -51710,7 +52247,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.73778285,
+        "value": 0.73798214,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -52055,9 +52592,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.47999998927116394
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -52817,7 +53354,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.70673114,
+        "value": 0.70660916,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -53160,9 +53697,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.5299999713897705
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -53765,7 +54302,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.69340872,
+        "value": 0.69337254,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -54176,8 +54713,8 @@
         "https://openalex.org/W1722987781",
         "https://openalex.org/W7037132150",
         "https://openalex.org/W1995117964",
-        "https://openalex.org/W2097779608",
-        "https://openalex.org/W2086982785"
+        "https://openalex.org/W2086982785",
+        "https://openalex.org/W2097779608"
       ],
       "related_works": [
         "https://openalex.org/W4234110440",
@@ -54464,963 +55001,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4392004763",
-      "doi": "https://doi.org/10.1103/physreve.109.024310",
-      "title": "Variable-order porous media equations: Application on modeling the S&amp;P500 and Bitcoin price return",
-      "display_name": "Variable-order porous media equations: Application on modeling the S&amp;P500 and Bitcoin price return",
-      "publication_year": 2024,
-      "publication_date": "2024-02-21",
-      "ids": {
-        "openalex": "https://openalex.org/W4392004763",
-        "doi": "https://doi.org/10.1103/physreve.109.024310",
-        "pmid": "https://pubmed.ncbi.nlm.nih.gov/38491659"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1103/physreve.109.024310",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1103/physreve.109.024310",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4210235286",
-          "display_name": "Physical review. E",
-          "issn_l": "2470-0045",
-          "issn": [
-            "2470-0045",
-            "2470-0053",
-            "2470-0061"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320261",
-          "host_organization_name": "American Physical Society",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320261"
-          ],
-          "host_organization_lineage_names": [
-            "American Physical Society"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Physical Review E",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref",
-        "pubmed"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5082717067",
-            "display_name": "Yaoyue Tang",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
-              "ror": "https://ror.org/0384j8v12",
-              "country_code": "AU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I129604602"
-              ]
-            }
-          ],
-          "countries": [
-            "AU"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Yaoyue Tang",
-          "raw_affiliation_strings": [
-            "Modelling and Simulation Research Group, The University of Sydney, Sydney NSW 2006, Australia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Modelling and Simulation Research Group, The University of Sydney, Sydney NSW 2006, Australia",
-              "institution_ids": [
-                "https://openalex.org/I129604602"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5014812079",
-            "display_name": "Fatemeh Gharari",
-            "orcid": "https://orcid.org/0000-0001-5323-3770"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I72341708",
-              "display_name": "University of Mohaghegh Ardabili",
-              "ror": "https://ror.org/045zrcm98",
-              "country_code": "IR",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I72341708"
-              ]
-            }
-          ],
-          "countries": [
-            "IR"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Fatemeh Gharari",
-          "raw_affiliation_strings": [
-            "Department of Statistics and Computer Science, University of Mohaghegh Ardabili, Ardabil 56199, Iran"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Statistics and Computer Science, University of Mohaghegh Ardabili, Ardabil 56199, Iran",
-              "institution_ids": [
-                "https://openalex.org/I72341708"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5050408679",
-            "display_name": "Karina Arias-Calluari",
-            "orcid": "https://orcid.org/0000-0001-6013-5490"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
-              "ror": "https://ror.org/0384j8v12",
-              "country_code": "AU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I129604602"
-              ]
-            }
-          ],
-          "countries": [
-            "AU"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Karina Arias-Calluari",
-          "raw_affiliation_strings": [
-            "School of Mathematics and Statistics, The University of Sydney, Sydney NSW 2006, Australia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "School of Mathematics and Statistics, The University of Sydney, Sydney NSW 2006, Australia",
-              "institution_ids": [
-                "https://openalex.org/I129604602"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5068641652",
-            "display_name": "Fernando Alonso-Marroquín",
-            "orcid": "https://orcid.org/0000-0001-9051-6120"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Fernando Alonso-Marroquin",
-          "raw_affiliation_strings": [
-            "CIPR, King Fahd University of Petroleum and Minerals, Dhahran 31261, Kingdom of Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "CIPR, King Fahd University of Petroleum and Minerals, Dhahran 31261, Kingdom of Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5021019538",
-            "display_name": "M. N. Najafi",
-            "orcid": "https://orcid.org/0000-0001-8949-6855"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I72341708",
-              "display_name": "University of Mohaghegh Ardabili",
-              "ror": "https://ror.org/045zrcm98",
-              "country_code": "IR",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I72341708"
-              ]
-            },
-            {
-              "id": "https://openalex.org/I110152177",
-              "display_name": "University of Akron",
-              "ror": "https://ror.org/02kyckx55",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I110152177"
-              ]
-            }
-          ],
-          "countries": [
-            "IR",
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "M. N. Najafi",
-          "raw_affiliation_strings": [
-            "Department of Mechanical Engineering, University of Akron, Akron, Ohio 44325, USA",
-            "Department of Physics, University of Mohaghegh Ardabili, P.O. Box 179, Ardabil 11367, Iran"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Mechanical Engineering, University of Akron, Akron, Ohio 44325, USA",
-              "institution_ids": [
-                "https://openalex.org/I110152177"
-              ]
-            },
-            {
-              "raw_affiliation_string": "Department of Physics, University of Mohaghegh Ardabili, P.O. Box 179, Ardabil 11367, Iran",
-              "institution_ids": [
-                "https://openalex.org/I72341708"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 4,
-      "institutions_distinct_count": 5,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5082717067"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I129604602"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 1.99935161,
-      "has_fulltext": false,
-      "cited_by_count": 2,
-      "citation_normalized_percentile": {
-        "value": 0.89802279,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 95,
-        "max": 96
-      },
-      "biblio": {
-        "volume": "109",
-        "issue": "2",
-        "first_page": "024310",
-        "last_page": "024310"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11270",
-        "display_name": "Complex Systems and Time Series Analysis",
-        "score": 0.9983000159263611,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2002",
-          "display_name": "Economics and Econometrics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11270",
-          "display_name": "Complex Systems and Time Series Analysis",
-          "score": 0.9983000159263611,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2002",
-            "display_name": "Economics and Econometrics"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/20",
-            "display_name": "Economics, Econometrics and Finance"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/2",
-            "display_name": "Social Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11052",
-          "display_name": "Energy Load and Power Forecasting",
-          "score": 0.9613999724388123,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2208",
-            "display_name": "Electrical and Electronic Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11326",
-          "display_name": "Stock Market Forecasting Methods",
-          "score": 0.9557999968528748,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1803",
-            "display_name": "Management Science and Operations Research"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/18",
-            "display_name": "Decision Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/2",
-            "display_name": "Social Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/variable",
-          "display_name": "Variable (mathematics)",
-          "score": 0.7114855051040649
-        },
-        {
-          "id": "https://openalex.org/keywords/order",
-          "display_name": "Order (exchange)",
-          "score": 0.6279003620147705
-        },
-        {
-          "id": "https://openalex.org/keywords/economics",
-          "display_name": "Economics",
-          "score": 0.5252149701118469
-        },
-        {
-          "id": "https://openalex.org/keywords/porous-medium",
-          "display_name": "Porous medium",
-          "score": 0.5095484256744385
-        },
-        {
-          "id": "https://openalex.org/keywords/econometrics",
-          "display_name": "Econometrics",
-          "score": 0.48930928111076355
-        },
-        {
-          "id": "https://openalex.org/keywords/mathematical-economics",
-          "display_name": "Mathematical economics",
-          "score": 0.36990612745285034
-        },
-        {
-          "id": "https://openalex.org/keywords/monetary-economics",
-          "display_name": "Monetary economics",
-          "score": 0.356339693069458
-        },
-        {
-          "id": "https://openalex.org/keywords/porosity",
-          "display_name": "Porosity",
-          "score": 0.34053850173950195
-        },
-        {
-          "id": "https://openalex.org/keywords/financial-economics",
-          "display_name": "Financial economics",
-          "score": 0.3248031735420227
-        },
-        {
-          "id": "https://openalex.org/keywords/mathematics",
-          "display_name": "Mathematics",
-          "score": 0.3008434772491455
-        },
-        {
-          "id": "https://openalex.org/keywords/geology",
-          "display_name": "Geology",
-          "score": 0.18013116717338562
-        },
-        {
-          "id": "https://openalex.org/keywords/mathematical-analysis",
-          "display_name": "Mathematical analysis",
-          "score": 0.1383090615272522
-        },
-        {
-          "id": "https://openalex.org/keywords/geotechnical-engineering",
-          "display_name": "Geotechnical engineering",
-          "score": 0.0906606912612915
-        },
-        {
-          "id": "https://openalex.org/keywords/finance",
-          "display_name": "Finance",
-          "score": 0.07392144203186035
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C182365436",
-          "wikidata": "https://www.wikidata.org/wiki/Q50701",
-          "display_name": "Variable (mathematics)",
-          "level": 2,
-          "score": 0.7114855051040649
-        },
-        {
-          "id": "https://openalex.org/C182306322",
-          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
-          "display_name": "Order (exchange)",
-          "level": 2,
-          "score": 0.6279003620147705
-        },
-        {
-          "id": "https://openalex.org/C162324750",
-          "wikidata": "https://www.wikidata.org/wiki/Q8134",
-          "display_name": "Economics",
-          "level": 0,
-          "score": 0.5252149701118469
-        },
-        {
-          "id": "https://openalex.org/C105569014",
-          "wikidata": "https://www.wikidata.org/wiki/Q3271208",
-          "display_name": "Porous medium",
-          "level": 3,
-          "score": 0.5095484256744385
-        },
-        {
-          "id": "https://openalex.org/C149782125",
-          "wikidata": "https://www.wikidata.org/wiki/Q160039",
-          "display_name": "Econometrics",
-          "level": 1,
-          "score": 0.48930928111076355
-        },
-        {
-          "id": "https://openalex.org/C144237770",
-          "wikidata": "https://www.wikidata.org/wiki/Q747534",
-          "display_name": "Mathematical economics",
-          "level": 1,
-          "score": 0.36990612745285034
-        },
-        {
-          "id": "https://openalex.org/C556758197",
-          "wikidata": "https://www.wikidata.org/wiki/Q580018",
-          "display_name": "Monetary economics",
-          "level": 1,
-          "score": 0.356339693069458
-        },
-        {
-          "id": "https://openalex.org/C6648577",
-          "wikidata": "https://www.wikidata.org/wiki/Q622669",
-          "display_name": "Porosity",
-          "level": 2,
-          "score": 0.34053850173950195
-        },
-        {
-          "id": "https://openalex.org/C106159729",
-          "wikidata": "https://www.wikidata.org/wiki/Q2294553",
-          "display_name": "Financial economics",
-          "level": 1,
-          "score": 0.3248031735420227
-        },
-        {
-          "id": "https://openalex.org/C33923547",
-          "wikidata": "https://www.wikidata.org/wiki/Q395",
-          "display_name": "Mathematics",
-          "level": 0,
-          "score": 0.3008434772491455
-        },
-        {
-          "id": "https://openalex.org/C127313418",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069",
-          "display_name": "Geology",
-          "level": 0,
-          "score": 0.18013116717338562
-        },
-        {
-          "id": "https://openalex.org/C134306372",
-          "wikidata": "https://www.wikidata.org/wiki/Q7754",
-          "display_name": "Mathematical analysis",
-          "level": 1,
-          "score": 0.1383090615272522
-        },
-        {
-          "id": "https://openalex.org/C187320778",
-          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
-          "display_name": "Geotechnical engineering",
-          "level": 1,
-          "score": 0.0906606912612915
-        },
-        {
-          "id": "https://openalex.org/C10138342",
-          "wikidata": "https://www.wikidata.org/wiki/Q43015",
-          "display_name": "Finance",
-          "level": 1,
-          "score": 0.07392144203186035
-        }
-      ],
-      "mesh": [],
-      "locations_count": 2,
-      "locations": [
-        {
-          "id": "doi:10.1103/physreve.109.024310",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1103/physreve.109.024310",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4210235286",
-            "display_name": "Physical review. E",
-            "issn_l": "2470-0045",
-            "issn": [
-              "2470-0045",
-              "2470-0053",
-              "2470-0061"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320261",
-            "host_organization_name": "American Physical Society",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320261"
-            ],
-            "host_organization_lineage_names": [
-              "American Physical Society"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Physical Review E",
-          "raw_type": "journal-article"
-        },
-        {
-          "id": "pmid:38491659",
-          "is_oa": false,
-          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38491659",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306525036",
-            "display_name": "PubMed",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Physical review. E",
-          "raw_type": null
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "referenced_works_count": 62,
-      "referenced_works": [
-        "https://openalex.org/W2012021517",
-        "https://openalex.org/W1971359112",
-        "https://openalex.org/W2963589517",
-        "https://openalex.org/W2001509015",
-        "https://openalex.org/W2016533177",
-        "https://openalex.org/W2156961733",
-        "https://openalex.org/W2062515939",
-        "https://openalex.org/W2920150917",
-        "https://openalex.org/W3215284348",
-        "https://openalex.org/W2167500235",
-        "https://openalex.org/W2054912878",
-        "https://openalex.org/W2021993229",
-        "https://openalex.org/W1770985123",
-        "https://openalex.org/W2156426814",
-        "https://openalex.org/W2033402214",
-        "https://openalex.org/W145038029",
-        "https://openalex.org/W2071945239",
-        "https://openalex.org/W2963311973",
-        "https://openalex.org/W2922428687",
-        "https://openalex.org/W1982139883",
-        "https://openalex.org/W1968722346",
-        "https://openalex.org/W3003580795",
-        "https://openalex.org/W4249046827",
-        "https://openalex.org/W1509033271",
-        "https://openalex.org/W3039400575",
-        "https://openalex.org/W2105131247",
-        "https://openalex.org/W2073422405",
-        "https://openalex.org/W1984762618",
-        "https://openalex.org/W2564959017",
-        "https://openalex.org/W2510717660",
-        "https://openalex.org/W1985037772",
-        "https://openalex.org/W2793683090",
-        "https://openalex.org/W4211196861",
-        "https://openalex.org/W3204405876",
-        "https://openalex.org/W1973950856",
-        "https://openalex.org/W2025843255",
-        "https://openalex.org/W2022352949",
-        "https://openalex.org/W2013855261",
-        "https://openalex.org/W2031753087",
-        "https://openalex.org/W2947977784",
-        "https://openalex.org/W1974797828",
-        "https://openalex.org/W2156088880",
-        "https://openalex.org/W1983874169",
-        "https://openalex.org/W2053333723",
-        "https://openalex.org/W2004097100",
-        "https://openalex.org/W1595668191",
-        "https://openalex.org/W2928839578",
-        "https://openalex.org/W3098690120",
-        "https://openalex.org/W3043321917",
-        "https://openalex.org/W2605402017",
-        "https://openalex.org/W1984997594",
-        "https://openalex.org/W2137696066",
-        "https://openalex.org/W2057116804",
-        "https://openalex.org/W2071602085",
-        "https://openalex.org/W2094249936",
-        "https://openalex.org/W2003179717",
-        "https://openalex.org/W2036007974",
-        "https://openalex.org/W4293833212",
-        "https://openalex.org/W4299784281",
-        "https://openalex.org/W3151941575",
-        "https://openalex.org/W4255767226",
-        "https://openalex.org/W4253916951"
-      ],
-      "related_works": [
-        "https://openalex.org/W2393554192",
-        "https://openalex.org/W2359463116",
-        "https://openalex.org/W2362875760",
-        "https://openalex.org/W392422591",
-        "https://openalex.org/W1968527418",
-        "https://openalex.org/W2392518446",
-        "https://openalex.org/W2087134426",
-        "https://openalex.org/W2214518107",
-        "https://openalex.org/W2122637380",
-        "https://openalex.org/W2362127092"
-      ],
-      "abstract_inverted_index": {
-        "This": [
-          0
-        ],
-        "article": [
-          1
-        ],
-        "reveals": [
-          2
-        ],
-        "a": [
-          3,
-          54
-        ],
-        "specific": [
-          4
-        ],
-        "category": [
-          5
-        ],
-        "of": [
-          6,
-          62,
-          74
-        ],
-        "solutions": [
-          7,
-          19
-        ],
-        "for": [
-          8,
-          58
-        ],
-        "the": [
-          9,
-          59,
-          71,
-          75,
-          87
-        ],
-        "1+1": [
-          10
-        ],
-        "variable": [
-          11
-        ],
-        "order": [
-          12
-        ],
-        "(VO)": [
-          13
-        ],
-        "nonlinear": [
-          14
-        ],
-        "fractional": [
-          15
-        ],
-        "Fokker-Planck": [
-          16
-        ],
-        "equations.": [
-          17
-        ],
-        "These": [
-          18
-        ],
-        "are": [
-          20,
-          84
-        ],
-        "formulated": [
-          21
-        ],
-        "using": [
-          22
-        ],
-        "VO": [
-          23,
-          50
-        ],
-        "q-Gaussian": [
-          24,
-          51
-        ],
-        "functions,": [
-          25
-        ],
-        "granting": [
-          26
-        ],
-        "them": [
-          27
-        ],
-        "significant": [
-          28
-        ],
-        "versatility": [
-          29
-        ],
-        "in": [
-          30,
-          65,
-          91
-        ],
-        "their": [
-          31
-        ],
-        "application": [
-          32
-        ],
-        "to": [
-          33,
-          47
-        ],
-        "various": [
-          34
-        ],
-        "real-world": [
-          35,
-          66
-        ],
-        "systems,": [
-          36
-        ],
-        "such": [
-          37
-        ],
-        "as": [
-          38
-        ],
-        "financial": [
-          39
-        ],
-        "economy": [
-          40
-        ],
-        "areas": [
-          41
-        ],
-        "spanning": [
-          42
-        ],
-        "from": [
-          43,
-          80
-        ],
-        "conventional": [
-          44
-        ],
-        "stock": [
-          45
-        ],
-        "markets": [
-          46
-        ],
-        "cryptocurrencies.": [
-          48
-        ],
-        "The": [
-          49
-        ],
-        "functions": [
-          52
-        ],
-        "provide": [
-          53
-        ],
-        "more": [
-          55
-        ],
-        "robust": [
-          56
-        ],
-        "expression": [
-          57
-        ],
-        "distribution": [
-          60
-        ],
-        "function": [
-          61
-        ],
-        "price": [
-          63
-        ],
-        "returns": [
-          64
-        ],
-        "systems.": [
-          67
-        ],
-        "Additionally,": [
-          68
-        ],
-        "we": [
-          69
-        ],
-        "analyzed": [
-          70
-        ],
-        "temporal": [
-          72
-        ],
-        "evolution": [
-          73
-        ],
-        "anomalous": [
-          76
-        ],
-        "characteristic": [
-          77
-        ],
-        "exponents": [
-          78
-        ],
-        "derived": [
-          79
-        ],
-        "our": [
-          81
-        ],
-        "study,": [
-          82
-        ],
-        "which": [
-          83
-        ],
-        "associated": [
-          85
-        ],
-        "with": [
-          86
-        ],
-        "long-term": [
-          88
-        ],
-        "(power-law)": [
-          89
-        ],
-        "memory": [
-          90
-        ],
-        "time": [
-          92
-        ],
-        "series": [
-          93
-        ],
-        "data": [
-          94
-        ],
-        "and": [
-          95
-        ],
-        "autocorrelation": [
-          96
-        ],
-        "patterns.": [
-          97
-        ]
-      },
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 2
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2024-02-22T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W2486133240",
       "doi": "https://doi.org/10.1201/9781439833452.pt1",
       "title": "Micro-mechanical investigation of the granular ratcheting",
@@ -55514,7 +55094,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.92888563,
+        "value": 0.92893773,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -55658,23 +55238,23 @@
       "referenced_works_count": 18,
       "referenced_works": [
         "https://openalex.org/W1601684190",
-        "https://openalex.org/W1982904753",
-        "https://openalex.org/W2084956421",
-        "https://openalex.org/W1967384780",
-        "https://openalex.org/W1990776114",
-        "https://openalex.org/W2073775990",
-        "https://openalex.org/W3100637966",
-        "https://openalex.org/W2061681310",
-        "https://openalex.org/W2023251922",
-        "https://openalex.org/W2004840491",
-        "https://openalex.org/W2563506672",
-        "https://openalex.org/W2093040479",
         "https://openalex.org/W2133650474",
-        "https://openalex.org/W2082058570",
-        "https://openalex.org/W564377794",
-        "https://openalex.org/W1974563879",
         "https://openalex.org/W2135338602",
-        "https://openalex.org/W2056864964"
+        "https://openalex.org/W2084956421",
+        "https://openalex.org/W2061681310",
+        "https://openalex.org/W2073775990",
+        "https://openalex.org/W2082058570",
+        "https://openalex.org/W2093040479",
+        "https://openalex.org/W2563506672",
+        "https://openalex.org/W3100637966",
+        "https://openalex.org/W2004840491",
+        "https://openalex.org/W2056864964",
+        "https://openalex.org/W1974563879",
+        "https://openalex.org/W1967384780",
+        "https://openalex.org/W2023251922",
+        "https://openalex.org/W1982904753",
+        "https://openalex.org/W1990776114",
+        "https://openalex.org/W564377794"
       ],
       "related_works": [
         "https://openalex.org/W4246450666",
@@ -55870,7 +55450,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.66892913,
+        "value": 0.66911819,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56194,9 +55774,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7099999785423279,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7099999785423279
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -56232,14 +55812,14 @@
         "https://openalex.org/W2038343404",
         "https://openalex.org/W2077591737",
         "https://openalex.org/W1990949043",
-        "https://openalex.org/W1974293275",
-        "https://openalex.org/W1523274836",
-        "https://openalex.org/W1633088973",
-        "https://openalex.org/W2059788720",
+        "https://openalex.org/W2067332413",
         "https://openalex.org/W3173309699",
         "https://openalex.org/W3107297915",
-        "https://openalex.org/W2067332413",
-        "https://openalex.org/W564389950"
+        "https://openalex.org/W1974293275",
+        "https://openalex.org/W2059788720",
+        "https://openalex.org/W564389950",
+        "https://openalex.org/W1523274836",
+        "https://openalex.org/W1633088973"
       ],
       "related_works": [
         "https://openalex.org/W2356640391",
@@ -56893,7 +56473,7 @@
       "has_fulltext": true,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.7041544,
+        "value": 0.70392445,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -57275,9 +56855,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.7599999904632568
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -57983,7 +57563,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.87130487,
+        "value": 0.87165893,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -58344,9 +57924,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6000000238418579
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -58882,7 +58462,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.53709303,
+        "value": 0.53674301,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59136,20 +58716,20 @@
       },
       "referenced_works_count": 14,
       "referenced_works": [
-        "https://openalex.org/W2013305949",
+        "https://openalex.org/W1993856237",
         "https://openalex.org/W1993944256",
         "https://openalex.org/W2044741647",
-        "https://openalex.org/W1970757687",
-        "https://openalex.org/W1993856237",
+        "https://openalex.org/W2053658105",
         "https://openalex.org/W1993466701",
+        "https://openalex.org/W1980432697",
+        "https://openalex.org/W2040414117",
+        "https://openalex.org/W2013305949",
+        "https://openalex.org/W2118363863",
+        "https://openalex.org/W2134631701",
+        "https://openalex.org/W1970757687",
         "https://openalex.org/W2155640653",
         "https://openalex.org/W2077412438",
-        "https://openalex.org/W2134631701",
-        "https://openalex.org/W1980432697",
-        "https://openalex.org/W2118363863",
-        "https://openalex.org/W1992194771",
-        "https://openalex.org/W2053658105",
-        "https://openalex.org/W2040414117"
+        "https://openalex.org/W1992194771"
       ],
       "related_works": [
         "https://openalex.org/W2286782011",
@@ -59370,7 +58950,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.60522378,
+        "value": 0.6048249,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59768,9 +59348,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6800000071525574,
           "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water",
-          "score": 0.6800000071525574
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
@@ -59791,11 +59371,11 @@
         "https://openalex.org/W2164395201",
         "https://openalex.org/W1979723984",
         "https://openalex.org/W2039004299",
-        "https://openalex.org/W2137985010",
+        "https://openalex.org/W1765454357",
+        "https://openalex.org/W1907372481",
         "https://openalex.org/W2075566468",
         "https://openalex.org/W3100637966",
-        "https://openalex.org/W1765454357",
-        "https://openalex.org/W1907372481"
+        "https://openalex.org/W2137985010"
       ],
       "related_works": [
         "https://openalex.org/W4319763421",
@@ -60416,7 +59996,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.62595338,
+        "value": 0.60562319,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -60812,9 +60392,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.699999988079071
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -60915,14 +60495,14 @@
         "https://openalex.org/W1976183409",
         "https://openalex.org/W1977880817",
         "https://openalex.org/W3213683638",
-        "https://openalex.org/W3006211509",
-        "https://openalex.org/W3153268515",
-        "https://openalex.org/W2885558503",
-        "https://openalex.org/W2784535859",
         "https://openalex.org/W4205519016",
+        "https://openalex.org/W3153268515",
         "https://openalex.org/W3216236824",
-        "https://openalex.org/W2121114411",
-        "https://openalex.org/W2187089797"
+        "https://openalex.org/W2187089797",
+        "https://openalex.org/W2784535859",
+        "https://openalex.org/W3006211509",
+        "https://openalex.org/W2885558503",
+        "https://openalex.org/W2121114411"
       ],
       "related_works": [
         "https://openalex.org/W2121732741",
@@ -61601,7 +61181,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.09673413,
+        "value": 0.09679468,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -61923,9 +61503,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7900000214576721,
           "id": "https://metadata.un.org/sdg/16",
-          "display_name": "Peace, Justice and strong institutions",
-          "score": 0.7900000214576721
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -62503,7 +62083,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.1093752,
+        "value": 0.10940243,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -62749,9 +62329,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6600000262260437,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6600000262260437
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -63621,7 +63201,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.56287499,
+        "value": 0.53839964,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -64826,7 +64406,7 @@
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.88061094,
+        "value": 0.88046547,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -65332,9 +64912,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.75
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -65371,25 +64951,25 @@
         "https://openalex.org/W1965250593",
         "https://openalex.org/W601206597",
         "https://openalex.org/W2021342927",
+        "https://openalex.org/W1562163328",
+        "https://openalex.org/W1974563879",
+        "https://openalex.org/W1980617841",
+        "https://openalex.org/W1967384780",
         "https://openalex.org/W2082058570",
         "https://openalex.org/W2081213310",
         "https://openalex.org/W2084956421",
+        "https://openalex.org/W1009802273",
+        "https://openalex.org/W214013630",
+        "https://openalex.org/W1998242007",
+        "https://openalex.org/W2004967763",
         "https://openalex.org/W4211238133",
         "https://openalex.org/W3018210181",
         "https://openalex.org/W2971141138",
         "https://openalex.org/W2486976219",
         "https://openalex.org/W4256544619",
-        "https://openalex.org/W1974563879",
-        "https://openalex.org/W1980617841",
-        "https://openalex.org/W1967384780",
         "https://openalex.org/W2047380783",
         "https://openalex.org/W2050661869",
-        "https://openalex.org/W2054621372",
-        "https://openalex.org/W1009802273",
-        "https://openalex.org/W214013630",
-        "https://openalex.org/W1998242007",
-        "https://openalex.org/W2004967763",
-        "https://openalex.org/W1562163328"
+        "https://openalex.org/W2054621372"
       ],
       "related_works": [
         "https://openalex.org/W2269056577",
@@ -65751,7 +65331,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-13T21:40:15.123406",
+      "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -65886,7 +65466,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.48308636,
+        "value": 0.46758219,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -66270,9 +65850,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -66853,7 +66433,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.8754255,
+        "value": 0.87570509,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -67171,9 +66751,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/12",
-          "display_name": "Responsible consumption and production",
-          "score": 0.44999998807907104
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -67886,7 +67466,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.11090047,
+        "value": 0.11026976,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -68261,9 +67841,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.4699999988079071
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -68293,8 +67873,8 @@
         "https://openalex.org/W1966041161",
         "https://openalex.org/W2074586305",
         "https://openalex.org/W1980201417",
-        "https://openalex.org/W266306220",
         "https://openalex.org/W2054220155",
+        "https://openalex.org/W266306220",
         "https://openalex.org/W127470283"
       ],
       "related_works": [
@@ -68505,7 +68085,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.75529828,
+        "value": 0.75515607,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -68894,14 +68474,14 @@
       "referenced_works_count": 9,
       "referenced_works": [
         "https://openalex.org/W2785456846",
-        "https://openalex.org/W1985693108",
         "https://openalex.org/W2410708887",
-        "https://openalex.org/W1995110867",
         "https://openalex.org/W2027821865",
+        "https://openalex.org/W2064237567",
+        "https://openalex.org/W1985693108",
         "https://openalex.org/W1993219607",
+        "https://openalex.org/W1995110867",
         "https://openalex.org/W2031346751",
-        "https://openalex.org/W2036025547",
-        "https://openalex.org/W2064237567"
+        "https://openalex.org/W2036025547"
       ],
       "related_works": [
         "https://openalex.org/W2529197855",
@@ -69319,7 +68899,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.48332482,
+        "value": 0.46782804,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -69703,9 +69283,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8500000238418579,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8500000238418579
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -70220,7 +69800,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.83448785,
+        "value": 0.83587568,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -70595,9 +70175,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -71145,7 +70725,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.54025934,
+        "value": 0.53123191,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -71704,9 +71284,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.4399999976158142
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -71737,8 +71317,8 @@
         "https://openalex.org/W2018553792",
         "https://openalex.org/W2081960779",
         "https://openalex.org/W1817819457",
-        "https://openalex.org/W3101899695",
-        "https://openalex.org/W3099598501"
+        "https://openalex.org/W3099598501",
+        "https://openalex.org/W3101899695"
       ],
       "related_works": [
         "https://openalex.org/W4200348830",
@@ -72457,7 +72037,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.05177459,
+        "value": 0.0518675,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -73080,7 +72660,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.06084943,
+        "value": 0.06119214,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -73446,12 +73026,12 @@
       },
       "referenced_works_count": 6,
       "referenced_works": [
-        "https://openalex.org/W2969463290",
-        "https://openalex.org/W3100410821",
+        "https://openalex.org/W29010912",
         "https://openalex.org/W622972408",
         "https://openalex.org/W2181313453",
         "https://openalex.org/W2741635935",
-        "https://openalex.org/W29010912"
+        "https://openalex.org/W3100410821",
+        "https://openalex.org/W2969463290"
       ],
       "related_works": [
         "https://openalex.org/W3193357262",
@@ -74158,7 +73738,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.5868262,
+        "value": 0.58141917,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -74629,9 +74209,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/16",
-          "display_name": "Peace, Justice and strong institutions",
-          "score": 0.75
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -74945,7 +74525,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.70885182,
+        "value": 0.70862697,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -75318,9 +74898,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.5099999904632568
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -75789,7 +75369,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.49629427,
+        "value": 0.49309681,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -76099,9 +75679,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.6700000166893005
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -76343,7 +75923,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.00902951,
+        "value": 0.00902877,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -76541,9 +76121,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.4399999976158142
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -76554,9 +76134,9 @@
       },
       "referenced_works_count": 4,
       "referenced_works": [
-        "https://openalex.org/W2066091202",
         "https://openalex.org/W2156281587",
         "https://openalex.org/W2049953483",
+        "https://openalex.org/W2066091202",
         "https://openalex.org/W2079295268"
       ],
       "related_works": [
@@ -77457,9 +77037,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7799999713897705,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7799999713897705
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -77470,41 +77050,41 @@
       },
       "referenced_works_count": 35,
       "referenced_works": [
-        "https://openalex.org/W2156281587",
-        "https://openalex.org/W1968062199",
-        "https://openalex.org/W3018210181",
-        "https://openalex.org/W2044642468",
-        "https://openalex.org/W1588835142",
-        "https://openalex.org/W2073775990",
-        "https://openalex.org/W2016322370",
-        "https://openalex.org/W1977592963",
-        "https://openalex.org/W110592042",
-        "https://openalex.org/W2014147671",
-        "https://openalex.org/W2165197944",
-        "https://openalex.org/W2041902442",
-        "https://openalex.org/W1985414980",
-        "https://openalex.org/W2017521596",
-        "https://openalex.org/W28617970",
-        "https://openalex.org/W2123083010",
-        "https://openalex.org/W2542062312",
-        "https://openalex.org/W1986432042",
-        "https://openalex.org/W2014723365",
-        "https://openalex.org/W2061658183",
-        "https://openalex.org/W2146346374",
-        "https://openalex.org/W1998242007",
-        "https://openalex.org/W2104886612",
-        "https://openalex.org/W1967384780",
-        "https://openalex.org/W2054621372",
-        "https://openalex.org/W2025544821",
-        "https://openalex.org/W2004840491",
-        "https://openalex.org/W2319332873",
-        "https://openalex.org/W2563506672",
-        "https://openalex.org/W1990776114",
-        "https://openalex.org/W1982904753",
         "https://openalex.org/W2084956421",
+        "https://openalex.org/W1588835142",
+        "https://openalex.org/W2017521596",
+        "https://openalex.org/W2014147671",
+        "https://openalex.org/W2014723365",
+        "https://openalex.org/W2025544821",
         "https://openalex.org/W2021786390",
+        "https://openalex.org/W2016322370",
+        "https://openalex.org/W2004840491",
+        "https://openalex.org/W1998242007",
         "https://openalex.org/W2138956889",
-        "https://openalex.org/W2954292082"
+        "https://openalex.org/W2104886612",
+        "https://openalex.org/W2123083010",
+        "https://openalex.org/W2044642468",
+        "https://openalex.org/W2054621372",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W2146346374",
+        "https://openalex.org/W2156281587",
+        "https://openalex.org/W2319332873",
+        "https://openalex.org/W2165197944",
+        "https://openalex.org/W2563506672",
+        "https://openalex.org/W2954292082",
+        "https://openalex.org/W2542062312",
+        "https://openalex.org/W3018210181",
+        "https://openalex.org/W28617970",
+        "https://openalex.org/W110592042",
+        "https://openalex.org/W1968062199",
+        "https://openalex.org/W1977592963",
+        "https://openalex.org/W1967384780",
+        "https://openalex.org/W1986432042",
+        "https://openalex.org/W1982904753",
+        "https://openalex.org/W1985414980",
+        "https://openalex.org/W1990776114",
+        "https://openalex.org/W2061658183",
+        "https://openalex.org/W2073775990"
       ],
       "related_works": [
         "https://openalex.org/W3023863392",
@@ -78483,46 +78063,46 @@
       },
       "referenced_works_count": 40,
       "referenced_works": [
-        "https://openalex.org/W1998119135",
-        "https://openalex.org/W2116308579",
-        "https://openalex.org/W2009752225",
-        "https://openalex.org/W2736344262",
-        "https://openalex.org/W2102945481",
-        "https://openalex.org/W2469729108",
-        "https://openalex.org/W2045841509",
-        "https://openalex.org/W2073775990",
-        "https://openalex.org/W2884754911",
-        "https://openalex.org/W1971181484",
-        "https://openalex.org/W2902991331",
-        "https://openalex.org/W2067198604",
-        "https://openalex.org/W2022598531",
+        "https://openalex.org/W2303895937",
+        "https://openalex.org/W2945602802",
+        "https://openalex.org/W2958142095",
         "https://openalex.org/W1505152011",
-        "https://openalex.org/W2769733039",
         "https://openalex.org/W1970434145",
         "https://openalex.org/W1542644126",
-        "https://openalex.org/W2153092986",
+        "https://openalex.org/W1971181484",
         "https://openalex.org/W1575144586",
-        "https://openalex.org/W2958142095",
-        "https://openalex.org/W1997221482",
-        "https://openalex.org/W2465888780",
-        "https://openalex.org/W2108207998",
-        "https://openalex.org/W2089726988",
-        "https://openalex.org/W2887575682",
-        "https://openalex.org/W2556580188",
-        "https://openalex.org/W2006322180",
+        "https://openalex.org/W2769733039",
+        "https://openalex.org/W2757394196",
+        "https://openalex.org/W2736344262",
         "https://openalex.org/W2789425584",
-        "https://openalex.org/W1987673087",
-        "https://openalex.org/W2945602802",
-        "https://openalex.org/W2097927521",
+        "https://openalex.org/W2067198604",
+        "https://openalex.org/W2045841509",
+        "https://openalex.org/W2073775990",
+        "https://openalex.org/W2556580188",
         "https://openalex.org/W2585886093",
+        "https://openalex.org/W2902991331",
+        "https://openalex.org/W2884754911",
+        "https://openalex.org/W2887575682",
+        "https://openalex.org/W2469729108",
         "https://openalex.org/W2469863283",
+        "https://openalex.org/W2465888780",
+        "https://openalex.org/W2022598531",
         "https://openalex.org/W2032147135",
         "https://openalex.org/W2033720775",
-        "https://openalex.org/W2303895937",
-        "https://openalex.org/W2007258084",
-        "https://openalex.org/W2757394196",
+        "https://openalex.org/W2018086137",
         "https://openalex.org/W2097771861",
-        "https://openalex.org/W2018086137"
+        "https://openalex.org/W2102945481",
+        "https://openalex.org/W2089726988",
+        "https://openalex.org/W2097927521",
+        "https://openalex.org/W2116308579",
+        "https://openalex.org/W2153092986",
+        "https://openalex.org/W2108207998",
+        "https://openalex.org/W1987673087",
+        "https://openalex.org/W2007258084",
+        "https://openalex.org/W1997221482",
+        "https://openalex.org/W2009752225",
+        "https://openalex.org/W1998119135",
+        "https://openalex.org/W2006322180"
       ],
       "related_works": [
         "https://openalex.org/W2377717744",
@@ -79037,7 +78617,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.6782897,
+        "value": 0.67645702,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -79436,22 +79016,22 @@
       },
       "referenced_works_count": 16,
       "referenced_works": [
-        "https://openalex.org/W1932651143",
-        "https://openalex.org/W1977592963",
-        "https://openalex.org/W2157810799",
-        "https://openalex.org/W1977376892",
-        "https://openalex.org/W2150915496",
-        "https://openalex.org/W2165009431",
-        "https://openalex.org/W50153862",
-        "https://openalex.org/W1963865353",
-        "https://openalex.org/W2161143928",
-        "https://openalex.org/W2259445200",
         "https://openalex.org/W2081320900",
-        "https://openalex.org/W2022912975",
-        "https://openalex.org/W1546351412",
-        "https://openalex.org/W2041902442",
         "https://openalex.org/W2094989728",
-        "https://openalex.org/W2064840361"
+        "https://openalex.org/W1546351412",
+        "https://openalex.org/W2022912975",
+        "https://openalex.org/W2064840361",
+        "https://openalex.org/W1977592963",
+        "https://openalex.org/W1977376892",
+        "https://openalex.org/W1963865353",
+        "https://openalex.org/W1932651143",
+        "https://openalex.org/W2165009431",
+        "https://openalex.org/W2259445200",
+        "https://openalex.org/W2041902442",
+        "https://openalex.org/W50153862",
+        "https://openalex.org/W2161143928",
+        "https://openalex.org/W2150915496",
+        "https://openalex.org/W2157810799"
       ],
       "related_works": [
         "https://openalex.org/W3113635159",
@@ -80335,38 +79915,38 @@
       },
       "referenced_works_count": 32,
       "referenced_works": [
-        "https://openalex.org/W2034084529",
-        "https://openalex.org/W48077362",
-        "https://openalex.org/W1977008477",
-        "https://openalex.org/W1963861296",
-        "https://openalex.org/W2028379299",
-        "https://openalex.org/W2560325488",
-        "https://openalex.org/W2040190305",
-        "https://openalex.org/W2050334672",
-        "https://openalex.org/W1993576156",
-        "https://openalex.org/W1986679379",
-        "https://openalex.org/W1974164709",
-        "https://openalex.org/W2102945481",
-        "https://openalex.org/W2604192164",
-        "https://openalex.org/W2030476884",
-        "https://openalex.org/W2104211247",
-        "https://openalex.org/W1992209212",
-        "https://openalex.org/W2074753286",
+        "https://openalex.org/W2413340915",
+        "https://openalex.org/W2332168109",
         "https://openalex.org/W2613236916",
         "https://openalex.org/W2766338550",
-        "https://openalex.org/W2073775990",
-        "https://openalex.org/W1976653327",
+        "https://openalex.org/W2040190305",
+        "https://openalex.org/W2032963584",
+        "https://openalex.org/W2028379299",
+        "https://openalex.org/W2030476884",
+        "https://openalex.org/W2026544301",
+        "https://openalex.org/W2034084529",
+        "https://openalex.org/W1986679379",
+        "https://openalex.org/W48077362",
+        "https://openalex.org/W1538462609",
+        "https://openalex.org/W1974164709",
         "https://openalex.org/W1978813277",
-        "https://openalex.org/W2413340915",
-        "https://openalex.org/W2560191852",
-        "https://openalex.org/W2332168109",
+        "https://openalex.org/W1963861296",
+        "https://openalex.org/W1976653327",
+        "https://openalex.org/W1977008477",
+        "https://openalex.org/W2104211247",
+        "https://openalex.org/W2073775990",
+        "https://openalex.org/W2102945481",
+        "https://openalex.org/W2074753286",
+        "https://openalex.org/W2050334672",
+        "https://openalex.org/W2052786012",
+        "https://openalex.org/W1993576156",
+        "https://openalex.org/W1992059168",
+        "https://openalex.org/W1992209212",
         "https://openalex.org/W2285850842",
         "https://openalex.org/W2596726362",
-        "https://openalex.org/W2052786012",
-        "https://openalex.org/W2032963584",
-        "https://openalex.org/W2026544301",
-        "https://openalex.org/W1992059168",
-        "https://openalex.org/W1538462609"
+        "https://openalex.org/W2560325488",
+        "https://openalex.org/W2604192164",
+        "https://openalex.org/W2560191852"
       ],
       "related_works": [
         "https://openalex.org/W3103930232",
@@ -80941,14 +80521,10 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.23633274,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 1,
-      "citation_normalized_percentile": {
-        "value": 0.85230183,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
+      "citation_normalized_percentile": null,
       "cited_by_percentile_year": null,
       "biblio": {
         "volume": null,
@@ -81378,9 +80954,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -82203,9 +81779,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.6000000238418579
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -83026,9 +82602,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.4099999964237213,
           "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure",
-          "score": 0.4099999964237213
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
@@ -83483,7 +83059,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.61976848,
+        "value": 0.62004454,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -83664,9 +83240,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5899999737739563,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.5899999737739563
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -83705,12 +83281,12 @@
         "https://openalex.org/W2071068639",
         "https://openalex.org/W1982904753",
         "https://openalex.org/W2027968462",
-        "https://openalex.org/W4252224394",
-        "https://openalex.org/W626441811",
-        "https://openalex.org/W4234347480",
-        "https://openalex.org/W2124100766",
         "https://openalex.org/W2092924973",
         "https://openalex.org/W3004454794",
+        "https://openalex.org/W2124100766",
+        "https://openalex.org/W4234347480",
+        "https://openalex.org/W4252224394",
+        "https://openalex.org/W626441811",
         "https://openalex.org/W292102190"
       ],
       "related_works": [
@@ -83808,7 +83384,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.01417336,
+        "value": 0.01419804,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -84229,7 +83805,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0672466,
+        "value": 0.06735984,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -85183,9 +84759,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -85524,7 +85100,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06039543,
+        "value": 0.06083925,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -86254,7 +85830,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.3120564,
+        "value": 0.31633748,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -86612,9 +86188,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -87088,7 +86664,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17044471,
+        "value": 0.17685123,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -88274,14 +87850,10 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
-      "citation_normalized_percentile": {
-        "value": 0.54343569,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
+      "citation_normalized_percentile": null,
       "cited_by_percentile_year": null,
       "biblio": {
         "volume": null,
@@ -88667,9 +88239,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -88680,34 +88252,34 @@
       },
       "referenced_works_count": 28,
       "referenced_works": [
-        "https://openalex.org/W2016556119",
-        "https://openalex.org/W2036230675",
-        "https://openalex.org/W2148379661",
         "https://openalex.org/W2302325440",
-        "https://openalex.org/W1980838290",
-        "https://openalex.org/W1571885272",
-        "https://openalex.org/W1975211713",
-        "https://openalex.org/W1982084935",
-        "https://openalex.org/W2013400949",
-        "https://openalex.org/W2158583770",
-        "https://openalex.org/W2054650487",
-        "https://openalex.org/W2010090932",
-        "https://openalex.org/W2047569106",
-        "https://openalex.org/W1494933003",
-        "https://openalex.org/W2059075882",
-        "https://openalex.org/W1982904753",
-        "https://openalex.org/W2037672663",
-        "https://openalex.org/W2011661955",
-        "https://openalex.org/W2064840361",
         "https://openalex.org/W1994493168",
-        "https://openalex.org/W2102945481",
-        "https://openalex.org/W2072497460",
-        "https://openalex.org/W2038389117",
-        "https://openalex.org/W2014043245",
+        "https://openalex.org/W1982904753",
+        "https://openalex.org/W1982084935",
+        "https://openalex.org/W2010090932",
+        "https://openalex.org/W1980838290",
+        "https://openalex.org/W1975211713",
+        "https://openalex.org/W1571885272",
+        "https://openalex.org/W1494933003",
+        "https://openalex.org/W2148379661",
         "https://openalex.org/W2120184331",
-        "https://openalex.org/W2082342850",
+        "https://openalex.org/W2158583770",
+        "https://openalex.org/W2016556119",
+        "https://openalex.org/W2013400949",
+        "https://openalex.org/W2037672663",
+        "https://openalex.org/W2014043245",
+        "https://openalex.org/W2036230675",
+        "https://openalex.org/W2011661955",
+        "https://openalex.org/W2038389117",
+        "https://openalex.org/W2064840361",
+        "https://openalex.org/W2054650487",
+        "https://openalex.org/W2045563202",
+        "https://openalex.org/W2072497460",
+        "https://openalex.org/W2059075882",
+        "https://openalex.org/W2047569106",
         "https://openalex.org/W2081960779",
-        "https://openalex.org/W2045563202"
+        "https://openalex.org/W2102945481",
+        "https://openalex.org/W2082342850"
       ],
       "related_works": [
         "https://openalex.org/W2362191124",
@@ -89725,9 +89297,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/1",
-          "display_name": "No poverty",
-          "score": 0.7200000286102295
+          "display_name": "No poverty"
         }
       ],
       "awards": [],
@@ -90479,9 +90051,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.6100000143051147
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -90492,37 +90064,37 @@
       },
       "referenced_works_count": 31,
       "referenced_works": [
-        "https://openalex.org/W1978813277",
-        "https://openalex.org/W1983099631",
-        "https://openalex.org/W1996965608",
-        "https://openalex.org/W2413340915",
-        "https://openalex.org/W1495971627",
-        "https://openalex.org/W2160901404",
-        "https://openalex.org/W2742843415",
-        "https://openalex.org/W2945128587",
-        "https://openalex.org/W2285850842",
-        "https://openalex.org/W2062768509",
-        "https://openalex.org/W1974164709",
-        "https://openalex.org/W1977008477",
-        "https://openalex.org/W2730024858",
-        "https://openalex.org/W2027019914",
-        "https://openalex.org/W2269014182",
-        "https://openalex.org/W2030476884",
-        "https://openalex.org/W2945602802",
-        "https://openalex.org/W2044024638",
-        "https://openalex.org/W2122107169",
-        "https://openalex.org/W2918055327",
-        "https://openalex.org/W2098401813",
         "https://openalex.org/W2589328123",
-        "https://openalex.org/W2104211247",
-        "https://openalex.org/W1993576156",
+        "https://openalex.org/W2044024638",
+        "https://openalex.org/W2045852419",
+        "https://openalex.org/W2062768509",
+        "https://openalex.org/W2191822007",
+        "https://openalex.org/W2285850842",
+        "https://openalex.org/W2269014182",
         "https://openalex.org/W1987576086",
         "https://openalex.org/W1988081880",
-        "https://openalex.org/W2045852419",
-        "https://openalex.org/W2191822007",
-        "https://openalex.org/W2893878071",
+        "https://openalex.org/W1996965608",
+        "https://openalex.org/W1993576156",
+        "https://openalex.org/W2122107169",
+        "https://openalex.org/W2160901404",
+        "https://openalex.org/W2413340915",
+        "https://openalex.org/W1495971627",
+        "https://openalex.org/W2104211247",
+        "https://openalex.org/W2098401813",
+        "https://openalex.org/W2027019914",
+        "https://openalex.org/W2030476884",
         "https://openalex.org/W2034084529",
-        "https://openalex.org/W1963861296"
+        "https://openalex.org/W1978813277",
+        "https://openalex.org/W1974164709",
+        "https://openalex.org/W1977008477",
+        "https://openalex.org/W1963861296",
+        "https://openalex.org/W1983099631",
+        "https://openalex.org/W2730024858",
+        "https://openalex.org/W2742843415",
+        "https://openalex.org/W2893878071",
+        "https://openalex.org/W2945128587",
+        "https://openalex.org/W2918055327",
+        "https://openalex.org/W2945602802"
       ],
       "related_works": [
         "https://openalex.org/W4319763421",
@@ -91314,64 +90886,64 @@
       },
       "referenced_works_count": 58,
       "referenced_works": [
-        "https://openalex.org/W2034199973",
-        "https://openalex.org/W2078342706",
-        "https://openalex.org/W634268569",
-        "https://openalex.org/W2149767168",
-        "https://openalex.org/W2022983198",
-        "https://openalex.org/W2920150917",
-        "https://openalex.org/W1578254027",
-        "https://openalex.org/W1499969990",
-        "https://openalex.org/W2134752891",
-        "https://openalex.org/W2017821362",
-        "https://openalex.org/W2057116804",
-        "https://openalex.org/W1600114197",
-        "https://openalex.org/W2117201183",
-        "https://openalex.org/W3022089254",
-        "https://openalex.org/W2085061534",
-        "https://openalex.org/W2291769790",
-        "https://openalex.org/W3022549607",
-        "https://openalex.org/W2016045532",
-        "https://openalex.org/W2009790801",
-        "https://openalex.org/W1968307896",
-        "https://openalex.org/W2036280280",
-        "https://openalex.org/W2091555286",
-        "https://openalex.org/W2798058877",
-        "https://openalex.org/W2783822905",
-        "https://openalex.org/W3039400575",
-        "https://openalex.org/W2169471158",
-        "https://openalex.org/W2934426658",
-        "https://openalex.org/W2041173212",
-        "https://openalex.org/W2969782567",
-        "https://openalex.org/W2179633876",
-        "https://openalex.org/W1651832595",
-        "https://openalex.org/W1534803028",
-        "https://openalex.org/W2136774414",
-        "https://openalex.org/W1566909986",
-        "https://openalex.org/W2101547937",
-        "https://openalex.org/W2096575092",
-        "https://openalex.org/W2786805060",
-        "https://openalex.org/W2892266201",
-        "https://openalex.org/W2548975497",
-        "https://openalex.org/W2048869686",
-        "https://openalex.org/W2002286553",
-        "https://openalex.org/W951831975",
-        "https://openalex.org/W3102192856",
-        "https://openalex.org/W2044605773",
-        "https://openalex.org/W2337705655",
-        "https://openalex.org/W2603775038",
-        "https://openalex.org/W2093032997",
-        "https://openalex.org/W2018509194",
-        "https://openalex.org/W2103484453",
         "https://openalex.org/W2935426915",
-        "https://openalex.org/W1482886841",
-        "https://openalex.org/W2280474718",
-        "https://openalex.org/W2057754767",
-        "https://openalex.org/W2040394324",
-        "https://openalex.org/W2071602085",
-        "https://openalex.org/W2148614997",
+        "https://openalex.org/W2934426658",
+        "https://openalex.org/W2969782567",
+        "https://openalex.org/W2337705655",
         "https://openalex.org/W2412481761",
-        "https://openalex.org/W2307472874"
+        "https://openalex.org/W2307472874",
+        "https://openalex.org/W2291769790",
+        "https://openalex.org/W2280474718",
+        "https://openalex.org/W2179633876",
+        "https://openalex.org/W1968307896",
+        "https://openalex.org/W2018509194",
+        "https://openalex.org/W2017821362",
+        "https://openalex.org/W2036280280",
+        "https://openalex.org/W2016045532",
+        "https://openalex.org/W2041173212",
+        "https://openalex.org/W2040394324",
+        "https://openalex.org/W2022983198",
+        "https://openalex.org/W2034199973",
+        "https://openalex.org/W2009790801",
+        "https://openalex.org/W2002286553",
+        "https://openalex.org/W2892266201",
+        "https://openalex.org/W2920150917",
+        "https://openalex.org/W1651832595",
+        "https://openalex.org/W1566909986",
+        "https://openalex.org/W634268569",
+        "https://openalex.org/W1578254027",
+        "https://openalex.org/W951831975",
+        "https://openalex.org/W1600114197",
+        "https://openalex.org/W1482886841",
+        "https://openalex.org/W1499969990",
+        "https://openalex.org/W1534803028",
+        "https://openalex.org/W2169471158",
+        "https://openalex.org/W2117201183",
+        "https://openalex.org/W2148614997",
+        "https://openalex.org/W2149767168",
+        "https://openalex.org/W2134752891",
+        "https://openalex.org/W2136774414",
+        "https://openalex.org/W3022089254",
+        "https://openalex.org/W3102192856",
+        "https://openalex.org/W3022549607",
+        "https://openalex.org/W3039400575",
+        "https://openalex.org/W2071602085",
+        "https://openalex.org/W2048869686",
+        "https://openalex.org/W2044605773",
+        "https://openalex.org/W2057754767",
+        "https://openalex.org/W2057116804",
+        "https://openalex.org/W2101547937",
+        "https://openalex.org/W2103484453",
+        "https://openalex.org/W2091555286",
+        "https://openalex.org/W2078342706",
+        "https://openalex.org/W2093032997",
+        "https://openalex.org/W2096575092",
+        "https://openalex.org/W2085061534",
+        "https://openalex.org/W2548975497",
+        "https://openalex.org/W2603775038",
+        "https://openalex.org/W2786805060",
+        "https://openalex.org/W2798058877",
+        "https://openalex.org/W2783822905"
       ],
       "related_works": [
         "https://openalex.org/W3123476421",
@@ -92090,9 +91662,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/8",
-          "display_name": "Decent work and economic growth",
-          "score": 0.6000000238418579
+          "display_name": "Decent work and economic growth"
         }
       ],
       "awards": [],
@@ -92103,82 +91675,82 @@
       },
       "referenced_works_count": 76,
       "referenced_works": [
-        "https://openalex.org/W2065284654",
-        "https://openalex.org/W2060942796",
-        "https://openalex.org/W2167723409",
-        "https://openalex.org/W2482200903",
-        "https://openalex.org/W1978824346",
-        "https://openalex.org/W2029928672",
-        "https://openalex.org/W2052906040",
-        "https://openalex.org/W658021810",
-        "https://openalex.org/W2025579942",
-        "https://openalex.org/W2019745239",
-        "https://openalex.org/W2031097253",
-        "https://openalex.org/W2126482060",
-        "https://openalex.org/W1601054838",
-        "https://openalex.org/W3022549607",
-        "https://openalex.org/W2067255019",
-        "https://openalex.org/W2922428687",
-        "https://openalex.org/W2520410115",
-        "https://openalex.org/W1991843946",
-        "https://openalex.org/W2056550744",
-        "https://openalex.org/W2024431121",
-        "https://openalex.org/W2134604477",
-        "https://openalex.org/W2087703210",
-        "https://openalex.org/W2040183387",
-        "https://openalex.org/W1601036473",
-        "https://openalex.org/W2237272331",
-        "https://openalex.org/W2376008888",
-        "https://openalex.org/W2053333723",
-        "https://openalex.org/W1500796437",
-        "https://openalex.org/W1873431535",
-        "https://openalex.org/W2006967254",
-        "https://openalex.org/W2088338349",
-        "https://openalex.org/W2160787324",
-        "https://openalex.org/W1999134695",
-        "https://openalex.org/W2314060633",
-        "https://openalex.org/W2325906191",
-        "https://openalex.org/W2059374347",
-        "https://openalex.org/W2043635613",
-        "https://openalex.org/W2340493213",
-        "https://openalex.org/W1585552811",
-        "https://openalex.org/W566301135",
-        "https://openalex.org/W2038260337",
-        "https://openalex.org/W2036163960",
-        "https://openalex.org/W2945114464",
-        "https://openalex.org/W2163831147",
-        "https://openalex.org/W2004050266",
-        "https://openalex.org/W2015726575",
-        "https://openalex.org/W1696729955",
         "https://openalex.org/W2809988458",
-        "https://openalex.org/W2920150917",
-        "https://openalex.org/W1974234252",
-        "https://openalex.org/W1696669899",
-        "https://openalex.org/W1939599474",
-        "https://openalex.org/W1725308000",
-        "https://openalex.org/W2601169309",
-        "https://openalex.org/W2087606364",
-        "https://openalex.org/W2170439816",
-        "https://openalex.org/W2040394324",
-        "https://openalex.org/W2488273306",
-        "https://openalex.org/W2507685292",
-        "https://openalex.org/W2793934670",
-        "https://openalex.org/W1968722346",
-        "https://openalex.org/W2067238867",
-        "https://openalex.org/W1973910972",
-        "https://openalex.org/W2063067239",
-        "https://openalex.org/W1982139883",
-        "https://openalex.org/W306873846",
-        "https://openalex.org/W1993777408",
-        "https://openalex.org/W2065072114",
+        "https://openalex.org/W3022549607",
+        "https://openalex.org/W2167723409",
+        "https://openalex.org/W2134604477",
+        "https://openalex.org/W2126482060",
         "https://openalex.org/W2146440543",
+        "https://openalex.org/W2160787324",
+        "https://openalex.org/W2163831147",
+        "https://openalex.org/W2793934670",
+        "https://openalex.org/W2601169309",
         "https://openalex.org/W2762918090",
+        "https://openalex.org/W2237272331",
+        "https://openalex.org/W2945114464",
+        "https://openalex.org/W2489930379",
+        "https://openalex.org/W2340493213",
+        "https://openalex.org/W2488273306",
+        "https://openalex.org/W2520410115",
+        "https://openalex.org/W2507685292",
+        "https://openalex.org/W2482200903",
+        "https://openalex.org/W2376008888",
+        "https://openalex.org/W1974234252",
+        "https://openalex.org/W1939599474",
+        "https://openalex.org/W1973910972",
+        "https://openalex.org/W1978824346",
+        "https://openalex.org/W1968722346",
+        "https://openalex.org/W1873431535",
+        "https://openalex.org/W1982139883",
+        "https://openalex.org/W2031097253",
+        "https://openalex.org/W2040394324",
+        "https://openalex.org/W2025579942",
+        "https://openalex.org/W2024431121",
+        "https://openalex.org/W2019745239",
+        "https://openalex.org/W2029928672",
+        "https://openalex.org/W2038260337",
+        "https://openalex.org/W2040183387",
+        "https://openalex.org/W2036163960",
+        "https://openalex.org/W2015726575",
+        "https://openalex.org/W2922428687",
+        "https://openalex.org/W2920150917",
+        "https://openalex.org/W2087606364",
+        "https://openalex.org/W2088338349",
         "https://openalex.org/W2085440349",
         "https://openalex.org/W2078641583",
-        "https://openalex.org/W2489930379",
         "https://openalex.org/W2080958274",
+        "https://openalex.org/W2087703210",
+        "https://openalex.org/W1991843946",
+        "https://openalex.org/W1993777408",
+        "https://openalex.org/W2004050266",
+        "https://openalex.org/W2006967254",
+        "https://openalex.org/W2002003163",
+        "https://openalex.org/W1999134695",
         "https://openalex.org/W2004084417",
-        "https://openalex.org/W2002003163"
+        "https://openalex.org/W2053333723",
+        "https://openalex.org/W2065072114",
+        "https://openalex.org/W2043635613",
+        "https://openalex.org/W2059374347",
+        "https://openalex.org/W2067255019",
+        "https://openalex.org/W2063067239",
+        "https://openalex.org/W2067238867",
+        "https://openalex.org/W2060942796",
+        "https://openalex.org/W2065284654",
+        "https://openalex.org/W2052906040",
+        "https://openalex.org/W2056550744",
+        "https://openalex.org/W2314060633",
+        "https://openalex.org/W2170439816",
+        "https://openalex.org/W2325906191",
+        "https://openalex.org/W1696729955",
+        "https://openalex.org/W1500796437",
+        "https://openalex.org/W1725308000",
+        "https://openalex.org/W1601054838",
+        "https://openalex.org/W1696669899",
+        "https://openalex.org/W306873846",
+        "https://openalex.org/W658021810",
+        "https://openalex.org/W566301135",
+        "https://openalex.org/W1601036473",
+        "https://openalex.org/W1585552811"
       ],
       "related_works": [
         "https://openalex.org/W4391375266",
@@ -95200,9 +94772,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.4099999964237213,
           "id": "https://metadata.un.org/sdg/10",
-          "display_name": "Reduced inequalities",
-          "score": 0.4099999964237213
+          "display_name": "Reduced inequalities"
         }
       ],
       "awards": [],
@@ -96436,7 +96008,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.6888094,
+        "value": 0.68855391,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -96704,9 +96276,9 @@
         },
         {
           "id": "pmh:oai:edpsciences.org:dkey/10.1051/e3sconf/202454407009",
-          "is_oa": false,
+          "is_oa": true,
           "landing_page_url": null,
-          "pdf_url": null,
+          "pdf_url": "https://www.e3s-conferences.org/10.1051/e3sconf/202454407009/pdf",
           "source": {
             "id": "https://openalex.org/S4306400744",
             "display_name": "Springer Link (Chiba Institute of Technology)",
@@ -96827,8 +96399,8 @@
           "host_organization_lineage_names": [],
           "type": "repository"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
@@ -97149,8 +96721,8 @@
             "host_organization_lineage_names": [],
             "type": "repository"
           },
-          "license": null,
-          "license_id": null,
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
           "version": "submittedVersion",
           "is_accepted": false,
           "is_published": false,
@@ -97208,8 +96780,8 @@
           "host_organization_lineage_names": [],
           "type": "repository"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
@@ -97221,7 +96793,7 @@
       "funders": [],
       "has_content": {
         "grobid_xml": false,
-        "pdf": false
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -97760,8 +97332,8 @@
           "host_organization_lineage_names": [],
           "type": "repository"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
@@ -97982,8 +97554,8 @@
             "host_organization_lineage_names": [],
             "type": "repository"
           },
-          "license": null,
-          "license_id": null,
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
           "version": "submittedVersion",
           "is_accepted": false,
           "is_published": false,
@@ -98041,8 +97613,8 @@
           "host_organization_lineage_names": [],
           "type": "repository"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
@@ -98054,7 +97626,7 @@
       "funders": [],
       "has_content": {
         "grobid_xml": false,
-        "pdf": false
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -98575,7 +98147,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12312746,
+        "value": 0.10990759,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -98836,10 +98408,10 @@
         "https://openalex.org/W4392004763",
         "https://openalex.org/W3215284348",
         "https://openalex.org/W2071048859",
-        "https://openalex.org/W3101113424",
+        "https://openalex.org/W3106310637",
         "https://openalex.org/W3102928785",
-        "https://openalex.org/W2479677120",
-        "https://openalex.org/W3106310637"
+        "https://openalex.org/W3101113424",
+        "https://openalex.org/W2479677120"
       ],
       "related_works": [
         "https://openalex.org/W4391375266",
@@ -100630,7 +100202,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02955119,
+        "value": 0.02982492,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },

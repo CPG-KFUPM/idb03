@@ -479,15 +479,18 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": 0.62277927,
       "has_fulltext": false,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.29758782,
+        "value": 0.6278552,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
-      "cited_by_percentile_year": null,
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
       "biblio": {
         "volume": null,
         "issue": null,
@@ -739,8 +742,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 15,
       "referenced_works": [
@@ -1475,7 +1478,12 @@
           310
         ]
       },
-      "counts_by_year": [],
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
       "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
@@ -1676,7 +1684,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.15360246,
+        "value": 0.1391227,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1854,8 +1862,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 39,
       "referenced_works": [
@@ -3197,8 +3205,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 48,
       "referenced_works": [

@@ -553,7 +553,7 @@
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.86866941,
+        "value": 0.85956205,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -961,16 +961,16 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
-          "score": 0.4399999976158142,
-          "id": "https://metadata.un.org/sdg/12"
+          "score": 0.4399999976158142
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 24,
       "referenced_works": [
@@ -1713,7 +1713,7 @@
       "has_fulltext": true,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.97421603,
+        "value": 0.97334517,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2303,18 +2303,18 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G3781735581",
-          "display_name": null,
-          "funder_award_id": "DE-FG02-13ER26165",
-          "funder_id": "https://openalex.org/F4320337506",
-          "funder_display_name": "Advanced Scientific Computing Research"
-        },
-        {
           "id": "https://openalex.org/G8339347241",
           "display_name": null,
           "funder_award_id": "FA9550-11-1-0341",
           "funder_id": "https://openalex.org/F4320338279",
           "funder_display_name": "Air Force Office of Scientific Research"
+        },
+        {
+          "id": "https://openalex.org/G3781735581",
+          "display_name": null,
+          "funder_award_id": "DE-FG02-13ER26165",
+          "funder_id": "https://openalex.org/F4320337506",
+          "funder_display_name": "Advanced Scientific Computing Research"
         }
       ],
       "funders": [
@@ -2335,8 +2335,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 34,
       "referenced_works": [
@@ -2369,11 +2369,11 @@
         "https://openalex.org/W2059573324",
         "https://openalex.org/W2049753327",
         "https://openalex.org/W2126028850",
-        "https://openalex.org/W4230098943",
         "https://openalex.org/W2282659683",
-        "https://openalex.org/W2112823474",
+        "https://openalex.org/W4230098943",
         "https://openalex.org/W1579236455",
-        "https://openalex.org/W359661129"
+        "https://openalex.org/W359661129",
+        "https://openalex.org/W2112823474"
       ],
       "related_works": [
         "https://openalex.org/W2007405763",
@@ -2618,7 +2618,7 @@
       "has_fulltext": false,
       "cited_by_count": 19,
       "citation_normalized_percentile": {
-        "value": 0.92146323,
+        "value": 0.91526703,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3088,18 +3088,18 @@
           "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
-          "id": "https://openalex.org/G7009914427",
-          "display_name": null,
-          "funder_award_id": "URF/1/3769-01",
-          "funder_id": "https://openalex.org/F4320322320",
-          "funder_display_name": "King Abdullah University of Science and Technology"
-        },
-        {
           "id": "https://openalex.org/G1246681862",
           "display_name": null,
           "funder_award_id": "12122115",
           "funder_id": "https://openalex.org/F4320321001",
           "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G8095273227",
+          "display_name": null,
+          "funder_award_id": "SR201003",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         },
         {
           "id": "https://openalex.org/G4454127723",
@@ -3109,11 +3109,11 @@
           "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
-          "id": "https://openalex.org/G8095273227",
+          "id": "https://openalex.org/G7009914427",
           "display_name": null,
-          "funder_award_id": "SR201003",
-          "funder_id": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals"
+          "funder_award_id": "URF/1/3769-01",
+          "funder_id": "https://openalex.org/F4320322320",
+          "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
           "id": "https://openalex.org/G116077694",
@@ -3141,8 +3141,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 25,
       "referenced_works": [
@@ -3460,7 +3460,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.76594149,
+        "value": 0.74988858,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3836,16 +3836,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/3",
           "display_name": "Good health and well-being",
-          "score": 0.8700000047683716,
-          "id": "https://metadata.un.org/sdg/3"
+          "score": 0.8700000047683716
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 42,
       "referenced_works": [
@@ -3887,10 +3887,10 @@
         "https://openalex.org/W1581286771",
         "https://openalex.org/W2065423665",
         "https://openalex.org/W1512153219",
-        "https://openalex.org/W2795744704",
-        "https://openalex.org/W3086618271",
         "https://openalex.org/W2493133232",
-        "https://openalex.org/W157111480"
+        "https://openalex.org/W157111480",
+        "https://openalex.org/W2795744704",
+        "https://openalex.org/W3086618271"
       ],
       "related_works": [
         "https://openalex.org/W2353039109",
@@ -4042,7 +4042,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.85555287,
+        "value": 0.84215166,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4387,8 +4387,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 24,
       "referenced_works": [
@@ -4888,7 +4888,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03801852,
+        "value": 0.03978747,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5258,9 +5258,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/16",
           "display_name": "Peace, Justice and strong institutions",
-          "score": 0.7900000214576721,
-          "id": "https://metadata.un.org/sdg/16"
+          "score": 0.7900000214576721
         }
       ],
       "awards": [],
@@ -5272,8 +5272,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 33,
       "referenced_works": [
@@ -5307,9 +5307,9 @@
         "https://openalex.org/W2049753327",
         "https://openalex.org/W2017635836",
         "https://openalex.org/W2091158391",
+        "https://openalex.org/W1579236455",
         "https://openalex.org/W2114051217",
-        "https://openalex.org/W2253094723",
-        "https://openalex.org/W1579236455"
+        "https://openalex.org/W2253094723"
       ],
       "related_works": [
         "https://openalex.org/W2006953814",
@@ -5469,7 +5469,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.45753493,
+        "value": 0.4576946,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5898,42 +5898,42 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 31,
       "referenced_works": [
-        "https://openalex.org/W2018074366",
-        "https://openalex.org/W2000272165",
-        "https://openalex.org/W2041243668",
-        "https://openalex.org/W2049753327",
-        "https://openalex.org/W2126028850",
-        "https://openalex.org/W359661129",
-        "https://openalex.org/W1995578999",
-        "https://openalex.org/W2010661806",
-        "https://openalex.org/W2024798661",
-        "https://openalex.org/W2080043569",
-        "https://openalex.org/W2043176577",
-        "https://openalex.org/W1489519217",
-        "https://openalex.org/W1966922361",
-        "https://openalex.org/W2164089645",
-        "https://openalex.org/W2282659683",
-        "https://openalex.org/W2016187476",
-        "https://openalex.org/W2052275102",
-        "https://openalex.org/W2003637147",
         "https://openalex.org/W1994089881",
-        "https://openalex.org/W1848106544",
-        "https://openalex.org/W2112823474",
-        "https://openalex.org/W2030373618",
-        "https://openalex.org/W2066042384",
-        "https://openalex.org/W2086114884",
-        "https://openalex.org/W1633869374",
+        "https://openalex.org/W2000272165",
+        "https://openalex.org/W1997640799",
+        "https://openalex.org/W2003637147",
+        "https://openalex.org/W1995578999",
+        "https://openalex.org/W1966922361",
         "https://openalex.org/W2051394807",
+        "https://openalex.org/W2049753327",
+        "https://openalex.org/W2052275102",
+        "https://openalex.org/W1848106544",
         "https://openalex.org/W1579236455",
+        "https://openalex.org/W1489519217",
+        "https://openalex.org/W1633869374",
+        "https://openalex.org/W359661129",
+        "https://openalex.org/W2030373618",
+        "https://openalex.org/W2041243668",
+        "https://openalex.org/W2043176577",
         "https://openalex.org/W1984471539",
-        "https://openalex.org/W2073594627",
+        "https://openalex.org/W2018074366",
+        "https://openalex.org/W2024798661",
         "https://openalex.org/W2011224005",
-        "https://openalex.org/W1997640799"
+        "https://openalex.org/W2010661806",
+        "https://openalex.org/W2016187476",
+        "https://openalex.org/W2080043569",
+        "https://openalex.org/W2073594627",
+        "https://openalex.org/W2086114884",
+        "https://openalex.org/W2066042384",
+        "https://openalex.org/W2112823474",
+        "https://openalex.org/W2126028850",
+        "https://openalex.org/W2164089645",
+        "https://openalex.org/W2282659683"
       ],
       "related_works": [
         "https://openalex.org/W2953010041",
@@ -6642,14 +6642,10 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
-      "citation_normalized_percentile": {
-        "value": 0.28866012,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
+      "citation_normalized_percentile": null,
       "cited_by_percentile_year": null,
       "biblio": {
         "volume": null,
@@ -7137,29 +7133,29 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 19,
       "referenced_works": [
-        "https://openalex.org/W1848106544",
-        "https://openalex.org/W2073594627",
-        "https://openalex.org/W1633869374",
-        "https://openalex.org/W2041243668",
-        "https://openalex.org/W2112823474",
-        "https://openalex.org/W2011224005",
-        "https://openalex.org/W2126028850",
-        "https://openalex.org/W2080043569",
-        "https://openalex.org/W2030373618",
-        "https://openalex.org/W2052275102",
-        "https://openalex.org/W1489519217",
-        "https://openalex.org/W2051394807",
-        "https://openalex.org/W2049753327",
-        "https://openalex.org/W359661129",
+        "https://openalex.org/W1995578999",
         "https://openalex.org/W1997640799",
         "https://openalex.org/W2282659683",
+        "https://openalex.org/W2051394807",
+        "https://openalex.org/W2073594627",
+        "https://openalex.org/W2049753327",
+        "https://openalex.org/W2052275102",
+        "https://openalex.org/W2126028850",
+        "https://openalex.org/W2112823474",
+        "https://openalex.org/W2080043569",
+        "https://openalex.org/W2041243668",
+        "https://openalex.org/W2011224005",
+        "https://openalex.org/W2030373618",
         "https://openalex.org/W2018074366",
-        "https://openalex.org/W1995578999",
+        "https://openalex.org/W1633869374",
+        "https://openalex.org/W1848106544",
+        "https://openalex.org/W1489519217",
+        "https://openalex.org/W359661129",
         "https://openalex.org/W1579236455"
       ],
       "related_works": [
@@ -7702,7 +7698,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.4159292,
+        "value": 0.39743912,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8030,8 +8026,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 24,
       "referenced_works": [

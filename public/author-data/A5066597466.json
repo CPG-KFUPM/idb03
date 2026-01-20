@@ -967,9 +967,9 @@
       "apc_paid": null,
       "fwci": 4.4851532,
       "has_fulltext": false,
-      "cited_by_count": 129,
+      "cited_by_count": 130,
       "citation_normalized_percentile": {
-        "value": 0.94846611,
+        "value": 0.94817474,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1383,8 +1383,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 81,
       "referenced_works": [
@@ -1976,6 +1976,10 @@
       },
       "counts_by_year": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
           "cited_by_count": 11
         },
@@ -2198,7 +2202,7 @@
       "has_fulltext": false,
       "cited_by_count": 69,
       "citation_normalized_percentile": {
-        "value": 0.88413252,
+        "value": 0.88271433,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2587,9 +2591,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8299999833106995,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8299999833106995
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -2601,8 +2605,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 67,
       "referenced_works": [
@@ -2651,27 +2655,27 @@
         "https://openalex.org/W2005400443",
         "https://openalex.org/W2066061012",
         "https://openalex.org/W1592325855",
-        "https://openalex.org/W2188261346",
-        "https://openalex.org/W2001731414",
-        "https://openalex.org/W2315393410",
-        "https://openalex.org/W2006357728",
-        "https://openalex.org/W1979544533",
-        "https://openalex.org/W2331256947",
-        "https://openalex.org/W2083222334",
-        "https://openalex.org/W2086310984",
-        "https://openalex.org/W2809491021",
-        "https://openalex.org/W2312706848",
-        "https://openalex.org/W2098747335",
-        "https://openalex.org/W1966599307",
-        "https://openalex.org/W2312297470",
-        "https://openalex.org/W2003368879",
-        "https://openalex.org/W1964047551",
         "https://openalex.org/W2087698390",
-        "https://openalex.org/W1981368803",
-        "https://openalex.org/W1970127494",
-        "https://openalex.org/W2321575493",
-        "https://openalex.org/W2569226784",
+        "https://openalex.org/W2086310984",
+        "https://openalex.org/W2098747335",
+        "https://openalex.org/W2083222334",
+        "https://openalex.org/W2809491021",
+        "https://openalex.org/W2006357728",
+        "https://openalex.org/W2003368879",
         "https://openalex.org/W2007395042",
+        "https://openalex.org/W2001731414",
+        "https://openalex.org/W2331256947",
+        "https://openalex.org/W2569226784",
+        "https://openalex.org/W1981368803",
+        "https://openalex.org/W1964047551",
+        "https://openalex.org/W1979544533",
+        "https://openalex.org/W1966599307",
+        "https://openalex.org/W1970127494",
+        "https://openalex.org/W2188261346",
+        "https://openalex.org/W2312706848",
+        "https://openalex.org/W2321575493",
+        "https://openalex.org/W2315393410",
+        "https://openalex.org/W2312297470",
         "https://openalex.org/W2036113194"
       ],
       "related_works": [
@@ -3558,7 +3562,7 @@
       "has_fulltext": false,
       "cited_by_count": 53,
       "citation_normalized_percentile": {
-        "value": 0.83868358,
+        "value": 0.83772007,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3922,18 +3926,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.75,
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7",
-          "score": 0.75
+          "id": "https://metadata.un.org/sdg/7"
         }
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G7882266486",
+          "id": "https://openalex.org/G7711484159",
           "display_name": null,
-          "funder_award_id": "01DP14011",
-          "funder_id": "https://openalex.org/F4320321114",
-          "funder_display_name": "Bundesministerium für Bildung und Forschung"
+          "funder_award_id": "MOE2016-T2-1-030",
+          "funder_id": "https://openalex.org/F4320320751",
+          "funder_display_name": "Ministry of Education - Singapore"
         },
         {
           "id": "https://openalex.org/G834066857",
@@ -3943,11 +3947,11 @@
           "funder_display_name": "Bundesministerium für Bildung und Forschung"
         },
         {
-          "id": "https://openalex.org/G7711484159",
+          "id": "https://openalex.org/G7882266486",
           "display_name": null,
-          "funder_award_id": "MOE2016-T2-1-030",
-          "funder_id": "https://openalex.org/F4320320751",
-          "funder_display_name": "Ministry of Education - Singapore"
+          "funder_award_id": "01DP14011",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
         }
       ],
       "funders": [
@@ -3963,8 +3967,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 67,
       "referenced_works": [
@@ -5139,9 +5143,9 @@
       },
       "fwci": 1.22005304,
       "has_fulltext": true,
-      "cited_by_count": 29,
+      "cited_by_count": 30,
       "citation_normalized_percentile": {
-        "value": 0.75280058,
+        "value": 0.75107943,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5496,16 +5500,16 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8700000047683716,
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8700000047683716
+          "id": "https://metadata.un.org/sdg/7"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -6084,7 +6088,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -6409,7 +6413,7 @@
       "has_fulltext": false,
       "cited_by_count": 51,
       "citation_normalized_percentile": {
-        "value": 0.9225313,
+        "value": 0.92199403,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6825,16 +6829,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8700000047683716,
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8700000047683716
+          "id": "https://metadata.un.org/sdg/7"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 79,
       "referenced_works": [
@@ -7395,7 +7399,7 @@
       "has_fulltext": false,
       "cited_by_count": 44,
       "citation_normalized_percentile": {
-        "value": 0.83229043,
+        "value": 0.82923914,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7786,8 +7790,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -8395,7 +8399,7 @@
       "has_fulltext": false,
       "cited_by_count": 35,
       "citation_normalized_percentile": {
-        "value": 0.75549967,
+        "value": 0.75400528,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8757,9 +8761,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.4699999988079071
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -8771,8 +8775,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 56,
       "referenced_works": [
@@ -9796,7 +9800,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.81388604,
+        "value": 0.81106137,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10188,8 +10192,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 44,
       "referenced_works": [
@@ -10824,7 +10828,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.84469478,
+        "value": 0.84187686,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11275,16 +11279,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6600000262260437,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6600000262260437
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 61,
       "referenced_works": [
@@ -11347,8 +11351,8 @@
         "https://openalex.org/W2340618834",
         "https://openalex.org/W2167590372",
         "https://openalex.org/W2290823313",
-        "https://openalex.org/W2312044705",
-        "https://openalex.org/W3105222649"
+        "https://openalex.org/W3105222649",
+        "https://openalex.org/W2312044705"
       ],
       "related_works": [
         "https://openalex.org/W2896959733",
@@ -11902,7 +11906,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.76194079,
+        "value": 0.74548446,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12189,8 +12193,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 76,
       "referenced_works": [
@@ -12259,17 +12263,17 @@
         "https://openalex.org/W1927499036",
         "https://openalex.org/W3124164846",
         "https://openalex.org/W2943684313",
-        "https://openalex.org/W4379141173",
-        "https://openalex.org/W2912290661",
-        "https://openalex.org/W3016420224",
-        "https://openalex.org/W4386572289",
         "https://openalex.org/W4200314696",
-        "https://openalex.org/W3037814420",
-        "https://openalex.org/W2791826156",
+        "https://openalex.org/W4224060365",
         "https://openalex.org/W4224923060",
-        "https://openalex.org/W3170841578",
+        "https://openalex.org/W2791826156",
+        "https://openalex.org/W4379141173",
+        "https://openalex.org/W4386572289",
+        "https://openalex.org/W2912290661",
         "https://openalex.org/W3195344957",
-        "https://openalex.org/W4224060365"
+        "https://openalex.org/W3170841578",
+        "https://openalex.org/W3016420224",
+        "https://openalex.org/W3037814420"
       ],
       "related_works": [
         "https://openalex.org/W4255463199",
@@ -12516,7 +12520,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.86909406,
+        "value": 0.8597387,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12818,8 +12822,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 40,
       "referenced_works": [
@@ -13927,7 +13931,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.89695246,
+        "value": 0.9019077,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14310,16 +14314,16 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6700000166893005,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6700000166893005
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -14933,68 +14937,68 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7400000095367432,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7400000095367432
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 49,
       "referenced_works": [
-        "https://openalex.org/W2093021165",
-        "https://openalex.org/W2004183267",
-        "https://openalex.org/W1645422644",
-        "https://openalex.org/W1625931829",
-        "https://openalex.org/W2052637367",
-        "https://openalex.org/W1504277857",
-        "https://openalex.org/W3141554777",
-        "https://openalex.org/W2030687437",
-        "https://openalex.org/W2116373706",
-        "https://openalex.org/W2117894566",
-        "https://openalex.org/W1504770578",
-        "https://openalex.org/W2017535115",
-        "https://openalex.org/W2318122588",
-        "https://openalex.org/W2071936173",
-        "https://openalex.org/W2089799306",
-        "https://openalex.org/W2072782129",
-        "https://openalex.org/W1991074394",
-        "https://openalex.org/W1983468193",
-        "https://openalex.org/W2150981663",
-        "https://openalex.org/W2029667189",
-        "https://openalex.org/W2023271753",
-        "https://openalex.org/W597110520",
-        "https://openalex.org/W3037896947",
-        "https://openalex.org/W1965838279",
-        "https://openalex.org/W2014166972",
-        "https://openalex.org/W2049079467",
-        "https://openalex.org/W1550061415",
-        "https://openalex.org/W2132629607",
-        "https://openalex.org/W1511418103",
-        "https://openalex.org/W2230728100",
-        "https://openalex.org/W1986982278",
-        "https://openalex.org/W2009867601",
-        "https://openalex.org/W2010655542",
-        "https://openalex.org/W1801529118",
-        "https://openalex.org/W2274668686",
-        "https://openalex.org/W2121192472",
-        "https://openalex.org/W1546195973",
-        "https://openalex.org/W1994007952",
-        "https://openalex.org/W2063392457",
-        "https://openalex.org/W1966078827",
-        "https://openalex.org/W1989984464",
-        "https://openalex.org/W2111877311",
-        "https://openalex.org/W1989842813",
         "https://openalex.org/W2071200562",
-        "https://openalex.org/W2094279870",
+        "https://openalex.org/W2072782129",
+        "https://openalex.org/W2063392457",
         "https://openalex.org/W2082175923",
-        "https://openalex.org/W1484479398",
+        "https://openalex.org/W2089799306",
+        "https://openalex.org/W2071936173",
+        "https://openalex.org/W2093021165",
+        "https://openalex.org/W2111877311",
+        "https://openalex.org/W2094279870",
+        "https://openalex.org/W2029667189",
+        "https://openalex.org/W2030687437",
+        "https://openalex.org/W2030976617",
+        "https://openalex.org/W2274668686",
+        "https://openalex.org/W2318122588",
+        "https://openalex.org/W2150981663",
+        "https://openalex.org/W2230728100",
+        "https://openalex.org/W1966078827",
+        "https://openalex.org/W1965838279",
+        "https://openalex.org/W1983468193",
+        "https://openalex.org/W1989984464",
+        "https://openalex.org/W1991074394",
+        "https://openalex.org/W1986982278",
+        "https://openalex.org/W1989842813",
         "https://openalex.org/W2043858812",
-        "https://openalex.org/W2030976617"
+        "https://openalex.org/W2052637367",
+        "https://openalex.org/W2049079467",
+        "https://openalex.org/W2009867601",
+        "https://openalex.org/W2023271753",
+        "https://openalex.org/W1994007952",
+        "https://openalex.org/W2010655542",
+        "https://openalex.org/W2004183267",
+        "https://openalex.org/W2014166972",
+        "https://openalex.org/W2017535115",
+        "https://openalex.org/W1484479398",
+        "https://openalex.org/W1625931829",
+        "https://openalex.org/W1511418103",
+        "https://openalex.org/W597110520",
+        "https://openalex.org/W1504277857",
+        "https://openalex.org/W1550061415",
+        "https://openalex.org/W1645422644",
+        "https://openalex.org/W1801529118",
+        "https://openalex.org/W1504770578",
+        "https://openalex.org/W1546195973",
+        "https://openalex.org/W3141554777",
+        "https://openalex.org/W3037896947",
+        "https://openalex.org/W2117894566",
+        "https://openalex.org/W2121192472",
+        "https://openalex.org/W2132629607",
+        "https://openalex.org/W2116373706"
       ],
       "related_works": [
         "https://openalex.org/W2792731764",
@@ -15814,7 +15818,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.22844228,
+        "value": 0.22869095,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15915,8 +15919,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -16059,7 +16063,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.39958081,
+        "value": 0.40224568,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16158,16 +16162,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5799999833106995,
           "display_name": "Zero hunger",
-          "id": "https://metadata.un.org/sdg/2",
-          "score": 0.5799999833106995
+          "id": "https://metadata.un.org/sdg/2"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -16611,8 +16615,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -17574,7 +17578,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.29285421,
+        "value": 0.24823657,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17683,8 +17687,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 61,
       "referenced_works": [
@@ -18343,7 +18347,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.32230736,
+        "value": 0.28019737,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18746,8 +18750,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 173,
       "referenced_works": [
@@ -18922,8 +18926,8 @@
         "https://openalex.org/W2943675828",
         "https://openalex.org/W3149871039",
         "https://openalex.org/W3037802142",
-        "https://openalex.org/W3146152867",
-        "https://openalex.org/W3158495239"
+        "https://openalex.org/W3158495239",
+        "https://openalex.org/W3146152867"
       ],
       "related_works": [],
       "abstract_inverted_index": {

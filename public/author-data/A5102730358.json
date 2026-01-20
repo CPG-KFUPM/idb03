@@ -474,6 +474,1316 @@
   },
   "works": [
     {
+      "id": "https://openalex.org/W1976976643",
+      "doi": "https://doi.org/10.2118/107713-ms",
+      "title": "Optimization of Oil Production Based on A Capacitance Model of Production and Injection Rates",
+      "display_name": "Optimization of Oil Production Based on A Capacitance Model of Production and Injection Rates",
+      "publication_year": 2007,
+      "publication_date": "2007-04-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1976976643",
+        "doi": "https://doi.org/10.2118/107713-ms",
+        "mag": "1976976643"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2118/107713-ms",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2118/107713-ms",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Hydrocarbon Economics and Evaluation Symposium",
+        "raw_type": "proceedings-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5100372205",
+            "display_name": "Liang Xue",
+            "orcid": "https://orcid.org/0000-0002-4841-6772"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I139660479",
+              "display_name": "Central South University",
+              "ror": "https://ror.org/00f1zfq44",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I139660479"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "X. Liang",
+          "raw_affiliation_strings": [
+            "Central South U., Changsha, Hunan, China",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Central South U., Changsha, Hunan, China",
+              "institution_ids": [
+                "https://openalex.org/I139660479"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5111806786",
+            "display_name": "D. B. Weber",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "D. B. Weber",
+          "raw_affiliation_strings": [
+            "U. of Texas at Austin",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "U. of Texas at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5110887286",
+            "display_name": "Thomas F. Edgar",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "T. F. Edgar",
+          "raw_affiliation_strings": [
+            "U. of Texas at Austin",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "U. of Texas at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5109040880",
+            "display_name": "Larry W. Lake",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "L. W. Lake",
+          "raw_affiliation_strings": [
+            "U. of Texas at Austin",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "U. of Texas at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5056465220",
+            "display_name": "Morteza Sayarpour",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M. Sayarpour",
+          "raw_affiliation_strings": [
+            "U. of Texas at Austin",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "U. of Texas at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5102730358",
+            "display_name": "Ali Al‐Yousef",
+            "orcid": "https://orcid.org/0000-0002-9285-2969"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86519309",
+              "display_name": "The University of Texas at Austin",
+              "ror": "https://ror.org/00hj54h04",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "A. Al-Yousef",
+          "raw_affiliation_strings": [
+            "U. of Texas at Austin",
+            "The University of Texas, at Austin"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "U. of Texas at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas, at Austin",
+              "institution_ids": [
+                "https://openalex.org/I86519309"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 6,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5100372205"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I139660479",
+        "https://openalex.org/I86519309"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 7.35697545,
+      "has_fulltext": false,
+      "cited_by_count": 112,
+      "citation_normalized_percentile": {
+        "value": 0.96602844,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 94,
+        "max": 100
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11801",
+        "display_name": "Reservoir Engineering and Simulation Methods",
+        "score": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11801",
+          "display_name": "Reservoir Engineering and Simulation Methods",
+          "score": 1,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10491",
+          "display_name": "Enhanced Oil Recovery Techniques",
+          "score": 0.9958000183105469,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13050",
+          "display_name": "Oil and Gas Production Techniques",
+          "score": 0.9939000010490417,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/injector",
+          "display_name": "Injector",
+          "score": 0.6685100793838501
+        },
+        {
+          "id": "https://openalex.org/keywords/water-injection",
+          "display_name": "Water injection (oil production)",
+          "score": 0.6041213870048523
+        },
+        {
+          "id": "https://openalex.org/keywords/production",
+          "display_name": "Production (economics)",
+          "score": 0.5223337411880493
+        },
+        {
+          "id": "https://openalex.org/keywords/volume",
+          "display_name": "Volume (thermodynamics)",
+          "score": 0.4894541800022125
+        },
+        {
+          "id": "https://openalex.org/keywords/oil-field",
+          "display_name": "Oil field",
+          "score": 0.4781283438205719
+        },
+        {
+          "id": "https://openalex.org/keywords/petroleum-engineering",
+          "display_name": "Petroleum engineering",
+          "score": 0.4618515074253082
+        },
+        {
+          "id": "https://openalex.org/keywords/injection-well",
+          "display_name": "Injection well",
+          "score": 0.45122355222702026
+        },
+        {
+          "id": "https://openalex.org/keywords/oil-production",
+          "display_name": "Oil production",
+          "score": 0.44642141461372375
+        },
+        {
+          "id": "https://openalex.org/keywords/capacitance",
+          "display_name": "Capacitance",
+          "score": 0.4439111649990082
+        },
+        {
+          "id": "https://openalex.org/keywords/optimal-control",
+          "display_name": "Optimal control",
+          "score": 0.4299517273902893
+        },
+        {
+          "id": "https://openalex.org/keywords/produced-water",
+          "display_name": "Produced water",
+          "score": 0.41238364577293396
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.37626320123672485
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-science",
+          "display_name": "Environmental science",
+          "score": 0.37425678968429565
+        },
+        {
+          "id": "https://openalex.org/keywords/process-engineering",
+          "display_name": "Process engineering",
+          "score": 0.3529212474822998
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-optimization",
+          "display_name": "Mathematical optimization",
+          "score": 0.32295331358909607
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.2774181365966797
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.17479485273361206
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C135186712",
+          "wikidata": "https://www.wikidata.org/wiki/Q425705",
+          "display_name": "Injector",
+          "level": 2,
+          "score": 0.6685100793838501
+        },
+        {
+          "id": "https://openalex.org/C2778059233",
+          "wikidata": "https://www.wikidata.org/wiki/Q7973522",
+          "display_name": "Water injection (oil production)",
+          "level": 2,
+          "score": 0.6041213870048523
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5223337411880493
+        },
+        {
+          "id": "https://openalex.org/C20556612",
+          "wikidata": "https://www.wikidata.org/wiki/Q4469374",
+          "display_name": "Volume (thermodynamics)",
+          "level": 2,
+          "score": 0.4894541800022125
+        },
+        {
+          "id": "https://openalex.org/C2776364302",
+          "wikidata": "https://www.wikidata.org/wiki/Q1845437",
+          "display_name": "Oil field",
+          "level": 2,
+          "score": 0.4781283438205719
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.4618515074253082
+        },
+        {
+          "id": "https://openalex.org/C57054060",
+          "wikidata": "https://www.wikidata.org/wiki/Q59420558",
+          "display_name": "Injection well",
+          "level": 2,
+          "score": 0.45122355222702026
+        },
+        {
+          "id": "https://openalex.org/C2984309096",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349660",
+          "display_name": "Oil production",
+          "level": 2,
+          "score": 0.44642141461372375
+        },
+        {
+          "id": "https://openalex.org/C30066665",
+          "wikidata": "https://www.wikidata.org/wiki/Q164399",
+          "display_name": "Capacitance",
+          "level": 3,
+          "score": 0.4439111649990082
+        },
+        {
+          "id": "https://openalex.org/C91575142",
+          "wikidata": "https://www.wikidata.org/wiki/Q1971426",
+          "display_name": "Optimal control",
+          "level": 2,
+          "score": 0.4299517273902893
+        },
+        {
+          "id": "https://openalex.org/C2775865663",
+          "wikidata": "https://www.wikidata.org/wiki/Q7247687",
+          "display_name": "Produced water",
+          "level": 2,
+          "score": 0.41238364577293396
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.37626320123672485
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.37425678968429565
+        },
+        {
+          "id": "https://openalex.org/C21880701",
+          "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+          "display_name": "Process engineering",
+          "level": 1,
+          "score": 0.3529212474822998
+        },
+        {
+          "id": "https://openalex.org/C126255220",
+          "wikidata": "https://www.wikidata.org/wiki/Q141495",
+          "display_name": "Mathematical optimization",
+          "level": 1,
+          "score": 0.32295331358909607
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2774181365966797
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.17479485273361206
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C147789679",
+          "wikidata": "https://www.wikidata.org/wiki/Q11372",
+          "display_name": "Physical chemistry",
+          "level": 1,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C139719470",
+          "wikidata": "https://www.wikidata.org/wiki/Q39680",
+          "display_name": "Macroeconomics",
+          "level": 1,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C17525397",
+          "wikidata": "https://www.wikidata.org/wiki/Q176140",
+          "display_name": "Electrode",
+          "level": 2,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2118/107713-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2118/107713-ms",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Hydrocarbon Economics and Evaluation Symposium",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "referenced_works_count": 15,
+      "referenced_works": [
+        "https://openalex.org/W1995690442",
+        "https://openalex.org/W2046252888",
+        "https://openalex.org/W4246615416",
+        "https://openalex.org/W4244842933",
+        "https://openalex.org/W2051674529",
+        "https://openalex.org/W6630912716",
+        "https://openalex.org/W1988918431",
+        "https://openalex.org/W4244369856",
+        "https://openalex.org/W2027198549",
+        "https://openalex.org/W1967574274",
+        "https://openalex.org/W2014785278",
+        "https://openalex.org/W1998423365",
+        "https://openalex.org/W1515557481",
+        "https://openalex.org/W2031962060",
+        "https://openalex.org/W2158726023"
+      ],
+      "related_works": [
+        "https://openalex.org/W4324266279",
+        "https://openalex.org/W2380786404",
+        "https://openalex.org/W2374506793",
+        "https://openalex.org/W3014433796",
+        "https://openalex.org/W3023025999",
+        "https://openalex.org/W2387374232",
+        "https://openalex.org/W2365428771",
+        "https://openalex.org/W2040331538",
+        "https://openalex.org/W2080903783",
+        "https://openalex.org/W2037864051"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "This": [
+          1
+        ],
+        "paper": [
+          2
+        ],
+        "presents": [
+          3
+        ],
+        "a": [
+          4,
+          20,
+          29,
+          55,
+          66,
+          81,
+          233
+        ],
+        "methodology": [
+          5
+        ],
+        "to": [
+          6,
+          27,
+          60,
+          96,
+          198
+        ],
+        "optimize": [
+          7,
+          97
+        ],
+        "the": [
+          8,
+          15,
+          34,
+          38,
+          44,
+          76,
+          84,
+          113,
+          117,
+          121,
+          127,
+          138,
+          144,
+          154,
+          166,
+          171,
+          191
+        ],
+        "value": [
+          9
+        ],
+        "of": [
+          10,
+          54,
+          83,
+          116,
+          123,
+          130,
+          153,
+          170,
+          176,
+          193,
+          229
+        ],
+        "oil": [
+          11,
+          92,
+          101,
+          118,
+          159
+        ],
+        "produced": [
+          12,
+          119
+        ],
+        "by": [
+          13
+        ],
+        "adjusting": [
+          14
+        ],
+        "water": [
+          16,
+          86,
+          105,
+          124,
+          131,
+          194
+        ],
+        "injection": [
+          17,
+          35,
+          106,
+          178,
+          187
+        ],
+        "rates": [
+          18,
+          36,
+          42,
+          103,
+          107,
+          188,
+          231
+        ],
+        "in": [
+          19,
+          203,
+          232
+        ],
+        "mature": [
+          21
+        ],
+        "field.": [
+          22
+        ],
+        "The": [
+          23,
+          133,
+          151,
+          185,
+          212
+        ],
+        "reservoir": [
+          24,
+          69,
+          172
+        ],
+        "is": [
+          25,
+          58,
+          94,
+          224
+        ],
+        "considered": [
+          26
+        ],
+        "be": [
+          28,
+          217
+        ],
+        "multi-well": [
+          30
+        ],
+        "input-output": [
+          31
+        ],
+        "system": [
+          32
+        ],
+        "with": [
+          33
+        ],
+        "as": [
+          37,
+          43,
+          80
+        ],
+        "inputs": [
+          39
+        ],
+        "and": [
+          40,
+          104,
+          120,
+          149,
+          223
+        ],
+        "production": [
+          41,
+          93,
+          102,
+          160,
+          221
+        ],
+        "outputs.": [
+          45
+        ],
+        "A": [
+          46,
+          71
+        ],
+        "simple": [
+          47,
+          139
+        ],
+        "capacitance": [
+          48,
+          140
+        ],
+        "model": [
+          49,
+          141
+        ],
+        "based": [
+          50,
+          111
+        ],
+        "on": [
+          51,
+          112,
+          190
+        ],
+        "control": [
+          52,
+          222
+        ],
+        "volume": [
+          53
+        ],
+        "given": [
+          56
+        ],
+        "producer": [
+          57
+        ],
+        "fitted": [
+          59
+        ],
+        "total": [
+          61
+        ],
+        "injection/production": [
+          62
+        ],
+        "data": [
+          63
+        ],
+        "obtained": [
+          64
+        ],
+        "from": [
+          65
+        ],
+        "three": [
+          67
+        ],
+        "dimensional": [
+          68
+        ],
+        "simulator.": [
+          70
+        ],
+        "power": [
+          72
+        ],
+        "law": [
+          73
+        ],
+        "relationship": [
+          74
+        ],
+        "models": [
+          75
+        ],
+        "instantaneous": [
+          77
+        ],
+        "water-oil": [
+          78
+        ],
+        "ratio": [
+          79
+        ],
+        "function": [
+          82
+        ],
+        "cumulative": [
+          85
+        ],
+        "injected.": [
+          87
+        ],
+        "An": [
+          88
+        ],
+        "optimization": [
+          89,
+          156,
+          214,
+          228
+        ],
+        "problem": [
+          90,
+          157
+        ],
+        "for": [
+          91,
+          158,
+          219,
+          226
+        ],
+        "formulated": [
+          95
+        ],
+        "future": [
+          98,
+          167
+        ],
+        "performance,": [
+          99
+        ],
+        "where": [
+          100,
+          235
+        ],
+        "are": [
+          108,
+          179,
+          237
+        ],
+        "optimized": [
+          109
+        ],
+        "simultaneously": [
+          110
+        ],
+        "selling": [
+          114
+        ],
+        "price": [
+          115
+        ],
+        "cost": [
+          122,
+          129,
+          192
+        ],
+        "injected": [
+          125
+        ],
+        "or": [
+          126
+        ],
+        "disposal": [
+          128
+        ],
+        "produced.": [
+          132
+        ],
+        "simulation": [
+          134
+        ],
+        "results": [
+          135
+        ],
+        "show": [
+          136
+        ],
+        "that": [
+          137
+        ],
+        "satisfactorily": [
+          142
+        ],
+        "captures": [
+          143
+        ],
+        "long-time": [
+          145
+        ],
+        "behavior": [
+          146
+        ],
+        "between": [
+          147
+        ],
+        "injectors": [
+          148,
+          236
+        ],
+        "producers.": [
+          150
+        ],
+        "solution": [
+          152
+        ],
+        "constrained": [
+          155
+        ],
+        "using": [
+          161
+        ],
+        "nonlinear": [
+          162
+        ],
+        "programming": [
+          163
+        ],
+        "can": [
+          164,
+          216
+        ],
+        "maximize": [
+          165
+        ],
+        "economic": [
+          168
+        ],
+        "return": [
+          169
+        ],
+        "asset.": [
+          173
+        ],
+        "Various": [
+          174
+        ],
+        "patterns": [
+          175
+        ],
+        "optimal": [
+          177,
+          186
+        ],
+        "followed": [
+          180
+        ],
+        "under": [
+          181
+        ],
+        "different": [
+          182
+        ],
+        "revenue": [
+          183
+        ],
+        "objectives.": [
+          184
+        ],
+        "depend": [
+          189
+        ],
+        "injected/disposed,": [
+          195
+        ],
+        "which": [
+          196
+        ],
+        "leads": [
+          197
+        ],
+        "some": [
+          199
+        ],
+        "wells": [
+          200,
+          206
+        ],
+        "being": [
+          201
+        ],
+        "shut": [
+          202
+        ],
+        "while": [
+          204
+        ],
+        "other": [
+          205
+        ],
+        "operate": [
+          207
+        ],
+        "at": [
+          208
+        ],
+        "their": [
+          209
+        ],
+        "maximum": [
+          210
+        ],
+        "values.": [
+          211
+        ],
+        "proposed": [
+          213
+        ],
+        "method": [
+          215
+        ],
+        "used": [
+          218
+        ],
+        "realtime": [
+          220
+        ],
+        "appropriate": [
+          225
+        ],
+        "simultaneous": [
+          227
+        ],
+        "well": [
+          230
+        ],
+        "field": [
+          234
+        ],
+        "shut-in": [
+          238
+        ],
+        "frequently.": [
+          239
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 6
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W2895557826",
       "doi": "https://doi.org/10.2118/184163-pa",
       "title": "Smartwater Synergy With Chemical Enhanced Oil Recovery: Polymer Effects on Smartwater",
@@ -765,7 +2075,7 @@
       "has_fulltext": false,
       "cited_by_count": 58,
       "citation_normalized_percentile": {
-        "value": 0.95742036,
+        "value": 0.95706984,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1111,9 +2421,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147
+          "score": 0.8600000143051147,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -1169,32 +2479,32 @@
         "https://openalex.org/W2165917227",
         "https://openalex.org/W2049795457",
         "https://openalex.org/W6641566293",
-        "https://openalex.org/W2054205513",
-        "https://openalex.org/W2034279603",
-        "https://openalex.org/W2468202907",
-        "https://openalex.org/W2089693501",
-        "https://openalex.org/W2034433636",
         "https://openalex.org/W1997783064",
-        "https://openalex.org/W2052227116",
-        "https://openalex.org/W2255431697",
-        "https://openalex.org/W2482952371",
-        "https://openalex.org/W1966508692",
-        "https://openalex.org/W2017838005",
-        "https://openalex.org/W2131545346",
-        "https://openalex.org/W1980434848",
-        "https://openalex.org/W2039755630",
-        "https://openalex.org/W2023675961",
-        "https://openalex.org/W3044656254",
-        "https://openalex.org/W2203244908",
         "https://openalex.org/W1965439457",
-        "https://openalex.org/W2069238106",
-        "https://openalex.org/W1969975179",
-        "https://openalex.org/W2085181927",
-        "https://openalex.org/W2511217346",
+        "https://openalex.org/W1966508692",
         "https://openalex.org/W1966612917",
+        "https://openalex.org/W1969975179",
+        "https://openalex.org/W1980434848",
         "https://openalex.org/W2091840274",
+        "https://openalex.org/W2089693501",
+        "https://openalex.org/W2085181927",
+        "https://openalex.org/W2069238106",
+        "https://openalex.org/W2054205513",
         "https://openalex.org/W2069832271",
-        "https://openalex.org/W2107223743"
+        "https://openalex.org/W2052227116",
+        "https://openalex.org/W2023675961",
+        "https://openalex.org/W2017838005",
+        "https://openalex.org/W2034433636",
+        "https://openalex.org/W2034279603",
+        "https://openalex.org/W2039755630",
+        "https://openalex.org/W2511217346",
+        "https://openalex.org/W2482952371",
+        "https://openalex.org/W2468202907",
+        "https://openalex.org/W3044656254",
+        "https://openalex.org/W2255431697",
+        "https://openalex.org/W2203244908",
+        "https://openalex.org/W2107223743",
+        "https://openalex.org/W2131545346"
       ],
       "related_works": [
         "https://openalex.org/W2928547925",
@@ -2622,7 +3932,7 @@
       "has_fulltext": false,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.9315917,
+        "value": 0.92348928,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2950,9 +4260,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.4300000071525574
+          "score": 0.4300000071525574,
+          "id": "https://metadata.un.org/sdg/7"
         }
       ],
       "awards": [],
@@ -3706,11 +5016,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 7.47335124,
+      "fwci": 8.09613051,
       "has_fulltext": false,
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.95805688,
+        "value": 0.95964927,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4002,7 +5312,7 @@
           "id": "pmh:oai:pubmedcentral.nih.gov:11660044",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11660044",
-          "pdf_url": null,
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11660044/pdf/am4c13018.pdf",
           "source": {
             "id": "https://openalex.org/S2764455111",
             "display_name": "PubMed Central",
@@ -4019,8 +5329,8 @@
             "host_organization_lineage_names": [],
             "type": "repository"
           },
-          "license": null,
-          "license_id": null,
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
           "version": "submittedVersion",
           "is_accepted": false,
           "is_published": false,
@@ -4133,8 +5443,8 @@
         "https://openalex.org/W2081512445",
         "https://openalex.org/W2587965237",
         "https://openalex.org/W2306607376",
-        "https://openalex.org/W3102644811",
-        "https://openalex.org/W1515872589"
+        "https://openalex.org/W1515872589",
+        "https://openalex.org/W3102644811"
       ],
       "related_works": [
         "https://openalex.org/W2378716748",
@@ -5002,7 +6312,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -5010,1312 +6320,6 @@
         }
       ],
       "updated_date": "2025-12-19T19:40:27.379048",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W1976976643",
-      "doi": "https://doi.org/10.2118/107713-ms",
-      "title": "Optimization of Oil Production Based on A Capacitance Model of Production and Injection Rates",
-      "display_name": "Optimization of Oil Production Based on A Capacitance Model of Production and Injection Rates",
-      "publication_year": 2007,
-      "publication_date": "2007-04-01",
-      "ids": {
-        "openalex": "https://openalex.org/W1976976643",
-        "doi": "https://doi.org/10.2118/107713-ms",
-        "mag": "1976976643"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.2118/107713-ms",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.2118/107713-ms",
-        "pdf_url": null,
-        "source": null,
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Hydrocarbon Economics and Evaluation Symposium",
-        "raw_type": "proceedings-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5100372205",
-            "display_name": "Liang Xue",
-            "orcid": "https://orcid.org/0000-0002-4841-6772"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I139660479",
-              "display_name": "Central South University",
-              "ror": "https://ror.org/00f1zfq44",
-              "country_code": "CN",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I139660479"
-              ]
-            },
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "CN",
-            "US"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "X. Liang",
-          "raw_affiliation_strings": [
-            "Central South U., Changsha, Hunan, China",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Central South U., Changsha, Hunan, China",
-              "institution_ids": [
-                "https://openalex.org/I139660479"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5111806786",
-            "display_name": "D. B. Weber",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "D. B. Weber",
-          "raw_affiliation_strings": [
-            "U. of Texas at Austin",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "U. of Texas at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5110887286",
-            "display_name": "Thomas F. Edgar",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "T. F. Edgar",
-          "raw_affiliation_strings": [
-            "U. of Texas at Austin",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "U. of Texas at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5109040880",
-            "display_name": "Larry W. Lake",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "L. W. Lake",
-          "raw_affiliation_strings": [
-            "U. of Texas at Austin",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "U. of Texas at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5056465220",
-            "display_name": "Morteza Sayarpour",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "M. Sayarpour",
-          "raw_affiliation_strings": [
-            "U. of Texas at Austin",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "U. of Texas at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5102730358",
-            "display_name": "Ali Al‐Yousef",
-            "orcid": "https://orcid.org/0000-0002-9285-2969"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I86519309",
-              "display_name": "The University of Texas at Austin",
-              "ror": "https://ror.org/00hj54h04",
-              "country_code": "US",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "A. Al-Yousef",
-          "raw_affiliation_strings": [
-            "U. of Texas at Austin",
-            "The University of Texas, at Austin"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "U. of Texas at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            },
-            {
-              "raw_affiliation_string": "The University of Texas, at Austin",
-              "institution_ids": [
-                "https://openalex.org/I86519309"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 2,
-      "institutions_distinct_count": 6,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5100372205"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I139660479",
-        "https://openalex.org/I86519309"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 7.35697545,
-      "has_fulltext": false,
-      "cited_by_count": 111,
-      "citation_normalized_percentile": {
-        "value": 0.96585048,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 94,
-        "max": 99
-      },
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": null,
-        "last_page": null
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11801",
-        "display_name": "Reservoir Engineering and Simulation Methods",
-        "score": 1,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2212",
-          "display_name": "Ocean Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11801",
-          "display_name": "Reservoir Engineering and Simulation Methods",
-          "score": 1,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10491",
-          "display_name": "Enhanced Oil Recovery Techniques",
-          "score": 0.9958000183105469,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T13050",
-          "display_name": "Oil and Gas Production Techniques",
-          "score": 0.9939000010490417,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/injector",
-          "display_name": "Injector",
-          "score": 0.6685100793838501
-        },
-        {
-          "id": "https://openalex.org/keywords/water-injection",
-          "display_name": "Water injection (oil production)",
-          "score": 0.6041213870048523
-        },
-        {
-          "id": "https://openalex.org/keywords/production",
-          "display_name": "Production (economics)",
-          "score": 0.5223337411880493
-        },
-        {
-          "id": "https://openalex.org/keywords/volume",
-          "display_name": "Volume (thermodynamics)",
-          "score": 0.4894541800022125
-        },
-        {
-          "id": "https://openalex.org/keywords/oil-field",
-          "display_name": "Oil field",
-          "score": 0.4781283438205719
-        },
-        {
-          "id": "https://openalex.org/keywords/petroleum-engineering",
-          "display_name": "Petroleum engineering",
-          "score": 0.4618515074253082
-        },
-        {
-          "id": "https://openalex.org/keywords/injection-well",
-          "display_name": "Injection well",
-          "score": 0.45122355222702026
-        },
-        {
-          "id": "https://openalex.org/keywords/oil-production",
-          "display_name": "Oil production",
-          "score": 0.44642141461372375
-        },
-        {
-          "id": "https://openalex.org/keywords/capacitance",
-          "display_name": "Capacitance",
-          "score": 0.4439111649990082
-        },
-        {
-          "id": "https://openalex.org/keywords/optimal-control",
-          "display_name": "Optimal control",
-          "score": 0.4299517273902893
-        },
-        {
-          "id": "https://openalex.org/keywords/produced-water",
-          "display_name": "Produced water",
-          "score": 0.41238364577293396
-        },
-        {
-          "id": "https://openalex.org/keywords/computer-science",
-          "display_name": "Computer science",
-          "score": 0.37626320123672485
-        },
-        {
-          "id": "https://openalex.org/keywords/environmental-science",
-          "display_name": "Environmental science",
-          "score": 0.37425678968429565
-        },
-        {
-          "id": "https://openalex.org/keywords/process-engineering",
-          "display_name": "Process engineering",
-          "score": 0.3529212474822998
-        },
-        {
-          "id": "https://openalex.org/keywords/mathematical-optimization",
-          "display_name": "Mathematical optimization",
-          "score": 0.32295331358909607
-        },
-        {
-          "id": "https://openalex.org/keywords/engineering",
-          "display_name": "Engineering",
-          "score": 0.2774181365966797
-        },
-        {
-          "id": "https://openalex.org/keywords/mathematics",
-          "display_name": "Mathematics",
-          "score": 0.17479485273361206
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C135186712",
-          "wikidata": "https://www.wikidata.org/wiki/Q425705",
-          "display_name": "Injector",
-          "level": 2,
-          "score": 0.6685100793838501
-        },
-        {
-          "id": "https://openalex.org/C2778059233",
-          "wikidata": "https://www.wikidata.org/wiki/Q7973522",
-          "display_name": "Water injection (oil production)",
-          "level": 2,
-          "score": 0.6041213870048523
-        },
-        {
-          "id": "https://openalex.org/C2778348673",
-          "wikidata": "https://www.wikidata.org/wiki/Q739302",
-          "display_name": "Production (economics)",
-          "level": 2,
-          "score": 0.5223337411880493
-        },
-        {
-          "id": "https://openalex.org/C20556612",
-          "wikidata": "https://www.wikidata.org/wiki/Q4469374",
-          "display_name": "Volume (thermodynamics)",
-          "level": 2,
-          "score": 0.4894541800022125
-        },
-        {
-          "id": "https://openalex.org/C2776364302",
-          "wikidata": "https://www.wikidata.org/wiki/Q1845437",
-          "display_name": "Oil field",
-          "level": 2,
-          "score": 0.4781283438205719
-        },
-        {
-          "id": "https://openalex.org/C78762247",
-          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
-          "display_name": "Petroleum engineering",
-          "level": 1,
-          "score": 0.4618515074253082
-        },
-        {
-          "id": "https://openalex.org/C57054060",
-          "wikidata": "https://www.wikidata.org/wiki/Q59420558",
-          "display_name": "Injection well",
-          "level": 2,
-          "score": 0.45122355222702026
-        },
-        {
-          "id": "https://openalex.org/C2984309096",
-          "wikidata": "https://www.wikidata.org/wiki/Q1349660",
-          "display_name": "Oil production",
-          "level": 2,
-          "score": 0.44642141461372375
-        },
-        {
-          "id": "https://openalex.org/C30066665",
-          "wikidata": "https://www.wikidata.org/wiki/Q164399",
-          "display_name": "Capacitance",
-          "level": 3,
-          "score": 0.4439111649990082
-        },
-        {
-          "id": "https://openalex.org/C91575142",
-          "wikidata": "https://www.wikidata.org/wiki/Q1971426",
-          "display_name": "Optimal control",
-          "level": 2,
-          "score": 0.4299517273902893
-        },
-        {
-          "id": "https://openalex.org/C2775865663",
-          "wikidata": "https://www.wikidata.org/wiki/Q7247687",
-          "display_name": "Produced water",
-          "level": 2,
-          "score": 0.41238364577293396
-        },
-        {
-          "id": "https://openalex.org/C41008148",
-          "wikidata": "https://www.wikidata.org/wiki/Q21198",
-          "display_name": "Computer science",
-          "level": 0,
-          "score": 0.37626320123672485
-        },
-        {
-          "id": "https://openalex.org/C39432304",
-          "wikidata": "https://www.wikidata.org/wiki/Q188847",
-          "display_name": "Environmental science",
-          "level": 0,
-          "score": 0.37425678968429565
-        },
-        {
-          "id": "https://openalex.org/C21880701",
-          "wikidata": "https://www.wikidata.org/wiki/Q2144042",
-          "display_name": "Process engineering",
-          "level": 1,
-          "score": 0.3529212474822998
-        },
-        {
-          "id": "https://openalex.org/C126255220",
-          "wikidata": "https://www.wikidata.org/wiki/Q141495",
-          "display_name": "Mathematical optimization",
-          "level": 1,
-          "score": 0.32295331358909607
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0.2774181365966797
-        },
-        {
-          "id": "https://openalex.org/C33923547",
-          "wikidata": "https://www.wikidata.org/wiki/Q395",
-          "display_name": "Mathematics",
-          "level": 0,
-          "score": 0.17479485273361206
-        },
-        {
-          "id": "https://openalex.org/C78519656",
-          "wikidata": "https://www.wikidata.org/wiki/Q101333",
-          "display_name": "Mechanical engineering",
-          "level": 1,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C147789679",
-          "wikidata": "https://www.wikidata.org/wiki/Q11372",
-          "display_name": "Physical chemistry",
-          "level": 1,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C139719470",
-          "wikidata": "https://www.wikidata.org/wiki/Q39680",
-          "display_name": "Macroeconomics",
-          "level": 1,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C17525397",
-          "wikidata": "https://www.wikidata.org/wiki/Q176140",
-          "display_name": "Electrode",
-          "level": 2,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C121332964",
-          "wikidata": "https://www.wikidata.org/wiki/Q413",
-          "display_name": "Physics",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C162324750",
-          "wikidata": "https://www.wikidata.org/wiki/Q8134",
-          "display_name": "Economics",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C62520636",
-          "wikidata": "https://www.wikidata.org/wiki/Q944",
-          "display_name": "Quantum mechanics",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.2118/107713-ms",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.2118/107713-ms",
-          "pdf_url": null,
-          "source": null,
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Hydrocarbon Economics and Evaluation Symposium",
-          "raw_type": "proceedings-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "pdf": false,
-        "grobid_xml": false
-      },
-      "referenced_works_count": 15,
-      "referenced_works": [
-        "https://openalex.org/W1995690442",
-        "https://openalex.org/W2046252888",
-        "https://openalex.org/W4246615416",
-        "https://openalex.org/W4244842933",
-        "https://openalex.org/W2051674529",
-        "https://openalex.org/W6630912716",
-        "https://openalex.org/W1988918431",
-        "https://openalex.org/W4244369856",
-        "https://openalex.org/W2027198549",
-        "https://openalex.org/W1967574274",
-        "https://openalex.org/W2014785278",
-        "https://openalex.org/W2158726023",
-        "https://openalex.org/W1998423365",
-        "https://openalex.org/W1515557481",
-        "https://openalex.org/W2031962060"
-      ],
-      "related_works": [
-        "https://openalex.org/W4324266279",
-        "https://openalex.org/W2380786404",
-        "https://openalex.org/W2374506793",
-        "https://openalex.org/W3014433796",
-        "https://openalex.org/W3023025999",
-        "https://openalex.org/W2387374232",
-        "https://openalex.org/W2365428771",
-        "https://openalex.org/W2040331538",
-        "https://openalex.org/W2080903783",
-        "https://openalex.org/W2037864051"
-      ],
-      "abstract_inverted_index": {
-        "Abstract": [
-          0
-        ],
-        "This": [
-          1
-        ],
-        "paper": [
-          2
-        ],
-        "presents": [
-          3
-        ],
-        "a": [
-          4,
-          20,
-          29,
-          55,
-          66,
-          81,
-          233
-        ],
-        "methodology": [
-          5
-        ],
-        "to": [
-          6,
-          27,
-          60,
-          96,
-          198
-        ],
-        "optimize": [
-          7,
-          97
-        ],
-        "the": [
-          8,
-          15,
-          34,
-          38,
-          44,
-          76,
-          84,
-          113,
-          117,
-          121,
-          127,
-          138,
-          144,
-          154,
-          166,
-          171,
-          191
-        ],
-        "value": [
-          9
-        ],
-        "of": [
-          10,
-          54,
-          83,
-          116,
-          123,
-          130,
-          153,
-          170,
-          176,
-          193,
-          229
-        ],
-        "oil": [
-          11,
-          92,
-          101,
-          118,
-          159
-        ],
-        "produced": [
-          12,
-          119
-        ],
-        "by": [
-          13
-        ],
-        "adjusting": [
-          14
-        ],
-        "water": [
-          16,
-          86,
-          105,
-          124,
-          131,
-          194
-        ],
-        "injection": [
-          17,
-          35,
-          106,
-          178,
-          187
-        ],
-        "rates": [
-          18,
-          36,
-          42,
-          103,
-          107,
-          188,
-          231
-        ],
-        "in": [
-          19,
-          203,
-          232
-        ],
-        "mature": [
-          21
-        ],
-        "field.": [
-          22
-        ],
-        "The": [
-          23,
-          133,
-          151,
-          185,
-          212
-        ],
-        "reservoir": [
-          24,
-          69,
-          172
-        ],
-        "is": [
-          25,
-          58,
-          94,
-          224
-        ],
-        "considered": [
-          26
-        ],
-        "be": [
-          28,
-          217
-        ],
-        "multi-well": [
-          30
-        ],
-        "input-output": [
-          31
-        ],
-        "system": [
-          32
-        ],
-        "with": [
-          33
-        ],
-        "as": [
-          37,
-          43,
-          80
-        ],
-        "inputs": [
-          39
-        ],
-        "and": [
-          40,
-          104,
-          120,
-          149,
-          223
-        ],
-        "production": [
-          41,
-          93,
-          102,
-          160,
-          221
-        ],
-        "outputs.": [
-          45
-        ],
-        "A": [
-          46,
-          71
-        ],
-        "simple": [
-          47,
-          139
-        ],
-        "capacitance": [
-          48,
-          140
-        ],
-        "model": [
-          49,
-          141
-        ],
-        "based": [
-          50,
-          111
-        ],
-        "on": [
-          51,
-          112,
-          190
-        ],
-        "control": [
-          52,
-          222
-        ],
-        "volume": [
-          53
-        ],
-        "given": [
-          56
-        ],
-        "producer": [
-          57
-        ],
-        "fitted": [
-          59
-        ],
-        "total": [
-          61
-        ],
-        "injection/production": [
-          62
-        ],
-        "data": [
-          63
-        ],
-        "obtained": [
-          64
-        ],
-        "from": [
-          65
-        ],
-        "three": [
-          67
-        ],
-        "dimensional": [
-          68
-        ],
-        "simulator.": [
-          70
-        ],
-        "power": [
-          72
-        ],
-        "law": [
-          73
-        ],
-        "relationship": [
-          74
-        ],
-        "models": [
-          75
-        ],
-        "instantaneous": [
-          77
-        ],
-        "water-oil": [
-          78
-        ],
-        "ratio": [
-          79
-        ],
-        "function": [
-          82
-        ],
-        "cumulative": [
-          85
-        ],
-        "injected.": [
-          87
-        ],
-        "An": [
-          88
-        ],
-        "optimization": [
-          89,
-          156,
-          214,
-          228
-        ],
-        "problem": [
-          90,
-          157
-        ],
-        "for": [
-          91,
-          158,
-          219,
-          226
-        ],
-        "formulated": [
-          95
-        ],
-        "future": [
-          98,
-          167
-        ],
-        "performance,": [
-          99
-        ],
-        "where": [
-          100,
-          235
-        ],
-        "are": [
-          108,
-          179,
-          237
-        ],
-        "optimized": [
-          109
-        ],
-        "simultaneously": [
-          110
-        ],
-        "selling": [
-          114
-        ],
-        "price": [
-          115
-        ],
-        "cost": [
-          122,
-          129,
-          192
-        ],
-        "injected": [
-          125
-        ],
-        "or": [
-          126
-        ],
-        "disposal": [
-          128
-        ],
-        "produced.": [
-          132
-        ],
-        "simulation": [
-          134
-        ],
-        "results": [
-          135
-        ],
-        "show": [
-          136
-        ],
-        "that": [
-          137
-        ],
-        "satisfactorily": [
-          142
-        ],
-        "captures": [
-          143
-        ],
-        "long-time": [
-          145
-        ],
-        "behavior": [
-          146
-        ],
-        "between": [
-          147
-        ],
-        "injectors": [
-          148,
-          236
-        ],
-        "producers.": [
-          150
-        ],
-        "solution": [
-          152
-        ],
-        "constrained": [
-          155
-        ],
-        "using": [
-          161
-        ],
-        "nonlinear": [
-          162
-        ],
-        "programming": [
-          163
-        ],
-        "can": [
-          164,
-          216
-        ],
-        "maximize": [
-          165
-        ],
-        "economic": [
-          168
-        ],
-        "return": [
-          169
-        ],
-        "asset.": [
-          173
-        ],
-        "Various": [
-          174
-        ],
-        "patterns": [
-          175
-        ],
-        "optimal": [
-          177,
-          186
-        ],
-        "followed": [
-          180
-        ],
-        "under": [
-          181
-        ],
-        "different": [
-          182
-        ],
-        "revenue": [
-          183
-        ],
-        "objectives.": [
-          184
-        ],
-        "depend": [
-          189
-        ],
-        "injected/disposed,": [
-          195
-        ],
-        "which": [
-          196
-        ],
-        "leads": [
-          197
-        ],
-        "some": [
-          199
-        ],
-        "wells": [
-          200,
-          206
-        ],
-        "being": [
-          201
-        ],
-        "shut": [
-          202
-        ],
-        "while": [
-          204
-        ],
-        "other": [
-          205
-        ],
-        "operate": [
-          207
-        ],
-        "at": [
-          208
-        ],
-        "their": [
-          209
-        ],
-        "maximum": [
-          210
-        ],
-        "values.": [
-          211
-        ],
-        "proposed": [
-          213
-        ],
-        "method": [
-          215
-        ],
-        "used": [
-          218
-        ],
-        "realtime": [
-          220
-        ],
-        "appropriate": [
-          225
-        ],
-        "simultaneous": [
-          227
-        ],
-        "well": [
-          230
-        ],
-        "field": [
-          234
-        ],
-        "shut-in": [
-          238
-        ],
-        "frequently.": [
-          239
-        ]
-      },
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 5
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 2
-        },
-        {
-          "year": 2023,
-          "cited_by_count": 8
-        },
-        {
-          "year": 2022,
-          "cited_by_count": 3
-        },
-        {
-          "year": 2021,
-          "cited_by_count": 11
-        },
-        {
-          "year": 2020,
-          "cited_by_count": 12
-        },
-        {
-          "year": 2019,
-          "cited_by_count": 13
-        },
-        {
-          "year": 2018,
-          "cited_by_count": 4
-        },
-        {
-          "year": 2017,
-          "cited_by_count": 12
-        },
-        {
-          "year": 2016,
-          "cited_by_count": 4
-        },
-        {
-          "year": 2015,
-          "cited_by_count": 8
-        },
-        {
-          "year": 2014,
-          "cited_by_count": 2
-        },
-        {
-          "year": 2013,
-          "cited_by_count": 4
-        },
-        {
-          "year": 2012,
-          "cited_by_count": 6
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -6500,7 +6504,7 @@
       "has_fulltext": false,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.94026168,
+        "value": 0.93993129,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6809,9 +6813,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.7599999904632568
+          "score": 0.7599999904632568,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -6841,11 +6845,11 @@
         "https://openalex.org/W6672980564",
         "https://openalex.org/W2059749644",
         "https://openalex.org/W2074452382",
-        "https://openalex.org/W1997139935",
-        "https://openalex.org/W2037559692",
         "https://openalex.org/W2283685372",
         "https://openalex.org/W2088059559",
-        "https://openalex.org/W2065599634"
+        "https://openalex.org/W2065599634",
+        "https://openalex.org/W2037559692",
+        "https://openalex.org/W1997139935"
       ],
       "related_works": [
         "https://openalex.org/W2389169903",
@@ -7117,7 +7121,7 @@
       "has_fulltext": false,
       "cited_by_count": 45,
       "citation_normalized_percentile": {
-        "value": 0.92273504,
+        "value": 0.92219888,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -7426,9 +7430,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.46000000834465027
+          "score": 0.46000000834465027,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -7493,52 +7497,52 @@
         "https://openalex.org/W6701022532",
         "https://openalex.org/W2283685372",
         "https://openalex.org/W6672574361",
-        "https://openalex.org/W2147789376",
+        "https://openalex.org/W2344586148",
+        "https://openalex.org/W2468202907",
+        "https://openalex.org/W2501800069",
+        "https://openalex.org/W2339575189",
+        "https://openalex.org/W2463849156",
+        "https://openalex.org/W2409584111",
+        "https://openalex.org/W2037559692",
+        "https://openalex.org/W2041092424",
+        "https://openalex.org/W2025881644",
+        "https://openalex.org/W2025369431",
+        "https://openalex.org/W2315847678",
+        "https://openalex.org/W2178259065",
+        "https://openalex.org/W2326223782",
+        "https://openalex.org/W2323514042",
+        "https://openalex.org/W2322309377",
+        "https://openalex.org/W2328653804",
+        "https://openalex.org/W2074452382",
+        "https://openalex.org/W2100993546",
+        "https://openalex.org/W2087347295",
+        "https://openalex.org/W2065599634",
+        "https://openalex.org/W2059920501",
         "https://openalex.org/W2055615138",
-        "https://openalex.org/W2735696334",
+        "https://openalex.org/W2059749644",
+        "https://openalex.org/W2048164261",
+        "https://openalex.org/W2051594828",
         "https://openalex.org/W2056312418",
         "https://openalex.org/W1981968323",
         "https://openalex.org/W1984405576",
-        "https://openalex.org/W3022039671",
-        "https://openalex.org/W2536908542",
-        "https://openalex.org/W2087347295",
-        "https://openalex.org/W2468202907",
-        "https://openalex.org/W4230677282",
-        "https://openalex.org/W1994616350",
-        "https://openalex.org/W2059749644",
-        "https://openalex.org/W2344586148",
-        "https://openalex.org/W1992738694",
-        "https://openalex.org/W2323514042",
-        "https://openalex.org/W2153272572",
-        "https://openalex.org/W2059920501",
         "https://openalex.org/W1489861504",
-        "https://openalex.org/W2463849156",
-        "https://openalex.org/W2005582451",
-        "https://openalex.org/W2100993546",
-        "https://openalex.org/W2065599634",
-        "https://openalex.org/W2025881644",
-        "https://openalex.org/W1861146631",
-        "https://openalex.org/W2011025275",
-        "https://openalex.org/W2112948036",
-        "https://openalex.org/W2141397728",
-        "https://openalex.org/W2074452382",
-        "https://openalex.org/W2041092424",
-        "https://openalex.org/W2501800069",
-        "https://openalex.org/W2025369431",
         "https://openalex.org/W1977222162",
-        "https://openalex.org/W2724970273",
-        "https://openalex.org/W2048164261",
-        "https://openalex.org/W2037559692",
-        "https://openalex.org/W2121583087",
-        "https://openalex.org/W2328653804",
-        "https://openalex.org/W2339575189",
-        "https://openalex.org/W2178259065",
-        "https://openalex.org/W2409584111",
-        "https://openalex.org/W2051594828",
-        "https://openalex.org/W2315847678",
-        "https://openalex.org/W2326223782",
+        "https://openalex.org/W1861146631",
         "https://openalex.org/W1966508692",
-        "https://openalex.org/W2322309377"
+        "https://openalex.org/W1994616350",
+        "https://openalex.org/W2005582451",
+        "https://openalex.org/W1992738694",
+        "https://openalex.org/W2011025275",
+        "https://openalex.org/W2735696334",
+        "https://openalex.org/W2724970273",
+        "https://openalex.org/W3022039671",
+        "https://openalex.org/W2112948036",
+        "https://openalex.org/W2121583087",
+        "https://openalex.org/W2141397728",
+        "https://openalex.org/W2153272572",
+        "https://openalex.org/W2147789376",
+        "https://openalex.org/W2536908542",
+        "https://openalex.org/W4230677282"
       ],
       "related_works": [
         "https://openalex.org/W2369176790",
@@ -8771,7 +8775,7 @@
       "has_fulltext": false,
       "cited_by_count": 42,
       "citation_normalized_percentile": {
-        "value": 0.95167055,
+        "value": 0.95126846,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9076,9 +9080,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.75
+          "score": 0.75,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -9111,29 +9115,29 @@
         "https://openalex.org/W6651677029",
         "https://openalex.org/W6719814079",
         "https://openalex.org/W2073358740",
-        "https://openalex.org/W2109578509",
         "https://openalex.org/W1606251573",
-        "https://openalex.org/W2326223782",
-        "https://openalex.org/W2468202907",
-        "https://openalex.org/W2015812522",
-        "https://openalex.org/W2005723502",
-        "https://openalex.org/W2409584111",
-        "https://openalex.org/W2335498425",
-        "https://openalex.org/W2470206001",
+        "https://openalex.org/W2057857574",
+        "https://openalex.org/W2059749644",
+        "https://openalex.org/W4249686105",
+        "https://openalex.org/W2109578509",
+        "https://openalex.org/W2041092424",
+        "https://openalex.org/W1974106044",
+        "https://openalex.org/W1966508692",
         "https://openalex.org/W1966870749",
         "https://openalex.org/W2074452382",
         "https://openalex.org/W1988680128",
-        "https://openalex.org/W2059749644",
-        "https://openalex.org/W1974106044",
-        "https://openalex.org/W1966508692",
-        "https://openalex.org/W2543009903",
-        "https://openalex.org/W2911973228",
-        "https://openalex.org/W2565859130",
-        "https://openalex.org/W2041092424",
-        "https://openalex.org/W2203244908",
-        "https://openalex.org/W2057857574",
+        "https://openalex.org/W2005723502",
         "https://openalex.org/W2009321647",
-        "https://openalex.org/W4249686105"
+        "https://openalex.org/W2565859130",
+        "https://openalex.org/W2543009903",
+        "https://openalex.org/W2326223782",
+        "https://openalex.org/W2203244908",
+        "https://openalex.org/W2911973228",
+        "https://openalex.org/W2409584111",
+        "https://openalex.org/W2470206001",
+        "https://openalex.org/W2468202907",
+        "https://openalex.org/W2335498425",
+        "https://openalex.org/W2015812522"
       ],
       "related_works": [
         "https://openalex.org/W999396192",
@@ -10141,7 +10145,7 @@
       "has_fulltext": false,
       "cited_by_count": 25,
       "citation_normalized_percentile": {
-        "value": 0.92951753,
+        "value": 0.9287511,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10455,14 +10459,14 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.6100000143051147
+          "score": 0.6100000143051147,
+          "id": "https://metadata.un.org/sdg/14"
         },
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.41999998688697815
+          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -10497,18 +10501,18 @@
         "https://openalex.org/W2911021485",
         "https://openalex.org/W2013149784",
         "https://openalex.org/W2057347964",
-        "https://openalex.org/W4206542356",
-        "https://openalex.org/W2124614417",
-        "https://openalex.org/W1489861504",
-        "https://openalex.org/W1552771392",
-        "https://openalex.org/W2068297147",
-        "https://openalex.org/W2029508805",
         "https://openalex.org/W2914024270",
+        "https://openalex.org/W2124614417",
+        "https://openalex.org/W1552771392",
+        "https://openalex.org/W1489861504",
         "https://openalex.org/W1479963809",
+        "https://openalex.org/W1604035276",
+        "https://openalex.org/W2068297147",
         "https://openalex.org/W2036503517",
+        "https://openalex.org/W2029508805",
+        "https://openalex.org/W4206542356",
         "https://openalex.org/W2969383516",
-        "https://openalex.org/W2315847678",
-        "https://openalex.org/W1604035276"
+        "https://openalex.org/W2315847678"
       ],
       "related_works": [
         "https://openalex.org/W2064666429",
@@ -11173,9 +11177,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -11203,8 +11207,8 @@
         "https://openalex.org/W6722761569",
         "https://openalex.org/W2049291554",
         "https://openalex.org/W1967386082",
-        "https://openalex.org/W1999469127",
         "https://openalex.org/W2006773979",
+        "https://openalex.org/W1999469127",
         "https://openalex.org/W3044656254",
         "https://openalex.org/W2489252044"
       ],
@@ -12329,7 +12333,7 @@
       "has_fulltext": true,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.95885409,
+        "value": 0.95459168,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12979,7 +12983,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.90659394,
+        "value": 0.90606903,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13326,9 +13330,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.550000011920929
+          "score": 0.550000011920929,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -13469,49 +13473,49 @@
         "https://openalex.org/W2106304089",
         "https://openalex.org/W2059749644",
         "https://openalex.org/W2074452382",
-        "https://openalex.org/W2596543519",
-        "https://openalex.org/W2064704583",
-        "https://openalex.org/W65043739",
-        "https://openalex.org/W2022727928",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2209464047",
-        "https://openalex.org/W2060265018",
-        "https://openalex.org/W2089686404",
-        "https://openalex.org/W1971734519",
-        "https://openalex.org/W2203163421",
-        "https://openalex.org/W2598499631",
-        "https://openalex.org/W2057775438",
-        "https://openalex.org/W2087766640",
-        "https://openalex.org/W2314685123",
-        "https://openalex.org/W2098946957",
-        "https://openalex.org/W170318372",
-        "https://openalex.org/W1965699494",
-        "https://openalex.org/W2070597965",
-        "https://openalex.org/W2028554634",
-        "https://openalex.org/W2513883052",
-        "https://openalex.org/W106846654",
-        "https://openalex.org/W2107204741",
-        "https://openalex.org/W1972475649",
-        "https://openalex.org/W2045400656",
-        "https://openalex.org/W2314613721",
-        "https://openalex.org/W1991681617",
-        "https://openalex.org/W2035621668",
-        "https://openalex.org/W2597129714",
-        "https://openalex.org/W1995124058",
-        "https://openalex.org/W2052536809",
-        "https://openalex.org/W2320386410",
-        "https://openalex.org/W2007991292",
-        "https://openalex.org/W2035937198",
-        "https://openalex.org/W2088059559",
-        "https://openalex.org/W2048164261",
-        "https://openalex.org/W2313518495",
-        "https://openalex.org/W2076655140",
-        "https://openalex.org/W2797593350",
-        "https://openalex.org/W2228249302",
-        "https://openalex.org/W2333668192",
         "https://openalex.org/W2283685372",
+        "https://openalex.org/W2320386410",
+        "https://openalex.org/W2203163421",
+        "https://openalex.org/W2313518495",
+        "https://openalex.org/W2314613721",
+        "https://openalex.org/W2209464047",
+        "https://openalex.org/W2228249302",
+        "https://openalex.org/W2314685123",
+        "https://openalex.org/W2048164261",
+        "https://openalex.org/W2057775438",
+        "https://openalex.org/W2052536809",
+        "https://openalex.org/W2045400656",
+        "https://openalex.org/W2098946957",
+        "https://openalex.org/W2107204741",
+        "https://openalex.org/W106846654",
+        "https://openalex.org/W65043739",
+        "https://openalex.org/W170318372",
+        "https://openalex.org/W2797593350",
+        "https://openalex.org/W4285719527",
         "https://openalex.org/W2802852144",
-        "https://openalex.org/W2835208469"
+        "https://openalex.org/W2835208469",
+        "https://openalex.org/W2028554634",
+        "https://openalex.org/W2035937198",
+        "https://openalex.org/W2035621668",
+        "https://openalex.org/W2060265018",
+        "https://openalex.org/W2022727928",
+        "https://openalex.org/W1991681617",
+        "https://openalex.org/W2596543519",
+        "https://openalex.org/W2333668192",
+        "https://openalex.org/W2597129714",
+        "https://openalex.org/W2598499631",
+        "https://openalex.org/W2513883052",
+        "https://openalex.org/W2076655140",
+        "https://openalex.org/W2089686404",
+        "https://openalex.org/W2088059559",
+        "https://openalex.org/W2087766640",
+        "https://openalex.org/W2070597965",
+        "https://openalex.org/W2064704583",
+        "https://openalex.org/W1965699494",
+        "https://openalex.org/W1972475649",
+        "https://openalex.org/W1971734519",
+        "https://openalex.org/W1995124058",
+        "https://openalex.org/W2007991292"
       ],
       "related_works": [
         "https://openalex.org/W2620748796",
@@ -13681,7 +13685,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.8826418,
+        "value": 0.88184013,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13994,9 +13998,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.7099999785423279
+          "score": 0.7099999785423279,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -14021,10 +14025,10 @@
         "https://openalex.org/W1983415350",
         "https://openalex.org/W2000949129",
         "https://openalex.org/W1966508692",
+        "https://openalex.org/W1995105491",
+        "https://openalex.org/W2045400656",
         "https://openalex.org/W2109578509",
         "https://openalex.org/W2048164261",
-        "https://openalex.org/W2045400656",
-        "https://openalex.org/W1995105491",
         "https://openalex.org/W2560577898"
       ],
       "related_works": [
@@ -15023,7 +15027,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.86354739,
+        "value": 0.85676428,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15385,9 +15389,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8100000023841858
+          "score": 0.8100000023841858,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -15459,10 +15463,10 @@
         "https://openalex.org/W2905091597",
         "https://openalex.org/W2765332850",
         "https://openalex.org/W3160313039",
-        "https://openalex.org/W2489252044",
-        "https://openalex.org/W2169035347",
+        "https://openalex.org/W2029508805",
         "https://openalex.org/W3134596067",
-        "https://openalex.org/W2029508805"
+        "https://openalex.org/W2489252044",
+        "https://openalex.org/W2169035347"
       ],
       "related_works": [
         "https://openalex.org/W2091944272",
@@ -15953,9 +15957,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.6299999952316284
+          "score": 0.6299999952316284,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -17168,7 +17172,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.77895405,
+        "value": 0.77505251,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17589,9 +17593,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.6100000143051147
+          "score": 0.6100000143051147,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -18419,7 +18423,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.65459917,
+        "value": 0.6557616,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20784,7 +20788,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.81128822,
+        "value": 0.80779686,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21143,9 +21147,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -21203,22 +21207,22 @@
         "https://openalex.org/W2532117997",
         "https://openalex.org/W6749119034",
         "https://openalex.org/W2171319920",
-        "https://openalex.org/W2036503517",
-        "https://openalex.org/W2791563829",
-        "https://openalex.org/W2895557826",
-        "https://openalex.org/W1606251573",
+        "https://openalex.org/W2059718843",
+        "https://openalex.org/W2049291554",
         "https://openalex.org/W1992860297",
         "https://openalex.org/W2560577898",
-        "https://openalex.org/W2041287324",
-        "https://openalex.org/W2059718843",
+        "https://openalex.org/W2791563829",
         "https://openalex.org/W2034019230",
-        "https://openalex.org/W2941691934",
-        "https://openalex.org/W2936560256",
+        "https://openalex.org/W2036503517",
+        "https://openalex.org/W2041287324",
+        "https://openalex.org/W1606251573",
         "https://openalex.org/W2921013381",
+        "https://openalex.org/W2936560256",
+        "https://openalex.org/W2941691934",
+        "https://openalex.org/W2895557826",
+        "https://openalex.org/W2324335264",
         "https://openalex.org/W2969383516",
-        "https://openalex.org/W2998089729",
-        "https://openalex.org/W2049291554",
-        "https://openalex.org/W2324335264"
+        "https://openalex.org/W2998089729"
       ],
       "related_works": [
         "https://openalex.org/W2088503745",
@@ -21458,7 +21462,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.86812116,
+        "value": 0.86739735,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21649,9 +21653,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.7699999809265137
+          "score": 0.7699999809265137,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -21691,12 +21695,12 @@
         "https://openalex.org/W2322309377",
         "https://openalex.org/W2073358740",
         "https://openalex.org/W2059749644",
-        "https://openalex.org/W2409584111",
         "https://openalex.org/W2037559692",
-        "https://openalex.org/W4252757848",
         "https://openalex.org/W1997139935",
-        "https://openalex.org/W2339575189",
+        "https://openalex.org/W4252757848",
+        "https://openalex.org/W2409584111",
         "https://openalex.org/W2468202907",
+        "https://openalex.org/W2339575189",
         "https://openalex.org/W2048164261"
       ],
       "related_works": [
@@ -23105,7 +23109,7 @@
       "has_fulltext": true,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.74101787,
+        "value": 0.72913078,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23647,9 +23651,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.699999988079071
+          "score": 0.699999988079071,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -24482,7 +24486,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.71351897,
+        "value": 0.70084139,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24815,9 +24819,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.5799999833106995
+          "score": 0.5799999833106995,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -25067,7 +25071,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.76664305,
+        "value": 0.75212056,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25348,9 +25352,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.6399999856948853
+          "score": 0.6399999856948853,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -25460,18 +25464,18 @@
         "https://openalex.org/W1991634274",
         "https://openalex.org/W3163692252",
         "https://openalex.org/W2011256691",
-        "https://openalex.org/W4304808556",
-        "https://openalex.org/W19884326",
-        "https://openalex.org/W4230518839",
-        "https://openalex.org/W1985724416",
-        "https://openalex.org/W2995511596",
         "https://openalex.org/W2733752034",
         "https://openalex.org/W2773038259",
-        "https://openalex.org/W2534271281",
         "https://openalex.org/W2218587541",
+        "https://openalex.org/W2534271281",
+        "https://openalex.org/W19884326",
+        "https://openalex.org/W1985724416",
+        "https://openalex.org/W2995511596",
         "https://openalex.org/W2388381657",
         "https://openalex.org/W2567548033",
-        "https://openalex.org/W2921428575"
+        "https://openalex.org/W2921428575",
+        "https://openalex.org/W4230518839",
+        "https://openalex.org/W4304808556"
       ],
       "related_works": [
         "https://openalex.org/W1981780420",
@@ -26737,7 +26741,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.65157452,
+        "value": 0.6307921,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27216,13 +27220,13 @@
         "https://openalex.org/W2320829917",
         "https://openalex.org/W2020420945",
         "https://openalex.org/W1996584236",
-        "https://openalex.org/W4318054390",
-        "https://openalex.org/W2991251028",
         "https://openalex.org/W2600012913",
+        "https://openalex.org/W2552760338",
         "https://openalex.org/W3100398369",
         "https://openalex.org/W4254667011",
-        "https://openalex.org/W2552760338",
-        "https://openalex.org/W3202299427"
+        "https://openalex.org/W4318054390",
+        "https://openalex.org/W3202299427",
+        "https://openalex.org/W2991251028"
       ],
       "related_works": [
         "https://openalex.org/W1999212627",
@@ -27981,7 +27985,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.71083446,
+        "value": 0.68065698,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28655,7 +28659,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.41499008,
+        "value": 0.40194025,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29125,9 +29129,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
-          "score": 0.41999998688697815
+          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/12"
         }
       ],
       "awards": [],
@@ -29923,7 +29927,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.63650794,
+        "value": 0.63597884,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30295,9 +30299,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.7400000095367432
+          "score": 0.7400000095367432,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -31329,7 +31333,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.69986628,
+        "value": 0.67942058,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31511,9 +31515,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.49000000953674316
+          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -31875,7 +31879,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.89500362,
+        "value": 0.88374678,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -32160,10 +32164,10 @@
         "https://openalex.org/W2501800069",
         "https://openalex.org/W2089829230",
         "https://openalex.org/W2018584037",
-        "https://openalex.org/W2342438330",
-        "https://openalex.org/W2414779808",
+        "https://openalex.org/W1966508692",
         "https://openalex.org/W2903352882",
-        "https://openalex.org/W1966508692"
+        "https://openalex.org/W2414779808",
+        "https://openalex.org/W2342438330"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -33139,7 +33143,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.79709035,
+        "value": 0.79249617,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33364,9 +33368,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
-          "score": 0.5
+          "score": 0.5,
+          "id": "https://metadata.un.org/sdg/12"
         }
       ],
       "awards": [],
@@ -34593,7 +34597,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.57403693,
+        "value": 0.5514142,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34998,9 +35002,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.7099999785423279
+          "score": 0.7099999785423279,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [
@@ -36267,7 +36271,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.59489276,
+        "value": 0.57191941,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37301,7 +37305,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.84959781,
+        "value": 0.84282227,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -38347,7 +38351,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.92531876,
+        "value": 0.91985428,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -39333,7 +39337,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.6704146,
+        "value": 0.66696333,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -39718,9 +39722,9 @@
         "https://openalex.org/W1976225149",
         "https://openalex.org/W2059749644",
         "https://openalex.org/W2074452382",
-        "https://openalex.org/W1552771392",
+        "https://openalex.org/W3020892065",
         "https://openalex.org/W2403917900",
-        "https://openalex.org/W3020892065"
+        "https://openalex.org/W1552771392"
       ],
       "related_works": [
         "https://openalex.org/W1979808816",
@@ -40571,7 +40575,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.74008168,
+        "value": 0.73992995,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40918,9 +40922,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.5299999713897705
+          "score": 0.5299999713897705,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -41623,7 +41627,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.56832484,
+        "value": 0.56644543,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -42005,9 +42009,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "score": 0.6000000238418579
+          "score": 0.6000000238418579,
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -43004,7 +43008,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.4428238,
+        "value": 0.44279043,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -43337,9 +43341,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -43358,14 +43362,14 @@
         "https://openalex.org/W6719814079",
         "https://openalex.org/W6767610009",
         "https://openalex.org/W6751082646",
-        "https://openalex.org/W2970428990",
-        "https://openalex.org/W1966508692",
-        "https://openalex.org/W2077007432",
-        "https://openalex.org/W2943556317",
-        "https://openalex.org/W2468202907",
         "https://openalex.org/W2060314424",
+        "https://openalex.org/W2077007432",
+        "https://openalex.org/W1966508692",
+        "https://openalex.org/W2801692485",
+        "https://openalex.org/W2468202907",
         "https://openalex.org/W2969383516",
-        "https://openalex.org/W2801692485"
+        "https://openalex.org/W2943556317",
+        "https://openalex.org/W2970428990"
       ],
       "related_works": [
         "https://openalex.org/W2088503745",
@@ -44280,7 +44284,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.50180359,
+        "value": 0.48774835,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44640,9 +44644,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8500000238418579
+          "score": 0.8500000238418579,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -45581,7 +45585,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.63418903,
+        "value": 0.63397548,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46083,7 +46087,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.40019853,
+        "value": 0.37411568,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46459,8 +46463,8 @@
         "https://openalex.org/W2351492586",
         "https://openalex.org/W3010347562",
         "https://openalex.org/W2133453621",
-        "https://openalex.org/W2110149244",
-        "https://openalex.org/W3175729323"
+        "https://openalex.org/W3175729323",
+        "https://openalex.org/W2110149244"
       ],
       "related_works": [
         "https://openalex.org/W1748458946",
@@ -48264,9 +48268,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.47999998927116394
+          "score": 0.47999998927116394,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -48277,65 +48281,65 @@
       },
       "referenced_works_count": 59,
       "referenced_works": [
-        "https://openalex.org/W4247919265",
-        "https://openalex.org/W1535718930",
-        "https://openalex.org/W4256195408",
-        "https://openalex.org/W3108654296",
-        "https://openalex.org/W2069361238",
-        "https://openalex.org/W2065934706",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2188792675",
-        "https://openalex.org/W2091057871",
         "https://openalex.org/W198635316",
-        "https://openalex.org/W1967574274",
-        "https://openalex.org/W2301644029",
-        "https://openalex.org/W1968547568",
-        "https://openalex.org/W4254212734",
-        "https://openalex.org/W4235456305",
-        "https://openalex.org/W2084065501",
-        "https://openalex.org/W1515557481",
-        "https://openalex.org/W2046717596",
-        "https://openalex.org/W4233806355",
-        "https://openalex.org/W4240022345",
-        "https://openalex.org/W4240566590",
-        "https://openalex.org/W2275096972",
-        "https://openalex.org/W3017213202",
-        "https://openalex.org/W2066621821",
-        "https://openalex.org/W2153603257",
-        "https://openalex.org/W4235817530",
-        "https://openalex.org/W2129733819",
-        "https://openalex.org/W2053834050",
-        "https://openalex.org/W2062650357",
-        "https://openalex.org/W4236285846",
-        "https://openalex.org/W2081444573",
-        "https://openalex.org/W4244369856",
-        "https://openalex.org/W4244582358",
-        "https://openalex.org/W2043269918",
-        "https://openalex.org/W1572048554",
-        "https://openalex.org/W1596965972",
-        "https://openalex.org/W4256619705",
-        "https://openalex.org/W1556506296",
-        "https://openalex.org/W2143474451",
-        "https://openalex.org/W4229719355",
-        "https://openalex.org/W4254786936",
-        "https://openalex.org/W4245661350",
-        "https://openalex.org/W4236033462",
-        "https://openalex.org/W4234698323",
-        "https://openalex.org/W4246615416",
         "https://openalex.org/W1983398529",
-        "https://openalex.org/W2797021786",
-        "https://openalex.org/W3022692890",
-        "https://openalex.org/W2030011680",
-        "https://openalex.org/W2067921624",
-        "https://openalex.org/W1666922817",
         "https://openalex.org/W1982510902",
-        "https://openalex.org/W4244842933",
-        "https://openalex.org/W2032514760",
-        "https://openalex.org/W2014785278",
-        "https://openalex.org/W2075784433",
-        "https://openalex.org/W1972542187",
+        "https://openalex.org/W4245661350",
+        "https://openalex.org/W4235817530",
+        "https://openalex.org/W4240022345",
+        "https://openalex.org/W4246615416",
+        "https://openalex.org/W4229719355",
+        "https://openalex.org/W4256195408",
+        "https://openalex.org/W4244369856",
+        "https://openalex.org/W4234698323",
+        "https://openalex.org/W4244582358",
+        "https://openalex.org/W3022692890",
+        "https://openalex.org/W3017213202",
+        "https://openalex.org/W4235456305",
+        "https://openalex.org/W4236033462",
         "https://openalex.org/W3031543410",
-        "https://openalex.org/W1515135833"
+        "https://openalex.org/W4247919265",
+        "https://openalex.org/W4254786936",
+        "https://openalex.org/W4254212734",
+        "https://openalex.org/W3108654296",
+        "https://openalex.org/W4240566590",
+        "https://openalex.org/W4236285846",
+        "https://openalex.org/W4233806355",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4244842933",
+        "https://openalex.org/W4256619705",
+        "https://openalex.org/W1967574274",
+        "https://openalex.org/W1968547568",
+        "https://openalex.org/W1972542187",
+        "https://openalex.org/W2014785278",
+        "https://openalex.org/W2188792675",
+        "https://openalex.org/W2275096972",
+        "https://openalex.org/W2153603257",
+        "https://openalex.org/W2143474451",
+        "https://openalex.org/W2301644029",
+        "https://openalex.org/W1535718930",
+        "https://openalex.org/W1515557481",
+        "https://openalex.org/W1556506296",
+        "https://openalex.org/W1572048554",
+        "https://openalex.org/W1515135833",
+        "https://openalex.org/W1596965972",
+        "https://openalex.org/W1666922817",
+        "https://openalex.org/W2084065501",
+        "https://openalex.org/W2069361238",
+        "https://openalex.org/W2091057871",
+        "https://openalex.org/W2065934706",
+        "https://openalex.org/W2067921624",
+        "https://openalex.org/W2081444573",
+        "https://openalex.org/W2075784433",
+        "https://openalex.org/W2066621821",
+        "https://openalex.org/W2062650357",
+        "https://openalex.org/W2030011680",
+        "https://openalex.org/W2032514760",
+        "https://openalex.org/W2043269918",
+        "https://openalex.org/W2797021786",
+        "https://openalex.org/W2046717596",
+        "https://openalex.org/W2053834050",
+        "https://openalex.org/W2129733819"
       ],
       "related_works": [
         "https://openalex.org/W2890654716",
@@ -49947,9 +49951,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.4699999988079071
+          "score": 0.4699999988079071,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -51279,19 +51283,19 @@
       },
       "referenced_works_count": 13,
       "referenced_works": [
-        "https://openalex.org/W4245661350",
-        "https://openalex.org/W4240022345",
         "https://openalex.org/W2797021786",
+        "https://openalex.org/W4251022750",
+        "https://openalex.org/W4300885073",
+        "https://openalex.org/W4240022345",
         "https://openalex.org/W4235456305",
         "https://openalex.org/W4247159386",
         "https://openalex.org/W4234173777",
-        "https://openalex.org/W1988918431",
-        "https://openalex.org/W1963487408",
-        "https://openalex.org/W4300885073",
-        "https://openalex.org/W2069361238",
         "https://openalex.org/W4251015351",
-        "https://openalex.org/W4251022750",
-        "https://openalex.org/W2122450421"
+        "https://openalex.org/W4245661350",
+        "https://openalex.org/W2069361238",
+        "https://openalex.org/W1988918431",
+        "https://openalex.org/W2122450421",
+        "https://openalex.org/W1963487408"
       ],
       "related_works": [
         "https://openalex.org/W4242029529",
@@ -51914,7 +51918,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05248122,
+        "value": 0.05132193,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -52243,9 +52247,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.8199999928474426
+          "score": 0.8199999928474426,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -53278,7 +53282,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.1219928,
+        "value": 0.11272691,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -53632,9 +53636,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "score": 0.7200000286102295
+          "score": 0.7200000286102295,
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
@@ -54454,7 +54458,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03250673,
+        "value": 0.02863502,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -54765,10 +54769,10 @@
         "https://openalex.org/W2008602569",
         "https://openalex.org/W2583854011",
         "https://openalex.org/W2953906322",
-        "https://openalex.org/W4240881096",
-        "https://openalex.org/W2915054523",
         "https://openalex.org/W2159458047",
-        "https://openalex.org/W3108042173"
+        "https://openalex.org/W2915054523",
+        "https://openalex.org/W3108042173",
+        "https://openalex.org/W4240881096"
       ],
       "related_works": [
         "https://openalex.org/W2837182345",
