@@ -996,8 +996,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.8600000143051147
         }
       ],
       "awards": [],
@@ -1024,8 +1024,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 32,
       "referenced_works": [
@@ -2356,8 +2356,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.5,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.5
         }
       ],
       "awards": [],
@@ -2374,8 +2374,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 84,
       "referenced_works": [
@@ -3109,8 +3109,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 144,
       "referenced_works": [
@@ -4255,8 +4255,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 96,
       "referenced_works": [
@@ -5515,8 +5515,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 151,
       "referenced_works": [
@@ -6105,7 +6105,7 @@
       "language": "en",
       "primary_location": {
         "id": "doi:10.1016/j.jgsce.2023.205120",
-        "is_oa": false,
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1016/j.jgsce.2023.205120",
         "pdf_url": null,
         "source": {
@@ -6128,8 +6128,8 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -6141,9 +6141,9 @@
         "crossref"
       ],
       "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://doi.org/10.1016/j.jgsce.2023.205120",
         "any_repository_has_fulltext": false
       },
       "authorships": [
@@ -6438,7 +6438,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.90868469,
+        "value": 0.90859994,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6673,7 +6673,7 @@
       "locations": [
         {
           "id": "doi:10.1016/j.jgsce.2023.205120",
-          "is_oa": false,
+          "is_oa": true,
           "landing_page_url": "https://doi.org/10.1016/j.jgsce.2023.205120",
           "pdf_url": null,
           "source": {
@@ -6696,8 +6696,8 @@
             ],
             "type": "journal"
           },
-          "license": null,
-          "license_id": null,
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
           "version": "publishedVersion",
           "is_accepted": true,
           "is_published": true,
@@ -6705,19 +6705,51 @@
           "raw_type": "journal-article"
         }
       ],
-      "best_oa_location": null,
+      "best_oa_location": {
+        "id": "doi:10.1016/j.jgsce.2023.205120",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.jgsce.2023.205120",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4387285525",
+          "display_name": "Gas Science and Engineering",
+          "issn_l": "2949-9089",
+          "issn": [
+            "2949-9089"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Gas Science and Engineering",
+        "raw_type": "journal-article"
+      },
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.4699999988079071,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.4699999988079071
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 43,
       "referenced_works": [
@@ -6761,8 +6793,8 @@
         "https://openalex.org/W1996969213",
         "https://openalex.org/W2105266597",
         "https://openalex.org/W2042696905",
-        "https://openalex.org/W4383498624",
         "https://openalex.org/W2284720457",
+        "https://openalex.org/W4383498624",
         "https://openalex.org/W2133321830"
       ],
       "related_works": [
@@ -6777,7 +6809,780 @@
         "https://openalex.org/W2054854226",
         "https://openalex.org/W2383719720"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "1": [
+          104
+        ],
+        "2": [
+          93
+        ],
+        "3": [
+          85
+        ],
+        "35": [
+          212
+        ],
+        "60": [
+          214
+        ],
+        "85": [
+          147,
+          217,
+          241
+        ],
+        "2000": [
+          107
+        ],
+        "One": [
+          0
+        ],
+        "solution": [
+          1
+        ],
+        "to": [
+          2,
+          27,
+          177,
+          234,
+          276,
+          286
+        ],
+        "attain": [
+          3
+        ],
+        "net": [
+          4
+        ],
+        "zero": [
+          5
+        ],
+        "CO2": [
+          6,
+          12,
+          25,
+          132,
+          302,
+          306,
+          312,
+          342
+        ],
+        "emissions": [
+          7
+        ],
+        "is": [
+          8,
+          272
+        ],
+        "the": [
+          9,
+          40,
+          51,
+          63,
+          123,
+          136,
+          179,
+          188,
+          196,
+          221,
+          235,
+          244,
+          257,
+          262,
+          266,
+          273,
+          278,
+          287,
+          320,
+          326
+        ],
+        "sequestration": [
+          10
+        ],
+        "of": [
+          11,
+          53,
+          65,
+          72,
+          79,
+          114,
+          118,
+          125,
+          190,
+          195,
+          206,
+          252,
+          268,
+          280,
+          289
+        ],
+        "in": [
+          13,
+          31,
+          43,
+          82,
+          87,
+          193,
+          247,
+          250,
+          292,
+          329
+        ],
+        "subterranean": [
+          14
+        ],
+        "formations.": [
+          15
+        ],
+        "Deep": [
+          16
+        ],
+        "limestone": [
+          17,
+          58,
+          74
+        ],
+        "saline": [
+          18
+        ],
+        "aquifers": [
+          19
+        ],
+        "provide": [
+          20
+        ],
+        "excellent": [
+          21
+        ],
+        "storage": [
+          22,
+          134,
+          303
+        ],
+        "sites": [
+          23
+        ],
+        "for": [
+          24,
+          349
+        ],
+        "due": [
+          26,
+          285
+        ],
+        "their": [
+          28,
+          184
+        ],
+        "high": [
+          29
+        ],
+        "solubility": [
+          30
+        ],
+        "water": [
+          32,
+          345
+        ],
+        "and": [
+          33,
+          46,
+          57,
+          84,
+          92,
+          106,
+          146,
+          153,
+          163,
+          182,
+          201,
+          216,
+          316
+        ],
+        "vast": [
+          34
+        ],
+        "aquifer": [
+          35
+        ],
+        "volumes.": [
+          36,
+          185
+        ],
+        "This": [
+          37,
+          294
+        ],
+        "study": [
+          38,
+          275,
+          295,
+          339
+        ],
+        "investigates": [
+          39
+        ],
+        "potential": [
+          41
+        ],
+        "changes": [
+          42
+        ],
+        "rock": [
+          44,
+          248
+        ],
+        "petrophysical": [
+          45
+        ],
+        "geomechanical": [
+          47
+        ],
+        "properties": [
+          48
+        ],
+        "caused": [
+          49
+        ],
+        "by": [
+          50
+        ],
+        "reaction": [
+          52,
+          130
+        ],
+        "carbonated": [
+          54,
+          111,
+          165,
+          344
+        ],
+        "brine": [
+          55,
+          112,
+          129,
+          166,
+          208,
+          291
+        ],
+        "(CO2+brine)": [
+          56
+        ],
+        "rock,": [
+          59
+        ],
+        "as": [
+          60,
+          62
+        ],
+        "well": [
+          61,
+          327
+        ],
+        "effect": [
+          64,
+          124
+        ],
+        "temperature": [
+          66,
+          126,
+          223,
+          281
+        ],
+        "on": [
+          67,
+          127,
+          282
+        ],
+        "wormhole": [
+          68,
+          192,
+          228,
+          283,
+          299
+        ],
+        "generation.": [
+          69
+        ],
+        "Three": [
+          70
+        ],
+        "samples": [
+          71,
+          100
+        ],
+        "Indiana": [
+          73
+        ],
+        "(100%": [
+          75
+        ],
+        "calcite)": [
+          76
+        ],
+        "with": [
+          77,
+          109,
+          229
+        ],
+        "dimensions": [
+          78
+        ],
+        "1.5": [
+          80
+        ],
+        "inches": [
+          81,
+          86
+        ],
+        "diameter": [
+          83
+        ],
+        "length,": [
+          88
+        ],
+        "15%": [
+          89
+        ],
+        "average": [
+          90,
+          95
+        ],
+        "porosity,": [
+          91
+        ],
+        "mD": [
+          94
+        ],
+        "permeability": [
+          96,
+          308
+        ],
+        "were": [
+          97,
+          101,
+          138,
+          160,
+          209
+        ],
+        "used.": [
+          98
+        ],
+        "The": [
+          99,
+          149
+        ],
+        "flooded": [
+          102
+        ],
+        "at": [
+          103,
+          131,
+          140,
+          156,
+          211,
+          240
+        ],
+        "mL/min": [
+          105
+        ],
+        "psi": [
+          108
+        ],
+        "a": [
+          110,
+          171,
+          191,
+          226
+        ],
+        "consisting": [
+          113
+        ],
+        "total": [
+          115
+        ],
+        "dissolved": [
+          116
+        ],
+        "salts": [
+          117
+        ],
+        "120,000": [
+          119
+        ],
+        "ppm.": [
+          120
+        ],
+        "To": [
+          121,
+          265
+        ],
+        "evaluate": [
+          122
+        ],
+        "limestone-carbonated": [
+          128
+        ],
+        "underground": [
+          133
+        ],
+        "conditions,": [
+          135
+        ],
+        "experiments": [
+          137,
+          197,
+          259
+        ],
+        "conducted": [
+          139
+        ],
+        "three": [
+          141
+        ],
+        "different": [
+          142,
+          157
+        ],
+        "temperatures": [
+          143
+        ],
+        "(35,": [
+          144
+        ],
+        "60,": [
+          145
+        ],
+        "°C).": [
+          148
+        ],
+        "samples'": [
+          150
+        ],
+        "Young's": [
+          151
+        ],
+        "modulus": [
+          152
+        ],
+        "Poisson's": [
+          154
+        ],
+        "ratio": [
+          155
+        ],
+        "confining": [
+          158
+        ],
+        "pressures": [
+          159
+        ],
+        "measured": [
+          161
+        ],
+        "before": [
+          162,
+          323
+        ],
+        "after": [
+          164,
+          198
+        ],
+        "coreflooding.": [
+          167
+        ],
+        "Additionally,": [
+          168
+        ],
+        "we": [
+          169
+        ],
+        "used": [
+          170
+        ],
+        "medical": [
+          172
+        ],
+        "Computed": [
+          173
+        ],
+        "Tomography": [
+          174
+        ],
+        "(CT)": [
+          175
+        ],
+        "scanner": [
+          176
+        ],
+        "visualize": [
+          178
+        ],
+        "created": [
+          180,
+          225
+        ],
+        "wormholes": [
+          181
+        ],
+        "quantify": [
+          183
+        ],
+        "We": [
+          186
+        ],
+        "observed": [
+          187
+        ],
+        "generation": [
+          189,
+          239,
+          284,
+          300
+        ],
+        "each": [
+          194
+        ],
+        "19.7,": [
+          199
+        ],
+        "26.7,": [
+          200
+        ],
+        "46.9": [
+          202
+        ],
+        "pore": [
+          203
+        ],
+        "volumes": [
+          204
+        ],
+        "(PVs)": [
+          205
+        ],
+        "CO2-saturated": [
+          207,
+          290
+        ],
+        "injected": [
+          210
+        ],
+        "°C,": [
+          213,
+          215,
+          218
+        ],
+        "respectively.": [
+          219
+        ],
+        "Moreover,": [
+          220
+        ],
+        "lowest": [
+          222,
+          263
+        ],
+        "treatment": [
+          224
+        ],
+        "straight": [
+          227
+        ],
+        "less": [
+          230
+        ],
+        "void": [
+          231
+        ],
+        "volume": [
+          232
+        ],
+        "compared": [
+          233
+        ],
+        "other": [
+          236,
+          258
+        ],
+        "temperatures.": [
+          237
+        ],
+        "Wormhole": [
+          238
+        ],
+        "°C": [
+          242
+        ],
+        "showed": [
+          243
+        ],
+        "largest": [
+          245
+        ],
+        "reduction": [
+          246
+        ],
+        "strength": [
+          249
+        ],
+        "terms": [
+          251
+        ],
+        "Young": [
+          253
+        ],
+        "Moduli": [
+          254
+        ],
+        "(YMs)": [
+          255
+        ],
+        "than": [
+          256
+        ],
+        "despite": [
+          260
+        ],
+        "showing": [
+          261
+        ],
+        "reactivity.": [
+          264
+        ],
+        "best": [
+          267
+        ],
+        "our": [
+          269
+        ],
+        "knowledge,": [
+          270
+        ],
+        "this": [
+          271,
+          338
+        ],
+        "first": [
+          274
+        ],
+        "reveal": [
+          277
+        ],
+        "impact": [
+          279
+        ],
+        "injection": [
+          288
+        ],
+        "limestone.": [
+          293
+        ],
+        "also": [
+          296
+        ],
+        "demonstrates": [
+          297
+        ],
+        "that": [
+          298,
+          311,
+          341
+        ],
+        "increases": [
+          301
+        ],
+        "capacity;": [
+          304
+        ],
+        "however,": [
+          305
+        ],
+        "relative": [
+          307
+        ],
+        "increases,": [
+          309
+        ],
+        "implying": [
+          310
+        ],
+        "will": [
+          313
+        ],
+        "flow": [
+          314
+        ],
+        "faster": [
+          315
+        ],
+        "accumulate": [
+          317
+        ],
+        "primarily": [
+          318
+        ],
+        "underneath": [
+          319
+        ],
+        "caprock.": [
+          321
+        ],
+        "Furthermore,": [
+          322
+        ],
+        "injecting": [
+          324
+        ],
+        "CO2,": [
+          325
+        ],
+        "integrity": [
+          328
+        ],
+        "hotter": [
+          330
+        ],
+        "carbonate": [
+          331
+        ],
+        "reservoirs": [
+          332
+        ],
+        "should": [
+          333
+        ],
+        "be": [
+          334,
+          347
+        ],
+        "thoroughly": [
+          335
+        ],
+        "examined.": [
+          336
+        ],
+        "Conversely,": [
+          337
+        ],
+        "reveals": [
+          340
+        ],
+        "or": [
+          343
+        ],
+        "could": [
+          346
+        ],
+        "utilized": [
+          348
+        ],
+        "acid": [
+          350
+        ],
+        "stimulation.": [
+          351
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2026,
@@ -6796,7 +7601,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-20T17:24:06.736184",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -7437,15 +8242,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.5600000023841858,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5600000023841858
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 19,
       "referenced_works": [
@@ -8157,8 +8962,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 23,
       "referenced_works": [
@@ -9518,8 +10323,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 33,
       "referenced_works": [
@@ -10251,8 +11056,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 25,
       "referenced_works": [
@@ -10654,9 +11459,9 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.83140549,
+        "value": 0.83034853,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -10928,8 +11733,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 29,
       "referenced_works": [
@@ -11589,15 +12394,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.5799999833106995,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.5799999833106995
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 78,
       "referenced_works": [
@@ -13055,8 +13860,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.8600000143051147
         }
       ],
       "awards": [],
@@ -13078,8 +13883,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 29,
       "referenced_works": [
@@ -14489,15 +15294,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.5699999928474426,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.5699999928474426
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 47,
       "referenced_works": [
@@ -15800,8 +16605,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 34,
       "referenced_works": [
@@ -16892,15 +17697,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6899999976158142,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6899999976158142
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 30,
       "referenced_works": [
@@ -18369,8 +19174,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 22,
       "referenced_works": [
@@ -19498,8 +20303,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.5699999928474426,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5699999928474426
         }
       ],
       "awards": [],
@@ -19511,8 +20316,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 127,
       "referenced_works": [
@@ -20801,8 +21606,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "score": 0.4699999988079071,
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.4699999988079071
         }
       ],
       "awards": [],
@@ -20814,8 +21619,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 20,
       "referenced_works": [
@@ -21820,8 +22625,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -23079,15 +23884,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6800000071525574,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6800000071525574
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 39,
       "referenced_works": [
@@ -24381,8 +25186,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.47999998927116394,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.47999998927116394
         }
       ],
       "awards": [
@@ -24402,8 +25207,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 25,
       "referenced_works": [
@@ -25617,8 +26422,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 144,
       "referenced_works": [
@@ -26823,8 +27628,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -28217,8 +29022,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8899999856948853
         }
       ],
       "awards": [
@@ -28238,8 +29043,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 44,
       "referenced_works": [
@@ -29901,15 +30706,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6100000143051147,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6100000143051147
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 36,
       "referenced_works": [
@@ -31328,15 +32133,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.7099999785423279,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.7099999785423279
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 30,
       "referenced_works": [
@@ -32446,8 +33251,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 43,
       "referenced_works": [
@@ -33717,15 +34522,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.5,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 19,
       "referenced_works": [
@@ -34969,15 +35774,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.800000011920929,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.800000011920929
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 28,
       "referenced_works": [
@@ -36148,15 +36953,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.4399999976158142,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.4399999976158142
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 33,
       "referenced_works": [
@@ -37566,8 +38371,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "score": 0.6000000238418579,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.6000000238418579
         }
       ],
       "awards": [],
@@ -37579,8 +38384,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 18,
       "referenced_works": [
@@ -38907,15 +39712,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.4099999964237213,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.4099999964237213
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 35,
       "referenced_works": [
@@ -40021,15 +40826,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "score": 0.5400000214576721,
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.5400000214576721
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -41405,8 +42210,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 29,
       "referenced_works": [
@@ -43007,15 +43812,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.7300000190734863,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.7300000190734863
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 48,
       "referenced_works": [
@@ -44254,20 +45059,20 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life in Land",
-          "score": 0.49000000953674316,
-          "id": "https://metadata.un.org/sdg/15"
+          "id": "https://metadata.un.org/sdg/15",
+          "score": 0.49000000953674316
         },
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.4099999964237213,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.4099999964237213
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 26,
       "referenced_works": [
@@ -45054,8 +45859,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 26,
       "referenced_works": [
@@ -46227,8 +47032,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 26,
       "referenced_works": [
@@ -46809,15 +47614,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.4399999976158142,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.4399999976158142
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 28,
       "referenced_works": [
@@ -47942,15 +48747,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.5600000023841858,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.5600000023841858
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -48990,8 +49795,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 11,
       "referenced_works": [
@@ -50129,8 +50934,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 13,
       "referenced_works": [
@@ -51599,8 +52404,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 17,
       "referenced_works": [
@@ -52989,8 +53794,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -54225,8 +55030,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -55103,8 +55908,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -56122,15 +56927,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.5899999737739563,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5899999737739563
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -56780,15 +57585,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6100000143051147,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6100000143051147
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 34,
       "referenced_works": [

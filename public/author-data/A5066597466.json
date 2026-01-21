@@ -1383,8 +1383,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 81,
       "referenced_works": [
@@ -2591,9 +2591,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.8299999833106995,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -2605,8 +2605,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 67,
       "referenced_works": [
@@ -3926,9 +3926,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.75,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -3967,8 +3967,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 67,
       "referenced_works": [
@@ -5500,16 +5500,16 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.8700000047683716,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -6829,16 +6829,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.8700000047683716,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 79,
       "referenced_works": [
@@ -7790,8 +7790,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -8761,9 +8761,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.4699999988079071,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -8775,8 +8775,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 56,
       "referenced_works": [
@@ -9349,16 +9349,6 @@
               "lineage": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -9377,9 +9367,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9416,16 +9404,6 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
-            },
-            {
               "id": "https://openalex.org/I71920554",
               "display_name": "King Abdullah University of Science and Technology",
               "ror": "https://ror.org/01q3tbs38",
@@ -9452,9 +9430,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9499,16 +9475,6 @@
               "lineage": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -9527,9 +9493,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9574,16 +9538,6 @@
               "lineage": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -9602,9 +9556,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9649,16 +9601,6 @@
               "lineage": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -9677,9 +9619,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9724,16 +9664,6 @@
               "lineage": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -9752,9 +9682,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Division of Physical Sciences and Engineering",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -9791,8 +9719,7 @@
         "https://openalex.org/A5077913046"
       ],
       "corresponding_institution_ids": [
-        "https://openalex.org/I71920554",
-        "https://openalex.org/I-1"
+        "https://openalex.org/I71920554"
       ],
       "apc_list": null,
       "apc_paid": null,
@@ -9800,7 +9727,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.81106137,
+        "value": 0.81104675,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10192,8 +10119,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 44,
       "referenced_works": [
@@ -10522,16 +10449,6 @@
                 "https://openalex.org/I100532134",
                 "https://openalex.org/I203339264"
               ]
-            },
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
             }
           ],
           "countries": [
@@ -10549,15 +10466,11 @@
           "affiliations": [
             {
               "raw_affiliation_string": "CNRS",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Lyon",
@@ -10742,16 +10655,6 @@
               ]
             },
             {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
-            },
-            {
               "id": "https://openalex.org/I113428412",
               "display_name": "École Normale Supérieure de Lyon",
               "ror": "https://ror.org/04zmssz18",
@@ -10778,15 +10681,11 @@
           "affiliations": [
             {
               "raw_affiliation_string": "CNRS",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Lyon",
@@ -10819,7 +10718,6 @@
         "https://openalex.org/I4210113003",
         "https://openalex.org/I71920554",
         "https://openalex.org/I100532134",
-        "https://openalex.org/I-1",
         "https://openalex.org/I113428412"
       ],
       "apc_list": null,
@@ -10828,7 +10726,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.84187686,
+        "value": 0.8418746,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11279,16 +11177,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6600000262260437,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 61,
       "referenced_works": [
@@ -12193,8 +12091,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 76,
       "referenced_works": [
@@ -12822,8 +12720,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 40,
       "referenced_works": [
@@ -14314,16 +14212,16 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6700000166893005,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -14937,16 +14835,16 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.7400000095367432,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "referenced_works_count": 49,
       "referenced_works": [
@@ -15919,8 +15817,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -16162,16 +16060,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/2",
           "score": 0.5799999833106995,
-          "display_name": "Zero hunger",
-          "id": "https://metadata.un.org/sdg/2"
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -16615,8 +16513,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -17687,8 +17585,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 61,
       "referenced_works": [
@@ -18750,8 +18648,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "referenced_works_count": 173,
       "referenced_works": [

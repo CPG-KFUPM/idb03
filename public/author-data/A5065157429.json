@@ -1763,16 +1763,6 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
-            },
-            {
               "id": "https://openalex.org/I134085113",
               "display_name": "King Fahd University of Petroleum and Minerals",
               "ror": "https://ror.org/03yez3163",
@@ -1790,8 +1780,8 @@
           "raw_author_name": "Muhammad H. Al-Malack",
           "raw_affiliation_strings": [
             "Department of Civil and Environmental Engineering, King Fahd University of Petroleum and Minerals, Box 1150, Dhahran 31261, Saudi Arabia,Tel. +966 138604735; Fax: +966 138602789",
-            "Fax: +966 138602789",
-            "Department of Civil and Environmental Engineering, King Fahd University of Petroleum and Minerals, Box 1150, Dhahran 31261, Saudi Arabia,Tel. +966 138604735"
+            "Department of Civil and Environmental Engineering, King Fahd University of Petroleum and Minerals, Box 1150, Dhahran 31261, Saudi Arabia,Tel. +966 138604735",
+            "Fax: +966 138602789"
           ],
           "affiliations": [
             {
@@ -1801,16 +1791,14 @@
               ]
             },
             {
-              "raw_affiliation_string": "Fax: +966 138602789",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
-            },
-            {
               "raw_affiliation_string": "Department of Civil and Environmental Engineering, King Fahd University of Petroleum and Minerals, Box 1150, Dhahran 31261, Saudi Arabia,Tel. +966 138604735",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
+            },
+            {
+              "raw_affiliation_string": "Fax: +966 138602789",
+              "institution_ids": []
             }
           ]
         },
@@ -1822,16 +1810,6 @@
             "orcid": "https://orcid.org/0000-0002-5868-8579"
           },
           "institutions": [
-            {
-              "id": "https://openalex.org/I-1",
-              "display_name": null,
-              "ror": null,
-              "country_code": null,
-              "type": null,
-              "lineage": [
-                "https://openalex.org/I-1"
-              ]
-            },
             {
               "id": "https://openalex.org/I134085113",
               "display_name": "King Fahd University of Petroleum and Minerals",
@@ -1868,9 +1846,7 @@
             },
             {
               "raw_affiliation_string": "Fax: +966 138602789",
-              "institution_ids": [
-                "https://openalex.org/I-1"
-              ]
+              "institution_ids": []
             }
           ]
         }
@@ -1883,7 +1859,6 @@
         "https://openalex.org/A5065157429"
       ],
       "corresponding_institution_ids": [
-        "https://openalex.org/I-1",
         "https://openalex.org/I134085113"
       ],
       "apc_list": null,
@@ -1892,7 +1867,7 @@
       "has_fulltext": false,
       "cited_by_count": 50,
       "citation_normalized_percentile": {
-        "value": 0.88269545,
+        "value": 0.88264813,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2243,9 +2218,9 @@
         "https://openalex.org/W2106588516",
         "https://openalex.org/W2045924286",
         "https://openalex.org/W1985193041",
+        "https://openalex.org/W1157175985",
         "https://openalex.org/W2112541028",
-        "https://openalex.org/W3216345354",
-        "https://openalex.org/W1157175985"
+        "https://openalex.org/W3216345354"
       ],
       "related_works": [
         "https://openalex.org/W2381601093",
