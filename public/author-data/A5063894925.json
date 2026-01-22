@@ -1164,9 +1164,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 263,
       "referenced_works": [
         "https://openalex.org/W2062788083",
@@ -2138,17 +2139,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.4099999964237213
+          "score": 0.4099999964237213,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 164,
       "referenced_works": [
         "https://openalex.org/W3158751645",
@@ -3211,9 +3213,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.4099999964237213
+          "score": 0.4099999964237213,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -3225,9 +3227,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 488,
       "referenced_works": [
         "https://openalex.org/W1976912181",
@@ -4714,16 +4717,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3087481538.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3087481538.grobid-xml"
       },
       "referenced_works_count": 73,
       "referenced_works": [
@@ -5931,9 +5938,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 107,
       "referenced_works": [
         "https://openalex.org/W3160605717",
@@ -6659,9 +6667,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 207,
       "referenced_works": [
         "https://openalex.org/W2484140440",
@@ -7722,9 +7731,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -7736,8 +7745,11 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4385439715.pdf"
       },
       "referenced_works_count": 141,
       "referenced_works": [
@@ -8682,9 +8694,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7799999713897705
+          "score": 0.7799999713897705,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [
@@ -8704,8 +8716,12 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3217239920.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3217239920.grobid-xml"
       },
       "referenced_works_count": 35,
       "referenced_works": [
@@ -9802,9 +9818,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 89,
       "referenced_works": [
         "https://openalex.org/W3120344562",
@@ -9925,6 +9942,825 @@
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4392119346",
+      "doi": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
+      "title": "A review on hydrogen blending in gas network: Insight into safety, corrosion, embrittlement, coatings and liners, and bibliometric analysis",
+      "display_name": "A review on hydrogen blending in gas network: Insight into safety, corrosion, embrittlement, coatings and liners, and bibliometric analysis",
+      "publication_year": 2024,
+      "publication_date": "2024-02-23",
+      "ids": {
+        "openalex": "https://openalex.org/W4392119346",
+        "doi": "https://doi.org/10.1016/j.ijhydene.2024.02.166"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.ijhydene.2024.02.166",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S48860480",
+          "display_name": "International Journal of Hydrogen Energy",
+          "issn_l": "0360-3199",
+          "issn": [
+            "0360-3199",
+            "1879-3487"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Hydrogen Energy",
+        "raw_type": "journal-article"
+      },
+      "type": "review",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5093992449",
+            "display_name": "Mohammed Sofian",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohammed Sofian",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5063894925",
+            "display_name": "Bashirul Haq",
+            "orcid": "https://orcid.org/0000-0003-1414-9976"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Md. Bashirul Haq",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5024608621",
+            "display_name": "Dhafer Al Shehri",
+            "orcid": "https://orcid.org/0000-0002-7032-5199"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Dhafer Al Shehri",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101792356",
+            "display_name": "Mohammad Mizanur Rahman",
+            "orcid": "https://orcid.org/0000-0002-9302-3185"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohammed Mizanur Rahman",
+          "raw_affiliation_strings": [
+            "Interdisciplinary Research Centre for Advanced Materials, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Interdisciplinary Research Centre for Advanced Materials, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5008302543",
+            "display_name": "Nasiru Salahu Muhammed",
+            "orcid": "https://orcid.org/0000-0002-3339-2093"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nasiru S. Muhammed",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5063894925"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
+      "apc_list": {
+        "value": 3400,
+        "currency": "USD",
+        "value_usd": 3400
+      },
+      "apc_paid": null,
+      "fwci": 21.38821485,
+      "has_fulltext": false,
+      "cited_by_count": 62,
+      "citation_normalized_percentile": {
+        "value": 0.98977871,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "60",
+        "issue": null,
+        "first_page": "867",
+        "last_page": "889"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11007",
+        "display_name": "Hybrid Renewable Energy Systems",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2102",
+          "display_name": "Energy Engineering and Power Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11007",
+          "display_name": "Hybrid Renewable Energy Systems",
+          "score": 0.9970999956130981,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2102",
+            "display_name": "Energy Engineering and Power Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10736",
+          "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
+          "score": 0.9954000115394592,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2506",
+            "display_name": "Metals and Alloys"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11242",
+          "display_name": "Nuclear Materials and Properties",
+          "score": 0.9947999715805054,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/hydrogen-embrittlement",
+          "display_name": "Hydrogen embrittlement",
+          "score": 0.8214881420135498
+        },
+        {
+          "id": "https://openalex.org/keywords/corrosion",
+          "display_name": "Corrosion",
+          "score": 0.709712028503418
+        },
+        {
+          "id": "https://openalex.org/keywords/embrittlement",
+          "display_name": "Embrittlement",
+          "score": 0.6584803462028503
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.5595128536224365
+        },
+        {
+          "id": "https://openalex.org/keywords/hydrogen",
+          "display_name": "Hydrogen",
+          "score": 0.4877251088619232
+        },
+        {
+          "id": "https://openalex.org/keywords/metallurgy",
+          "display_name": "Metallurgy",
+          "score": 0.4097987115383148
+        },
+        {
+          "id": "https://openalex.org/keywords/forensic-engineering",
+          "display_name": "Forensic engineering",
+          "score": 0.3995071053504944
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-science",
+          "display_name": "Environmental science",
+          "score": 0.32790786027908325
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.25272268056869507
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.16832175850868225
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C92621854",
+          "wikidata": "https://www.wikidata.org/wiki/Q605529",
+          "display_name": "Hydrogen embrittlement",
+          "level": 3,
+          "score": 0.8214881420135498
+        },
+        {
+          "id": "https://openalex.org/C20625102",
+          "wikidata": "https://www.wikidata.org/wiki/Q137056",
+          "display_name": "Corrosion",
+          "level": 2,
+          "score": 0.709712028503418
+        },
+        {
+          "id": "https://openalex.org/C142282041",
+          "wikidata": "https://www.wikidata.org/wiki/Q2919530",
+          "display_name": "Embrittlement",
+          "level": 2,
+          "score": 0.6584803462028503
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.5595128536224365
+        },
+        {
+          "id": "https://openalex.org/C512968161",
+          "wikidata": "https://www.wikidata.org/wiki/Q556",
+          "display_name": "Hydrogen",
+          "level": 2,
+          "score": 0.4877251088619232
+        },
+        {
+          "id": "https://openalex.org/C191897082",
+          "wikidata": "https://www.wikidata.org/wiki/Q11467",
+          "display_name": "Metallurgy",
+          "level": 1,
+          "score": 0.4097987115383148
+        },
+        {
+          "id": "https://openalex.org/C77595967",
+          "wikidata": "https://www.wikidata.org/wiki/Q3151013",
+          "display_name": "Forensic engineering",
+          "level": 1,
+          "score": 0.3995071053504944
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.32790786027908325
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.25272268056869507
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.16832175850868225
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.ijhydene.2024.02.166",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S48860480",
+            "display_name": "International Journal of Hydrogen Energy",
+            "issn_l": "0360-3199",
+            "issn": [
+              "0360-3199",
+              "1879-3487"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Hydrogen Energy",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 264,
+      "referenced_works": [
+        "https://openalex.org/W3033087305",
+        "https://openalex.org/W4293010069",
+        "https://openalex.org/W2170962514",
+        "https://openalex.org/W3154227603",
+        "https://openalex.org/W4206272257",
+        "https://openalex.org/W1986603719",
+        "https://openalex.org/W4223467133",
+        "https://openalex.org/W1998691360",
+        "https://openalex.org/W10632476",
+        "https://openalex.org/W2990060743",
+        "https://openalex.org/W4291710940",
+        "https://openalex.org/W3031929677",
+        "https://openalex.org/W6797854715",
+        "https://openalex.org/W3106200319",
+        "https://openalex.org/W4293230259",
+        "https://openalex.org/W2309066182",
+        "https://openalex.org/W3135721511",
+        "https://openalex.org/W2556834467",
+        "https://openalex.org/W3196165229",
+        "https://openalex.org/W4280510817",
+        "https://openalex.org/W2994609351",
+        "https://openalex.org/W3082254264",
+        "https://openalex.org/W4293584139",
+        "https://openalex.org/W3173614408",
+        "https://openalex.org/W3094335253",
+        "https://openalex.org/W2047167221",
+        "https://openalex.org/W2911401552",
+        "https://openalex.org/W2076575804",
+        "https://openalex.org/W2904038762",
+        "https://openalex.org/W4283650098",
+        "https://openalex.org/W3091778012",
+        "https://openalex.org/W4319724943",
+        "https://openalex.org/W2899140899",
+        "https://openalex.org/W1976912181",
+        "https://openalex.org/W3153030096",
+        "https://openalex.org/W2094026263",
+        "https://openalex.org/W3114977942",
+        "https://openalex.org/W4220961845",
+        "https://openalex.org/W4306760223",
+        "https://openalex.org/W3092846334",
+        "https://openalex.org/W3010956270",
+        "https://openalex.org/W4361209837",
+        "https://openalex.org/W4327736690",
+        "https://openalex.org/W4210900141",
+        "https://openalex.org/W4284993579",
+        "https://openalex.org/W4280582947",
+        "https://openalex.org/W4224981513",
+        "https://openalex.org/W4206238366",
+        "https://openalex.org/W4310580240",
+        "https://openalex.org/W6849632974",
+        "https://openalex.org/W3087428883",
+        "https://openalex.org/W4283688462",
+        "https://openalex.org/W3008185786",
+        "https://openalex.org/W4285900100",
+        "https://openalex.org/W4363678174",
+        "https://openalex.org/W2973035317",
+        "https://openalex.org/W2038749091",
+        "https://openalex.org/W2037330869",
+        "https://openalex.org/W4221123618",
+        "https://openalex.org/W4306955482",
+        "https://openalex.org/W6846910387",
+        "https://openalex.org/W4207028959",
+        "https://openalex.org/W3087299579",
+        "https://openalex.org/W4382073965",
+        "https://openalex.org/W3160856016",
+        "https://openalex.org/W3089288764",
+        "https://openalex.org/W2978328068",
+        "https://openalex.org/W3038273726",
+        "https://openalex.org/W6851373341",
+        "https://openalex.org/W6849416746",
+        "https://openalex.org/W6781165645",
+        "https://openalex.org/W3166172974",
+        "https://openalex.org/W2108680868",
+        "https://openalex.org/W2150220236",
+        "https://openalex.org/W2801722167",
+        "https://openalex.org/W3204265495",
+        "https://openalex.org/W2070261775",
+        "https://openalex.org/W2039466371",
+        "https://openalex.org/W2944545209",
+        "https://openalex.org/W2062788083",
+        "https://openalex.org/W2514912696",
+        "https://openalex.org/W4286255712",
+        "https://openalex.org/W1988937355",
+        "https://openalex.org/W2012136380",
+        "https://openalex.org/W4221079677",
+        "https://openalex.org/W2526840332",
+        "https://openalex.org/W2031090497",
+        "https://openalex.org/W2909262893",
+        "https://openalex.org/W2070850597",
+        "https://openalex.org/W2047648624",
+        "https://openalex.org/W2617242269",
+        "https://openalex.org/W4280556624",
+        "https://openalex.org/W3200188836",
+        "https://openalex.org/W1978879735",
+        "https://openalex.org/W3004186764",
+        "https://openalex.org/W3172314492",
+        "https://openalex.org/W3192381394",
+        "https://openalex.org/W1989097791",
+        "https://openalex.org/W2068396109",
+        "https://openalex.org/W2026022969",
+        "https://openalex.org/W1992006372",
+        "https://openalex.org/W1969266430",
+        "https://openalex.org/W2034898406",
+        "https://openalex.org/W3177040909",
+        "https://openalex.org/W4214611813",
+        "https://openalex.org/W2081443325",
+        "https://openalex.org/W3194513863",
+        "https://openalex.org/W1493418574",
+        "https://openalex.org/W2803356670",
+        "https://openalex.org/W4211131140",
+        "https://openalex.org/W6770281175",
+        "https://openalex.org/W2969752023",
+        "https://openalex.org/W4312055992",
+        "https://openalex.org/W2122738971",
+        "https://openalex.org/W2511063643",
+        "https://openalex.org/W2120122711",
+        "https://openalex.org/W2581701379",
+        "https://openalex.org/W1975155817",
+        "https://openalex.org/W73535994",
+        "https://openalex.org/W2033935195",
+        "https://openalex.org/W3021138645",
+        "https://openalex.org/W2069128773",
+        "https://openalex.org/W2057207893",
+        "https://openalex.org/W2938575223",
+        "https://openalex.org/W2193820008",
+        "https://openalex.org/W2106822708",
+        "https://openalex.org/W2043995621",
+        "https://openalex.org/W6670065906",
+        "https://openalex.org/W2188612452",
+        "https://openalex.org/W6621940403",
+        "https://openalex.org/W2018631178",
+        "https://openalex.org/W2016970463",
+        "https://openalex.org/W3139171345",
+        "https://openalex.org/W6786411607",
+        "https://openalex.org/W3136730249",
+        "https://openalex.org/W2054325888",
+        "https://openalex.org/W3129824705",
+        "https://openalex.org/W3130496585",
+        "https://openalex.org/W2090294059",
+        "https://openalex.org/W6771466409",
+        "https://openalex.org/W3133630838",
+        "https://openalex.org/W2114639554",
+        "https://openalex.org/W2093247642",
+        "https://openalex.org/W6846127919",
+        "https://openalex.org/W6839368568",
+        "https://openalex.org/W4221086171",
+        "https://openalex.org/W4214562313",
+        "https://openalex.org/W6783526405",
+        "https://openalex.org/W2997218554",
+        "https://openalex.org/W4312208485",
+        "https://openalex.org/W4296993120",
+        "https://openalex.org/W2025830172",
+        "https://openalex.org/W2008299858",
+        "https://openalex.org/W2927328515",
+        "https://openalex.org/W3124451580",
+        "https://openalex.org/W2088926237",
+        "https://openalex.org/W2093921254",
+        "https://openalex.org/W1968751429",
+        "https://openalex.org/W3018524912",
+        "https://openalex.org/W1989955032",
+        "https://openalex.org/W2615616105",
+        "https://openalex.org/W1976156082",
+        "https://openalex.org/W2575656559",
+        "https://openalex.org/W2087822857",
+        "https://openalex.org/W2898188770",
+        "https://openalex.org/W1985204256",
+        "https://openalex.org/W2089605382",
+        "https://openalex.org/W2783456131",
+        "https://openalex.org/W2614079766",
+        "https://openalex.org/W2150367751",
+        "https://openalex.org/W2767206512",
+        "https://openalex.org/W2762685897",
+        "https://openalex.org/W4303954694",
+        "https://openalex.org/W4386378542",
+        "https://openalex.org/W2010165582",
+        "https://openalex.org/W4376879148",
+        "https://openalex.org/W4320181887",
+        "https://openalex.org/W3193588800",
+        "https://openalex.org/W1968646698",
+        "https://openalex.org/W4211104360",
+        "https://openalex.org/W595103639",
+        "https://openalex.org/W2026355229",
+        "https://openalex.org/W1533519628",
+        "https://openalex.org/W2079631711",
+        "https://openalex.org/W2896215331",
+        "https://openalex.org/W2037537450",
+        "https://openalex.org/W3128123712",
+        "https://openalex.org/W2077600935",
+        "https://openalex.org/W4375935074",
+        "https://openalex.org/W4300864260",
+        "https://openalex.org/W2045246349",
+        "https://openalex.org/W3157008355",
+        "https://openalex.org/W2088352498",
+        "https://openalex.org/W2025182322",
+        "https://openalex.org/W6651654750",
+        "https://openalex.org/W2089320558",
+        "https://openalex.org/W2552288163",
+        "https://openalex.org/W2197284319",
+        "https://openalex.org/W2198166630",
+        "https://openalex.org/W2810836985",
+        "https://openalex.org/W2765593621",
+        "https://openalex.org/W2085761715",
+        "https://openalex.org/W1989780760",
+        "https://openalex.org/W2077358654",
+        "https://openalex.org/W2049647901",
+        "https://openalex.org/W2000262935",
+        "https://openalex.org/W4238841644",
+        "https://openalex.org/W1966583674",
+        "https://openalex.org/W2021977745",
+        "https://openalex.org/W2021112140",
+        "https://openalex.org/W6714367708",
+        "https://openalex.org/W3092595138",
+        "https://openalex.org/W3036296940",
+        "https://openalex.org/W2005236784",
+        "https://openalex.org/W6852517561",
+        "https://openalex.org/W2045240222",
+        "https://openalex.org/W1998230498",
+        "https://openalex.org/W2662723919",
+        "https://openalex.org/W2585300531",
+        "https://openalex.org/W2583743820",
+        "https://openalex.org/W624213335",
+        "https://openalex.org/W133128627",
+        "https://openalex.org/W1487605530",
+        "https://openalex.org/W1566241147",
+        "https://openalex.org/W77180805",
+        "https://openalex.org/W1573057852",
+        "https://openalex.org/W1520282251",
+        "https://openalex.org/W204689466",
+        "https://openalex.org/W319965904",
+        "https://openalex.org/W656210100",
+        "https://openalex.org/W2296915309",
+        "https://openalex.org/W2489388693",
+        "https://openalex.org/W2426566905",
+        "https://openalex.org/W2494393063",
+        "https://openalex.org/W2274382856",
+        "https://openalex.org/W2185342003",
+        "https://openalex.org/W2475474560",
+        "https://openalex.org/W2505922248",
+        "https://openalex.org/W4224309438",
+        "https://openalex.org/W4226352608",
+        "https://openalex.org/W4282014890",
+        "https://openalex.org/W4225880136",
+        "https://openalex.org/W4290822089",
+        "https://openalex.org/W4214596598",
+        "https://openalex.org/W4306835784",
+        "https://openalex.org/W2078370317",
+        "https://openalex.org/W3182389756",
+        "https://openalex.org/W2993368695",
+        "https://openalex.org/W3014712482",
+        "https://openalex.org/W2989665553",
+        "https://openalex.org/W2005252856",
+        "https://openalex.org/W4319312173",
+        "https://openalex.org/W4308736847",
+        "https://openalex.org/W4308041542",
+        "https://openalex.org/W4376573120",
+        "https://openalex.org/W4315977449",
+        "https://openalex.org/W4366382765",
+        "https://openalex.org/W3118433171",
+        "https://openalex.org/W3109076906",
+        "https://openalex.org/W3046654040",
+        "https://openalex.org/W3089641658",
+        "https://openalex.org/W1964773529",
+        "https://openalex.org/W2162164726",
+        "https://openalex.org/W2109966016"
+      ],
+      "related_works": [
+        "https://openalex.org/W2012997152",
+        "https://openalex.org/W2715619013",
+        "https://openalex.org/W2124667862",
+        "https://openalex.org/W2035284801",
+        "https://openalex.org/W2319957497",
+        "https://openalex.org/W2708573523",
+        "https://openalex.org/W2997744207",
+        "https://openalex.org/W47270384",
+        "https://openalex.org/W2379321498",
+        "https://openalex.org/W2971522796"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 42
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 17
+        }
+      ],
+      "updated_date": "2026-01-21T23:30:37.877113",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -10722,8 +11558,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3094146352.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3094146352.grobid-xml"
       },
       "referenced_works_count": 139,
       "referenced_works": [
@@ -11368,824 +12208,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4392119346",
-      "doi": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
-      "title": "A review on hydrogen blending in gas network: Insight into safety, corrosion, embrittlement, coatings and liners, and bibliometric analysis",
-      "display_name": "A review on hydrogen blending in gas network: Insight into safety, corrosion, embrittlement, coatings and liners, and bibliometric analysis",
-      "publication_year": 2024,
-      "publication_date": "2024-02-23",
-      "ids": {
-        "openalex": "https://openalex.org/W4392119346",
-        "doi": "https://doi.org/10.1016/j.ijhydene.2024.02.166"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.ijhydene.2024.02.166",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S48860480",
-          "display_name": "International Journal of Hydrogen Energy",
-          "issn_l": "0360-3199",
-          "issn": [
-            "0360-3199",
-            "1879-3487"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [
-            "Elsevier BV"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "International Journal of Hydrogen Energy",
-        "raw_type": "journal-article"
-      },
-      "type": "review",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5093992449",
-            "display_name": "Mohammed Sofian",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Mohammed Sofian",
-          "raw_affiliation_strings": [
-            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5063894925",
-            "display_name": "Bashirul Haq",
-            "orcid": "https://orcid.org/0000-0003-1414-9976"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Md. Bashirul Haq",
-          "raw_affiliation_strings": [
-            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5024608621",
-            "display_name": "Dhafer Al Shehri",
-            "orcid": "https://orcid.org/0000-0002-7032-5199"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Dhafer Al Shehri",
-          "raw_affiliation_strings": [
-            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5101792356",
-            "display_name": "Mohammad Mizanur Rahman",
-            "orcid": "https://orcid.org/0000-0002-9302-3185"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Mohammed Mizanur Rahman",
-          "raw_affiliation_strings": [
-            "Interdisciplinary Research Centre for Advanced Materials, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Interdisciplinary Research Centre for Advanced Materials, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5008302543",
-            "display_name": "Nasiru Salahu Muhammed",
-            "orcid": "https://orcid.org/0000-0002-3339-2093"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Nasiru S. Muhammed",
-          "raw_affiliation_strings": [
-            "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 5,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5063894925"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113"
-      ],
-      "apc_list": {
-        "value": 3400,
-        "currency": "USD",
-        "value_usd": 3400
-      },
-      "apc_paid": null,
-      "fwci": 21.04324364,
-      "has_fulltext": false,
-      "cited_by_count": 61,
-      "citation_normalized_percentile": {
-        "value": 0.98956907,
-        "is_in_top_1_percent": true,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 99,
-        "max": 100
-      },
-      "biblio": {
-        "volume": "60",
-        "issue": null,
-        "first_page": "867",
-        "last_page": "889"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11007",
-        "display_name": "Hybrid Renewable Energy Systems",
-        "score": 0.9970999956130981,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2102",
-          "display_name": "Energy Engineering and Power Technology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/21",
-          "display_name": "Energy"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11007",
-          "display_name": "Hybrid Renewable Energy Systems",
-          "score": 0.9970999956130981,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2102",
-            "display_name": "Energy Engineering and Power Technology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/21",
-            "display_name": "Energy"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10736",
-          "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
-          "score": 0.9954000115394592,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2506",
-            "display_name": "Metals and Alloys"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11242",
-          "display_name": "Nuclear Materials and Properties",
-          "score": 0.9947999715805054,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2505",
-            "display_name": "Materials Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/hydrogen-embrittlement",
-          "display_name": "Hydrogen embrittlement",
-          "score": 0.8214881420135498
-        },
-        {
-          "id": "https://openalex.org/keywords/corrosion",
-          "display_name": "Corrosion",
-          "score": 0.709712028503418
-        },
-        {
-          "id": "https://openalex.org/keywords/embrittlement",
-          "display_name": "Embrittlement",
-          "score": 0.6584803462028503
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.5595128536224365
-        },
-        {
-          "id": "https://openalex.org/keywords/hydrogen",
-          "display_name": "Hydrogen",
-          "score": 0.4877251088619232
-        },
-        {
-          "id": "https://openalex.org/keywords/metallurgy",
-          "display_name": "Metallurgy",
-          "score": 0.4097987115383148
-        },
-        {
-          "id": "https://openalex.org/keywords/forensic-engineering",
-          "display_name": "Forensic engineering",
-          "score": 0.3995071053504944
-        },
-        {
-          "id": "https://openalex.org/keywords/environmental-science",
-          "display_name": "Environmental science",
-          "score": 0.32790786027908325
-        },
-        {
-          "id": "https://openalex.org/keywords/engineering",
-          "display_name": "Engineering",
-          "score": 0.25272268056869507
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.16832175850868225
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C92621854",
-          "wikidata": "https://www.wikidata.org/wiki/Q605529",
-          "display_name": "Hydrogen embrittlement",
-          "level": 3,
-          "score": 0.8214881420135498
-        },
-        {
-          "id": "https://openalex.org/C20625102",
-          "wikidata": "https://www.wikidata.org/wiki/Q137056",
-          "display_name": "Corrosion",
-          "level": 2,
-          "score": 0.709712028503418
-        },
-        {
-          "id": "https://openalex.org/C142282041",
-          "wikidata": "https://www.wikidata.org/wiki/Q2919530",
-          "display_name": "Embrittlement",
-          "level": 2,
-          "score": 0.6584803462028503
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.5595128536224365
-        },
-        {
-          "id": "https://openalex.org/C512968161",
-          "wikidata": "https://www.wikidata.org/wiki/Q556",
-          "display_name": "Hydrogen",
-          "level": 2,
-          "score": 0.4877251088619232
-        },
-        {
-          "id": "https://openalex.org/C191897082",
-          "wikidata": "https://www.wikidata.org/wiki/Q11467",
-          "display_name": "Metallurgy",
-          "level": 1,
-          "score": 0.4097987115383148
-        },
-        {
-          "id": "https://openalex.org/C77595967",
-          "wikidata": "https://www.wikidata.org/wiki/Q3151013",
-          "display_name": "Forensic engineering",
-          "level": 1,
-          "score": 0.3995071053504944
-        },
-        {
-          "id": "https://openalex.org/C39432304",
-          "wikidata": "https://www.wikidata.org/wiki/Q188847",
-          "display_name": "Environmental science",
-          "level": 0,
-          "score": 0.32790786027908325
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0.25272268056869507
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.16832175850868225
-        },
-        {
-          "id": "https://openalex.org/C178790620",
-          "wikidata": "https://www.wikidata.org/wiki/Q11351",
-          "display_name": "Organic chemistry",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.ijhydene.2024.02.166",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2024.02.166",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S48860480",
-            "display_name": "International Journal of Hydrogen Energy",
-            "issn_l": "0360-3199",
-            "issn": [
-              "0360-3199",
-              "1879-3487"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [
-              "Elsevier BV"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "International Journal of Hydrogen Energy",
-          "raw_type": "journal-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "pdf": false,
-        "grobid_xml": false
-      },
-      "referenced_works_count": 264,
-      "referenced_works": [
-        "https://openalex.org/W3033087305",
-        "https://openalex.org/W4293010069",
-        "https://openalex.org/W2170962514",
-        "https://openalex.org/W3154227603",
-        "https://openalex.org/W4206272257",
-        "https://openalex.org/W1986603719",
-        "https://openalex.org/W4223467133",
-        "https://openalex.org/W1998691360",
-        "https://openalex.org/W10632476",
-        "https://openalex.org/W2990060743",
-        "https://openalex.org/W4291710940",
-        "https://openalex.org/W3031929677",
-        "https://openalex.org/W6797854715",
-        "https://openalex.org/W3106200319",
-        "https://openalex.org/W4293230259",
-        "https://openalex.org/W2309066182",
-        "https://openalex.org/W3135721511",
-        "https://openalex.org/W2556834467",
-        "https://openalex.org/W3196165229",
-        "https://openalex.org/W4280510817",
-        "https://openalex.org/W2994609351",
-        "https://openalex.org/W3082254264",
-        "https://openalex.org/W4293584139",
-        "https://openalex.org/W3173614408",
-        "https://openalex.org/W3094335253",
-        "https://openalex.org/W2047167221",
-        "https://openalex.org/W2911401552",
-        "https://openalex.org/W2076575804",
-        "https://openalex.org/W2904038762",
-        "https://openalex.org/W4283650098",
-        "https://openalex.org/W3091778012",
-        "https://openalex.org/W4319724943",
-        "https://openalex.org/W2899140899",
-        "https://openalex.org/W1976912181",
-        "https://openalex.org/W3153030096",
-        "https://openalex.org/W2094026263",
-        "https://openalex.org/W3114977942",
-        "https://openalex.org/W4220961845",
-        "https://openalex.org/W4306760223",
-        "https://openalex.org/W3092846334",
-        "https://openalex.org/W3010956270",
-        "https://openalex.org/W4361209837",
-        "https://openalex.org/W4327736690",
-        "https://openalex.org/W4210900141",
-        "https://openalex.org/W4284993579",
-        "https://openalex.org/W4280582947",
-        "https://openalex.org/W4224981513",
-        "https://openalex.org/W4206238366",
-        "https://openalex.org/W4310580240",
-        "https://openalex.org/W6849632974",
-        "https://openalex.org/W3087428883",
-        "https://openalex.org/W4283688462",
-        "https://openalex.org/W3008185786",
-        "https://openalex.org/W4285900100",
-        "https://openalex.org/W4363678174",
-        "https://openalex.org/W2973035317",
-        "https://openalex.org/W2038749091",
-        "https://openalex.org/W2037330869",
-        "https://openalex.org/W4221123618",
-        "https://openalex.org/W4306955482",
-        "https://openalex.org/W6846910387",
-        "https://openalex.org/W4207028959",
-        "https://openalex.org/W3087299579",
-        "https://openalex.org/W4382073965",
-        "https://openalex.org/W3160856016",
-        "https://openalex.org/W3089288764",
-        "https://openalex.org/W2978328068",
-        "https://openalex.org/W3038273726",
-        "https://openalex.org/W6851373341",
-        "https://openalex.org/W6849416746",
-        "https://openalex.org/W6781165645",
-        "https://openalex.org/W3166172974",
-        "https://openalex.org/W2108680868",
-        "https://openalex.org/W2150220236",
-        "https://openalex.org/W2801722167",
-        "https://openalex.org/W3204265495",
-        "https://openalex.org/W2070261775",
-        "https://openalex.org/W2039466371",
-        "https://openalex.org/W2944545209",
-        "https://openalex.org/W2062788083",
-        "https://openalex.org/W2514912696",
-        "https://openalex.org/W4286255712",
-        "https://openalex.org/W1988937355",
-        "https://openalex.org/W2012136380",
-        "https://openalex.org/W4221079677",
-        "https://openalex.org/W2526840332",
-        "https://openalex.org/W2031090497",
-        "https://openalex.org/W2909262893",
-        "https://openalex.org/W2070850597",
-        "https://openalex.org/W2047648624",
-        "https://openalex.org/W2617242269",
-        "https://openalex.org/W4280556624",
-        "https://openalex.org/W3200188836",
-        "https://openalex.org/W1978879735",
-        "https://openalex.org/W3004186764",
-        "https://openalex.org/W3172314492",
-        "https://openalex.org/W3192381394",
-        "https://openalex.org/W1989097791",
-        "https://openalex.org/W2068396109",
-        "https://openalex.org/W2026022969",
-        "https://openalex.org/W1992006372",
-        "https://openalex.org/W1969266430",
-        "https://openalex.org/W2034898406",
-        "https://openalex.org/W3177040909",
-        "https://openalex.org/W4214611813",
-        "https://openalex.org/W2081443325",
-        "https://openalex.org/W3194513863",
-        "https://openalex.org/W1493418574",
-        "https://openalex.org/W2803356670",
-        "https://openalex.org/W4211131140",
-        "https://openalex.org/W6770281175",
-        "https://openalex.org/W2969752023",
-        "https://openalex.org/W4312055992",
-        "https://openalex.org/W2122738971",
-        "https://openalex.org/W2511063643",
-        "https://openalex.org/W2120122711",
-        "https://openalex.org/W2581701379",
-        "https://openalex.org/W1975155817",
-        "https://openalex.org/W73535994",
-        "https://openalex.org/W2033935195",
-        "https://openalex.org/W3021138645",
-        "https://openalex.org/W2069128773",
-        "https://openalex.org/W2057207893",
-        "https://openalex.org/W2938575223",
-        "https://openalex.org/W2193820008",
-        "https://openalex.org/W2106822708",
-        "https://openalex.org/W2043995621",
-        "https://openalex.org/W6670065906",
-        "https://openalex.org/W2188612452",
-        "https://openalex.org/W6621940403",
-        "https://openalex.org/W2018631178",
-        "https://openalex.org/W2016970463",
-        "https://openalex.org/W3139171345",
-        "https://openalex.org/W6786411607",
-        "https://openalex.org/W3136730249",
-        "https://openalex.org/W2054325888",
-        "https://openalex.org/W3129824705",
-        "https://openalex.org/W3130496585",
-        "https://openalex.org/W2090294059",
-        "https://openalex.org/W6771466409",
-        "https://openalex.org/W3133630838",
-        "https://openalex.org/W2114639554",
-        "https://openalex.org/W2093247642",
-        "https://openalex.org/W6846127919",
-        "https://openalex.org/W6839368568",
-        "https://openalex.org/W4221086171",
-        "https://openalex.org/W4214562313",
-        "https://openalex.org/W6783526405",
-        "https://openalex.org/W2997218554",
-        "https://openalex.org/W4312208485",
-        "https://openalex.org/W4296993120",
-        "https://openalex.org/W2025830172",
-        "https://openalex.org/W2008299858",
-        "https://openalex.org/W2927328515",
-        "https://openalex.org/W3124451580",
-        "https://openalex.org/W2088926237",
-        "https://openalex.org/W2093921254",
-        "https://openalex.org/W1968751429",
-        "https://openalex.org/W3018524912",
-        "https://openalex.org/W1989955032",
-        "https://openalex.org/W2615616105",
-        "https://openalex.org/W1976156082",
-        "https://openalex.org/W2575656559",
-        "https://openalex.org/W2087822857",
-        "https://openalex.org/W2898188770",
-        "https://openalex.org/W1985204256",
-        "https://openalex.org/W2089605382",
-        "https://openalex.org/W2783456131",
-        "https://openalex.org/W2614079766",
-        "https://openalex.org/W2150367751",
-        "https://openalex.org/W2767206512",
-        "https://openalex.org/W2762685897",
-        "https://openalex.org/W4303954694",
-        "https://openalex.org/W4386378542",
-        "https://openalex.org/W2010165582",
-        "https://openalex.org/W4376879148",
-        "https://openalex.org/W4320181887",
-        "https://openalex.org/W3193588800",
-        "https://openalex.org/W1968646698",
-        "https://openalex.org/W4211104360",
-        "https://openalex.org/W595103639",
-        "https://openalex.org/W2026355229",
-        "https://openalex.org/W1533519628",
-        "https://openalex.org/W2079631711",
-        "https://openalex.org/W2896215331",
-        "https://openalex.org/W2037537450",
-        "https://openalex.org/W3128123712",
-        "https://openalex.org/W2077600935",
-        "https://openalex.org/W4375935074",
-        "https://openalex.org/W4300864260",
-        "https://openalex.org/W2045246349",
-        "https://openalex.org/W3157008355",
-        "https://openalex.org/W2088352498",
-        "https://openalex.org/W2025182322",
-        "https://openalex.org/W6651654750",
-        "https://openalex.org/W2089320558",
-        "https://openalex.org/W2552288163",
-        "https://openalex.org/W2197284319",
-        "https://openalex.org/W2198166630",
-        "https://openalex.org/W2810836985",
-        "https://openalex.org/W2765593621",
-        "https://openalex.org/W2085761715",
-        "https://openalex.org/W1989780760",
-        "https://openalex.org/W2077358654",
-        "https://openalex.org/W2049647901",
-        "https://openalex.org/W2000262935",
-        "https://openalex.org/W4238841644",
-        "https://openalex.org/W1966583674",
-        "https://openalex.org/W2021977745",
-        "https://openalex.org/W2021112140",
-        "https://openalex.org/W6714367708",
-        "https://openalex.org/W3092595138",
-        "https://openalex.org/W3036296940",
-        "https://openalex.org/W2005236784",
-        "https://openalex.org/W6852517561",
-        "https://openalex.org/W2045240222",
-        "https://openalex.org/W1998230498",
-        "https://openalex.org/W2662723919",
-        "https://openalex.org/W2585300531",
-        "https://openalex.org/W2583743820",
-        "https://openalex.org/W1964773529",
-        "https://openalex.org/W3182389756",
-        "https://openalex.org/W2162164726",
-        "https://openalex.org/W2109966016",
-        "https://openalex.org/W4224309438",
-        "https://openalex.org/W4226352608",
-        "https://openalex.org/W4282014890",
-        "https://openalex.org/W4225880136",
-        "https://openalex.org/W4290822089",
-        "https://openalex.org/W4214596598",
-        "https://openalex.org/W4306835784",
-        "https://openalex.org/W2005252856",
-        "https://openalex.org/W2993368695",
-        "https://openalex.org/W3014712482",
-        "https://openalex.org/W2989665553",
-        "https://openalex.org/W3118433171",
-        "https://openalex.org/W3109076906",
-        "https://openalex.org/W3046654040",
-        "https://openalex.org/W3089641658",
-        "https://openalex.org/W2078370317",
-        "https://openalex.org/W4319312173",
-        "https://openalex.org/W4308736847",
-        "https://openalex.org/W4308041542",
-        "https://openalex.org/W4376573120",
-        "https://openalex.org/W4315977449",
-        "https://openalex.org/W4366382765",
-        "https://openalex.org/W624213335",
-        "https://openalex.org/W133128627",
-        "https://openalex.org/W1487605530",
-        "https://openalex.org/W1566241147",
-        "https://openalex.org/W77180805",
-        "https://openalex.org/W1573057852",
-        "https://openalex.org/W1520282251",
-        "https://openalex.org/W204689466",
-        "https://openalex.org/W319965904",
-        "https://openalex.org/W656210100",
-        "https://openalex.org/W2296915309",
-        "https://openalex.org/W2489388693",
-        "https://openalex.org/W2426566905",
-        "https://openalex.org/W2494393063",
-        "https://openalex.org/W2274382856",
-        "https://openalex.org/W2185342003",
-        "https://openalex.org/W2475474560",
-        "https://openalex.org/W2505922248"
-      ],
-      "related_works": [
-        "https://openalex.org/W2012997152",
-        "https://openalex.org/W2715619013",
-        "https://openalex.org/W2124667862",
-        "https://openalex.org/W2035284801",
-        "https://openalex.org/W2319957497",
-        "https://openalex.org/W2708573523",
-        "https://openalex.org/W2997744207",
-        "https://openalex.org/W47270384",
-        "https://openalex.org/W2379321498",
-        "https://openalex.org/W2971522796"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2026,
-          "cited_by_count": 2
-        },
-        {
-          "year": 2025,
-          "cited_by_count": 42
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 17
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W4387125023",
       "doi": "https://doi.org/10.1016/j.ijhydene.2023.09.148",
       "title": "CO2 rich cushion gas for hydrogen storage in depleted gas reservoirs: Insight on contact angle and surface tension",
@@ -12691,17 +12713,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.6000000238418579
+          "score": 0.6000000238418579,
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 95,
       "referenced_works": [
         "https://openalex.org/W2775492150",
@@ -13395,17 +13418,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7599999904632568
+          "score": 0.7599999904632568,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 22,
       "referenced_works": [
         "https://openalex.org/W2618847155",
@@ -14445,16 +14469,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.5299999713897705
+          "score": 0.5299999713897705,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4224244981.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4224244981.grobid-xml"
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -15662,9 +15690,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.46000000834465027
+          "score": 0.46000000834465027,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -15686,9 +15714,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 265,
       "referenced_works": [
         "https://openalex.org/W4200363055",
@@ -16661,17 +16690,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.5
+          "score": 0.5,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 75,
       "referenced_works": [
         "https://openalex.org/W2013706719",
@@ -17512,16 +17542,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.800000011920929
+          "score": 0.800000011920929,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2782758652.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2782758652.grobid-xml"
       },
       "referenced_works_count": 20,
       "referenced_works": [
@@ -18458,16 +18492,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.4099999964237213
+          "score": 0.4099999964237213,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3201943226.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3201943226.grobid-xml"
       },
       "referenced_works_count": 98,
       "referenced_works": [
@@ -19738,9 +19776,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 48,
       "referenced_works": [
         "https://openalex.org/W2065483572",
@@ -21242,8 +21281,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3081596397.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3081596397.grobid-xml"
       },
       "referenced_works_count": 32,
       "referenced_works": [
@@ -22011,9 +22054,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 58,
       "referenced_works": [
         "https://openalex.org/W4385852484",
@@ -22441,9 +22485,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 74,
       "referenced_works": [
         "https://openalex.org/W4313368048",
@@ -23054,9 +23099,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 223,
       "referenced_works": [
         "https://openalex.org/W2502052623",
@@ -23373,8 +23419,21 @@
             "display_name": "Nasiru Salahu Muhammed",
             "orcid": "https://orcid.org/0000-0002-3339-2093"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Nasiru Salahu Muhammed",
           "raw_affiliation_strings": [
@@ -23383,7 +23442,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23394,8 +23455,21 @@
             "display_name": "Bashirul Haq",
             "orcid": "https://orcid.org/0000-0003-1414-9976"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Md Bashirul Haq",
           "raw_affiliation_strings": [
@@ -23404,7 +23478,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23415,8 +23491,21 @@
             "display_name": "Dhafer Al Shehri",
             "orcid": "https://orcid.org/0000-0002-7032-5199"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Dhafer Al Shehri",
           "raw_affiliation_strings": [
@@ -23425,7 +23514,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23436,8 +23527,21 @@
             "display_name": "Abduljamiu O. Amao",
             "orcid": "https://orcid.org/0000-0001-8203-851X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Abduljamiu Amao",
           "raw_affiliation_strings": [
@@ -23446,18 +23550,22 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 1,
       "institutions_distinct_count": 4,
       "corresponding_author_ids": [
         "https://openalex.org/A5063894925"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 3400,
         "currency": "USD",
@@ -23468,7 +23576,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.82638322,
+        "value": 0.82538159,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23747,9 +23855,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 66,
       "referenced_works": [
         "https://openalex.org/W4385852484",
@@ -23913,8 +24022,21 @@
             "display_name": "Nasiru Salahu Muhammed",
             "orcid": "https://orcid.org/0000-0002-3339-2093"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Nasiru Salahu Muhammed",
           "raw_affiliation_strings": [
@@ -23923,7 +24045,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23934,8 +24058,21 @@
             "display_name": "Bashirul Haq",
             "orcid": "https://orcid.org/0000-0003-1414-9976"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Bashirul Haq",
           "raw_affiliation_strings": [
@@ -23944,7 +24081,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23955,8 +24094,21 @@
             "display_name": "Dhafer Al Shehri",
             "orcid": "https://orcid.org/0000-0002-7032-5199"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Dhafer Al Shehri",
           "raw_affiliation_strings": [
@@ -23965,7 +24117,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -23976,8 +24130,21 @@
             "display_name": "Abduljamiu O. Amao",
             "orcid": "https://orcid.org/0000-0001-8203-851X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Abduljamiu Amao",
           "raw_affiliation_strings": [
@@ -23986,18 +24153,22 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 1,
       "institutions_distinct_count": 4,
       "corresponding_author_ids": [
         "https://openalex.org/A5063894925"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 2940,
         "currency": "USD",
@@ -24008,7 +24179,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.86234059,
+        "value": 0.86145382,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24245,9 +24416,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 68,
       "referenced_works": [
         "https://openalex.org/W4392119346",
@@ -24313,11 +24485,11 @@
         "https://openalex.org/W1985944741",
         "https://openalex.org/W4377108270",
         "https://openalex.org/W4400282511",
+        "https://openalex.org/W4390242419",
         "https://openalex.org/W4224231587",
         "https://openalex.org/W3110937578",
         "https://openalex.org/W4206028361",
-        "https://openalex.org/W3113047742",
-        "https://openalex.org/W4390242419"
+        "https://openalex.org/W3113047742"
       ],
       "related_works": [
         "https://openalex.org/W2382777382",
@@ -25118,9 +25290,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 84,
       "referenced_works": [
         "https://openalex.org/W2169801519",
@@ -26757,16 +26930,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.6499999761581421
+          "score": 0.6499999761581421,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4224308192.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4224308192.grobid-xml"
       },
       "referenced_works_count": 20,
       "referenced_works": [
@@ -28165,16 +28342,19 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.4300000071525574
+          "score": 0.4300000071525574,
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4396773512.pdf"
       },
       "referenced_works_count": 76,
       "referenced_works": [
@@ -29542,9 +29722,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 58,
       "referenced_works": [
         "https://openalex.org/W2928283622",
@@ -30594,9 +30775,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.550000011920929
+          "score": 0.550000011920929,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -30608,9 +30789,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 52,
       "referenced_works": [
         "https://openalex.org/W1985427135",
@@ -31362,9 +31544,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 36,
       "referenced_works": [
         "https://openalex.org/W2066816327",
@@ -32080,9 +32263,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.5400000214576721
+          "score": 0.5400000214576721,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [
@@ -32102,9 +32285,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 77,
       "referenced_works": [
         "https://openalex.org/W1980120482",
@@ -32901,8 +33085,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3171149254.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3171149254.grobid-xml"
       },
       "referenced_works_count": 18,
       "referenced_works": [
@@ -34567,17 +34755,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.4399999976158142
+          "score": 0.4399999976158142,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 10,
       "referenced_works": [
         "https://openalex.org/W2466619345",
@@ -35663,9 +35852,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 5,
       "referenced_works": [
         "https://openalex.org/W2084737618",
@@ -36968,9 +37158,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 35,
       "referenced_works": [
         "https://openalex.org/W2177290278",
@@ -38149,8 +38340,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2917345920.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2917345920.grobid-xml"
       },
       "referenced_works_count": 10,
       "referenced_works": [
@@ -38816,17 +39011,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.75
+          "score": 0.75,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 23,
       "referenced_works": [
         "https://openalex.org/W2057762019",
@@ -39679,9 +39875,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 12,
       "referenced_works": [
         "https://openalex.org/W2779506944",
@@ -41391,8 +41588,11 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4386597627.pdf"
       },
       "referenced_works_count": 49,
       "referenced_works": [
@@ -42569,9 +42769,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 16,
       "referenced_works": [
         "https://openalex.org/W4233546497",
@@ -44008,9 +44209,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 15,
       "referenced_works": [
         "https://openalex.org/W6744883214",
@@ -45606,9 +45808,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 28,
       "referenced_works": [
         "https://openalex.org/W1985427135",
@@ -46492,16 +46695,20 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.5600000023841858
+          "score": 0.5600000023841858,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3199934578.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3199934578.grobid-xml"
       },
       "referenced_works_count": 16,
       "referenced_works": [
@@ -47140,9 +47347,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 35,
       "referenced_works": [
         "https://openalex.org/W1969421668",
@@ -47663,9 +47871,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 44,
       "referenced_works": [
         "https://openalex.org/W4388867379",
@@ -48783,9 +48992,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 116,
       "referenced_works": [
         "https://openalex.org/W4285310428",
@@ -49707,17 +49917,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.4399999976158142
+          "score": 0.4399999976158142,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 49,
       "referenced_works": [
         "https://openalex.org/W4290987687",
@@ -50361,17 +50572,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 17,
       "referenced_works": [
         "https://openalex.org/W2032331699",
@@ -51652,9 +51864,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.46000000834465027
+          "score": 0.46000000834465027,
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -51691,9 +51903,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 16,
       "referenced_works": [
         "https://openalex.org/W2016742148",
@@ -52786,17 +52999,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.44999998807907104
+          "score": 0.44999998807907104,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 12,
       "referenced_works": [
         "https://openalex.org/W2077713410",
@@ -54020,9 +54234,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 9,
       "referenced_works": [
         "https://openalex.org/W3166676460",
@@ -55205,9 +55420,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 51,
       "referenced_works": [
         "https://openalex.org/W3091778012",
@@ -56580,9 +56796,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 51,
       "referenced_works": [
         "https://openalex.org/W3091778012",
@@ -57667,9 +57884,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 44,
       "referenced_works": [
         "https://openalex.org/W3091778012",
@@ -59006,9 +59224,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 86,
       "referenced_works": [
         "https://openalex.org/W4309776189",
@@ -59955,9 +60174,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 6,
       "referenced_works": [
         "https://openalex.org/W2066005652",
@@ -61020,9 +61240,10 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 8,
       "referenced_works": [
         "https://openalex.org/W2063223071",
@@ -62037,9 +62258,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 22,
       "referenced_works": [
         "https://openalex.org/W1995935818",
@@ -63113,17 +63335,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.4300000071525574
+          "score": 0.4300000071525574,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 10,
       "referenced_works": [
         "https://openalex.org/W3000369826",
@@ -64536,17 +64759,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.41999998688697815
+          "score": 0.41999998688697815,
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 13,
       "referenced_works": [
         "https://openalex.org/W2083953223",
@@ -65848,9 +66072,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 35,
       "referenced_works": [
         "https://openalex.org/W3122598171",
@@ -66494,9 +66719,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [],
@@ -66960,9 +67186,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 8,
       "referenced_works": [
         "https://openalex.org/W3023966582",
@@ -67452,9 +67679,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [
@@ -68164,9 +68392,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [],
@@ -68461,17 +68690,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Reduced inequalities",
           "id": "https://metadata.un.org/sdg/10",
-          "score": 0.75
+          "score": 0.75,
+          "display_name": "Reduced inequalities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [
@@ -68894,17 +69124,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.49000000953674316
+          "score": 0.49000000953674316,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 3,
       "referenced_works": [
         "https://openalex.org/W2017631798",
@@ -70109,17 +70340,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.49000000953674316
+          "score": 0.49000000953674316,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 38,
       "referenced_works": [
         "https://openalex.org/W6655257570",
@@ -71103,9 +71335,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [
@@ -71359,8 +71592,21 @@
             "display_name": "Bashirul Haq",
             "orcid": "https://orcid.org/0000-0003-1414-9976"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Md. Bashirul Haq",
           "raw_affiliation_strings": [
@@ -71369,7 +71615,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71380,8 +71628,21 @@
             "display_name": "Nasiru Salahu Muhammed",
             "orcid": "https://orcid.org/0000-0002-3339-2093"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Nasiru S. Muhammed",
           "raw_affiliation_strings": [
@@ -71390,7 +71651,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71401,8 +71664,21 @@
             "display_name": "Dhafer Al Shehri",
             "orcid": "https://orcid.org/0000-0002-7032-5199"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Dhafer Al Shehri",
           "raw_affiliation_strings": [
@@ -71411,7 +71687,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71422,8 +71700,21 @@
             "display_name": "Mohammad Mizanur Rahman",
             "orcid": "https://orcid.org/0000-0002-9302-3185"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Mohammad Mizanur Rahman",
           "raw_affiliation_strings": [
@@ -71432,7 +71723,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Interdisciplinary Research Center for Advanced Materials, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71443,8 +71736,21 @@
             "display_name": "Hassan Al Ghuraya",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Hassan Al Ghuraya",
           "raw_affiliation_strings": [
@@ -71453,7 +71759,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71464,8 +71772,21 @@
             "display_name": "Ridha Al Abdrabalnabi",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Ridha Al Abdrabalnabi",
           "raw_affiliation_strings": [
@@ -71474,7 +71795,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Center for Integrated Petroleum Research (CIPR), King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71485,8 +71808,21 @@
             "display_name": "Jafar Al Hamad",
             "orcid": "https://orcid.org/0000-0001-8450-4377"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Jafar Al Hamad",
           "raw_affiliation_strings": [
@@ -71495,7 +71831,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71506,8 +71844,21 @@
             "display_name": "Mohamed Mahmoud",
             "orcid": "https://orcid.org/0000-0002-4395-9567"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Mohamed Mahmoud",
           "raw_affiliation_strings": [
@@ -71516,7 +71867,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71527,8 +71880,21 @@
             "display_name": "Wael Mahfoz",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Wael Mahfoz",
           "raw_affiliation_strings": [
@@ -71537,7 +71903,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Chemistry Department, King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71548,8 +71916,21 @@
             "display_name": "Abbas Saeed Hakeem",
             "orcid": "https://orcid.org/0000-0003-1422-442X"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Abbas S. Hakeem",
           "raw_affiliation_strings": [
@@ -71558,7 +71939,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Interdisciplinary Research Center for Hydrogen and Energy Storage (IRC-HES), King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71569,8 +71952,21 @@
             "display_name": "Md. Abdul Aziz",
             "orcid": "https://orcid.org/0000-0002-1537-2785"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": true,
           "raw_author_name": "Md. Abdul Aziz",
           "raw_affiliation_strings": [
@@ -71579,7 +71975,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Interdisciplinary Research Center for Hydrogen and Energy Storage (IRC-HES), King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71590,8 +71988,21 @@
             "display_name": "Amir Al Ahmed",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Amir Al Ahmed",
           "raw_affiliation_strings": [
@@ -71600,7 +72011,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Interdisciplinary Research Center for Renewable Energy and Power Systems (IRC-REPS), King Fahd University of Petroleum & Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
             }
           ]
         },
@@ -71611,8 +72024,21 @@
             "display_name": "Z. Hossain",
             "orcid": "https://orcid.org/0000-0001-6484-4905"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I106663880",
+              "display_name": "University of Bahrain",
+              "ror": "https://ror.org/0317ekv86",
+              "country_code": "BH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I106663880"
+              ]
+            }
+          ],
+          "countries": [
+            "BH"
+          ],
           "is_corresponding": false,
           "raw_author_name": "S M Zakir Hossain",
           "raw_affiliation_strings": [
@@ -71621,19 +72047,23 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Chemical Engineering, College of Engineering, University of Bahrain, Zallaq 32038, Bahrain",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I106663880"
+              ]
             }
           ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 2,
       "institutions_distinct_count": 13,
       "corresponding_author_ids": [
         "https://openalex.org/A5063894925",
         "https://openalex.org/A5067724271"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": {
         "value": 3380,
         "currency": "USD",
@@ -71644,7 +72074,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24845437,
+        "value": 0.2480829,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -71919,9 +72349,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 92,
       "referenced_works": [
         "https://openalex.org/W3094146352",
@@ -72006,16 +72437,16 @@
         "https://openalex.org/W3002432380",
         "https://openalex.org/W2806663294",
         "https://openalex.org/W4307358703",
-        "https://openalex.org/W4221132153",
-        "https://openalex.org/W2094249788",
-        "https://openalex.org/W2064836701",
-        "https://openalex.org/W2317296901",
-        "https://openalex.org/W2332357312",
         "https://openalex.org/W2943556317",
         "https://openalex.org/W2953460207",
         "https://openalex.org/W2888091171",
         "https://openalex.org/W2029958062",
-        "https://openalex.org/W2011633548"
+        "https://openalex.org/W2011633548",
+        "https://openalex.org/W2332357312",
+        "https://openalex.org/W2094249788",
+        "https://openalex.org/W2064836701",
+        "https://openalex.org/W4221132153",
+        "https://openalex.org/W2317296901"
       ],
       "related_works": [
         "https://openalex.org/W1639291046",
@@ -72399,9 +72830,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 0,
       "referenced_works": [],
       "related_works": [
@@ -73354,8 +73786,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4411732765.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4411732765.grobid-xml"
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -75231,8 +75667,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4411732803.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4411732803.grobid-xml"
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -76890,8 +77330,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4411733316.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4411733316.grobid-xml"
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -78220,8 +78664,12 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4411733423.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4411733423.grobid-xml"
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -79429,9 +79877,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 22,
       "referenced_works": [
         "https://openalex.org/W3091778012",
@@ -81188,17 +81637,18 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.43448910117149353
+          "score": 0.43448910117149353,
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 71,
       "referenced_works": [
         "https://openalex.org/W4290987687",
@@ -82433,9 +82883,10 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
+      "content_urls": null,
       "referenced_works_count": 68,
       "referenced_works": [
         "https://openalex.org/W4407614015",
