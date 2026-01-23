@@ -501,12 +501,12 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 18.37966976,
+      "fwci": 21.44294805,
       "has_fulltext": false,
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.97849633,
-        "is_in_top_1_percent": true,
+        "value": 0.9829303,
+        "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
@@ -887,7 +887,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -1211,7 +1211,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.78321962,
+        "value": 0.78302134,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1758,8 +1758,8 @@
         "https://openalex.org/W2085891910",
         "https://openalex.org/W2889711471",
         "https://openalex.org/W3215035121",
-        "https://openalex.org/W3119005302",
         "https://openalex.org/W2443182560",
+        "https://openalex.org/W3119005302",
         "https://openalex.org/W657172634"
       ],
       "related_works": [
@@ -2324,9 +2324,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "score": 0.6399999856948853,
-          "id": "https://metadata.un.org/sdg/15"
+          "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -2391,9 +2391,9 @@
         "https://openalex.org/W3128154228",
         "https://openalex.org/W2085891910",
         "https://openalex.org/W2889711471",
+        "https://openalex.org/W2134069816",
         "https://openalex.org/W2251675954",
-        "https://openalex.org/W1984728151",
-        "https://openalex.org/W2134069816"
+        "https://openalex.org/W1984728151"
       ],
       "related_works": [
         "https://openalex.org/W2202470948",

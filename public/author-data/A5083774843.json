@@ -619,7 +619,7 @@
       "has_fulltext": false,
       "cited_by_count": 130,
       "citation_normalized_percentile": {
-        "value": 0.97212691,
+        "value": 0.97213084,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1284,7 +1284,7 @@
       "has_fulltext": false,
       "cited_by_count": 92,
       "citation_normalized_percentile": {
-        "value": 0.97944477,
+        "value": 0.97944307,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1741,10 +1741,10 @@
         "https://openalex.org/W2762743512",
         "https://openalex.org/W2264114018",
         "https://openalex.org/W2017520724",
-        "https://openalex.org/W1933180522",
-        "https://openalex.org/W2943726446",
         "https://openalex.org/W1591260746",
         "https://openalex.org/W797267378",
+        "https://openalex.org/W2943726446",
+        "https://openalex.org/W1933180522",
         "https://openalex.org/W2291766471"
       ],
       "related_works": [
@@ -2398,7 +2398,7 @@
       "has_fulltext": false,
       "cited_by_count": 90,
       "citation_normalized_percentile": {
-        "value": 0.96986863,
+        "value": 0.96986897,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3904,7 +3904,7 @@
       "has_fulltext": false,
       "cited_by_count": 90,
       "citation_normalized_percentile": {
-        "value": 0.97596706,
+        "value": 0.97597365,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4375,8 +4375,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.8899999856948853
         }
       ],
@@ -5078,9 +5078,9 @@
       "apc_paid": null,
       "fwci": 8.12653002,
       "has_fulltext": false,
-      "cited_by_count": 82,
+      "cited_by_count": 83,
       "citation_normalized_percentile": {
-        "value": 0.97807696,
+        "value": 0.97807414,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -5575,8 +5575,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.4099999964237213
         }
       ],
@@ -5787,15 +5787,15 @@
         "https://openalex.org/W2894113841",
         "https://openalex.org/W2999463829",
         "https://openalex.org/W3049338061",
-        "https://openalex.org/W2900552590",
         "https://openalex.org/W2910110362",
         "https://openalex.org/W2901688646",
-        "https://openalex.org/W3164701516",
-        "https://openalex.org/W2582213343",
-        "https://openalex.org/W2971484594",
         "https://openalex.org/W4285097935",
+        "https://openalex.org/W2900552590",
+        "https://openalex.org/W2582213343",
         "https://openalex.org/W3118210693",
-        "https://openalex.org/W3123597704"
+        "https://openalex.org/W3123597704",
+        "https://openalex.org/W2971484594",
+        "https://openalex.org/W3164701516"
       ],
       "related_works": [
         "https://openalex.org/W2484026318",
@@ -5813,7 +5813,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -6195,7 +6195,7 @@
       "has_fulltext": false,
       "cited_by_count": 77,
       "citation_normalized_percentile": {
-        "value": 0.97827425,
+        "value": 0.97826756,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6546,6 +6546,13 @@
           "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
+          "id": "https://openalex.org/G5660478110",
+          "display_name": null,
+          "funder_award_id": "W911NF-16-1-0018",
+          "funder_id": "https://openalex.org/F4320338281",
+          "funder_display_name": "Army Research Office"
+        },
+        {
           "id": "https://openalex.org/G4325161960",
           "display_name": null,
           "funder_award_id": "DGE- 156518",
@@ -6565,13 +6572,6 @@
           "funder_award_id": "2016-PK-2666",
           "funder_id": "https://openalex.org/F4320306087",
           "funder_display_name": "Semiconductor Research Corporation"
-        },
-        {
-          "id": "https://openalex.org/G5660478110",
-          "display_name": null,
-          "funder_award_id": "W911NF-16-1-0018",
-          "funder_id": "https://openalex.org/F4320338281",
-          "funder_display_name": "Army Research Office"
         }
       ],
       "funders": [
@@ -7890,8 +7890,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8700000047683716
         }
       ],
@@ -8347,7 +8347,7 @@
       "has_fulltext": false,
       "cited_by_count": 67,
       "citation_normalized_percentile": {
-        "value": 0.9526828,
+        "value": 0.9526883,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8865,11 +8865,11 @@
         "https://openalex.org/W2341991446",
         "https://openalex.org/W2507404150",
         "https://openalex.org/W4301314726",
-        "https://openalex.org/W2768470599",
-        "https://openalex.org/W2769114591",
-        "https://openalex.org/W1988375149",
         "https://openalex.org/W2047968138",
-        "https://openalex.org/W1667700858"
+        "https://openalex.org/W1988375149",
+        "https://openalex.org/W1667700858",
+        "https://openalex.org/W2768470599",
+        "https://openalex.org/W2769114591"
       ],
       "related_works": [
         "https://openalex.org/W2735678415",
@@ -9095,7 +9095,7 @@
       "has_fulltext": false,
       "cited_by_count": 51,
       "citation_normalized_percentile": {
-        "value": 0.95029653,
+        "value": 0.95027546,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9514,8 +9514,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.6000000238418579
         }
       ],
@@ -9587,6 +9587,799 @@
         {
           "year": 2022,
           "cited_by_count": 6
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3093639588",
+      "doi": "https://doi.org/10.1016/j.seppur.2020.117910",
+      "title": "Synthesis and characterization of 6FDA/3,5-diamino-2,4,6-trimethylbenzenesulfonic acid-derived polyimide for gas separation applications",
+      "display_name": "Synthesis and characterization of 6FDA/3,5-diamino-2,4,6-trimethylbenzenesulfonic acid-derived polyimide for gas separation applications",
+      "publication_year": 2020,
+      "publication_date": "2020-10-23",
+      "ids": {
+        "openalex": "https://openalex.org/W3093639588",
+        "doi": "https://doi.org/10.1016/j.seppur.2020.117910",
+        "mag": "3093639588"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.seppur.2020.117910",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.seppur.2020.117910",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S69753523",
+          "display_name": "Separation and Purification Technology",
+          "issn_l": "1383-5866",
+          "issn": [
+            "1383-5866",
+            "1873-3794"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Separation and Purification Technology",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://hdl.handle.net/10754/665774",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5083774843",
+            "display_name": "Mahmoud A. Abdulhamid",
+            "orcid": "https://orcid.org/0000-0002-6630-3958"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mahmoud A. Abdulhamid",
+          "raw_affiliation_strings": [
+            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5075271929",
+            "display_name": "Giuseppe Genduso",
+            "orcid": "https://orcid.org/0000-0002-2755-3823"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Giuseppe Genduso",
+          "raw_affiliation_strings": [
+            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083806541",
+            "display_name": "Xiaohua Ma",
+            "orcid": "https://orcid.org/0000-0002-1667-6342"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xiaohua Ma",
+          "raw_affiliation_strings": [
+            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5034578906",
+            "display_name": "Ingo Pinnau",
+            "orcid": "https://orcid.org/0000-0003-3040-9088"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Ingo Pinnau",
+          "raw_affiliation_strings": [
+            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5034578906"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I71920554"
+      ],
+      "apc_list": {
+        "value": 3680,
+        "currency": "USD",
+        "value_usd": 3680
+      },
+      "apc_paid": null,
+      "fwci": 4.32917922,
+      "has_fulltext": false,
+      "cited_by_count": 50,
+      "citation_normalized_percentile": {
+        "value": 0.94653352,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "257",
+        "issue": null,
+        "first_page": "117910",
+        "last_page": "117910"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11362",
+        "display_name": "Membrane Separation and Gas Transport",
+        "score": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11362",
+          "display_name": "Membrane Separation and Gas Transport",
+          "score": 1,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12084",
+          "display_name": "Synthesis and properties of polymers",
+          "score": 0.9997000098228455,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2507",
+            "display_name": "Polymers and Plastics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12038",
+          "display_name": "Covalent Organic Framework Applications",
+          "score": 0.992900013923645,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/polyimide",
+          "display_name": "Polyimide",
+          "score": 0.8322567939758301
+        },
+        {
+          "id": "https://openalex.org/keywords/selectivity",
+          "display_name": "Selectivity",
+          "score": 0.8050734996795654
+        },
+        {
+          "id": "https://openalex.org/keywords/permeation",
+          "display_name": "Permeation",
+          "score": 0.7158342599868774
+        },
+        {
+          "id": "https://openalex.org/keywords/barrer",
+          "display_name": "Barrer",
+          "score": 0.7002942562103271
+        },
+        {
+          "id": "https://openalex.org/keywords/surface-modification",
+          "display_name": "Surface modification",
+          "score": 0.601384162902832
+        },
+        {
+          "id": "https://openalex.org/keywords/polymer",
+          "display_name": "Polymer",
+          "score": 0.5912010669708252
+        },
+        {
+          "id": "https://openalex.org/keywords/polymer-chemistry",
+          "display_name": "Polymer chemistry",
+          "score": 0.529310405254364
+        },
+        {
+          "id": "https://openalex.org/keywords/membrane",
+          "display_name": "Membrane",
+          "score": 0.5170350670814514
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.50248122215271
+        },
+        {
+          "id": "https://openalex.org/keywords/diamine",
+          "display_name": "Diamine",
+          "score": 0.5020272731781006
+        },
+        {
+          "id": "https://openalex.org/keywords/cellulose-triacetate",
+          "display_name": "Cellulose triacetate",
+          "score": 0.4704393744468689
+        },
+        {
+          "id": "https://openalex.org/keywords/facilitated-diffusion",
+          "display_name": "Facilitated diffusion",
+          "score": 0.4540362060070038
+        },
+        {
+          "id": "https://openalex.org/keywords/gas-separation",
+          "display_name": "Gas separation",
+          "score": 0.45293596386909485
+        },
+        {
+          "id": "https://openalex.org/keywords/sorption",
+          "display_name": "Sorption",
+          "score": 0.43156781792640686
+        },
+        {
+          "id": "https://openalex.org/keywords/sulfonic-acid",
+          "display_name": "Sulfonic acid",
+          "score": 0.42643100023269653
+        },
+        {
+          "id": "https://openalex.org/keywords/permeability",
+          "display_name": "Permeability (electromagnetism)",
+          "score": 0.4107177257537842
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-engineering",
+          "display_name": "Chemical engineering",
+          "score": 0.40961164236068726
+        },
+        {
+          "id": "https://openalex.org/keywords/organic-chemistry",
+          "display_name": "Organic chemistry",
+          "score": 0.3834126591682434
+        },
+        {
+          "id": "https://openalex.org/keywords/physical-chemistry",
+          "display_name": "Physical chemistry",
+          "score": 0.08558738231658936
+        },
+        {
+          "id": "https://openalex.org/keywords/catalysis",
+          "display_name": "Catalysis",
+          "score": 0.06319248676300049
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780965675",
+          "wikidata": "https://www.wikidata.org/wiki/Q145958",
+          "display_name": "Polyimide",
+          "level": 3,
+          "score": 0.8322567939758301
+        },
+        {
+          "id": "https://openalex.org/C118792377",
+          "wikidata": "https://www.wikidata.org/wiki/Q108584245",
+          "display_name": "Selectivity",
+          "level": 3,
+          "score": 0.8050734996795654
+        },
+        {
+          "id": "https://openalex.org/C50670333",
+          "wikidata": "https://www.wikidata.org/wiki/Q907651",
+          "display_name": "Permeation",
+          "level": 3,
+          "score": 0.7158342599868774
+        },
+        {
+          "id": "https://openalex.org/C13253532",
+          "wikidata": "https://www.wikidata.org/wiki/Q808873",
+          "display_name": "Barrer",
+          "level": 4,
+          "score": 0.7002942562103271
+        },
+        {
+          "id": "https://openalex.org/C115537861",
+          "wikidata": "https://www.wikidata.org/wiki/Q7645993",
+          "display_name": "Surface modification",
+          "level": 2,
+          "score": 0.601384162902832
+        },
+        {
+          "id": "https://openalex.org/C521977710",
+          "wikidata": "https://www.wikidata.org/wiki/Q81163",
+          "display_name": "Polymer",
+          "level": 2,
+          "score": 0.5912010669708252
+        },
+        {
+          "id": "https://openalex.org/C188027245",
+          "wikidata": "https://www.wikidata.org/wiki/Q750446",
+          "display_name": "Polymer chemistry",
+          "level": 1,
+          "score": 0.529310405254364
+        },
+        {
+          "id": "https://openalex.org/C41625074",
+          "wikidata": "https://www.wikidata.org/wiki/Q176088",
+          "display_name": "Membrane",
+          "level": 2,
+          "score": 0.5170350670814514
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.50248122215271
+        },
+        {
+          "id": "https://openalex.org/C2780871995",
+          "wikidata": "https://www.wikidata.org/wiki/Q2500485",
+          "display_name": "Diamine",
+          "level": 2,
+          "score": 0.5020272731781006
+        },
+        {
+          "id": "https://openalex.org/C2775863688",
+          "wikidata": "https://www.wikidata.org/wiki/Q2754914",
+          "display_name": "Cellulose triacetate",
+          "level": 3,
+          "score": 0.4704393744468689
+        },
+        {
+          "id": "https://openalex.org/C205066982",
+          "wikidata": "https://www.wikidata.org/wiki/Q2155231",
+          "display_name": "Facilitated diffusion",
+          "level": 3,
+          "score": 0.4540362060070038
+        },
+        {
+          "id": "https://openalex.org/C18411161",
+          "wikidata": "https://www.wikidata.org/wiki/Q17050218",
+          "display_name": "Gas separation",
+          "level": 3,
+          "score": 0.45293596386909485
+        },
+        {
+          "id": "https://openalex.org/C58445606",
+          "wikidata": "https://www.wikidata.org/wiki/Q898533",
+          "display_name": "Sorption",
+          "level": 3,
+          "score": 0.43156781792640686
+        },
+        {
+          "id": "https://openalex.org/C2778502040",
+          "wikidata": "https://www.wikidata.org/wiki/Q250437",
+          "display_name": "Sulfonic acid",
+          "level": 2,
+          "score": 0.42643100023269653
+        },
+        {
+          "id": "https://openalex.org/C120882062",
+          "wikidata": "https://www.wikidata.org/wiki/Q28352",
+          "display_name": "Permeability (electromagnetism)",
+          "level": 3,
+          "score": 0.4107177257537842
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.40961164236068726
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.3834126591682434
+        },
+        {
+          "id": "https://openalex.org/C147789679",
+          "wikidata": "https://www.wikidata.org/wiki/Q11372",
+          "display_name": "Physical chemistry",
+          "level": 1,
+          "score": 0.08558738231658936
+        },
+        {
+          "id": "https://openalex.org/C161790260",
+          "wikidata": "https://www.wikidata.org/wiki/Q82264",
+          "display_name": "Catalysis",
+          "level": 2,
+          "score": 0.06319248676300049
+        },
+        {
+          "id": "https://openalex.org/C150394285",
+          "wikidata": "https://www.wikidata.org/wiki/Q180254",
+          "display_name": "Adsorption",
+          "level": 2,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C2779227376",
+          "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+          "display_name": "Layer (electronics)",
+          "level": 2,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.seppur.2020.117910",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.seppur.2020.117910",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S69753523",
+            "display_name": "Separation and Purification Technology",
+            "issn_l": "1383-5866",
+            "issn": [
+              "1383-5866",
+              "1873-3794"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Separation and Purification Technology",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:repository.kaust.edu.sa:10754/665774",
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/10754/665774",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401596",
+            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I71920554",
+            "host_organization_name": "King Abdullah University of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I71920554"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:repository.kaust.edu.sa:10754/665774",
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/10754/665774",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401596",
+          "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I71920554",
+          "host_organization_name": "King Abdullah University of Science and Technology",
+          "host_organization_lineage": [
+            "https://openalex.org/I71920554"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Article"
+      },
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 59,
+      "referenced_works": [
+        "https://openalex.org/W2053962289",
+        "https://openalex.org/W1993563028",
+        "https://openalex.org/W1994064739",
+        "https://openalex.org/W1966219059",
+        "https://openalex.org/W4230224792",
+        "https://openalex.org/W2039232312",
+        "https://openalex.org/W2155738720",
+        "https://openalex.org/W2174836851",
+        "https://openalex.org/W2738413492",
+        "https://openalex.org/W2901331460",
+        "https://openalex.org/W2912349112",
+        "https://openalex.org/W2976779014",
+        "https://openalex.org/W2117931025",
+        "https://openalex.org/W2074365522",
+        "https://openalex.org/W2038357963",
+        "https://openalex.org/W2052962628",
+        "https://openalex.org/W1984473045",
+        "https://openalex.org/W2323807389",
+        "https://openalex.org/W2069121246",
+        "https://openalex.org/W1767997050",
+        "https://openalex.org/W2026928917",
+        "https://openalex.org/W2228115052",
+        "https://openalex.org/W2774428240",
+        "https://openalex.org/W2727023971",
+        "https://openalex.org/W2052923784",
+        "https://openalex.org/W1983325032",
+        "https://openalex.org/W2047082519",
+        "https://openalex.org/W2324574439",
+        "https://openalex.org/W2326915622",
+        "https://openalex.org/W2981099766",
+        "https://openalex.org/W3025364202",
+        "https://openalex.org/W2043402565",
+        "https://openalex.org/W1971688656",
+        "https://openalex.org/W1973781053",
+        "https://openalex.org/W2065528750",
+        "https://openalex.org/W1970547083",
+        "https://openalex.org/W6649558914",
+        "https://openalex.org/W188334196",
+        "https://openalex.org/W2072143986",
+        "https://openalex.org/W2063769533",
+        "https://openalex.org/W2001066688",
+        "https://openalex.org/W2058402281",
+        "https://openalex.org/W6679262132",
+        "https://openalex.org/W3006007532",
+        "https://openalex.org/W2037325025",
+        "https://openalex.org/W2017520724",
+        "https://openalex.org/W2076902316",
+        "https://openalex.org/W2094851914",
+        "https://openalex.org/W1974573146",
+        "https://openalex.org/W2909644344",
+        "https://openalex.org/W3039900390",
+        "https://openalex.org/W3028074788",
+        "https://openalex.org/W2481111368",
+        "https://openalex.org/W2319223764",
+        "https://openalex.org/W2022353023",
+        "https://openalex.org/W2017863001",
+        "https://openalex.org/W2313096966",
+        "https://openalex.org/W1996243901",
+        "https://openalex.org/W2128179474"
+      ],
+      "related_works": [
+        "https://openalex.org/W3046755655",
+        "https://openalex.org/W2906079206",
+        "https://openalex.org/W2088949652",
+        "https://openalex.org/W3047882691",
+        "https://openalex.org/W4323668636",
+        "https://openalex.org/W1991087347",
+        "https://openalex.org/W4283707217",
+        "https://openalex.org/W2916476034",
+        "https://openalex.org/W4308476703",
+        "https://openalex.org/W3172229222"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
@@ -10087,7 +10880,7 @@
       "has_fulltext": true,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.93782624,
+        "value": 0.9378335,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10758,7 +11551,7 @@
       "has_fulltext": false,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.96219924,
+        "value": 0.96218629,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -11254,6 +12047,874 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
+      "id": "https://openalex.org/W4206338123",
+      "doi": "https://doi.org/10.1039/d1nr07593d",
+      "title": "Norbornane-based covalent organic frameworks for gas separation",
+      "display_name": "Norbornane-based covalent organic frameworks for gas separation",
+      "publication_year": 2022,
+      "publication_date": "2022-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4206338123",
+        "doi": "https://doi.org/10.1039/d1nr07593d",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/35103279"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1039/d1nr07593d",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
+        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
+        "source": {
+          "id": "https://openalex.org/S23181512",
+          "display_name": "Nanoscale",
+          "issn_l": "2040-3364",
+          "issn": [
+            "2040-3364",
+            "2040-3372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_name": "Royal Society of Chemistry",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nanoscale",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5035566402",
+            "display_name": "Sushil Kumar",
+            "orcid": "https://orcid.org/0000-0001-6680-718X"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sushil Kumar",
+          "raw_affiliation_strings": [
+            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083774843",
+            "display_name": "Mahmoud A. Abdulhamid",
+            "orcid": "https://orcid.org/0000-0002-6630-3958"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mahmoud A. Abdulhamid",
+          "raw_affiliation_strings": [
+            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5075970032",
+            "display_name": "A. D. Dinga Wonanke",
+            "orcid": "https://orcid.org/0000-0002-9066-2715"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I52590639",
+              "display_name": "Nottingham Trent University",
+              "ror": "https://ror.org/04xyxjd90",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I52590639"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "A. D. Dinga Wonanke",
+          "raw_affiliation_strings": [
+            "School of Science and Technology, Nottingham Trent University, Nottingham, UK"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Science and Technology, Nottingham Trent University, Nottingham, UK",
+              "institution_ids": [
+                "https://openalex.org/I52590639"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5017731806",
+            "display_name": "Matthew A. Addicoat",
+            "orcid": "https://orcid.org/0000-0002-5406-7927"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I52590639",
+              "display_name": "Nottingham Trent University",
+              "ror": "https://ror.org/04xyxjd90",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I52590639"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Matthew A. Addicoat",
+          "raw_affiliation_strings": [
+            "School of Science and Technology, Nottingham Trent University, Nottingham, UK"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Science and Technology, Nottingham Trent University, Nottingham, UK",
+              "institution_ids": [
+                "https://openalex.org/I52590639"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5091741402",
+            "display_name": "György Székely",
+            "orcid": "https://orcid.org/0000-0001-9658-2452"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I71920554",
+              "display_name": "King Abdullah University of Science and Technology",
+              "ror": "https://ror.org/01q3tbs38",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Gyorgy Szekely",
+          "raw_affiliation_strings": [
+            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5091741402"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I71920554"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 5.16606531,
+      "has_fulltext": true,
+      "cited_by_count": 43,
+      "citation_normalized_percentile": {
+        "value": 0.92700398,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "14",
+        "issue": "6",
+        "first_page": "2475",
+        "last_page": "2481"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12038",
+        "display_name": "Covalent Organic Framework Applications",
+        "score": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12038",
+          "display_name": "Covalent Organic Framework Applications",
+          "score": 1,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10096",
+          "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
+          "score": 0.9987999796867371,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1604",
+            "display_name": "Inorganic Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/16",
+            "display_name": "Chemistry"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11362",
+          "display_name": "Membrane Separation and Gas Transport",
+          "score": 0.9908999800682068,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/norbornane",
+          "display_name": "Norbornane",
+          "score": 0.969396710395813
+        },
+        {
+          "id": "https://openalex.org/keywords/covalent-organic-framework",
+          "display_name": "Covalent organic framework",
+          "score": 0.7850354313850403
+        },
+        {
+          "id": "https://openalex.org/keywords/covalent-bond",
+          "display_name": "Covalent bond",
+          "score": 0.7512796521186829
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.693890392780304
+        },
+        {
+          "id": "https://openalex.org/keywords/porosity",
+          "display_name": "Porosity",
+          "score": 0.6405065059661865
+        },
+        {
+          "id": "https://openalex.org/keywords/gas-separation",
+          "display_name": "Gas separation",
+          "score": 0.5624891519546509
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-engineering",
+          "display_name": "Chemical engineering",
+          "score": 0.5172929763793945
+        },
+        {
+          "id": "https://openalex.org/keywords/molecule",
+          "display_name": "Molecule",
+          "score": 0.489315003156662
+        },
+        {
+          "id": "https://openalex.org/keywords/norbornene",
+          "display_name": "Norbornene",
+          "score": 0.4397753179073334
+        },
+        {
+          "id": "https://openalex.org/keywords/nanotechnology",
+          "display_name": "Nanotechnology",
+          "score": 0.36529549956321716
+        },
+        {
+          "id": "https://openalex.org/keywords/polymer-chemistry",
+          "display_name": "Polymer chemistry",
+          "score": 0.3068265914916992
+        },
+        {
+          "id": "https://openalex.org/keywords/organic-chemistry",
+          "display_name": "Organic chemistry",
+          "score": 0.30241119861602783
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.24030715227127075
+        },
+        {
+          "id": "https://openalex.org/keywords/copolymer",
+          "display_name": "Copolymer",
+          "score": 0.19078320264816284
+        },
+        {
+          "id": "https://openalex.org/keywords/composite-material",
+          "display_name": "Composite material",
+          "score": 0.18205201625823975
+        },
+        {
+          "id": "https://openalex.org/keywords/membrane",
+          "display_name": "Membrane",
+          "score": 0.16972440481185913
+        },
+        {
+          "id": "https://openalex.org/keywords/polymer",
+          "display_name": "Polymer",
+          "score": 0.14291003346443176
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780795484",
+          "wikidata": "https://www.wikidata.org/wiki/Q418111",
+          "display_name": "Norbornane",
+          "level": 2,
+          "score": 0.969396710395813
+        },
+        {
+          "id": "https://openalex.org/C2777893391",
+          "wikidata": "https://www.wikidata.org/wiki/Q5178887",
+          "display_name": "Covalent organic framework",
+          "level": 3,
+          "score": 0.7850354313850403
+        },
+        {
+          "id": "https://openalex.org/C180577832",
+          "wikidata": "https://www.wikidata.org/wiki/Q127920",
+          "display_name": "Covalent bond",
+          "level": 2,
+          "score": 0.7512796521186829
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.693890392780304
+        },
+        {
+          "id": "https://openalex.org/C6648577",
+          "wikidata": "https://www.wikidata.org/wiki/Q622669",
+          "display_name": "Porosity",
+          "level": 2,
+          "score": 0.6405065059661865
+        },
+        {
+          "id": "https://openalex.org/C18411161",
+          "wikidata": "https://www.wikidata.org/wiki/Q17050218",
+          "display_name": "Gas separation",
+          "level": 3,
+          "score": 0.5624891519546509
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.5172929763793945
+        },
+        {
+          "id": "https://openalex.org/C32909587",
+          "wikidata": "https://www.wikidata.org/wiki/Q11369",
+          "display_name": "Molecule",
+          "level": 2,
+          "score": 0.489315003156662
+        },
+        {
+          "id": "https://openalex.org/C2780547246",
+          "wikidata": "https://www.wikidata.org/wiki/Q420176",
+          "display_name": "Norbornene",
+          "level": 4,
+          "score": 0.4397753179073334
+        },
+        {
+          "id": "https://openalex.org/C171250308",
+          "wikidata": "https://www.wikidata.org/wiki/Q11468",
+          "display_name": "Nanotechnology",
+          "level": 1,
+          "score": 0.36529549956321716
+        },
+        {
+          "id": "https://openalex.org/C188027245",
+          "wikidata": "https://www.wikidata.org/wiki/Q750446",
+          "display_name": "Polymer chemistry",
+          "level": 1,
+          "score": 0.3068265914916992
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.30241119861602783
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.24030715227127075
+        },
+        {
+          "id": "https://openalex.org/C15920480",
+          "wikidata": "https://www.wikidata.org/wiki/Q421281",
+          "display_name": "Copolymer",
+          "level": 3,
+          "score": 0.19078320264816284
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.18205201625823975
+        },
+        {
+          "id": "https://openalex.org/C41625074",
+          "wikidata": "https://www.wikidata.org/wiki/Q176088",
+          "display_name": "Membrane",
+          "level": 2,
+          "score": 0.16972440481185913
+        },
+        {
+          "id": "https://openalex.org/C521977710",
+          "wikidata": "https://www.wikidata.org/wiki/Q81163",
+          "display_name": "Polymer",
+          "level": 2,
+          "score": 0.14291003346443176
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1039/d1nr07593d",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
+          "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
+          "source": {
+            "id": "https://openalex.org/S23181512",
+            "display_name": "Nanoscale",
+            "issn_l": "2040-3364",
+            "issn": [
+              "2040-3364",
+              "2040-3372"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320556",
+            "host_organization_name": "Royal Society of Chemistry",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320556"
+            ],
+            "host_organization_lineage_names": [
+              "Royal Society of Chemistry"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nanoscale",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:35103279",
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/35103279",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nanoscale",
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:repository.kaust.edu.sa:10754/675458",
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/10754/675458",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401596",
+            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I71920554",
+            "host_organization_name": "King Abdullah University of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I71920554"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1039/d1nr07593d",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
+        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
+        "source": {
+          "id": "https://openalex.org/S23181512",
+          "display_name": "Nanoscale",
+          "issn_l": "2040-3364",
+          "issn": [
+            "2040-3364",
+            "2040-3372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_name": "Royal Society of Chemistry",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nanoscale",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G90098195",
+          "display_name": null,
+          "funder_award_id": "EP/T022213",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
+          "id": "https://openalex.org/F4320334627",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4206338123.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4206338123.grobid-xml"
+      },
+      "referenced_works_count": 17,
+      "referenced_works": [
+        "https://openalex.org/W3081041636",
+        "https://openalex.org/W4211168914",
+        "https://openalex.org/W2615404488",
+        "https://openalex.org/W2911698871",
+        "https://openalex.org/W3018816809",
+        "https://openalex.org/W2935426584",
+        "https://openalex.org/W3195643001",
+        "https://openalex.org/W2814654128",
+        "https://openalex.org/W3001218623",
+        "https://openalex.org/W3102726748",
+        "https://openalex.org/W3127822678",
+        "https://openalex.org/W2009712659",
+        "https://openalex.org/W1994692711",
+        "https://openalex.org/W2059935405",
+        "https://openalex.org/W2143730683",
+        "https://openalex.org/W2895536573",
+        "https://openalex.org/W1946344399"
+      ],
+      "related_works": [
+        "https://openalex.org/W2033888490",
+        "https://openalex.org/W2064708536",
+        "https://openalex.org/W2078883532",
+        "https://openalex.org/W1969513174",
+        "https://openalex.org/W2952788390",
+        "https://openalex.org/W2079810534",
+        "https://openalex.org/W2060919191",
+        "https://openalex.org/W2109836753",
+        "https://openalex.org/W2054086473",
+        "https://openalex.org/W1985576670"
+      ],
+      "abstract_inverted_index": {
+        "2": [
+          22,
+          24,
+          29
+        ],
+        "4": [
+          27
+        ],
+        "W-shaped": [
+          0
+        ],
+        "diamines": [
+          1
+        ],
+        "prepared": [
+          2
+        ],
+        "by": [
+          3
+        ],
+        "catalytic": [
+          4
+        ],
+        "arene–norbornene": [
+          5
+        ],
+        "annulation": [
+          6
+        ],
+        "and": [
+          7,
+          25
+        ],
+        "their": [
+          8
+        ],
+        "employment": [
+          9
+        ],
+        "in": [
+          10
+        ],
+        "the": [
+          11
+        ],
+        "synthesis": [
+          12
+        ],
+        "of": [
+          13
+        ],
+        "novel": [
+          14
+        ],
+        "β-ketoenamine-linked": [
+          15
+        ],
+        "norbornane-based": [
+          16
+        ],
+        "covalent": [
+          17
+        ],
+        "organic": [
+          18
+        ],
+        "frameworks": [
+          19
+        ],
+        "for": [
+          20
+        ],
+        "CO": [
+          21
+        ],
+        "/N": [
+          23,
+          28
+        ],
+        "CH": [
+          26
+        ],
+        "separation.": [
+          30
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 10
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W4388049796",
       "doi": "https://doi.org/10.1016/j.ijbiomac.2023.127697",
       "title": "Water-soluble chitosan salt as ecofriendly corrosion inhibitor for N80 pipeline steel in artificial sea water: Experimental and theoretical approach",
@@ -11530,7 +13191,7 @@
       "has_fulltext": false,
       "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.95249224,
+        "value": 0.95217044,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12098,8 +13759,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8600000143051147
         }
       ],
@@ -12530,7 +14191,7 @@
       "has_fulltext": false,
       "cited_by_count": 33,
       "citation_normalized_percentile": {
-        "value": 0.9445886,
+        "value": 0.94406052,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13047,7 +14708,7 @@
           "cited_by_count": 20
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-22T23:29:09.771500",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -13267,7 +14928,7 @@
       "has_fulltext": false,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.94095708,
+        "value": 0.94051752,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -14931,7 +16592,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.96931836,
+        "value": 0.96884879,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -15342,23 +17003,23 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.5
         }
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G1200781796",
+          "id": "https://openalex.org/G1141161426",
           "display_name": null,
-          "funder_award_id": "BAS/1/1372‐01‐01",
+          "funder_award_id": "BAS/1/1323‐01‐01",
           "funder_id": "https://openalex.org/F4320322320",
           "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
-          "id": "https://openalex.org/G1141161426",
+          "id": "https://openalex.org/G1200781796",
           "display_name": null,
-          "funder_award_id": "BAS/1/1323‐01‐01",
+          "funder_award_id": "BAS/1/1372‐01‐01",
           "funder_id": "https://openalex.org/F4320322320",
           "funder_display_name": "King Abdullah University of Science and Technology"
         }
@@ -16410,7 +18071,7 @@
       "has_fulltext": false,
       "cited_by_count": 14,
       "citation_normalized_percentile": {
-        "value": 0.91352475,
+        "value": 0.91268712,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16846,23 +18507,23 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.4399999976158142
         }
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G4596450624",
+          "id": "https://openalex.org/G7110370856",
           "display_name": null,
-          "funder_award_id": "EP/R029180/1",
+          "funder_award_id": "EP/R029180/2",
           "funder_id": "https://openalex.org/F4320334627",
           "funder_display_name": "Engineering and Physical Sciences Research Council"
         },
         {
-          "id": "https://openalex.org/G7110370856",
+          "id": "https://openalex.org/G4596450624",
           "display_name": null,
-          "funder_award_id": "EP/R029180/2",
+          "funder_award_id": "EP/R029180/1",
           "funder_id": "https://openalex.org/F4320334627",
           "funder_display_name": "Engineering and Physical Sciences Research Council"
         }
@@ -17197,7 +18858,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.89003613,
+        "value": 0.88919265,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17609,8 +19270,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.47999998927116394
         }
       ],
@@ -17684,10 +19345,10 @@
         "https://openalex.org/W6638305839",
         "https://openalex.org/W4287889751",
         "https://openalex.org/W2920324390",
-        "https://openalex.org/W4387630892",
         "https://openalex.org/W1797533080",
         "https://openalex.org/W1750125886",
-        "https://openalex.org/W2910847776"
+        "https://openalex.org/W2910847776",
+        "https://openalex.org/W4387630892"
       ],
       "related_works": [
         "https://openalex.org/W2349891746",
@@ -18294,7 +19955,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.79389726,
+        "value": 0.79370735,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18999,7 +20660,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.90172817,
+        "value": 0.9005716,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19412,11 +21073,11 @@
         "https://openalex.org/W2054716935",
         "https://openalex.org/W3030575512",
         "https://openalex.org/W2127966375",
-        "https://openalex.org/W2496532900",
+        "https://openalex.org/W1568537411",
         "https://openalex.org/W4210289635",
         "https://openalex.org/W4206552674",
         "https://openalex.org/W3123597704",
-        "https://openalex.org/W1568537411",
+        "https://openalex.org/W2496532900",
         "https://openalex.org/W4396887243"
       ],
       "related_works": [
@@ -19612,9 +21273,9 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.88794811,
+        "value": 0.8866817,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 99,
@@ -19971,6 +21632,495 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
+      "id": "https://openalex.org/W4401539780",
+      "doi": "https://doi.org/10.1016/j.seppur.2024.129189",
+      "title": "Electrospun nanofibrous membranes based on fluorine-free polyimide for swift oil spill cleanup and emulsion separation",
+      "display_name": "Electrospun nanofibrous membranes based on fluorine-free polyimide for swift oil spill cleanup and emulsion separation",
+      "publication_year": 2024,
+      "publication_date": "2024-08-13",
+      "ids": {
+        "openalex": "https://openalex.org/W4401539780",
+        "doi": "https://doi.org/10.1016/j.seppur.2024.129189"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.seppur.2024.129189",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.seppur.2024.129189",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S69753523",
+          "display_name": "Separation and Purification Technology",
+          "issn_l": "1383-5866",
+          "issn": [
+            "1383-5866",
+            "1873-3794"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Separation and Purification Technology",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5075383432",
+            "display_name": "Salha Alharthi",
+            "orcid": "https://orcid.org/0000-0003-3286-3524"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Salha N. Alharthi",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5083774843",
+            "display_name": "Mahmoud A. Abdulhamid",
+            "orcid": "https://orcid.org/0000-0002-6630-3958"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Mahmoud A. Abdulhamid",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5075383432"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 3680,
+        "currency": "USD",
+        "value_usd": 3680
+      },
+      "apc_paid": null,
+      "fwci": 2.70035438,
+      "has_fulltext": false,
+      "cited_by_count": 9,
+      "citation_normalized_percentile": {
+        "value": 0.84524608,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "354",
+        "issue": null,
+        "first_page": "129189",
+        "last_page": "129189"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10313",
+        "display_name": "Surface Modification and Superhydrophobicity",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2508",
+          "display_name": "Surfaces, Coatings and Films"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10313",
+          "display_name": "Surface Modification and Superhydrophobicity",
+          "score": 0.9991999864578247,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2508",
+            "display_name": "Surfaces, Coatings and Films"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12776",
+          "display_name": "Electrohydrodynamics and Fluid Dynamics",
+          "score": 0.9821000099182129,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10729",
+          "display_name": "Electrospun Nanofibers in Biomedical Applications",
+          "score": 0.9663000106811523,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2502",
+            "display_name": "Biomaterials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/emulsion",
+          "display_name": "Emulsion",
+          "score": 0.8018518686294556
+        },
+        {
+          "id": "https://openalex.org/keywords/membrane",
+          "display_name": "Membrane",
+          "score": 0.7093566656112671
+        },
+        {
+          "id": "https://openalex.org/keywords/polyimide",
+          "display_name": "Polyimide",
+          "score": 0.6470744013786316
+        },
+        {
+          "id": "https://openalex.org/keywords/swift",
+          "display_name": "Swift",
+          "score": 0.5408144593238831
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-engineering",
+          "display_name": "Chemical engineering",
+          "score": 0.5183471441268921
+        },
+        {
+          "id": "https://openalex.org/keywords/oil-spill",
+          "display_name": "Oil spill",
+          "score": 0.4920472800731659
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.4648069143295288
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.32354602217674255
+        },
+        {
+          "id": "https://openalex.org/keywords/petroleum-engineering",
+          "display_name": "Petroleum engineering",
+          "score": 0.23754605650901794
+        },
+        {
+          "id": "https://openalex.org/keywords/composite-material",
+          "display_name": "Composite material",
+          "score": 0.22447222471237183
+        },
+        {
+          "id": "https://openalex.org/keywords/layer",
+          "display_name": "Layer (electronics)",
+          "score": 0.1611003577709198
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.14543020725250244
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.08845064043998718
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778123984",
+          "wikidata": "https://www.wikidata.org/wiki/Q187634",
+          "display_name": "Emulsion",
+          "level": 2,
+          "score": 0.8018518686294556
+        },
+        {
+          "id": "https://openalex.org/C41625074",
+          "wikidata": "https://www.wikidata.org/wiki/Q176088",
+          "display_name": "Membrane",
+          "level": 2,
+          "score": 0.7093566656112671
+        },
+        {
+          "id": "https://openalex.org/C2780965675",
+          "wikidata": "https://www.wikidata.org/wiki/Q145958",
+          "display_name": "Polyimide",
+          "level": 3,
+          "score": 0.6470744013786316
+        },
+        {
+          "id": "https://openalex.org/C116188536",
+          "wikidata": "https://www.wikidata.org/wiki/Q17118377",
+          "display_name": "Swift",
+          "level": 2,
+          "score": 0.5408144593238831
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.5183471441268921
+        },
+        {
+          "id": "https://openalex.org/C2985668151",
+          "wikidata": "https://www.wikidata.org/wiki/Q220187",
+          "display_name": "Oil spill",
+          "level": 2,
+          "score": 0.4920472800731659
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.4648069143295288
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.32354602217674255
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.23754605650901794
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.22447222471237183
+        },
+        {
+          "id": "https://openalex.org/C2779227376",
+          "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+          "display_name": "Layer (electronics)",
+          "level": 2,
+          "score": 0.1611003577709198
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.14543020725250244
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.08845064043998718
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.seppur.2024.129189",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.seppur.2024.129189",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S69753523",
+            "display_name": "Separation and Purification Technology",
+            "issn_l": "1383-5866",
+            "issn": [
+              "1383-5866",
+              "1873-3794"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Separation and Purification Technology",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.5
+        }
+      ],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1142703846",
+          "display_name": null,
+          "funder_award_id": "INMW2418",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 29,
+      "referenced_works": [
+        "https://openalex.org/W2935798331",
+        "https://openalex.org/W4385270121",
+        "https://openalex.org/W2791030274",
+        "https://openalex.org/W1968750471",
+        "https://openalex.org/W2330789054",
+        "https://openalex.org/W4388348017",
+        "https://openalex.org/W3127905803",
+        "https://openalex.org/W4290759739",
+        "https://openalex.org/W2112995304",
+        "https://openalex.org/W4367670084",
+        "https://openalex.org/W2410753575",
+        "https://openalex.org/W2126889964",
+        "https://openalex.org/W2625020438",
+        "https://openalex.org/W4306412556",
+        "https://openalex.org/W3010148486",
+        "https://openalex.org/W4362451425",
+        "https://openalex.org/W4383162723",
+        "https://openalex.org/W4383311782",
+        "https://openalex.org/W4308842480",
+        "https://openalex.org/W6860404241",
+        "https://openalex.org/W4283693127",
+        "https://openalex.org/W4386381630",
+        "https://openalex.org/W2609042040",
+        "https://openalex.org/W3011312093",
+        "https://openalex.org/W4309642908",
+        "https://openalex.org/W4385199599",
+        "https://openalex.org/W2889382977",
+        "https://openalex.org/W2324477470",
+        "https://openalex.org/W4390650024"
+      ],
+      "related_works": [
+        "https://openalex.org/W3198734187",
+        "https://openalex.org/W3175001965",
+        "https://openalex.org/W2350024083",
+        "https://openalex.org/W4250183494",
+        "https://openalex.org/W3130985054",
+        "https://openalex.org/W608019500",
+        "https://openalex.org/W2478736918",
+        "https://openalex.org/W3130134152",
+        "https://openalex.org/W1968928660",
+        "https://openalex.org/W3198661659"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W4313499638",
       "doi": "https://doi.org/10.1016/j.fuel.2022.127362",
       "title": "Citric acid-based N-alkyl amides for enhanced oil recovery application in the carbonate reservoir: Sustainable laboratory-scale synthesis and recovery performance",
@@ -20155,7 +22305,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.81660952,
+        "value": 0.81602695,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20442,8 +22592,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.44999998807907104
         }
       ],
@@ -20501,11 +22651,11 @@
         "https://openalex.org/W4212856187",
         "https://openalex.org/W2471517024",
         "https://openalex.org/W2033193140",
+        "https://openalex.org/W3119025646",
         "https://openalex.org/W2073047047",
         "https://openalex.org/W2094249788",
-        "https://openalex.org/W3119025646",
-        "https://openalex.org/W4226327993",
-        "https://openalex.org/W2931124193"
+        "https://openalex.org/W2931124193",
+        "https://openalex.org/W4226327993"
       ],
       "related_works": [
         "https://openalex.org/W2414755097",
@@ -20763,7 +22913,7 @@
       "has_fulltext": true,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.66124775,
+        "value": 0.66055416,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22014,7 +24164,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.76058401,
+        "value": 0.75952454,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22311,8 +24461,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.5600000023841858
         }
       ],
@@ -22453,16 +24603,16 @@
         "https://openalex.org/W4366774956",
         "https://openalex.org/W4210632250",
         "https://openalex.org/W2606225505",
+        "https://openalex.org/W2075310780",
         "https://openalex.org/W2611975763",
+        "https://openalex.org/W195501871",
         "https://openalex.org/W4289347414",
         "https://openalex.org/W4312030356",
         "https://openalex.org/W4378906148",
-        "https://openalex.org/W2075310780",
-        "https://openalex.org/W3034547604",
-        "https://openalex.org/W2041902442",
         "https://openalex.org/W3167223353",
         "https://openalex.org/W3165712862",
-        "https://openalex.org/W195501871"
+        "https://openalex.org/W3034547604",
+        "https://openalex.org/W2041902442"
       ],
       "related_works": [
         "https://openalex.org/W2368603251",
@@ -22671,7 +24821,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.73334176,
+        "value": 0.73168512,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22954,8 +25104,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.5
         }
       ],
@@ -23317,7 +25467,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.70746145,
+        "value": 0.70647037,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23706,9 +25856,9 @@
         "https://openalex.org/W2903870541",
         "https://openalex.org/W4379516146",
         "https://openalex.org/W4200033440",
+        "https://openalex.org/W3023510642",
         "https://openalex.org/W4394617312",
-        "https://openalex.org/W4286944819",
-        "https://openalex.org/W3023510642"
+        "https://openalex.org/W4286944819"
       ],
       "related_works": [
         "https://openalex.org/W2484026318",
@@ -24028,7 +26178,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.89367463,
+        "value": 0.89238738,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24354,8 +26504,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.4099999964237213
         }
       ],
@@ -24433,14 +26583,6 @@
         "https://openalex.org/W1964941319",
         "https://openalex.org/W6839083286",
         "https://openalex.org/W6779134692",
-        "https://openalex.org/W2616329094",
-        "https://openalex.org/W2796237430",
-        "https://openalex.org/W4386171479",
-        "https://openalex.org/W4365505798",
-        "https://openalex.org/W4315647366",
-        "https://openalex.org/W4313345797",
-        "https://openalex.org/W4366274711",
-        "https://openalex.org/W4376506390",
         "https://openalex.org/W3006637330",
         "https://openalex.org/W2980814179",
         "https://openalex.org/W3034686604",
@@ -24450,12 +26592,6 @@
         "https://openalex.org/W2994409796",
         "https://openalex.org/W3042432484",
         "https://openalex.org/W3034452368",
-        "https://openalex.org/W4399207257",
-        "https://openalex.org/W4403667546",
-        "https://openalex.org/W4406651043",
-        "https://openalex.org/W4388668242",
-        "https://openalex.org/W2889341297",
-        "https://openalex.org/W2088436461",
         "https://openalex.org/W3216448268",
         "https://openalex.org/W3162092487",
         "https://openalex.org/W3205419318",
@@ -24468,7 +26604,21 @@
         "https://openalex.org/W4281746481",
         "https://openalex.org/W3199395526",
         "https://openalex.org/W3159336530",
-        "https://openalex.org/W4210417328"
+        "https://openalex.org/W4210417328",
+        "https://openalex.org/W4386171479",
+        "https://openalex.org/W4365505798",
+        "https://openalex.org/W4315647366",
+        "https://openalex.org/W4313345797",
+        "https://openalex.org/W4366274711",
+        "https://openalex.org/W4376506390",
+        "https://openalex.org/W4399207257",
+        "https://openalex.org/W4403667546",
+        "https://openalex.org/W4406651043",
+        "https://openalex.org/W4388668242",
+        "https://openalex.org/W2088436461",
+        "https://openalex.org/W2889341297",
+        "https://openalex.org/W2616329094",
+        "https://openalex.org/W2796237430"
       ],
       "related_works": [
         "https://openalex.org/W1999362653",
@@ -24694,9 +26844,9 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.90188356,
+        "value": 0.89960487,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -25067,23 +27217,23 @@
         "https://openalex.org/W2023276814",
         "https://openalex.org/W2317813775",
         "https://openalex.org/W2887424861",
-        "https://openalex.org/W4387702076",
-        "https://openalex.org/W4388750918",
-        "https://openalex.org/W4396773761",
+        "https://openalex.org/W63294479",
+        "https://openalex.org/W1997783064",
+        "https://openalex.org/W1989716604",
+        "https://openalex.org/W2946858441",
         "https://openalex.org/W2500866594",
+        "https://openalex.org/W3087762426",
+        "https://openalex.org/W4245252993",
+        "https://openalex.org/W3201697790",
         "https://openalex.org/W2052227116",
         "https://openalex.org/W2066854206",
         "https://openalex.org/W2056501647",
         "https://openalex.org/W2094059153",
         "https://openalex.org/W2091020328",
-        "https://openalex.org/W3087762426",
-        "https://openalex.org/W4245252993",
-        "https://openalex.org/W3201697790",
-        "https://openalex.org/W63294479",
         "https://openalex.org/W2033303477",
-        "https://openalex.org/W1997783064",
-        "https://openalex.org/W1989716604",
-        "https://openalex.org/W2946858441"
+        "https://openalex.org/W4387702076",
+        "https://openalex.org/W4388750918",
+        "https://openalex.org/W4396773761"
       ],
       "related_works": [
         "https://openalex.org/W2120330316",
@@ -25751,7 +27901,7 @@
       "has_fulltext": false,
       "cited_by_count": 66,
       "citation_normalized_percentile": {
-        "value": 0.96617834,
+        "value": 0.96618587,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -26094,8 +28244,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6700000166893005
         }
       ],
@@ -26578,795 +28728,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W3093639588",
-      "doi": "https://doi.org/10.1016/j.seppur.2020.117910",
-      "title": "Synthesis and characterization of 6FDA/3,5-diamino-2,4,6-trimethylbenzenesulfonic acid-derived polyimide for gas separation applications",
-      "display_name": "Synthesis and characterization of 6FDA/3,5-diamino-2,4,6-trimethylbenzenesulfonic acid-derived polyimide for gas separation applications",
-      "publication_year": 2020,
-      "publication_date": "2020-10-23",
-      "ids": {
-        "openalex": "https://openalex.org/W3093639588",
-        "doi": "https://doi.org/10.1016/j.seppur.2020.117910",
-        "mag": "3093639588"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.seppur.2020.117910",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.seppur.2020.117910",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S69753523",
-          "display_name": "Separation and Purification Technology",
-          "issn_l": "1383-5866",
-          "issn": [
-            "1383-5866",
-            "1873-3794"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [
-            "Elsevier BV"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Separation and Purification Technology",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": true,
-        "oa_status": "green",
-        "oa_url": "http://hdl.handle.net/10754/665774",
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5083774843",
-            "display_name": "Mahmoud A. Abdulhamid",
-            "orcid": "https://orcid.org/0000-0002-6630-3958"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Mahmoud A. Abdulhamid",
-          "raw_affiliation_strings": [
-            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5075271929",
-            "display_name": "Giuseppe Genduso",
-            "orcid": "https://orcid.org/0000-0002-2755-3823"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Giuseppe Genduso",
-          "raw_affiliation_strings": [
-            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5083806541",
-            "display_name": "Xiaohua Ma",
-            "orcid": "https://orcid.org/0000-0002-1667-6342"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Xiaohua Ma",
-          "raw_affiliation_strings": [
-            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5034578906",
-            "display_name": "Ingo Pinnau",
-            "orcid": "https://orcid.org/0000-0003-3040-9088"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Ingo Pinnau",
-          "raw_affiliation_strings": [
-            "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Functional Polymer Membranes Group, Advanced Membranes and Porous Materials Center, Division of Physical Science and Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 4,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5034578906"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I71920554"
-      ],
-      "apc_list": {
-        "value": 3680,
-        "currency": "USD",
-        "value_usd": 3680
-      },
-      "apc_paid": null,
-      "fwci": 4.32917922,
-      "has_fulltext": false,
-      "cited_by_count": 49,
-      "citation_normalized_percentile": {
-        "value": 0.94652593,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 89,
-        "max": 99
-      },
-      "biblio": {
-        "volume": "257",
-        "issue": null,
-        "first_page": "117910",
-        "last_page": "117910"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11362",
-        "display_name": "Membrane Separation and Gas Transport",
-        "score": 1,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2210",
-          "display_name": "Mechanical Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11362",
-          "display_name": "Membrane Separation and Gas Transport",
-          "score": 1,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2210",
-            "display_name": "Mechanical Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12084",
-          "display_name": "Synthesis and properties of polymers",
-          "score": 0.9997000098228455,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2507",
-            "display_name": "Polymers and Plastics"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12038",
-          "display_name": "Covalent Organic Framework Applications",
-          "score": 0.992900013923645,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2505",
-            "display_name": "Materials Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/polyimide",
-          "display_name": "Polyimide",
-          "score": 0.8322567939758301
-        },
-        {
-          "id": "https://openalex.org/keywords/selectivity",
-          "display_name": "Selectivity",
-          "score": 0.8050734996795654
-        },
-        {
-          "id": "https://openalex.org/keywords/permeation",
-          "display_name": "Permeation",
-          "score": 0.7158342599868774
-        },
-        {
-          "id": "https://openalex.org/keywords/barrer",
-          "display_name": "Barrer",
-          "score": 0.7002942562103271
-        },
-        {
-          "id": "https://openalex.org/keywords/surface-modification",
-          "display_name": "Surface modification",
-          "score": 0.601384162902832
-        },
-        {
-          "id": "https://openalex.org/keywords/polymer",
-          "display_name": "Polymer",
-          "score": 0.5912010669708252
-        },
-        {
-          "id": "https://openalex.org/keywords/polymer-chemistry",
-          "display_name": "Polymer chemistry",
-          "score": 0.529310405254364
-        },
-        {
-          "id": "https://openalex.org/keywords/membrane",
-          "display_name": "Membrane",
-          "score": 0.5170350670814514
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.50248122215271
-        },
-        {
-          "id": "https://openalex.org/keywords/diamine",
-          "display_name": "Diamine",
-          "score": 0.5020272731781006
-        },
-        {
-          "id": "https://openalex.org/keywords/cellulose-triacetate",
-          "display_name": "Cellulose triacetate",
-          "score": 0.4704393744468689
-        },
-        {
-          "id": "https://openalex.org/keywords/facilitated-diffusion",
-          "display_name": "Facilitated diffusion",
-          "score": 0.4540362060070038
-        },
-        {
-          "id": "https://openalex.org/keywords/gas-separation",
-          "display_name": "Gas separation",
-          "score": 0.45293596386909485
-        },
-        {
-          "id": "https://openalex.org/keywords/sorption",
-          "display_name": "Sorption",
-          "score": 0.43156781792640686
-        },
-        {
-          "id": "https://openalex.org/keywords/sulfonic-acid",
-          "display_name": "Sulfonic acid",
-          "score": 0.42643100023269653
-        },
-        {
-          "id": "https://openalex.org/keywords/permeability",
-          "display_name": "Permeability (electromagnetism)",
-          "score": 0.4107177257537842
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-engineering",
-          "display_name": "Chemical engineering",
-          "score": 0.40961164236068726
-        },
-        {
-          "id": "https://openalex.org/keywords/organic-chemistry",
-          "display_name": "Organic chemistry",
-          "score": 0.3834126591682434
-        },
-        {
-          "id": "https://openalex.org/keywords/physical-chemistry",
-          "display_name": "Physical chemistry",
-          "score": 0.08558738231658936
-        },
-        {
-          "id": "https://openalex.org/keywords/catalysis",
-          "display_name": "Catalysis",
-          "score": 0.06319248676300049
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2780965675",
-          "wikidata": "https://www.wikidata.org/wiki/Q145958",
-          "display_name": "Polyimide",
-          "level": 3,
-          "score": 0.8322567939758301
-        },
-        {
-          "id": "https://openalex.org/C118792377",
-          "wikidata": "https://www.wikidata.org/wiki/Q108584245",
-          "display_name": "Selectivity",
-          "level": 3,
-          "score": 0.8050734996795654
-        },
-        {
-          "id": "https://openalex.org/C50670333",
-          "wikidata": "https://www.wikidata.org/wiki/Q907651",
-          "display_name": "Permeation",
-          "level": 3,
-          "score": 0.7158342599868774
-        },
-        {
-          "id": "https://openalex.org/C13253532",
-          "wikidata": "https://www.wikidata.org/wiki/Q808873",
-          "display_name": "Barrer",
-          "level": 4,
-          "score": 0.7002942562103271
-        },
-        {
-          "id": "https://openalex.org/C115537861",
-          "wikidata": "https://www.wikidata.org/wiki/Q7645993",
-          "display_name": "Surface modification",
-          "level": 2,
-          "score": 0.601384162902832
-        },
-        {
-          "id": "https://openalex.org/C521977710",
-          "wikidata": "https://www.wikidata.org/wiki/Q81163",
-          "display_name": "Polymer",
-          "level": 2,
-          "score": 0.5912010669708252
-        },
-        {
-          "id": "https://openalex.org/C188027245",
-          "wikidata": "https://www.wikidata.org/wiki/Q750446",
-          "display_name": "Polymer chemistry",
-          "level": 1,
-          "score": 0.529310405254364
-        },
-        {
-          "id": "https://openalex.org/C41625074",
-          "wikidata": "https://www.wikidata.org/wiki/Q176088",
-          "display_name": "Membrane",
-          "level": 2,
-          "score": 0.5170350670814514
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.50248122215271
-        },
-        {
-          "id": "https://openalex.org/C2780871995",
-          "wikidata": "https://www.wikidata.org/wiki/Q2500485",
-          "display_name": "Diamine",
-          "level": 2,
-          "score": 0.5020272731781006
-        },
-        {
-          "id": "https://openalex.org/C2775863688",
-          "wikidata": "https://www.wikidata.org/wiki/Q2754914",
-          "display_name": "Cellulose triacetate",
-          "level": 3,
-          "score": 0.4704393744468689
-        },
-        {
-          "id": "https://openalex.org/C205066982",
-          "wikidata": "https://www.wikidata.org/wiki/Q2155231",
-          "display_name": "Facilitated diffusion",
-          "level": 3,
-          "score": 0.4540362060070038
-        },
-        {
-          "id": "https://openalex.org/C18411161",
-          "wikidata": "https://www.wikidata.org/wiki/Q17050218",
-          "display_name": "Gas separation",
-          "level": 3,
-          "score": 0.45293596386909485
-        },
-        {
-          "id": "https://openalex.org/C58445606",
-          "wikidata": "https://www.wikidata.org/wiki/Q898533",
-          "display_name": "Sorption",
-          "level": 3,
-          "score": 0.43156781792640686
-        },
-        {
-          "id": "https://openalex.org/C2778502040",
-          "wikidata": "https://www.wikidata.org/wiki/Q250437",
-          "display_name": "Sulfonic acid",
-          "level": 2,
-          "score": 0.42643100023269653
-        },
-        {
-          "id": "https://openalex.org/C120882062",
-          "wikidata": "https://www.wikidata.org/wiki/Q28352",
-          "display_name": "Permeability (electromagnetism)",
-          "level": 3,
-          "score": 0.4107177257537842
-        },
-        {
-          "id": "https://openalex.org/C42360764",
-          "wikidata": "https://www.wikidata.org/wiki/Q83588",
-          "display_name": "Chemical engineering",
-          "level": 1,
-          "score": 0.40961164236068726
-        },
-        {
-          "id": "https://openalex.org/C178790620",
-          "wikidata": "https://www.wikidata.org/wiki/Q11351",
-          "display_name": "Organic chemistry",
-          "level": 1,
-          "score": 0.3834126591682434
-        },
-        {
-          "id": "https://openalex.org/C147789679",
-          "wikidata": "https://www.wikidata.org/wiki/Q11372",
-          "display_name": "Physical chemistry",
-          "level": 1,
-          "score": 0.08558738231658936
-        },
-        {
-          "id": "https://openalex.org/C161790260",
-          "wikidata": "https://www.wikidata.org/wiki/Q82264",
-          "display_name": "Catalysis",
-          "level": 2,
-          "score": 0.06319248676300049
-        },
-        {
-          "id": "https://openalex.org/C150394285",
-          "wikidata": "https://www.wikidata.org/wiki/Q180254",
-          "display_name": "Adsorption",
-          "level": 2,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C2779227376",
-          "wikidata": "https://www.wikidata.org/wiki/Q6505497",
-          "display_name": "Layer (electronics)",
-          "level": 2,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C55493867",
-          "wikidata": "https://www.wikidata.org/wiki/Q7094",
-          "display_name": "Biochemistry",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 2,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.seppur.2020.117910",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.seppur.2020.117910",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S69753523",
-            "display_name": "Separation and Purification Technology",
-            "issn_l": "1383-5866",
-            "issn": [
-              "1383-5866",
-              "1873-3794"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [
-              "Elsevier BV"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Separation and Purification Technology",
-          "raw_type": "journal-article"
-        },
-        {
-          "id": "pmh:oai:repository.kaust.edu.sa:10754/665774",
-          "is_oa": true,
-          "landing_page_url": "http://hdl.handle.net/10754/665774",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401596",
-            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I71920554",
-            "host_organization_name": "King Abdullah University of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I71920554"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-nc-nd",
-          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "Article"
-        }
-      ],
-      "best_oa_location": {
-        "id": "pmh:oai:repository.kaust.edu.sa:10754/665774",
-        "is_oa": true,
-        "landing_page_url": "http://hdl.handle.net/10754/665774",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306401596",
-          "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I71920554",
-          "host_organization_name": "King Abdullah University of Science and Technology",
-          "host_organization_lineage": [
-            "https://openalex.org/I71920554"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": "cc-by-nc-nd",
-        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "",
-        "raw_type": "Article"
-      },
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 59,
-      "referenced_works": [
-        "https://openalex.org/W2053962289",
-        "https://openalex.org/W1993563028",
-        "https://openalex.org/W1994064739",
-        "https://openalex.org/W1966219059",
-        "https://openalex.org/W4230224792",
-        "https://openalex.org/W2039232312",
-        "https://openalex.org/W2155738720",
-        "https://openalex.org/W2174836851",
-        "https://openalex.org/W2738413492",
-        "https://openalex.org/W2901331460",
-        "https://openalex.org/W2912349112",
-        "https://openalex.org/W2976779014",
-        "https://openalex.org/W2117931025",
-        "https://openalex.org/W2074365522",
-        "https://openalex.org/W2038357963",
-        "https://openalex.org/W2052962628",
-        "https://openalex.org/W1984473045",
-        "https://openalex.org/W2323807389",
-        "https://openalex.org/W2069121246",
-        "https://openalex.org/W1767997050",
-        "https://openalex.org/W2026928917",
-        "https://openalex.org/W2228115052",
-        "https://openalex.org/W2774428240",
-        "https://openalex.org/W2727023971",
-        "https://openalex.org/W2052923784",
-        "https://openalex.org/W1983325032",
-        "https://openalex.org/W2047082519",
-        "https://openalex.org/W2324574439",
-        "https://openalex.org/W2326915622",
-        "https://openalex.org/W2981099766",
-        "https://openalex.org/W3025364202",
-        "https://openalex.org/W2043402565",
-        "https://openalex.org/W1971688656",
-        "https://openalex.org/W1973781053",
-        "https://openalex.org/W2065528750",
-        "https://openalex.org/W1970547083",
-        "https://openalex.org/W6649558914",
-        "https://openalex.org/W188334196",
-        "https://openalex.org/W2072143986",
-        "https://openalex.org/W2063769533",
-        "https://openalex.org/W2001066688",
-        "https://openalex.org/W2058402281",
-        "https://openalex.org/W6679262132",
-        "https://openalex.org/W3006007532",
-        "https://openalex.org/W2037325025",
-        "https://openalex.org/W2017520724",
-        "https://openalex.org/W2076902316",
-        "https://openalex.org/W2094851914",
-        "https://openalex.org/W1974573146",
-        "https://openalex.org/W2909644344",
-        "https://openalex.org/W3039900390",
-        "https://openalex.org/W3028074788",
-        "https://openalex.org/W2481111368",
-        "https://openalex.org/W2319223764",
-        "https://openalex.org/W2022353023",
-        "https://openalex.org/W1996243901",
-        "https://openalex.org/W2313096966",
-        "https://openalex.org/W2128179474",
-        "https://openalex.org/W2017863001"
-      ],
-      "related_works": [
-        "https://openalex.org/W3046755655",
-        "https://openalex.org/W2906079206",
-        "https://openalex.org/W2088949652",
-        "https://openalex.org/W3047882691",
-        "https://openalex.org/W4323668636",
-        "https://openalex.org/W1991087347",
-        "https://openalex.org/W4283707217",
-        "https://openalex.org/W2916476034",
-        "https://openalex.org/W4308476703",
-        "https://openalex.org/W3172229222"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 2
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 13
-        },
-        {
-          "year": 2023,
-          "cited_by_count": 15
-        },
-        {
-          "year": 2022,
-          "cited_by_count": 10
-        },
-        {
-          "year": 2021,
-          "cited_by_count": 8
-        },
-        {
-          "year": 2020,
-          "cited_by_count": 1
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W2762743512",
       "doi": "https://doi.org/10.1016/j.polymer.2017.10.017",
       "title": "Synthesis and characterization of a microporous 6FDA-polyimide made from a novel carbocyclic pseudo Tröger's base diamine: Effect of bicyclic bridge on gas transport properties",
@@ -27588,7 +28949,7 @@
       "has_fulltext": false,
       "cited_by_count": 47,
       "citation_normalized_percentile": {
-        "value": 0.92586283,
+        "value": 0.92586704,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -27992,8 +29353,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.4699999988079071
         }
       ],
@@ -28059,11 +29420,11 @@
         "https://openalex.org/W2039175293",
         "https://openalex.org/W1751782066",
         "https://openalex.org/W2017520724",
-        "https://openalex.org/W1933180522",
         "https://openalex.org/W797267378",
         "https://openalex.org/W1591260746",
-        "https://openalex.org/W2291766471",
-        "https://openalex.org/W4248027118"
+        "https://openalex.org/W1933180522",
+        "https://openalex.org/W4248027118",
+        "https://openalex.org/W2291766471"
       ],
       "related_works": [
         "https://openalex.org/W2071100647",
@@ -28114,870 +29475,6 @@
         {
           "year": 2017,
           "cited_by_count": 1
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W4206338123",
-      "doi": "https://doi.org/10.1039/d1nr07593d",
-      "title": "Norbornane-based covalent organic frameworks for gas separation",
-      "display_name": "Norbornane-based covalent organic frameworks for gas separation",
-      "publication_year": 2022,
-      "publication_date": "2022-01-01",
-      "ids": {
-        "openalex": "https://openalex.org/W4206338123",
-        "doi": "https://doi.org/10.1039/d1nr07593d",
-        "pmid": "https://pubmed.ncbi.nlm.nih.gov/35103279"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1039/d1nr07593d",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
-        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
-        "source": {
-          "id": "https://openalex.org/S23181512",
-          "display_name": "Nanoscale",
-          "issn_l": "2040-3364",
-          "issn": [
-            "2040-3364",
-            "2040-3372"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320556",
-          "host_organization_name": "Royal Society of Chemistry",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320556"
-          ],
-          "host_organization_lineage_names": [
-            "Royal Society of Chemistry"
-          ],
-          "type": "journal"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Nanoscale",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref",
-        "pubmed"
-      ],
-      "open_access": {
-        "is_oa": true,
-        "oa_status": "hybrid",
-        "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5035566402",
-            "display_name": "Sushil Kumar",
-            "orcid": "https://orcid.org/0000-0001-6680-718X"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Sushil Kumar",
-          "raw_affiliation_strings": [
-            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5083774843",
-            "display_name": "Mahmoud A. Abdulhamid",
-            "orcid": "https://orcid.org/0000-0002-6630-3958"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Mahmoud A. Abdulhamid",
-          "raw_affiliation_strings": [
-            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5075970032",
-            "display_name": "A. D. Dinga Wonanke",
-            "orcid": "https://orcid.org/0000-0002-9066-2715"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I52590639",
-              "display_name": "Nottingham Trent University",
-              "ror": "https://ror.org/04xyxjd90",
-              "country_code": "GB",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I52590639"
-              ]
-            }
-          ],
-          "countries": [
-            "GB"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "A. D. Dinga Wonanke",
-          "raw_affiliation_strings": [
-            "School of Science and Technology, Nottingham Trent University, Nottingham, UK"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "School of Science and Technology, Nottingham Trent University, Nottingham, UK",
-              "institution_ids": [
-                "https://openalex.org/I52590639"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5017731806",
-            "display_name": "Matthew A. Addicoat",
-            "orcid": "https://orcid.org/0000-0002-5406-7927"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I52590639",
-              "display_name": "Nottingham Trent University",
-              "ror": "https://ror.org/04xyxjd90",
-              "country_code": "GB",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I52590639"
-              ]
-            }
-          ],
-          "countries": [
-            "GB"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Matthew A. Addicoat",
-          "raw_affiliation_strings": [
-            "School of Science and Technology, Nottingham Trent University, Nottingham, UK"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "School of Science and Technology, Nottingham Trent University, Nottingham, UK",
-              "institution_ids": [
-                "https://openalex.org/I52590639"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5091741402",
-            "display_name": "György Székely",
-            "orcid": "https://orcid.org/0000-0001-9658-2452"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I71920554",
-              "display_name": "King Abdullah University of Science and Technology",
-              "ror": "https://ror.org/01q3tbs38",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Gyorgy Szekely",
-          "raw_affiliation_strings": [
-            "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Advanced Membranes and Porous Materials Center, Physical Science and Engineering Division (PSE), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 2,
-      "institutions_distinct_count": 5,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5091741402"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I71920554"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 5.16606531,
-      "has_fulltext": true,
-      "cited_by_count": 42,
-      "citation_normalized_percentile": {
-        "value": 0.92703428,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 98,
-        "max": 99
-      },
-      "biblio": {
-        "volume": "14",
-        "issue": "6",
-        "first_page": "2475",
-        "last_page": "2481"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T12038",
-        "display_name": "Covalent Organic Framework Applications",
-        "score": 1,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2505",
-          "display_name": "Materials Chemistry"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T12038",
-          "display_name": "Covalent Organic Framework Applications",
-          "score": 1,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2505",
-            "display_name": "Materials Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10096",
-          "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
-          "score": 0.9987999796867371,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1604",
-            "display_name": "Inorganic Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/16",
-            "display_name": "Chemistry"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11362",
-          "display_name": "Membrane Separation and Gas Transport",
-          "score": 0.9908999800682068,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2210",
-            "display_name": "Mechanical Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/norbornane",
-          "display_name": "Norbornane",
-          "score": 0.969396710395813
-        },
-        {
-          "id": "https://openalex.org/keywords/covalent-organic-framework",
-          "display_name": "Covalent organic framework",
-          "score": 0.7850354313850403
-        },
-        {
-          "id": "https://openalex.org/keywords/covalent-bond",
-          "display_name": "Covalent bond",
-          "score": 0.7512796521186829
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.693890392780304
-        },
-        {
-          "id": "https://openalex.org/keywords/porosity",
-          "display_name": "Porosity",
-          "score": 0.6405065059661865
-        },
-        {
-          "id": "https://openalex.org/keywords/gas-separation",
-          "display_name": "Gas separation",
-          "score": 0.5624891519546509
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-engineering",
-          "display_name": "Chemical engineering",
-          "score": 0.5172929763793945
-        },
-        {
-          "id": "https://openalex.org/keywords/molecule",
-          "display_name": "Molecule",
-          "score": 0.489315003156662
-        },
-        {
-          "id": "https://openalex.org/keywords/norbornene",
-          "display_name": "Norbornene",
-          "score": 0.4397753179073334
-        },
-        {
-          "id": "https://openalex.org/keywords/nanotechnology",
-          "display_name": "Nanotechnology",
-          "score": 0.36529549956321716
-        },
-        {
-          "id": "https://openalex.org/keywords/polymer-chemistry",
-          "display_name": "Polymer chemistry",
-          "score": 0.3068265914916992
-        },
-        {
-          "id": "https://openalex.org/keywords/organic-chemistry",
-          "display_name": "Organic chemistry",
-          "score": 0.30241119861602783
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.24030715227127075
-        },
-        {
-          "id": "https://openalex.org/keywords/copolymer",
-          "display_name": "Copolymer",
-          "score": 0.19078320264816284
-        },
-        {
-          "id": "https://openalex.org/keywords/composite-material",
-          "display_name": "Composite material",
-          "score": 0.18205201625823975
-        },
-        {
-          "id": "https://openalex.org/keywords/membrane",
-          "display_name": "Membrane",
-          "score": 0.16972440481185913
-        },
-        {
-          "id": "https://openalex.org/keywords/polymer",
-          "display_name": "Polymer",
-          "score": 0.14291003346443176
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2780795484",
-          "wikidata": "https://www.wikidata.org/wiki/Q418111",
-          "display_name": "Norbornane",
-          "level": 2,
-          "score": 0.969396710395813
-        },
-        {
-          "id": "https://openalex.org/C2777893391",
-          "wikidata": "https://www.wikidata.org/wiki/Q5178887",
-          "display_name": "Covalent organic framework",
-          "level": 3,
-          "score": 0.7850354313850403
-        },
-        {
-          "id": "https://openalex.org/C180577832",
-          "wikidata": "https://www.wikidata.org/wiki/Q127920",
-          "display_name": "Covalent bond",
-          "level": 2,
-          "score": 0.7512796521186829
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.693890392780304
-        },
-        {
-          "id": "https://openalex.org/C6648577",
-          "wikidata": "https://www.wikidata.org/wiki/Q622669",
-          "display_name": "Porosity",
-          "level": 2,
-          "score": 0.6405065059661865
-        },
-        {
-          "id": "https://openalex.org/C18411161",
-          "wikidata": "https://www.wikidata.org/wiki/Q17050218",
-          "display_name": "Gas separation",
-          "level": 3,
-          "score": 0.5624891519546509
-        },
-        {
-          "id": "https://openalex.org/C42360764",
-          "wikidata": "https://www.wikidata.org/wiki/Q83588",
-          "display_name": "Chemical engineering",
-          "level": 1,
-          "score": 0.5172929763793945
-        },
-        {
-          "id": "https://openalex.org/C32909587",
-          "wikidata": "https://www.wikidata.org/wiki/Q11369",
-          "display_name": "Molecule",
-          "level": 2,
-          "score": 0.489315003156662
-        },
-        {
-          "id": "https://openalex.org/C2780547246",
-          "wikidata": "https://www.wikidata.org/wiki/Q420176",
-          "display_name": "Norbornene",
-          "level": 4,
-          "score": 0.4397753179073334
-        },
-        {
-          "id": "https://openalex.org/C171250308",
-          "wikidata": "https://www.wikidata.org/wiki/Q11468",
-          "display_name": "Nanotechnology",
-          "level": 1,
-          "score": 0.36529549956321716
-        },
-        {
-          "id": "https://openalex.org/C188027245",
-          "wikidata": "https://www.wikidata.org/wiki/Q750446",
-          "display_name": "Polymer chemistry",
-          "level": 1,
-          "score": 0.3068265914916992
-        },
-        {
-          "id": "https://openalex.org/C178790620",
-          "wikidata": "https://www.wikidata.org/wiki/Q11351",
-          "display_name": "Organic chemistry",
-          "level": 1,
-          "score": 0.30241119861602783
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.24030715227127075
-        },
-        {
-          "id": "https://openalex.org/C15920480",
-          "wikidata": "https://www.wikidata.org/wiki/Q421281",
-          "display_name": "Copolymer",
-          "level": 3,
-          "score": 0.19078320264816284
-        },
-        {
-          "id": "https://openalex.org/C159985019",
-          "wikidata": "https://www.wikidata.org/wiki/Q181790",
-          "display_name": "Composite material",
-          "level": 1,
-          "score": 0.18205201625823975
-        },
-        {
-          "id": "https://openalex.org/C41625074",
-          "wikidata": "https://www.wikidata.org/wiki/Q176088",
-          "display_name": "Membrane",
-          "level": 2,
-          "score": 0.16972440481185913
-        },
-        {
-          "id": "https://openalex.org/C521977710",
-          "wikidata": "https://www.wikidata.org/wiki/Q81163",
-          "display_name": "Polymer",
-          "level": 2,
-          "score": 0.14291003346443176
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C55493867",
-          "wikidata": "https://www.wikidata.org/wiki/Q7094",
-          "display_name": "Biochemistry",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 3,
-      "locations": [
-        {
-          "id": "doi:10.1039/d1nr07593d",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
-          "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
-          "source": {
-            "id": "https://openalex.org/S23181512",
-            "display_name": "Nanoscale",
-            "issn_l": "2040-3364",
-            "issn": [
-              "2040-3364",
-              "2040-3372"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320556",
-            "host_organization_name": "Royal Society of Chemistry",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320556"
-            ],
-            "host_organization_lineage_names": [
-              "Royal Society of Chemistry"
-            ],
-            "type": "journal"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Nanoscale",
-          "raw_type": "journal-article"
-        },
-        {
-          "id": "pmid:35103279",
-          "is_oa": false,
-          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/35103279",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306525036",
-            "display_name": "PubMed",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Nanoscale",
-          "raw_type": null
-        },
-        {
-          "id": "pmh:oai:repository.kaust.edu.sa:10754/675458",
-          "is_oa": true,
-          "landing_page_url": "http://hdl.handle.net/10754/675458",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401596",
-            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I71920554",
-            "host_organization_name": "King Abdullah University of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I71920554"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "Article"
-        }
-      ],
-      "best_oa_location": {
-        "id": "doi:10.1039/d1nr07593d",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.1039/d1nr07593d",
-        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2022/nr/d1nr07593d",
-        "source": {
-          "id": "https://openalex.org/S23181512",
-          "display_name": "Nanoscale",
-          "issn_l": "2040-3364",
-          "issn": [
-            "2040-3364",
-            "2040-3372"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320556",
-          "host_organization_name": "Royal Society of Chemistry",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320556"
-          ],
-          "host_organization_lineage_names": [
-            "Royal Society of Chemistry"
-          ],
-          "type": "journal"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Nanoscale",
-        "raw_type": "journal-article"
-      },
-      "sustainable_development_goals": [],
-      "awards": [
-        {
-          "id": "https://openalex.org/G90098195",
-          "display_name": null,
-          "funder_award_id": "EP/T022213",
-          "funder_id": "https://openalex.org/F4320334627",
-          "funder_display_name": "Engineering and Physical Sciences Research Council"
-        }
-      ],
-      "funders": [
-        {
-          "id": "https://openalex.org/F4320322320",
-          "display_name": "King Abdullah University of Science and Technology",
-          "ror": "https://ror.org/01q3tbs38"
-        },
-        {
-          "id": "https://openalex.org/F4320334627",
-          "display_name": "Engineering and Physical Sciences Research Council",
-          "ror": "https://ror.org/0439y7842"
-        }
-      ],
-      "has_content": {
-        "grobid_xml": true,
-        "pdf": true
-      },
-      "content_urls": {
-        "pdf": "https://content.openalex.org/works/W4206338123.pdf",
-        "grobid_xml": "https://content.openalex.org/works/W4206338123.grobid-xml"
-      },
-      "referenced_works_count": 17,
-      "referenced_works": [
-        "https://openalex.org/W3081041636",
-        "https://openalex.org/W4211168914",
-        "https://openalex.org/W2615404488",
-        "https://openalex.org/W2911698871",
-        "https://openalex.org/W3018816809",
-        "https://openalex.org/W2935426584",
-        "https://openalex.org/W3195643001",
-        "https://openalex.org/W2814654128",
-        "https://openalex.org/W3001218623",
-        "https://openalex.org/W3102726748",
-        "https://openalex.org/W3127822678",
-        "https://openalex.org/W2009712659",
-        "https://openalex.org/W1994692711",
-        "https://openalex.org/W2059935405",
-        "https://openalex.org/W2143730683",
-        "https://openalex.org/W2895536573",
-        "https://openalex.org/W1946344399"
-      ],
-      "related_works": [
-        "https://openalex.org/W2033888490",
-        "https://openalex.org/W2064708536",
-        "https://openalex.org/W2078883532",
-        "https://openalex.org/W1969513174",
-        "https://openalex.org/W2952788390",
-        "https://openalex.org/W2079810534",
-        "https://openalex.org/W2060919191",
-        "https://openalex.org/W2109836753",
-        "https://openalex.org/W2054086473",
-        "https://openalex.org/W1985576670"
-      ],
-      "abstract_inverted_index": {
-        "2": [
-          22,
-          24,
-          29
-        ],
-        "4": [
-          27
-        ],
-        "W-shaped": [
-          0
-        ],
-        "diamines": [
-          1
-        ],
-        "prepared": [
-          2
-        ],
-        "by": [
-          3
-        ],
-        "catalytic": [
-          4
-        ],
-        "arene–norbornene": [
-          5
-        ],
-        "annulation": [
-          6
-        ],
-        "and": [
-          7,
-          25
-        ],
-        "their": [
-          8
-        ],
-        "employment": [
-          9
-        ],
-        "in": [
-          10
-        ],
-        "the": [
-          11
-        ],
-        "synthesis": [
-          12
-        ],
-        "of": [
-          13
-        ],
-        "novel": [
-          14
-        ],
-        "β-ketoenamine-linked": [
-          15
-        ],
-        "norbornane-based": [
-          16
-        ],
-        "covalent": [
-          17
-        ],
-        "organic": [
-          18
-        ],
-        "frameworks": [
-          19
-        ],
-        "for": [
-          20
-        ],
-        "CO": [
-          21
-        ],
-        "/N": [
-          23,
-          28
-        ],
-        "CH": [
-          26
-        ],
-        "separation.": [
-          30
-        ]
-      },
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 5
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 13
-        },
-        {
-          "year": 2023,
-          "cited_by_count": 14
-        },
-        {
-          "year": 2022,
-          "cited_by_count": 10
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
@@ -29200,7 +29697,7 @@
       "has_fulltext": false,
       "cited_by_count": 37,
       "citation_normalized_percentile": {
-        "value": 0.81608237,
+        "value": 0.81609646,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30349,7 +30846,7 @@
       "has_fulltext": true,
       "cited_by_count": 29,
       "citation_normalized_percentile": {
-        "value": 0.83826113,
+        "value": 0.83831313,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31010,7 +31507,7 @@
       "has_fulltext": false,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.85273272,
+        "value": 0.85277313,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31629,9 +32126,9 @@
       "has_fulltext": false,
       "cited_by_count": 26,
       "citation_normalized_percentile": {
-        "value": 0.89500895,
+        "value": 0.89494094,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 98,
@@ -32107,11 +32604,11 @@
         "https://openalex.org/W2322098653",
         "https://openalex.org/W2903712533",
         "https://openalex.org/W6800780374",
-        "https://openalex.org/W4281746481",
+        "https://openalex.org/W3082788194",
+        "https://openalex.org/W3123597704",
         "https://openalex.org/W2212997086",
         "https://openalex.org/W3194573377",
-        "https://openalex.org/W3082788194",
-        "https://openalex.org/W3123597704"
+        "https://openalex.org/W4281746481"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -32614,7 +33111,7 @@
       "has_fulltext": true,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.8813175,
+        "value": 0.88131284,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33996,7 +34493,7 @@
       "has_fulltext": true,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.81246965,
+        "value": 0.81245505,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34310,8 +34807,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.5799999833106995
         }
       ],
@@ -34674,7 +35171,7 @@
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.81971526,
+        "value": 0.81969201,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35306,9 +35803,9 @@
       "has_fulltext": false,
       "cited_by_count": 19,
       "citation_normalized_percentile": {
-        "value": 0.8583562,
+        "value": 0.8576511,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 94,
@@ -35787,9 +36284,9 @@
         "https://openalex.org/W4210327135",
         "https://openalex.org/W4237850927",
         "https://openalex.org/W4235609054",
+        "https://openalex.org/W2746734286",
         "https://openalex.org/W4283388329",
-        "https://openalex.org/W2507915110",
-        "https://openalex.org/W2746734286"
+        "https://openalex.org/W2507915110"
       ],
       "related_works": [
         "https://openalex.org/W2391949068",
@@ -36187,7 +36684,7 @@
       "has_fulltext": false,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.7502043,
+        "value": 0.75011922,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -36606,8 +37103,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.8899999856948853
         }
       ],
@@ -37032,7 +37529,7 @@
       "has_fulltext": false,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.84528457,
+        "value": 0.84445091,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37386,8 +37883,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.8500000238418579
         }
       ],
@@ -37480,18 +37977,18 @@
         "https://openalex.org/W2098518300",
         "https://openalex.org/W1979803688",
         "https://openalex.org/W3203696436",
-        "https://openalex.org/W2071006475",
-        "https://openalex.org/W2087872813",
-        "https://openalex.org/W2088137012",
-        "https://openalex.org/W2112066001",
-        "https://openalex.org/W2118061493",
-        "https://openalex.org/W2003217107",
-        "https://openalex.org/W2942815141",
         "https://openalex.org/W4210889492",
         "https://openalex.org/W4214493927",
         "https://openalex.org/W4281746481",
-        "https://openalex.org/W3033439517",
-        "https://openalex.org/W1977538318"
+        "https://openalex.org/W2071006475",
+        "https://openalex.org/W2087872813",
+        "https://openalex.org/W2088137012",
+        "https://openalex.org/W2003217107",
+        "https://openalex.org/W2112066001",
+        "https://openalex.org/W2118061493",
+        "https://openalex.org/W2942815141",
+        "https://openalex.org/W1977538318",
+        "https://openalex.org/W3033439517"
       ],
       "related_works": [
         "https://openalex.org/W2071100647",
@@ -37513,491 +38010,6 @@
         },
         {
           "year": 2024,
-          "cited_by_count": 8
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W4401539780",
-      "doi": "https://doi.org/10.1016/j.seppur.2024.129189",
-      "title": "Electrospun nanofibrous membranes based on fluorine-free polyimide for swift oil spill cleanup and emulsion separation",
-      "display_name": "Electrospun nanofibrous membranes based on fluorine-free polyimide for swift oil spill cleanup and emulsion separation",
-      "publication_year": 2024,
-      "publication_date": "2024-08-13",
-      "ids": {
-        "openalex": "https://openalex.org/W4401539780",
-        "doi": "https://doi.org/10.1016/j.seppur.2024.129189"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.seppur.2024.129189",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.seppur.2024.129189",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S69753523",
-          "display_name": "Separation and Purification Technology",
-          "issn_l": "1383-5866",
-          "issn": [
-            "1383-5866",
-            "1873-3794"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [
-            "Elsevier BV"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Separation and Purification Technology",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5075383432",
-            "display_name": "Salha Alharthi",
-            "orcid": "https://orcid.org/0000-0003-3286-3524"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": true,
-          "raw_author_name": "Salha N. Alharthi",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5083774843",
-            "display_name": "Mahmoud A. Abdulhamid",
-            "orcid": "https://orcid.org/0000-0002-6630-3958"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
-          "raw_author_name": "Mahmoud A. Abdulhamid",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 0,
-      "institutions_distinct_count": 2,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5075383432"
-      ],
-      "corresponding_institution_ids": [],
-      "apc_list": {
-        "value": 3680,
-        "currency": "USD",
-        "value_usd": 3680
-      },
-      "apc_paid": null,
-      "fwci": 2.400315,
-      "has_fulltext": false,
-      "cited_by_count": 8,
-      "citation_normalized_percentile": {
-        "value": 0.82731786,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
-      "cited_by_percentile_year": {
-        "min": 98,
-        "max": 99
-      },
-      "biblio": {
-        "volume": "354",
-        "issue": null,
-        "first_page": "129189",
-        "last_page": "129189"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10313",
-        "display_name": "Surface Modification and Superhydrophobicity",
-        "score": 0.9991999864578247,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2508",
-          "display_name": "Surfaces, Coatings and Films"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10313",
-          "display_name": "Surface Modification and Superhydrophobicity",
-          "score": 0.9991999864578247,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2508",
-            "display_name": "Surfaces, Coatings and Films"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12776",
-          "display_name": "Electrohydrodynamics and Fluid Dynamics",
-          "score": 0.9821000099182129,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2208",
-            "display_name": "Electrical and Electronic Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10729",
-          "display_name": "Electrospun Nanofibers in Biomedical Applications",
-          "score": 0.9663000106811523,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2502",
-            "display_name": "Biomaterials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/emulsion",
-          "display_name": "Emulsion",
-          "score": 0.8018518686294556
-        },
-        {
-          "id": "https://openalex.org/keywords/membrane",
-          "display_name": "Membrane",
-          "score": 0.7093566656112671
-        },
-        {
-          "id": "https://openalex.org/keywords/polyimide",
-          "display_name": "Polyimide",
-          "score": 0.6470744013786316
-        },
-        {
-          "id": "https://openalex.org/keywords/swift",
-          "display_name": "Swift",
-          "score": 0.5408144593238831
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-engineering",
-          "display_name": "Chemical engineering",
-          "score": 0.5183471441268921
-        },
-        {
-          "id": "https://openalex.org/keywords/oil-spill",
-          "display_name": "Oil spill",
-          "score": 0.4920472800731659
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.4648069143295288
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.32354602217674255
-        },
-        {
-          "id": "https://openalex.org/keywords/petroleum-engineering",
-          "display_name": "Petroleum engineering",
-          "score": 0.23754605650901794
-        },
-        {
-          "id": "https://openalex.org/keywords/composite-material",
-          "display_name": "Composite material",
-          "score": 0.22447222471237183
-        },
-        {
-          "id": "https://openalex.org/keywords/layer",
-          "display_name": "Layer (electronics)",
-          "score": 0.1611003577709198
-        },
-        {
-          "id": "https://openalex.org/keywords/engineering",
-          "display_name": "Engineering",
-          "score": 0.14543020725250244
-        },
-        {
-          "id": "https://openalex.org/keywords/computer-science",
-          "display_name": "Computer science",
-          "score": 0.08845064043998718
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2778123984",
-          "wikidata": "https://www.wikidata.org/wiki/Q187634",
-          "display_name": "Emulsion",
-          "level": 2,
-          "score": 0.8018518686294556
-        },
-        {
-          "id": "https://openalex.org/C41625074",
-          "wikidata": "https://www.wikidata.org/wiki/Q176088",
-          "display_name": "Membrane",
-          "level": 2,
-          "score": 0.7093566656112671
-        },
-        {
-          "id": "https://openalex.org/C2780965675",
-          "wikidata": "https://www.wikidata.org/wiki/Q145958",
-          "display_name": "Polyimide",
-          "level": 3,
-          "score": 0.6470744013786316
-        },
-        {
-          "id": "https://openalex.org/C116188536",
-          "wikidata": "https://www.wikidata.org/wiki/Q17118377",
-          "display_name": "Swift",
-          "level": 2,
-          "score": 0.5408144593238831
-        },
-        {
-          "id": "https://openalex.org/C42360764",
-          "wikidata": "https://www.wikidata.org/wiki/Q83588",
-          "display_name": "Chemical engineering",
-          "level": 1,
-          "score": 0.5183471441268921
-        },
-        {
-          "id": "https://openalex.org/C2985668151",
-          "wikidata": "https://www.wikidata.org/wiki/Q220187",
-          "display_name": "Oil spill",
-          "level": 2,
-          "score": 0.4920472800731659
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.4648069143295288
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.32354602217674255
-        },
-        {
-          "id": "https://openalex.org/C78762247",
-          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
-          "display_name": "Petroleum engineering",
-          "level": 1,
-          "score": 0.23754605650901794
-        },
-        {
-          "id": "https://openalex.org/C159985019",
-          "wikidata": "https://www.wikidata.org/wiki/Q181790",
-          "display_name": "Composite material",
-          "level": 1,
-          "score": 0.22447222471237183
-        },
-        {
-          "id": "https://openalex.org/C2779227376",
-          "wikidata": "https://www.wikidata.org/wiki/Q6505497",
-          "display_name": "Layer (electronics)",
-          "level": 2,
-          "score": 0.1611003577709198
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0.14543020725250244
-        },
-        {
-          "id": "https://openalex.org/C41008148",
-          "wikidata": "https://www.wikidata.org/wiki/Q21198",
-          "display_name": "Computer science",
-          "level": 0,
-          "score": 0.08845064043998718
-        },
-        {
-          "id": "https://openalex.org/C199360897",
-          "wikidata": "https://www.wikidata.org/wiki/Q9143",
-          "display_name": "Programming language",
-          "level": 1,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C55493867",
-          "wikidata": "https://www.wikidata.org/wiki/Q7094",
-          "display_name": "Biochemistry",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.seppur.2024.129189",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.seppur.2024.129189",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S69753523",
-            "display_name": "Separation and Purification Technology",
-            "issn_l": "1383-5866",
-            "issn": [
-              "1383-5866",
-              "1873-3794"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [
-              "Elsevier BV"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Separation and Purification Technology",
-          "raw_type": "journal-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [
-        {
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure",
-          "score": 0.5
-        }
-      ],
-      "awards": [
-        {
-          "id": "https://openalex.org/G1142703846",
-          "display_name": null,
-          "funder_award_id": "INMW2418",
-          "funder_id": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals"
-        }
-      ],
-      "funders": [
-        {
-          "id": "https://openalex.org/F4320322323",
-          "display_name": "King Fahd University of Petroleum and Minerals",
-          "ror": "https://ror.org/03yez3163"
-        }
-      ],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 29,
-      "referenced_works": [
-        "https://openalex.org/W2935798331",
-        "https://openalex.org/W4385270121",
-        "https://openalex.org/W2791030274",
-        "https://openalex.org/W1968750471",
-        "https://openalex.org/W2330789054",
-        "https://openalex.org/W4388348017",
-        "https://openalex.org/W3127905803",
-        "https://openalex.org/W4290759739",
-        "https://openalex.org/W2112995304",
-        "https://openalex.org/W4367670084",
-        "https://openalex.org/W2410753575",
-        "https://openalex.org/W2126889964",
-        "https://openalex.org/W2625020438",
-        "https://openalex.org/W4306412556",
-        "https://openalex.org/W3010148486",
-        "https://openalex.org/W4362451425",
-        "https://openalex.org/W4383162723",
-        "https://openalex.org/W4383311782",
-        "https://openalex.org/W4308842480",
-        "https://openalex.org/W6860404241",
-        "https://openalex.org/W4283693127",
-        "https://openalex.org/W4386381630",
-        "https://openalex.org/W2609042040",
-        "https://openalex.org/W3011312093",
-        "https://openalex.org/W4309642908",
-        "https://openalex.org/W4385199599",
-        "https://openalex.org/W2889382977",
-        "https://openalex.org/W2324477470",
-        "https://openalex.org/W4390650024"
-      ],
-      "related_works": [
-        "https://openalex.org/W3198734187",
-        "https://openalex.org/W3175001965",
-        "https://openalex.org/W2350024083",
-        "https://openalex.org/W4250183494",
-        "https://openalex.org/W3130985054",
-        "https://openalex.org/W608019500",
-        "https://openalex.org/W2478736918",
-        "https://openalex.org/W3130134152",
-        "https://openalex.org/W1968928660",
-        "https://openalex.org/W3198661659"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2025,
           "cited_by_count": 8
         }
       ],
@@ -38157,7 +38169,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.80686695,
+        "value": 0.80528363,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -38792,8 +38804,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8700000047683716
         }
       ],
@@ -39177,7 +39189,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.60661861,
+        "value": 0.60651538,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -39790,9 +39802,9 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.85082064,
+        "value": 0.84949576,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 94,
@@ -40421,7 +40433,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.70103776,
+        "value": 0.69899882,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41436,7 +41448,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.85082296,
+        "value": 0.85001099,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41910,8 +41922,8 @@
         "https://openalex.org/W2115923359",
         "https://openalex.org/W2471517024",
         "https://openalex.org/W4390937195",
-        "https://openalex.org/W4232395940",
-        "https://openalex.org/W4317929998"
+        "https://openalex.org/W4317929998",
+        "https://openalex.org/W4232395940"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -42123,16 +42135,6 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            },
-            {
               "id": "https://openalex.org/I4210118538",
               "display_name": "University of Petroleum",
               "ror": "https://ror.org/02em1tr51",
@@ -42140,6 +42142,16 @@
               "type": "education",
               "lineage": [
                 "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
               ]
             }
           ],
@@ -42214,8 +42226,8 @@
         "https://openalex.org/A5018752596"
       ],
       "corresponding_institution_ids": [
-        "https://openalex.org/I134085113",
-        "https://openalex.org/I4210118538"
+        "https://openalex.org/I4210118538",
+        "https://openalex.org/I134085113"
       ],
       "apc_list": {
         "value": 3680,
@@ -42227,7 +42239,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.94279863,
+        "value": 0.94207047,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -42583,8 +42595,8 @@
         "https://openalex.org/W2901717022",
         "https://openalex.org/W2098518300",
         "https://openalex.org/W3042432484",
-        "https://openalex.org/W2081865357",
-        "https://openalex.org/W4200018785"
+        "https://openalex.org/W4200018785",
+        "https://openalex.org/W2081865357"
       ],
       "related_works": [
         "https://openalex.org/W2071100647",
@@ -42793,7 +42805,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.91391503,
+        "value": 0.91301935,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -43083,8 +43095,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.7699999809265137
         }
       ],
@@ -43162,12 +43174,12 @@
         "https://openalex.org/W6859530637",
         "https://openalex.org/W3216574825",
         "https://openalex.org/W6852481692",
-        "https://openalex.org/W3111340615",
-        "https://openalex.org/W4200440798",
-        "https://openalex.org/W4281746481",
         "https://openalex.org/W4389289230",
         "https://openalex.org/W4372202061",
-        "https://openalex.org/W4385199599"
+        "https://openalex.org/W4385199599",
+        "https://openalex.org/W4200440798",
+        "https://openalex.org/W4281746481",
+        "https://openalex.org/W3111340615"
       ],
       "related_works": [
         "https://openalex.org/W2101370026",
@@ -43445,7 +43457,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.94523449,
+        "value": 0.94555354,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -43787,8 +43799,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.550000011920929
         }
       ],
@@ -44157,7 +44169,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.87158551,
+        "value": 0.86893996,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44571,8 +44583,8 @@
         "https://openalex.org/W2014781636",
         "https://openalex.org/W4309642908",
         "https://openalex.org/W2685747396",
-        "https://openalex.org/W4390650024",
-        "https://openalex.org/W2984943425"
+        "https://openalex.org/W2984943425",
+        "https://openalex.org/W4390650024"
       ],
       "related_works": [
         "https://openalex.org/W2356581700",
@@ -44873,7 +44885,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.57321087,
+        "value": 0.57166309,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46113,7 +46125,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.65115427,
+        "value": 0.64895566,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46372,9 +46384,9 @@
         "https://openalex.org/W4388208530",
         "https://openalex.org/W1982918308",
         "https://openalex.org/W3109420571",
+        "https://openalex.org/W2050271125",
         "https://openalex.org/W2340323618",
-        "https://openalex.org/W2503348119",
-        "https://openalex.org/W2050271125"
+        "https://openalex.org/W2503348119"
       ],
       "related_works": [
         "https://openalex.org/W2952265190",
@@ -46519,9 +46531,9 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.83544608,
+        "value": 0.83471008,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -47183,9 +47195,9 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.86071566,
+        "value": 0.85983646,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -48247,7 +48259,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.77195587,
+        "value": 0.77089393,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -48624,8 +48636,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.4099999964237213
         }
       ],
@@ -48684,8 +48696,8 @@
         "https://openalex.org/W4405580797",
         "https://openalex.org/W4388626187",
         "https://openalex.org/W2413550685",
-        "https://openalex.org/W71574638",
-        "https://openalex.org/W2546496017"
+        "https://openalex.org/W2546496017",
+        "https://openalex.org/W71574638"
       ],
       "related_works": [
         "https://openalex.org/W2353834439",
@@ -48980,7 +48992,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.37001327,
+        "value": 0.36965123,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -49271,8 +49283,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.5699999928474426
         }
       ],
@@ -49815,9 +49827,9 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.8118003,
+        "value": 0.81125227,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 90,
@@ -50694,7 +50706,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.44341204,
+        "value": 0.44333324,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51085,8 +51097,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.8299999833106995
         }
       ],
@@ -51712,12 +51724,12 @@
         "https://openalex.org/W3049354667",
         "https://openalex.org/W3123597704",
         "https://openalex.org/W2965389711",
+        "https://openalex.org/W2901027316",
         "https://openalex.org/W3197361810",
         "https://openalex.org/W4245844851",
-        "https://openalex.org/W2986164803",
         "https://openalex.org/W2769058568",
         "https://openalex.org/W2761330267",
-        "https://openalex.org/W2901027316"
+        "https://openalex.org/W2986164803"
       ],
       "related_works": [
         "https://openalex.org/W2753844621",
@@ -52204,7 +52216,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.20331475,
+        "value": 0.20321521,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -55718,7 +55730,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.00968809,
+        "value": 0.00957255,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56353,7 +56365,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.23095421,
+        "value": 0.23059163,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56603,8 +56615,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.550000011920929
         }
       ],
@@ -57361,8 +57373,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/11",
           "display_name": "Sustainable cities and communities",
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.46000000834465027
         }
       ],
@@ -58034,7 +58046,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.25652367,
+        "value": 0.25608188,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -58507,7 +58519,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.18796488,
+        "value": 0.18723322,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -58866,11 +58878,11 @@
         "https://openalex.org/W2901181497",
         "https://openalex.org/W2548816442",
         "https://openalex.org/W3131031138",
+        "https://openalex.org/W4387035678",
+        "https://openalex.org/W4312450832",
         "https://openalex.org/W3035095544",
         "https://openalex.org/W3016551171",
-        "https://openalex.org/W4403558926",
-        "https://openalex.org/W4387035678",
-        "https://openalex.org/W4312450832"
+        "https://openalex.org/W4403558926"
       ],
       "related_works": [
         "https://openalex.org/W3155184672",
@@ -59153,7 +59165,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.29245758,
+        "value": 0.29137994,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59562,18 +59574,18 @@
         "https://openalex.org/W3130409852",
         "https://openalex.org/W2749888980",
         "https://openalex.org/W2978132683",
-        "https://openalex.org/W4403360243",
-        "https://openalex.org/W4389817962",
-        "https://openalex.org/W4388049796",
         "https://openalex.org/W3021103231",
         "https://openalex.org/W2991235564",
         "https://openalex.org/W2942572991",
-        "https://openalex.org/W4384937660",
-        "https://openalex.org/W4376651665",
-        "https://openalex.org/W4386408910",
+        "https://openalex.org/W4403360243",
+        "https://openalex.org/W4389817962",
+        "https://openalex.org/W4388049796",
         "https://openalex.org/W3135072750",
         "https://openalex.org/W3098695356",
-        "https://openalex.org/W3203627555"
+        "https://openalex.org/W3203627555",
+        "https://openalex.org/W4384937660",
+        "https://openalex.org/W4376651665",
+        "https://openalex.org/W4386408910"
       ],
       "related_works": [
         "https://openalex.org/W2120330316",
@@ -60459,7 +60471,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.34899329,
+        "value": 0.28650138,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -60704,8 +60716,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.4727831780910492
         }
       ],

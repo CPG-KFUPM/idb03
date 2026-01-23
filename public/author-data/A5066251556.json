@@ -932,8 +932,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 93,
@@ -1027,10 +1027,10 @@
         "https://openalex.org/W1992003080",
         "https://openalex.org/W6672459696",
         "https://openalex.org/W2724872305",
+        "https://openalex.org/W2179803555",
         "https://openalex.org/W3165595503",
         "https://openalex.org/W2067573398",
-        "https://openalex.org/W2088101459",
-        "https://openalex.org/W2179803555"
+        "https://openalex.org/W2088101459"
       ],
       "related_works": [
         "https://openalex.org/W4295358311",
@@ -1324,7 +1324,7 @@
       "has_fulltext": false,
       "cited_by_count": 77,
       "citation_normalized_percentile": {
-        "value": 0.98625355,
+        "value": 0.98625015,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1710,9 +1710,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5299999713897705,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5299999713897705
         }
       ],
       "awards": [
@@ -1732,8 +1732,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 296,
@@ -1953,19 +1953,52 @@
         "https://openalex.org/W2054858840",
         "https://openalex.org/W3042744836",
         "https://openalex.org/W2954164956",
-        "https://openalex.org/W2145152709",
-        "https://openalex.org/W2143961511",
-        "https://openalex.org/W2140770360",
-        "https://openalex.org/W2120553016",
         "https://openalex.org/W2168991573",
+        "https://openalex.org/W2021059415",
+        "https://openalex.org/W2032826746",
+        "https://openalex.org/W2025071891",
         "https://openalex.org/W2058259513",
         "https://openalex.org/W2043824962",
         "https://openalex.org/W2059490934",
         "https://openalex.org/W2050875167",
+        "https://openalex.org/W2016120086",
+        "https://openalex.org/W2032668467",
+        "https://openalex.org/W2014727634",
+        "https://openalex.org/W2022415651",
+        "https://openalex.org/W2809812419",
+        "https://openalex.org/W2493494453",
+        "https://openalex.org/W2481304745",
+        "https://openalex.org/W2145152709",
+        "https://openalex.org/W2143961511",
+        "https://openalex.org/W2140770360",
+        "https://openalex.org/W2120553016",
+        "https://openalex.org/W2078767966",
+        "https://openalex.org/W2073699489",
+        "https://openalex.org/W2090823066",
+        "https://openalex.org/W2083462289",
+        "https://openalex.org/W2082698361",
+        "https://openalex.org/W2074893491",
+        "https://openalex.org/W1965460189",
+        "https://openalex.org/W1967148304",
+        "https://openalex.org/W1949126102",
+        "https://openalex.org/W1981445659",
+        "https://openalex.org/W1960403641",
+        "https://openalex.org/W1974388531",
+        "https://openalex.org/W1971365530",
+        "https://openalex.org/W3038550217",
+        "https://openalex.org/W2985498837",
         "https://openalex.org/W2587674657",
         "https://openalex.org/W2557171265",
         "https://openalex.org/W2733927907",
         "https://openalex.org/W2792455438",
+        "https://openalex.org/W2277410122",
+        "https://openalex.org/W2315513509",
+        "https://openalex.org/W2171645066",
+        "https://openalex.org/W2268336214",
+        "https://openalex.org/W2237166754",
+        "https://openalex.org/W2191019766",
+        "https://openalex.org/W2297751214",
+        "https://openalex.org/W2236461606",
         "https://openalex.org/W1479909105",
         "https://openalex.org/W1568589027",
         "https://openalex.org/W1628025864",
@@ -1987,53 +2020,20 @@
         "https://openalex.org/W608753324",
         "https://openalex.org/W630236944",
         "https://openalex.org/W1228777616",
-        "https://openalex.org/W2493494453",
-        "https://openalex.org/W2481304745",
+        "https://openalex.org/W3044656254",
+        "https://openalex.org/W3112392269",
+        "https://openalex.org/W3100191618",
+        "https://openalex.org/W3108997891",
         "https://openalex.org/W3217746387",
         "https://openalex.org/W4231140373",
         "https://openalex.org/W4210448458",
         "https://openalex.org/W4241463722",
         "https://openalex.org/W4230292367",
         "https://openalex.org/W4234517693",
-        "https://openalex.org/W3044656254",
-        "https://openalex.org/W3112392269",
-        "https://openalex.org/W3100191618",
-        "https://openalex.org/W3108997891",
-        "https://openalex.org/W2277410122",
-        "https://openalex.org/W2315513509",
-        "https://openalex.org/W2171645066",
-        "https://openalex.org/W2268336214",
-        "https://openalex.org/W2237166754",
-        "https://openalex.org/W2191019766",
-        "https://openalex.org/W2297751214",
-        "https://openalex.org/W2236461606",
-        "https://openalex.org/W2021059415",
-        "https://openalex.org/W2032826746",
-        "https://openalex.org/W2025071891",
-        "https://openalex.org/W2809812419",
-        "https://openalex.org/W3038550217",
-        "https://openalex.org/W2985498837",
-        "https://openalex.org/W2016120086",
-        "https://openalex.org/W2032668467",
-        "https://openalex.org/W2014727634",
-        "https://openalex.org/W2022415651",
-        "https://openalex.org/W2078767966",
-        "https://openalex.org/W2073699489",
-        "https://openalex.org/W2090823066",
-        "https://openalex.org/W2083462289",
-        "https://openalex.org/W2082698361",
-        "https://openalex.org/W2074893491",
         "https://openalex.org/W1992154278",
         "https://openalex.org/W2005590354",
         "https://openalex.org/W2002795408",
-        "https://openalex.org/W2004477508",
-        "https://openalex.org/W1965460189",
-        "https://openalex.org/W1967148304",
-        "https://openalex.org/W1949126102",
-        "https://openalex.org/W1981445659",
-        "https://openalex.org/W1960403641",
-        "https://openalex.org/W1974388531",
-        "https://openalex.org/W1971365530"
+        "https://openalex.org/W2004477508"
       ],
       "related_works": [
         "https://openalex.org/W2091944272",
@@ -2439,11 +2439,11 @@
         "value_usd": 2650
       },
       "apc_paid": null,
-      "fwci": 4.86434978,
+      "fwci": 4.95612996,
       "has_fulltext": false,
-      "cited_by_count": 53,
+      "cited_by_count": 54,
       "citation_normalized_percentile": {
-        "value": 0.94238489,
+        "value": 0.94380829,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2726,16 +2726,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.41999998688697815,
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.41999998688697815
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 242,
@@ -2975,12 +2975,12 @@
         "https://openalex.org/W613569831",
         "https://openalex.org/W2013293910",
         "https://openalex.org/W2012985206",
-        "https://openalex.org/W2485076753",
-        "https://openalex.org/W4200053620",
-        "https://openalex.org/W2099982701",
         "https://openalex.org/W3163905182",
         "https://openalex.org/W3202820722",
         "https://openalex.org/W3209762752",
+        "https://openalex.org/W2099982701",
+        "https://openalex.org/W4200053620",
+        "https://openalex.org/W2485076753",
         "https://openalex.org/W4367333326"
       ],
       "related_works": [
@@ -2997,6 +2997,10 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
         {
           "year": 2025,
           "cited_by_count": 26
@@ -3310,7 +3314,7 @@
       "has_fulltext": false,
       "cited_by_count": 52,
       "citation_normalized_percentile": {
-        "value": 0.94060244,
+        "value": 0.94058872,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3765,16 +3769,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8600000143051147,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.8600000143051147
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 107,
@@ -3865,27 +3869,27 @@
         "https://openalex.org/W2315072662",
         "https://openalex.org/W2724872305",
         "https://openalex.org/W2989724788",
-        "https://openalex.org/W2106624089",
-        "https://openalex.org/W2101751875",
+        "https://openalex.org/W1203331884",
         "https://openalex.org/W2996727916",
         "https://openalex.org/W2000073099",
         "https://openalex.org/W1985674322",
         "https://openalex.org/W1994970264",
         "https://openalex.org/W2005421846",
-        "https://openalex.org/W2227454215",
+        "https://openalex.org/W1965100167",
         "https://openalex.org/W2756290699",
         "https://openalex.org/W2767920145",
         "https://openalex.org/W2787366898",
         "https://openalex.org/W2747649650",
         "https://openalex.org/W2605399045",
-        "https://openalex.org/W1203331884",
-        "https://openalex.org/W2028252764",
-        "https://openalex.org/W2010655693",
-        "https://openalex.org/W2040186355",
-        "https://openalex.org/W1965100167",
         "https://openalex.org/W2083169253",
         "https://openalex.org/W2085114089",
-        "https://openalex.org/W2897282453"
+        "https://openalex.org/W2897282453",
+        "https://openalex.org/W2106624089",
+        "https://openalex.org/W2101751875",
+        "https://openalex.org/W2227454215",
+        "https://openalex.org/W2028252764",
+        "https://openalex.org/W2010655693",
+        "https://openalex.org/W2040186355"
       ],
       "related_works": [
         "https://openalex.org/W2004634237",
@@ -4405,7 +4409,7 @@
       "has_fulltext": false,
       "cited_by_count": 19,
       "citation_normalized_percentile": {
-        "value": 0.78323495,
+        "value": 0.78255224,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4788,9 +4792,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.41999998688697815,
           "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.41999998688697815
         }
       ],
       "awards": [],
@@ -4802,8 +4806,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 117,
@@ -5797,7 +5801,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.76418873,
+        "value": 0.76407762,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6297,9 +6301,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8399999737739563,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.8399999737739563
         }
       ],
       "awards": [
@@ -6319,8 +6323,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4311285904.pdf",
@@ -7196,7 +7200,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.76300645,
+        "value": 0.7629517,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7469,9 +7473,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7900000214576721,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.7900000214576721
         }
       ],
       "awards": [
@@ -7491,8 +7495,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 24,
@@ -7748,7 +7752,7 @@
       "has_fulltext": false,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.72595346,
+        "value": 0.72589139,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8214,16 +8218,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6399999856948853,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6399999856948853
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3016327829.pdf",
@@ -8974,7 +8978,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.78039667,
+        "value": 0.78034693,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9497,16 +9501,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8500000238418579,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8500000238418579
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3008854749.pdf",
@@ -10320,7 +10324,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.94018342,
+        "value": 0.93890223,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10660,8 +10664,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 34,
@@ -10713,535 +10717,7 @@
         "https://openalex.org/W2951332247",
         "https://openalex.org/W4404561996"
       ],
-      "abstract_inverted_index": {
-        "300": [
-          114
-        ],
-        "The": [
-          0,
-          64,
-          178
-        ],
-        "structural": [
-          1,
-          197
-        ],
-        "properties": [
-          2
-        ],
-        "of": [
-          3,
-          55,
-          183,
-          199
-        ],
-        "surfactants": [
-          4,
-          29,
-          70,
-          137,
-          201
-        ],
-        "are": [
-          5,
-          221
-        ],
-        "essential": [
-          6
-        ],
-        "for": [
-          7,
-          119,
-          174,
-          188,
-          202,
-          206
-        ],
-        "understanding": [
-          8
-        ],
-        "their": [
-          9,
-          117
-        ],
-        "behavior": [
-          10
-        ],
-        "and": [
-          11,
-          20,
-          33,
-          39,
-          45,
-          61,
-          82,
-          88,
-          129,
-          145,
-          211,
-          218
-        ],
-        "sustainability": [
-          12
-        ],
-        "under": [
-          13
-        ],
-        "extreme": [
-          14
-        ],
-        "conditions,": [
-          15
-        ],
-        "such": [
-          16
-        ],
-        "as": [
-          17
-        ],
-        "high": [
-          18,
-          106
-        ],
-        "temperatures": [
-          19,
-          90,
-          111
-        ],
-        "varying": [
-          21
-        ],
-        "salinities.": [
-          22
-        ],
-        "In": [
-          23
-        ],
-        "this": [
-          24
-        ],
-        "study,": [
-          25
-        ],
-        "four": [
-          26,
-          69
-        ],
-        "pyridinium-based": [
-          27
-        ],
-        "dicationic": [
-          28,
-          157,
-          200
-        ],
-        "with": [
-          30,
-          93,
-          109,
-          124,
-          138,
-          152,
-          159
-        ],
-        "different": [
-          31
-        ],
-        "hydrophilic": [
-          32,
-          139
-        ],
-        "hydrophobic": [
-          34,
-          153
-        ],
-        "spacer": [
-          35,
-          56,
-          162
-        ],
-        "groups": [
-          36,
-          57
-        ],
-        "were": [
-          37,
-          49
-        ],
-        "synthesized": [
-          38
-        ],
-        "structurally": [
-          40
-        ],
-        "characterized.": [
-          41
-        ],
-        "Thermogravimetric": [
-          42
-        ],
-        "analysis": [
-          43
-        ],
-        "(TGA)": [
-          44
-        ],
-        "surface": [
-          46,
-          62,
-          143,
-          180
-        ],
-        "tension": [
-          47,
-          128,
-          144,
-          181
-        ],
-        "measurements": [
-          48,
-          134
-        ],
-        "conducted": [
-          50
-        ],
-        "to": [
-          51,
-          113
-        ],
-        "investigate": [
-          52
-        ],
-        "the": [
-          53,
-          156,
-          164,
-          196
-        ],
-        "influence": [
-          54
-        ],
-        "on": [
-          58
-        ],
-        "thermal": [
-          59,
-          107,
-          216
-        ],
-        "stability": [
-          60
-        ],
-        "properties.": [
-          63
-        ],
-        "results": [
-          65,
-          104
-        ],
-        "demonstrated": [
-          66,
-          71
-        ],
-        "that": [
-          67,
-          136
-        ],
-        "all": [
-          68
-        ],
-        "remarkable": [
-          72
-        ],
-        "solubility": [
-          73
-        ],
-        "in": [
-          74
-        ],
-        "various": [
-          75
-        ],
-        "aqueous": [
-          76
-        ],
-        "environments-seawater": [
-          77
-        ],
-        "(SW),": [
-          78
-        ],
-        "deionized": [
-          79
-        ],
-        "water": [
-          80,
-          84
-        ],
-        "(DW),": [
-          81
-        ],
-        "formation": [
-          83,
-          149
-        ],
-        "(FW)-at": [
-          85
-        ],
-        "both": [
-          86
-        ],
-        "ambient": [
-          87
-        ],
-        "elevated": [
-          89
-        ],
-        "(90": [
-          91
-        ],
-        "°C),": [
-          92
-        ],
-        "no": [
-          94
-        ],
-        "phase": [
-          95
-        ],
-        "separation": [
-          96
-        ],
-        "or": [
-          97
-        ],
-        "cloudiness": [
-          98
-        ],
-        "observed": [
-          99
-        ],
-        "after": [
-          100
-        ],
-        "three": [
-          101
-        ],
-        "weeks.": [
-          102
-        ],
-        "TGA": [
-          103
-        ],
-        "revealed": [
-          105
-        ],
-        "stability,": [
-          108
-        ],
-        "decomposition": [
-          110
-        ],
-        "close": [
-          112
-        ],
-        "°C,": [
-          115
-        ],
-        "highlighting": [
-          116
-        ],
-        "robustness": [
-          118
-        ],
-        "applications": [
-          120,
-          207
-        ],
-        "requiring": [
-          121
-        ],
-        "sustainable": [
-          122,
-          203
-        ],
-        "materials": [
-          123
-        ],
-        "extended": [
-          125
-        ],
-        "lifespans.": [
-          126
-        ],
-        "Surface": [
-          127
-        ],
-        "critical": [
-          130
-        ],
-        "micelle": [
-          131,
-          148,
-          171
-        ],
-        "concentration": [
-          132
-        ],
-        "(CMC)": [
-          133
-        ],
-        "showed": [
-          135
-        ],
-        "spacers": [
-          140
-        ],
-        "achieved": [
-          141
-        ],
-        "lower": [
-          142
-        ],
-        "more": [
-          146
-        ],
-        "efficient": [
-          147,
-          175
-        ],
-        "than": [
-          150
-        ],
-        "those": [
-          151
-        ],
-        "spacers.": [
-          154
-        ],
-        "Notably,": [
-          155
-        ],
-        "surfactant": [
-          158
-        ],
-        "a": [
-          160,
-          168
-        ],
-        "hydroxy": [
-          161
-        ],
-        "exhibited": [
-          163
-        ],
-        "lowest": [
-          165,
-          179
-        ],
-        "CMC,": [
-          166
-        ],
-        "indicating": [
-          167
-        ],
-        "tightly": [
-          169
-        ],
-        "packed": [
-          170
-        ],
-        "structure,": [
-          172
-        ],
-        "advantageous": [
-          173
-        ],
-        "resource": [
-          176
-        ],
-        "utilization.": [
-          177
-        ],
-        "value": [
-          182
-        ],
-        "31.790": [
-          184
-        ],
-        "mNm<sup>-1</sup>": [
-          185
-        ],
-        "was": [
-          186
-        ],
-        "obtained": [
-          187
-        ],
-        "<b>GS-NH.</b>": [
-          189
-        ],
-        "These": [
-          190
-        ],
-        "findings": [
-          191
-        ],
-        "provide": [
-          192
-        ],
-        "valuable": [
-          193
-        ],
-        "insights": [
-          194
-        ],
-        "into": [
-          195
-        ],
-        "design": [
-          198
-        ],
-        "engineering,": [
-          204
-        ],
-        "particularly": [
-          205
-        ],
-        "like": [
-          208
-        ],
-        "CO<sub>2</sub>": [
-          209
-        ],
-        "storage": [
-          210
-        ],
-        "enhanced": [
-          212
-        ],
-        "oil": [
-          213
-        ],
-        "recovery,": [
-          214
-        ],
-        "where": [
-          215
-        ],
-        "resilience": [
-          217
-        ],
-        "salt": [
-          219
-        ],
-        "tolerance": [
-          220
-        ],
-        "critical.": [
-          222
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2025,
@@ -11437,7 +10913,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.59789398,
+        "value": 0.59782178,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11755,9 +11231,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5099999904632568,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5099999904632568
         }
       ],
       "awards": [],
@@ -11769,8 +11245,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 29,
@@ -12073,7 +11549,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.77455526,
+        "value": 0.77462058,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12326,8 +11802,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 19,
@@ -12349,8 +11825,8 @@
         "https://openalex.org/W2009627780",
         "https://openalex.org/W6764570587",
         "https://openalex.org/W2885705584",
-        "https://openalex.org/W2954000939",
-        "https://openalex.org/W2079107003"
+        "https://openalex.org/W2079107003",
+        "https://openalex.org/W2954000939"
       ],
       "related_works": [
         "https://openalex.org/W2365682719",
@@ -13287,7 +12763,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.54765841,
+        "value": 0.54685261,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13675,9 +13151,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5
         }
       ],
       "awards": [
@@ -13697,8 +13173,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 43,
@@ -14756,7 +14232,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.75209587,
+        "value": 0.75063194,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15013,16 +14489,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8700000047683716,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8700000047683716
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 41,
@@ -15789,7 +15265,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.6104641,
+        "value": 0.61048342,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16165,8 +15641,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -16211,16 +15687,16 @@
         "https://openalex.org/W1988805234",
         "https://openalex.org/W2052289610",
         "https://openalex.org/W1997292810",
-        "https://openalex.org/W2082097636",
-        "https://openalex.org/W2066552023",
-        "https://openalex.org/W1992392179",
+        "https://openalex.org/W2138735618",
+        "https://openalex.org/W2111503939",
+        "https://openalex.org/W2002887158",
         "https://openalex.org/W629479456",
         "https://openalex.org/W425359854",
         "https://openalex.org/W579236342",
-        "https://openalex.org/W2138735618",
-        "https://openalex.org/W2111503939",
+        "https://openalex.org/W2082097636",
+        "https://openalex.org/W2066552023",
         "https://openalex.org/W1539648212",
-        "https://openalex.org/W2002887158"
+        "https://openalex.org/W1992392179"
       ],
       "related_works": [
         "https://openalex.org/W2393220471",
@@ -16935,7 +16411,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.04847473,
+        "value": 0.04862157,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17256,16 +16732,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5099999904632568,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.5099999904632568
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 10,
@@ -17278,8 +16754,8 @@
         "https://openalex.org/W2108653113",
         "https://openalex.org/W2002513910",
         "https://openalex.org/W2026163717",
-        "https://openalex.org/W1973082125",
-        "https://openalex.org/W2089533408"
+        "https://openalex.org/W2089533408",
+        "https://openalex.org/W1973082125"
       ],
       "related_works": [
         "https://openalex.org/W2928547925",
@@ -18226,7 +17702,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.91299639,
+        "value": 0.91305916,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -18631,16 +18107,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.47999998927116394,
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.47999998927116394
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 78,
@@ -18720,8 +18196,8 @@
         "https://openalex.org/W3022672571",
         "https://openalex.org/W2159055832",
         "https://openalex.org/W2979051370",
-        "https://openalex.org/W2891957101",
         "https://openalex.org/W4243379057",
+        "https://openalex.org/W2891957101",
         "https://openalex.org/W3151941575"
       ],
       "related_works": [
@@ -19323,9 +18799,9 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.89610266,
+        "value": 0.89391497,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 95,
@@ -19756,8 +19232,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 157,
@@ -19913,12 +19389,12 @@
         "https://openalex.org/W3081763301",
         "https://openalex.org/W2776221960",
         "https://openalex.org/W2520435945",
+        "https://openalex.org/W4400049449",
         "https://openalex.org/W2478041043",
         "https://openalex.org/W1523931230",
-        "https://openalex.org/W4400049449",
-        "https://openalex.org/W2159352443",
         "https://openalex.org/W2125751590",
-        "https://openalex.org/W2100550886"
+        "https://openalex.org/W2100550886",
+        "https://openalex.org/W2159352443"
       ],
       "related_works": [
         "https://openalex.org/W2002226878",
@@ -20639,7 +20115,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.74382353,
+        "value": 0.74233369,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20946,9 +20422,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.47999998927116394,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.47999998927116394
         }
       ],
       "awards": [],
@@ -20965,8 +20441,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 48,
@@ -21683,16 +21159,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.75,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.75
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 53,
@@ -21742,14 +21218,14 @@
         "https://openalex.org/W2887672715",
         "https://openalex.org/W4289295576",
         "https://openalex.org/W4387702076",
-        "https://openalex.org/W615914851",
-        "https://openalex.org/W4252386302",
-        "https://openalex.org/W4237824037",
-        "https://openalex.org/W4309204218",
-        "https://openalex.org/W4387447198",
         "https://openalex.org/W2489252044",
         "https://openalex.org/W3119025646",
-        "https://openalex.org/W2009875006"
+        "https://openalex.org/W615914851",
+        "https://openalex.org/W2009875006",
+        "https://openalex.org/W4309204218",
+        "https://openalex.org/W4387447198",
+        "https://openalex.org/W4252386302",
+        "https://openalex.org/W4237824037"
       ],
       "related_works": [
         "https://openalex.org/W4232118530",
@@ -22791,7 +22267,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.60456807,
+        "value": 0.60446203,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23027,8 +22503,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 59,
@@ -23087,11 +22563,11 @@
         "https://openalex.org/W1971375609",
         "https://openalex.org/W2091390134",
         "https://openalex.org/W4211166235",
-        "https://openalex.org/W4308307413",
-        "https://openalex.org/W2564127968",
-        "https://openalex.org/W4242320431",
         "https://openalex.org/W1488821894",
-        "https://openalex.org/W63294479"
+        "https://openalex.org/W63294479",
+        "https://openalex.org/W4242320431",
+        "https://openalex.org/W2564127968",
+        "https://openalex.org/W4308307413"
       ],
       "related_works": [
         "https://openalex.org/W4387497383",
@@ -23577,9 +23053,9 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.75214673,
+        "value": 0.74888508,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -23987,8 +23463,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -24968,9 +24444,9 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.76555601,
+        "value": 0.76238344,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 91,
@@ -25450,16 +24926,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.44999998807907104,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4407870332.pdf"
@@ -26231,7 +25707,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.7904243,
+        "value": 0.78642645,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26540,8 +26016,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 118,
@@ -26650,20 +26126,20 @@
         "https://openalex.org/W2041667010",
         "https://openalex.org/W1983110613",
         "https://openalex.org/W2106562658",
+        "https://openalex.org/W3023742596",
+        "https://openalex.org/W1967232262",
+        "https://openalex.org/W3145566755",
+        "https://openalex.org/W3096053405",
+        "https://openalex.org/W4254942932",
+        "https://openalex.org/W3114883492",
         "https://openalex.org/W4309680568",
         "https://openalex.org/W4402327116",
         "https://openalex.org/W4394846625",
         "https://openalex.org/W4391403775",
         "https://openalex.org/W4401759048",
         "https://openalex.org/W4401598971",
-        "https://openalex.org/W1967232262",
-        "https://openalex.org/W3023742596",
-        "https://openalex.org/W2084291435",
         "https://openalex.org/W2002786121",
-        "https://openalex.org/W3145566755",
-        "https://openalex.org/W3096053405",
-        "https://openalex.org/W4254942932",
-        "https://openalex.org/W3114883492"
+        "https://openalex.org/W2084291435"
       ],
       "related_works": [
         "https://openalex.org/W2591851389",
@@ -27450,7 +26926,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.46219094,
+        "value": 0.46164721,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27720,16 +27196,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.550000011920929,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.550000011920929
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 2,
@@ -28544,7 +28020,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.00825533,
+        "value": 0.00816652,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28902,16 +28378,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.7400000095367432,
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.7400000095367432
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3000320854.pdf",
@@ -29729,7 +29205,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06844232,
+        "value": 0.06833168,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29947,16 +29423,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6000000238418579,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.6000000238418579
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 19,
@@ -30923,7 +30399,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.35500598,
+        "value": 0.35099602,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31176,8 +30652,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 43,
@@ -31699,8 +31175,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 23,
@@ -32804,8 +32280,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 65,

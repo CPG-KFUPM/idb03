@@ -662,7 +662,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.82596403,
+        "value": 0.82532186,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1006,8 +1006,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 56,
@@ -2074,7 +2074,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.72967379,
+        "value": 0.72963787,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2446,9 +2446,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8399999737739563
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [
@@ -2468,8 +2468,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 27,
@@ -3827,8 +3827,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 27,
@@ -4537,7 +4537,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.49823461,
+        "value": 0.49769828,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4865,8 +4865,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 5,
@@ -5846,17 +5846,6 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I110537696",
-              "display_name": "Petroleum Geo-Services (United Kingdom)",
-              "ror": "https://ror.org/04s3xvj56",
-              "country_code": "GB",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I110537696",
-                "https://openalex.org/I4210108136"
-              ]
-            },
-            {
               "id": "https://openalex.org/I4210118538",
               "display_name": "University of Petroleum",
               "ror": "https://ror.org/02em1tr51",
@@ -5874,6 +5863,17 @@
               "type": "education",
               "lineage": [
                 "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I110537696",
+              "display_name": "Petroleum Geo-Services (United Kingdom)",
+              "ror": "https://ror.org/04s3xvj56",
+              "country_code": "GB",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I110537696",
+                "https://openalex.org/I4210108136"
               ]
             }
           ],
@@ -5907,14 +5907,13 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I110537696",
-              "display_name": "Petroleum Geo-Services (United Kingdom)",
-              "ror": "https://ror.org/04s3xvj56",
-              "country_code": "GB",
-              "type": "company",
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
               "lineage": [
-                "https://openalex.org/I110537696",
-                "https://openalex.org/I4210108136"
+                "https://openalex.org/I134085113"
               ]
             },
             {
@@ -5928,13 +5927,14 @@
               ]
             },
             {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
+              "id": "https://openalex.org/I110537696",
+              "display_name": "Petroleum Geo-Services (United Kingdom)",
+              "ror": "https://ror.org/04s3xvj56",
+              "country_code": "GB",
+              "type": "company",
               "lineage": [
-                "https://openalex.org/I134085113"
+                "https://openalex.org/I110537696",
+                "https://openalex.org/I4210108136"
               ]
             }
           ],
@@ -5968,13 +5968,13 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
+              "id": "https://openalex.org/I4210118538",
+              "display_name": "University of Petroleum",
+              "ror": "https://ror.org/02em1tr51",
+              "country_code": "ID",
               "type": "education",
               "lineage": [
-                "https://openalex.org/I134085113"
+                "https://openalex.org/I4210118538"
               ]
             },
             {
@@ -5989,13 +5989,13 @@
               ]
             },
             {
-              "id": "https://openalex.org/I4210118538",
-              "display_name": "University of Petroleum",
-              "ror": "https://ror.org/02em1tr51",
-              "country_code": "ID",
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
               "type": "education",
               "lineage": [
-                "https://openalex.org/I4210118538"
+                "https://openalex.org/I134085113"
               ]
             }
           ],
@@ -6080,7 +6080,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.76721676,
+        "value": 0.76522839,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6366,9 +6366,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
+          "score": 0.4000000059604645,
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.4000000059604645
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -6380,8 +6380,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 40,
@@ -6421,11 +6421,11 @@
         "https://openalex.org/W125345895",
         "https://openalex.org/W6718525678",
         "https://openalex.org/W4207014619",
-        "https://openalex.org/W2908474179",
         "https://openalex.org/W2059779729",
         "https://openalex.org/W2583354569",
         "https://openalex.org/W2485072867",
-        "https://openalex.org/W2461227723"
+        "https://openalex.org/W2461227723",
+        "https://openalex.org/W2908474179"
       ],
       "related_works": [
         "https://openalex.org/W4404882928",
@@ -7465,7 +7465,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12734082,
+        "value": 0.13108614,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7838,8 +7838,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -7868,12 +7868,12 @@
         "https://openalex.org/W2143306780",
         "https://openalex.org/W6610589622",
         "https://openalex.org/W2084955843",
-        "https://openalex.org/W2078200337",
+        "https://openalex.org/W2328029699",
         "https://openalex.org/W587254262",
         "https://openalex.org/W292399695",
+        "https://openalex.org/W2078200337",
         "https://openalex.org/W4237367943",
-        "https://openalex.org/W4231967807",
-        "https://openalex.org/W2328029699"
+        "https://openalex.org/W4231967807"
       ],
       "related_works": [
         "https://openalex.org/W2355473204",
@@ -8811,7 +8811,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.10554287,
+        "value": 0.10502708,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8958,8 +8958,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -9738,7 +9738,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.32251321,
+        "value": 0.32145173,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9955,16 +9955,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.6299999952316284
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 16,
@@ -10667,7 +10667,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.14533902,
+        "value": 0.14376959,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11077,8 +11077,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4410159041.pdf",
@@ -11142,623 +11142,7 @@
         "https://openalex.org/W2372969344",
         "https://openalex.org/W2377686199"
       ],
-      "abstract_inverted_index": {
-        "3": [
-          129
-        ],
-        "64": [
-          144
-        ],
-        "Abstract": [
-          0
-        ],
-        "In": [
-          1
-        ],
-        "bioturbated": [
-          2,
-          95,
-          247
-        ],
-        "strata,": [
-          3,
-          96
-        ],
-        "defining": [
-          4
-        ],
-        "and": [
-          5,
-          49,
-          62,
-          75,
-          99,
-          125,
-          148,
-          159,
-          169,
-          256
-        ],
-        "obtaining": [
-          6
-        ],
-        "a": [
-          7,
-          71,
-          188,
-          217,
-          229,
-          253
-        ],
-        "representative": [
-          8
-        ],
-        "elementary": [
-          9
-        ],
-        "volume": [
-          10
-        ],
-        "for": [
-          11,
-          78
-        ],
-        "permeability": [
-          12,
-          21,
-          33,
-          43,
-          80,
-          93,
-          101,
-          141,
-          182,
-          210,
-          245
-        ],
-        "measurements": [
-          13,
-          40,
-          66,
-          102,
-          145,
-          211
-        ],
-        "presents": [
-          14
-        ],
-        "significant": [
-          15,
-          199
-        ],
-        "challenges.": [
-          16
-        ],
-        "To": [
-          17,
-          83
-        ],
-        "address": [
-          18
-        ],
-        "this,": [
-          19
-        ],
-        "spot": [
-          20,
-          42,
-          92,
-          244
-        ],
-        "is": [
-          22
-        ],
-        "often": [
-          23
-        ],
-        "used": [
-          24
-        ],
-        "as": [
-          25,
-          162,
-          164
-        ],
-        "an": [
-          26,
-          221
-        ],
-        "alternative": [
-          27,
-          258
-        ],
-        "method": [
-          28
-        ],
-        "to": [
-          29,
-          242,
-          259
-        ],
-        "estimate": [
-          30
-        ],
-        "the": [
-          31,
-          58,
-          85,
-          104,
-          109,
-          120,
-          126,
-          185,
-          205,
-          209,
-          213,
-          235,
-          250
-        ],
-        "bulk": [
-          32,
-          265
-        ],
-        "of": [
-          34,
-          41,
-          87,
-          140,
-          171,
-          237,
-          246
-        ],
-        "these": [
-          35
-        ],
-        "complex": [
-          36
-        ],
-        "strata.": [
-          37
-        ],
-        "However,": [
-          38
-        ],
-        "laboratory": [
-          39
-        ],
-        "require": [
-          44
-        ],
-        "steady-state": [
-          45
-        ],
-        "nitrogen": [
-          46
-        ],
-        "gas": [
-          47
-        ],
-        "injection": [
-          48
-        ],
-        "careful": [
-          50
-        ],
-        "sample": [
-          51
-        ],
-        "preparation": [
-          52
-        ],
-        "including": [
-          53
-        ],
-        "slab": [
-          54
-        ],
-        "cutting": [
-          55
-        ],
-        "which": [
-          56,
-          195
-        ],
-        "makes": [
-          57
-        ],
-        "process": [
-          59
-        ],
-        "both": [
-          60,
-          132
-        ],
-        "time-consuming": [
-          61
-        ],
-        "resource-intensive.": [
-          63
-        ],
-        "Alternatively,": [
-          64
-        ],
-        "field": [
-          65,
-          130
-        ],
-        "using": [
-          67,
-          116,
-          151,
-          238
-        ],
-        "portable": [
-          68,
-          88,
-          127,
-          239
-        ],
-        "devices": [
-          69,
-          89
-        ],
-        "offer": [
-          70
-        ],
-        "more": [
-          72
-        ],
-        "cost-effective,": [
-          73,
-          254
-        ],
-        "straightforward,": [
-          74
-        ],
-        "real-time": [
-          76,
-          257
-        ],
-        "approach": [
-          77
-        ],
-        "assessing": [
-          79
-        ],
-        "in": [
-          81,
-          90,
-          94,
-          112,
-          181,
-          249,
-          262
-        ],
-        "situ.": [
-          82
-        ],
-        "evaluate": [
-          84
-        ],
-        "accuracy": [
-          86
-        ],
-        "measuring": [
-          91
-        ],
-        "we": [
-          97
-        ],
-        "compare": [
-          98
-        ],
-        "contrast": [
-          100
-        ],
-        "on": [
-          103
-        ],
-        "same": [
-          105
-        ],
-        "rock": [
-          106
-        ],
-        "samples": [
-          107
-        ],
-        "(from": [
-          108
-        ],
-        "Hanifa": [
-          110
-        ],
-        "Formation": [
-          111
-        ],
-        "central": [
-          113
-        ],
-        "Saudi": [
-          114
-        ],
-        "Arabia)": [
-          115
-        ],
-        "two": [
-          117,
-          186,
-          214
-        ],
-        "different": [
-          118
-        ],
-        "techniques:": [
-          119
-        ],
-        "sophisticated": [
-          121
-        ],
-        "laboratory-based": [
-          122,
-          260
-        ],
-        "AutoScan": [
-          123
-        ],
-        "system": [
-          124
-        ],
-        "TinyPerm": [
-          128
-        ],
-        "device": [
-          131
-        ],
-        "from": [
-          133,
-          212
-        ],
-        "New": [
-          134
-        ],
-        "England": [
-          135
-        ],
-        "Research": [
-          136
-        ],
-        "(NER).": [
-          137
-        ],
-        "Two": [
-          138
-        ],
-        "sets": [
-          139
-        ],
-        "data": [
-          142
-        ],
-        "comprising": [
-          143
-        ],
-        "were": [
-          146
-        ],
-        "obtained": [
-          147
-        ],
-        "analyzed": [
-          149
-        ],
-        "graphically": [
-          150
-        ],
-        "Whisker": [
-          152
-        ],
-        "Box": [
-          153
-        ],
-        "Plots,": [
-          154,
-          161
-        ],
-        "Bland-Altman": [
-          155
-        ],
-        "Plot,": [
-          156
-        ],
-        "Curve": [
-          157
-        ],
-        "Matching,": [
-          158
-        ],
-        "Cross": [
-          160
-        ],
-        "well": [
-          163
-        ],
-        "statistically": [
-          165,
-          198
-        ],
-        "through": [
-          166
-        ],
-        "correlation": [
-          167,
-          206
-        ],
-        "analysis": [
-          168,
-          170,
-          176
-        ],
-        "variance": [
-          172
-        ],
-        "(ANOVA).": [
-          173
-        ],
-        "The": [
-          174
-        ],
-        "graphical": [
-          175
-        ],
-        "revealed": [
-          177
-        ],
-        "no": [
-          178,
-          197
-        ],
-        "substantial": [
-          179
-        ],
-        "difference": [
-          180,
-          200
-        ],
-        "measured": [
-          183
-        ],
-        "by": [
-          184,
-          192
-        ],
-        "methods,": [
-          187
-        ],
-        "finding": [
-          189
-        ],
-        "further": [
-          190
-        ],
-        "supported": [
-          191
-        ],
-        "ANOVA": [
-          193
-        ],
-        "results,": [
-          194
-        ],
-        "indicated": [
-          196
-        ],
-        "(P-value": [
-          201
-        ],
-        "&gt;": [
-          202
-        ],
-        "0.05).": [
-          203
-        ],
-        "Additionally,": [
-          204
-        ],
-        "plot": [
-          207
-        ],
-        "between": [
-          208
-        ],
-        "methods": [
-          215
-        ],
-        "yielded": [
-          216
-        ],
-        "straight": [
-          218
-        ],
-        "line": [
-          219
-        ],
-        "with": [
-          220
-        ],
-        "R": [
-          222
-        ],
-        "$$^2$$": [
-          223
-        ],
-        "value": [
-          224
-        ],
-        "greater": [
-          225
-        ],
-        "than": [
-          226
-        ],
-        "0.9,": [
-          227
-        ],
-        "demonstrating": [
-          228
-        ],
-        "strong": [
-          230
-        ],
-        "agreement.": [
-          231
-        ],
-        "This": [
-          232
-        ],
-        "study": [
-          233
-        ],
-        "highlights": [
-          234
-        ],
-        "potential": [
-          236
-        ],
-        "handheld": [
-          240
-        ],
-        "permeameters": [
-          241
-        ],
-        "measure": [
-          243
-        ],
-        "strata": [
-          248
-        ],
-        "field,": [
-          251
-        ],
-        "offering": [
-          252
-        ],
-        "accurate,": [
-          255
-        ],
-        "techniques": [
-          261
-        ],
-        "estimating": [
-          263
-        ],
-        "their": [
-          264
-        ],
-        "permeability.": [
-          266
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [],
       "updated_date": "2026-01-13T01:12:25.745995",
       "created_date": "2025-10-10T00:00:00"
@@ -12023,8 +11407,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 11,
