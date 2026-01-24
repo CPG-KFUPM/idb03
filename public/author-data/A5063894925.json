@@ -2827,8 +2827,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.4099999964237213
         }
       ],
@@ -3872,8 +3872,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.4099999964237213
         }
       ],
@@ -5376,8 +5376,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.8700000047683716
         }
       ],
@@ -8390,8 +8390,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.8700000047683716
         }
       ],
@@ -9353,8 +9353,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.7799999713897705
         }
       ],
@@ -12880,7 +12880,7 @@
       "language": "en",
       "primary_location": {
         "id": "doi:10.1016/j.ijhydene.2023.09.148",
-        "is_oa": false,
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2023.09.148",
         "pdf_url": null,
         "source": {
@@ -12904,8 +12904,8 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -12917,9 +12917,9 @@
         "crossref"
       ],
       "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://doi.org/10.1016/j.ijhydene.2023.09.148",
         "any_repository_has_fulltext": false
       },
       "authorships": [
@@ -13046,12 +13046,16 @@
         "currency": "USD",
         "value_usd": 3400
       },
-      "apc_paid": null,
-      "fwci": 7.3746912,
+      "apc_paid": {
+        "value": 3400,
+        "currency": "USD",
+        "value_usd": 3400
+      },
+      "fwci": 7.53857323,
       "has_fulltext": false,
-      "cited_by_count": 45,
+      "cited_by_count": 46,
       "citation_normalized_percentile": {
-        "value": 0.97254418,
+        "value": 0.97380032,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13336,7 +13340,7 @@
       "locations": [
         {
           "id": "doi:10.1016/j.ijhydene.2023.09.148",
-          "is_oa": false,
+          "is_oa": true,
           "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2023.09.148",
           "pdf_url": null,
           "source": {
@@ -13360,8 +13364,8 @@
             ],
             "type": "journal"
           },
-          "license": null,
-          "license_id": null,
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
           "version": "publishedVersion",
           "is_accepted": true,
           "is_published": true,
@@ -13369,11 +13373,44 @@
           "raw_type": "journal-article"
         }
       ],
-      "best_oa_location": null,
+      "best_oa_location": {
+        "id": "doi:10.1016/j.ijhydene.2023.09.148",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ijhydene.2023.09.148",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S48860480",
+          "display_name": "International Journal of Hydrogen Energy",
+          "issn_l": "0360-3199",
+          "issn": [
+            "0360-3199",
+            "1879-3487"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Hydrogen Energy",
+        "raw_type": "journal-article"
+      },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.6000000238418579
         }
       ],
@@ -13476,11 +13513,11 @@
         "https://openalex.org/W2001861985",
         "https://openalex.org/W2949600639",
         "https://openalex.org/W1866543612",
-        "https://openalex.org/W2051141929",
         "https://openalex.org/W3113047742",
         "https://openalex.org/W4382654687",
         "https://openalex.org/W4367550380",
-        "https://openalex.org/W4283260162"
+        "https://openalex.org/W4283260162",
+        "https://openalex.org/W2051141929"
       ],
       "related_works": [
         "https://openalex.org/W2928547925",
@@ -13494,11 +13531,707 @@
         "https://openalex.org/W2197898445",
         "https://openalex.org/W2045328631"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "4": [
+          263
+        ],
+        "20": [
+          140
+        ],
+        "29": [
+          174
+        ],
+        "70": [
+          131
+        ],
+        "100": [
+          109
+        ],
+        "Hydrogen": [
+          0
+        ],
+        "storage": [
+          1,
+          28,
+          40,
+          279
+        ],
+        "in": [
+          2,
+          160,
+          274,
+          296,
+          302
+        ],
+        "porous": [
+          3
+        ],
+        "media": [
+          4
+        ],
+        "(aquifers": [
+          5
+        ],
+        "and": [
+          6,
+          30,
+          65,
+          99,
+          133,
+          139,
+          182,
+          236,
+          258,
+          280,
+          286,
+          290
+        ],
+        "depleted": [
+          7,
+          23,
+          303
+        ],
+        "reservoirs)": [
+          8
+        ],
+        "is": [
+          9
+        ],
+        "an": [
+          10
+        ],
+        "effective": [
+          11
+        ],
+        "means": [
+          12
+        ],
+        "of": [
+          13,
+          38,
+          84,
+          87,
+          148,
+          165,
+          178,
+          276
+        ],
+        "achieving": [
+          14
+        ],
+        "large-scale": [
+          15
+        ],
+        "inter-seasonal": [
+          16
+        ],
+        "demand": [
+          17
+        ],
+        "for": [
+          18,
+          72,
+          203,
+          245,
+          269
+        ],
+        "energy.": [
+          19
+        ],
+        "In": [
+          20,
+          76
+        ],
+        "particular,": [
+          21
+        ],
+        "the": [
+          22,
+          36,
+          39,
+          45,
+          50,
+          54,
+          57,
+          62,
+          66,
+          85,
+          104,
+          145,
+          149,
+          161,
+          166,
+          198,
+          223,
+          251,
+          255,
+          266
+        ],
+        "gas": [
+          24,
+          59,
+          74,
+          114,
+          205,
+          215,
+          224,
+          247,
+          273,
+          305
+        ],
+        "reservoir": [
+          25,
+          47,
+          179
+        ],
+        "provides": [
+          26
+        ],
+        "substantial": [
+          27
+        ],
+        "capacity": [
+          29
+        ],
+        "additional": [
+          31
+        ],
+        "economic": [
+          32
+        ],
+        "incentives": [
+          33
+        ],
+        "due": [
+          34
+        ],
+        "to": [
+          35,
+          175,
+          213,
+          299
+        ],
+        "preexistence": [
+          37
+        ],
+        "infrastructure": [
+          41
+        ],
+        "as": [
+          42,
+          44,
+          89,
+          265
+        ],
+        "well": [
+          43
+        ],
+        "requisite": [
+          46
+        ],
+        "integrity.": [
+          48
+        ],
+        "However,": [
+          49,
+          239
+        ],
+        "interfacial": [
+          51
+        ],
+        "phenomenon": [
+          52
+        ],
+        "between": [
+          53
+        ],
+        "injected": [
+          55
+        ],
+        "hydrogen,": [
+          56
+        ],
+        "native": [
+          58
+        ],
+        "(cushion": [
+          60
+        ],
+        "gas),": [
+          61
+        ],
+        "formation": [
+          63
+        ],
+        "brine,": [
+          64
+        ],
+        "host": [
+          67
+        ],
+        "rocks": [
+          68
+        ],
+        "require": [
+          69
+        ],
+        "further": [
+          70
+        ],
+        "investigation": [
+          71,
+          94
+        ],
+        "efficient": [
+          73
+        ],
+        "containment.": [
+          75
+        ],
+        "this": [
+          77
+        ],
+        "study,": [
+          78
+        ],
+        "we": [
+          79
+        ],
+        "conducted": [
+          80
+        ],
+        "a": [
+          81,
+          90,
+          204,
+          208,
+          214,
+          218,
+          230
+        ],
+        "comprehensive": [
+          82
+        ],
+        "examination": [
+          83
+        ],
+        "application": [
+          86
+        ],
+        "CO2": [
+          88,
+          210,
+          220,
+          237,
+          271
+        ],
+        "cushion": [
+          91,
+          272
+        ],
+        "gas.": [
+          92
+        ],
+        "Our": [
+          93
+        ],
+        "involved": [
+          95
+        ],
+        "performing": [
+          96
+        ],
+        "contact": [
+          97,
+          169,
+          185,
+          199,
+          256
+        ],
+        "angle": [
+          98,
+          186,
+          200,
+          257
+        ],
+        "surface": [
+          100,
+          227,
+          259
+        ],
+        "tension": [
+          101,
+          228,
+          260
+        ],
+        "experiments": [
+          102
+        ],
+        "using": [
+          103
+        ],
+        "drop": [
+          105
+        ],
+        "shape": [
+          106
+        ],
+        "analyzer": [
+          107
+        ],
+        "(DSA)": [
+          108
+        ],
+        "equipment.": [
+          110
+        ],
+        "We": [
+          111
+        ],
+        "examined": [
+          112
+        ],
+        "various": [
+          113
+        ],
+        "mixtures": [
+          115
+        ],
+        "(H2–CO2": [
+          116
+        ],
+        "–": [
+          117
+        ],
+        "CH4–N2)": [
+          118
+        ],
+        "under": [
+          119
+        ],
+        "different": [
+          120
+        ],
+        "pressure": [
+          121,
+          191
+        ],
+        "ranges": [
+          122
+        ],
+        "(500–3000": [
+          123
+        ],
+        "psi),": [
+          124
+        ],
+        "temperature": [
+          125
+        ],
+        "levels": [
+          126
+        ],
+        "(30,": [
+          127
+        ],
+        "40,": [
+          128
+        ],
+        "50,": [
+          129
+        ],
+        "60,": [
+          130
+        ],
+        "°C),": [
+          132
+        ],
+        "salinities": [
+          134
+        ],
+        "(2,": [
+          135
+        ],
+        "5,": [
+          136
+        ],
+        "10,": [
+          137
+        ],
+        "15,": [
+          138
+        ],
+        "wt%).": [
+          141
+        ],
+        "Results": [
+          142
+        ],
+        "indicate": [
+          143
+        ],
+        "that": [
+          144,
+          292
+        ],
+        "wettability": [
+          146
+        ],
+        "behavior": [
+          147
+        ],
+        "studied": [
+          150
+        ],
+        "gas-mixture": [
+          151
+        ],
+        "compositions": [
+          152
+        ],
+        "remains": [
+          153
+        ],
+        "relatively": [
+          154
+        ],
+        "consistent": [
+          155
+        ],
+        "unless": [
+          156
+        ],
+        "there": [
+          157
+        ],
+        "are": [
+          158
+        ],
+        "changes": [
+          159
+        ],
+        "initial": [
+          162
+        ],
+        "wetting": [
+          163
+        ],
+        "state": [
+          164
+        ],
+        "rock.": [
+          167
+        ],
+        "The": [
+          168,
+          184
+        ],
+        "angles": [
+          170
+        ],
+        "observed": [
+          171
+        ],
+        "ranged": [
+          172
+        ],
+        "from": [
+          173,
+          254
+        ],
+        "51°,": [
+          176
+        ],
+        "independent": [
+          177
+        ],
+        "pressure,": [
+          180,
+          234
+        ],
+        "temperature,": [
+          181,
+          235
+        ],
+        "salinity.": [
+          183
+        ],
+        "values": [
+          187
+        ],
+        "increased": [
+          188,
+          241
+        ],
+        "with": [
+          189,
+          194,
+          207,
+          217,
+          232,
+          242
+        ],
+        "higher": [
+          190,
+          195,
+          219
+        ],
+        "but": [
+          192
+        ],
+        "decreased": [
+          193
+        ],
+        "temperature.": [
+          196
+        ],
+        "Furthermore,": [
+          197
+        ],
+        "was": [
+          201
+        ],
+        "lower": [
+          202,
+          209
+        ],
+        "mixture": [
+          206,
+          216,
+          225,
+          262
+        ],
+        "fraction": [
+          211,
+          268
+        ],
+        "compared": [
+          212
+        ],
+        "fraction.": [
+          221,
+          238
+        ],
+        "Conversely,": [
+          222
+        ],
+        "brine": [
+          226
+        ],
+        "exhibited": [
+          229
+        ],
+        "decrease": [
+          231
+        ],
+        "increasing": [
+          233,
+          243
+        ],
+        "it": [
+          240
+        ],
+        "salinity": [
+          244
+        ],
+        "all": [
+          246
+        ],
+        "mixtures.": [
+          248
+        ],
+        "Based": [
+          249
+        ],
+        "on": [
+          250
+        ],
+        "results": [
+          252
+        ],
+        "obtained": [
+          253
+        ],
+        "analysis,": [
+          261
+        ],
+        "emerged": [
+          264
+        ],
+        "ideal": [
+          267
+        ],
+        "designing": [
+          270
+        ],
+        "terms": [
+          275
+        ],
+        "both": [
+          277
+        ],
+        "hydrogen": [
+          278
+        ],
+        "withdrawal.": [
+          281
+        ],
+        "These": [
+          282
+        ],
+        "findings": [
+          283
+        ],
+        "present": [
+          284
+        ],
+        "precise": [
+          285
+        ],
+        "valuable": [
+          287
+        ],
+        "input": [
+          288
+        ],
+        "parameters": [
+          289
+        ],
+        "data": [
+          291
+        ],
+        "can": [
+          293
+        ],
+        "be": [
+          294
+        ],
+        "utilized": [
+          295
+        ],
+        "reservoir-scale": [
+          297
+        ],
+        "simulations": [
+          298
+        ],
+        "optimize": [
+          300
+        ],
+        "geo-storage": [
+          301
+        ],
+        "natural": [
+          304
+        ],
+        "reservoirs.": [
+          306
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -13513,7 +14246,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-23T23:20:30.427331",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -14077,8 +14810,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.7599999904632568
         }
       ],
@@ -15128,8 +15861,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5299999713897705
         }
       ],
@@ -16054,7 +16787,7 @@
       "has_fulltext": false,
       "cited_by_count": 34,
       "citation_normalized_percentile": {
-        "value": 0.89009562,
+        "value": 0.88971543,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16349,8 +17082,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.46000000834465027
         }
       ],
@@ -16616,34 +17349,34 @@
         "https://openalex.org/W2797515634",
         "https://openalex.org/W3202765958",
         "https://openalex.org/W3197457464",
-        "https://openalex.org/W2159352443",
-        "https://openalex.org/W2030468379",
-        "https://openalex.org/W4210864783",
-        "https://openalex.org/W4206680386",
-        "https://openalex.org/W2008968655",
-        "https://openalex.org/W1988800235",
-        "https://openalex.org/W1999030859",
-        "https://openalex.org/W2950532268",
-        "https://openalex.org/W3041208962",
-        "https://openalex.org/W2133781281",
-        "https://openalex.org/W2122634546",
-        "https://openalex.org/W2059799280",
-        "https://openalex.org/W2057266944",
-        "https://openalex.org/W2065140182",
-        "https://openalex.org/W2058412517",
-        "https://openalex.org/W3109029990",
-        "https://openalex.org/W4283327013",
-        "https://openalex.org/W4296104882",
-        "https://openalex.org/W2086756592",
-        "https://openalex.org/W11671097",
-        "https://openalex.org/W1580156125",
-        "https://openalex.org/W1987124356",
-        "https://openalex.org/W1975462736",
         "https://openalex.org/W4200304582",
         "https://openalex.org/W4200362641",
         "https://openalex.org/W3216421712",
         "https://openalex.org/W3202007182",
-        "https://openalex.org/W3190882832"
+        "https://openalex.org/W3190882832",
+        "https://openalex.org/W3109029990",
+        "https://openalex.org/W2086756592",
+        "https://openalex.org/W2008968655",
+        "https://openalex.org/W1988800235",
+        "https://openalex.org/W1999030859",
+        "https://openalex.org/W2059799280",
+        "https://openalex.org/W2057266944",
+        "https://openalex.org/W2065140182",
+        "https://openalex.org/W2058412517",
+        "https://openalex.org/W2030468379",
+        "https://openalex.org/W11671097",
+        "https://openalex.org/W1580156125",
+        "https://openalex.org/W1987124356",
+        "https://openalex.org/W1975462736",
+        "https://openalex.org/W4210864783",
+        "https://openalex.org/W4206680386",
+        "https://openalex.org/W2133781281",
+        "https://openalex.org/W2122634546",
+        "https://openalex.org/W2159352443",
+        "https://openalex.org/W2950532268",
+        "https://openalex.org/W3041208962",
+        "https://openalex.org/W4283327013",
+        "https://openalex.org/W4296104882"
       ],
       "related_works": [
         "https://openalex.org/W2376548125",
@@ -17353,8 +18086,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5
         }
       ],
@@ -18205,8 +18938,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.800000011920929
         }
       ],
@@ -19155,8 +19888,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.4099999964237213
         }
       ],
@@ -26858,8 +27591,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.6499999761581421
         }
       ],
@@ -28270,8 +29003,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4300000071525574
         }
       ],
@@ -30703,8 +31436,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.550000011920929
         }
       ],
@@ -32191,8 +32924,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5400000214576721
         }
       ],
@@ -34683,8 +35416,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.4399999976158142
         }
       ],
@@ -38939,8 +39672,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.75
         }
       ],
@@ -46623,8 +47356,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5600000023841858
         }
       ],
@@ -49845,8 +50578,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.4399999976158142
         }
       ],
@@ -50500,8 +51233,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.8700000047683716
         }
       ],
@@ -51792,8 +52525,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.46000000834465027
         }
       ],
@@ -52927,8 +53660,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.44999998807907104
         }
       ],
@@ -63263,8 +63996,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.4300000071525574
         }
       ],
@@ -64687,8 +65420,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.41999998688697815
         }
       ],
@@ -68618,8 +69351,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Reduced inequalities",
           "id": "https://metadata.un.org/sdg/10",
+          "display_name": "Reduced inequalities",
           "score": 0.75
         }
       ],
@@ -69052,8 +69785,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.49000000953674316
         }
       ],
@@ -70268,8 +71001,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.49000000953674316
         }
       ],
@@ -81565,8 +82298,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.43448910117149353
         }
       ],

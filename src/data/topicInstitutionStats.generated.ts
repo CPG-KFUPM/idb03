@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 1707,
-    "citations": 32599
+    "citations": 32600
   },
   {
     "id": "https://openalex.org/T10399",
@@ -38,7 +38,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
     "publications": 978,
-    "citations": 22000
+    "citations": 22001
   },
   {
     "id": "https://openalex.org/T11801",
@@ -68,7 +68,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11302",
     "name": "CO2 Sequestration and Geologic Interactions",
     "publications": 389,
-    "citations": 13107
+    "citations": 13108
   },
   {
     "id": "https://openalex.org/T10017",
@@ -8626,8 +8626,8 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 3466,
-    "citations": 58083
+    "publications": 3468,
+    "citations": 58098
   },
   {
     "id": "https://openalex.org/I71920554",
@@ -12440,6 +12440,12 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 8
   },
   {
+    "id": "https://openalex.org/I40034438",
+    "name": "Universidade do Estado do Rio de Janeiro",
+    "publications": 3,
+    "citations": 7
+  },
+  {
     "id": "https://openalex.org/I2801403999",
     "name": "UCLA Medical Center",
     "publications": 3,
@@ -13922,12 +13928,6 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 4
   },
   {
-    "id": "https://openalex.org/I40034438",
-    "name": "Universidade do Estado do Rio de Janeiro",
-    "publications": 2,
-    "citations": 4
-  },
-  {
     "id": "https://openalex.org/I63920570",
     "name": "Tennessee Technological University",
     "publications": 2,
@@ -14128,6 +14128,12 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I12003341",
     "name": "National University of Science and Technology",
+    "publications": 2,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/I4210140794",
+    "name": "Houston Methodist Sugar Land Hospital",
     "publications": 2,
     "citations": 0
   },
@@ -18958,12 +18964,6 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I4210109387",
     "name": "Energy Transitions (United Kingdom)",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I4210140794",
-    "name": "Houston Methodist Sugar Land Hospital",
     "publications": 1,
     "citations": 0
   },
