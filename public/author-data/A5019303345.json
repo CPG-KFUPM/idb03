@@ -1219,9 +1219,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.8600000143051147
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -2848,9 +2848,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.46000000834465027
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -4325,9 +4325,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [
@@ -5384,9 +5384,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.6399999856948853
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -5753,7 +5753,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.81358424,
+        "value": 0.81202026,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6055,34 +6055,6 @@
           "descriptor_name": "Environmental Monitoring",
           "qualifier_ui": "Q000379",
           "qualifier_name": "methods",
-          "is_major_topic": true
-        },
-        {
-          "descriptor_ui": "D060587",
-          "descriptor_name": "Groundwater",
-          "qualifier_ui": "Q000737",
-          "qualifier_name": "chemistry",
-          "is_major_topic": true
-        },
-        {
-          "descriptor_ui": "D001674",
-          "descriptor_name": "Bioelectric Energy Sources",
-          "qualifier_ui": null,
-          "qualifier_name": null,
-          "is_major_topic": true
-        },
-        {
-          "descriptor_ui": "D004566",
-          "descriptor_name": "Electrodes",
-          "qualifier_ui": null,
-          "qualifier_name": null,
-          "is_major_topic": false
-        },
-        {
-          "descriptor_ui": "D004784",
-          "descriptor_name": "Environmental Monitoring",
-          "qualifier_ui": "Q000379",
-          "qualifier_name": "methods",
           "is_major_topic": false
         },
         {
@@ -6140,6 +6112,34 @@
           "qualifier_ui": "Q000379",
           "qualifier_name": "methods",
           "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D060587",
+          "descriptor_name": "Groundwater",
+          "qualifier_ui": "Q000737",
+          "qualifier_name": "chemistry",
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D001674",
+          "descriptor_name": "Bioelectric Energy Sources",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D004566",
+          "descriptor_name": "Electrodes",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D004784",
+          "descriptor_name": "Environmental Monitoring",
+          "qualifier_ui": "Q000379",
+          "qualifier_name": "methods",
+          "is_major_topic": true
         },
         {
           "descriptor_ui": "D060587",
@@ -6305,9 +6305,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.550000011920929,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.550000011920929
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [
@@ -6320,6 +6320,11 @@
         }
       ],
       "funders": [
+        {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
         {
           "id": "https://openalex.org/F4320338337",
           "display_name": "H2020 Marie Skłodowska-Curie Actions",
@@ -6417,7 +6422,441 @@
         "https://openalex.org/W2086169493",
         "https://openalex.org/W2080872311"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "This": [
+          1,
+          144
+        ],
+        "research": [
+          2
+        ],
+        "presents": [
+          3
+        ],
+        "a": [
+          4,
+          11,
+          22,
+          63,
+          78,
+          82,
+          163
+        ],
+        "straightforward": [
+          5,
+          145
+        ],
+        "and": [
+          6,
+          35,
+          42,
+          65,
+          103,
+          114,
+          120,
+          131,
+          168
+        ],
+        "economically": [
+          7
+        ],
+        "efficient": [
+          8
+        ],
+        "design": [
+          9,
+          31
+        ],
+        "for": [
+          10,
+          158,
+          166
+        ],
+        "microbial": [
+          12,
+          142
+        ],
+        "fuel": [
+          13
+        ],
+        "cell": [
+          14
+        ],
+        "(MFC)": [
+          15
+        ],
+        "that": [
+          16
+        ],
+        "can": [
+          17
+        ],
+        "be": [
+          18
+        ],
+        "conveniently": [
+          19
+        ],
+        "integrated": [
+          20
+        ],
+        "into": [
+          21
+        ],
+        "borehole": [
+          23
+        ],
+        "to": [
+          24,
+          46,
+          136
+        ],
+        "monitor": [
+          25
+        ],
+        "natural": [
+          26
+        ],
+        "attenuation": [
+          27
+        ],
+        "in": [
+          28,
+          59,
+          74,
+          107,
+          127,
+          172
+        ],
+        "groundwater.": [
+          29
+        ],
+        "The": [
+          30,
+          69,
+          123
+        ],
+        "employs": [
+          32
+        ],
+        "conventional,": [
+          33
+        ],
+        "transparent,": [
+          34
+        ],
+        "reusable": [
+          36
+        ],
+        "PVC": [
+          37
+        ],
+        "bailers": [
+          38
+        ],
+        "with": [
+          39
+        ],
+        "graphite": [
+          40
+        ],
+        "tape": [
+          41
+        ],
+        "granular": [
+          43
+        ],
+        "activated": [
+          44
+        ],
+        "carbon": [
+          45
+        ],
+        "create": [
+          47
+        ],
+        "high": [
+          48
+        ],
+        "surface": [
+          49
+        ],
+        "area": [
+          50
+        ],
+        "electrodes.": [
+          51,
+          122
+        ],
+        "These": [
+          52
+        ],
+        "electrodes": [
+          53,
+          71
+        ],
+        "are": [
+          54
+        ],
+        "connected": [
+          55
+        ],
+        "across": [
+          56
+        ],
+        "redox": [
+          57
+        ],
+        "environments": [
+          58
+        ],
+        "nested": [
+          60
+        ],
+        "boreholes": [
+          61,
+          76
+        ],
+        "through": [
+          62
+        ],
+        "wire": [
+          64
+        ],
+        "variable": [
+          66
+        ],
+        "resistor": [
+          67
+        ],
+        "setup.": [
+          68
+        ],
+        "amended": [
+          70
+        ],
+        "were": [
+          72
+        ],
+        "installed": [
+          73
+        ],
+        "pre-existing": [
+          75
+        ],
+        "surrounding": [
+          77
+        ],
+        "groundwater": [
+          79,
+          133,
+          159
+        ],
+        "plume": [
+          80,
+          96,
+          129
+        ],
+        "near": [
+          81
+        ],
+        "former": [
+          83
+        ],
+        "gasworks": [
+          84
+        ],
+        "facility.": [
+          85
+        ],
+        "Among": [
+          86
+        ],
+        "all": [
+          87
+        ],
+        "the": [
+          88,
+          92,
+          95,
+          99,
+          108,
+          118,
+          128
+        ],
+        "MFC": [
+          89,
+          93,
+          125
+        ],
+        "locations": [
+          90
+        ],
+        "tested,": [
+          91
+        ],
+        "at": [
+          94
+        ],
+        "fringe": [
+          97
+        ],
+        "exhibited": [
+          98
+        ],
+        "highest": [
+          100
+        ],
+        "electrical": [
+          101,
+          138
+        ],
+        "response": [
+          102
+        ],
+        "displayed": [
+          104
+        ],
+        "significant": [
+          105
+        ],
+        "variations": [
+          106
+        ],
+        "differential": [
+          109
+        ],
+        "abundance": [
+          110
+        ],
+        "of": [
+          111
+        ],
+        "key": [
+          112
+        ],
+        "bacterial": [
+          113
+        ],
+        "archaeal": [
+          115
+        ],
+        "taxa": [
+          116
+        ],
+        "between": [
+          117
+        ],
+        "anode": [
+          119
+        ],
+        "cathode": [
+          121
+        ],
+        "other": [
+          124
+        ],
+        "configurations": [
+          126
+        ],
+        "center": [
+          130
+        ],
+        "uncontaminated": [
+          132
+        ],
+        "showed": [
+          134
+        ],
+        "little": [
+          135
+        ],
+        "no": [
+          137
+        ],
+        "response,": [
+          139
+        ],
+        "suggesting": [
+          140
+        ],
+        "minimal": [
+          141
+        ],
+        "activity.": [
+          143
+        ],
+        "approach": [
+          146
+        ],
+        "enables": [
+          147
+        ],
+        "informed": [
+          148
+        ],
+        "decision-making": [
+          149
+        ],
+        "regarding": [
+          150
+        ],
+        "effectively": [
+          151
+        ],
+        "monitoring,": [
+          152
+        ],
+        "enhancing,": [
+          153
+        ],
+        "or": [
+          154
+        ],
+        "designing": [
+          155
+        ],
+        "degradation": [
+          156,
+          171
+        ],
+        "strategies": [
+          157
+        ],
+        "plumes.": [
+          160
+        ],
+        "It": [
+          161
+        ],
+        "offers": [
+          162
+        ],
+        "valuable": [
+          164
+        ],
+        "tool": [
+          165
+        ],
+        "understanding": [
+          167
+        ],
+        "managing": [
+          169
+        ],
+        "contaminant": [
+          170
+        ],
+        "such": [
+          173
+        ],
+        "environments.": [
+          174
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2026,
@@ -6428,7 +6867,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -7997,9 +8436,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8399999737739563
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -8730,9 +9169,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -9150,7 +9589,7 @@
       "publication_date": "2021-02-01",
       "ids": {
         "openalex": "https://openalex.org/W3127741862",
-        "doi": "https://doi.org/10.3390/w13030383",
+        "doi": "https://doi.org/10.18419/opus-12655",
         "mag": "3127741862"
       },
       "language": "en",
@@ -9425,7 +9864,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.75664265,
+        "value": 0.75673532,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10108,9 +10547,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8600000143051147
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [
@@ -10123,6 +10562,26 @@
         }
       ],
       "funders": [
+        {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "id": "https://openalex.org/F4320320357",
+          "display_name": "Queen's University Belfast",
+          "ror": "https://ror.org/00hswnk62"
+        },
+        {
+          "id": "https://openalex.org/F4320320879",
+          "display_name": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        },
+        {
+          "id": "https://openalex.org/F4320321832",
+          "display_name": "Queen's University",
+          "ror": "https://ror.org/02y72wh86"
+        },
         {
           "id": "https://openalex.org/F4320332999",
           "display_name": "Horizon 2020 Framework Programme",
@@ -10541,7 +11000,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -12285,9 +12744,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.6899999976158142
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -14387,9 +14846,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8700000047683716,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8700000047683716
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -14757,7 +15216,7 @@
       "has_fulltext": true,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.13095055,
+        "value": 0.13089964,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15131,6 +15590,16 @@
           "ror": "https://ror.org/03z2py885"
         },
         {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "id": "https://openalex.org/F4320320997",
+          "display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+          "ror": "https://ror.org/02ddkpn78"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
@@ -15181,19 +15650,19 @@
         "https://openalex.org/W2057357008",
         "https://openalex.org/W2042828988",
         "https://openalex.org/W2106958762",
-        "https://openalex.org/W2154307880",
-        "https://openalex.org/W1982460781",
-        "https://openalex.org/W1976146385",
-        "https://openalex.org/W2183582574",
         "https://openalex.org/W2493661768",
-        "https://openalex.org/W2119092724",
+        "https://openalex.org/W2022168065",
         "https://openalex.org/W1515543311",
         "https://openalex.org/W631291862",
         "https://openalex.org/W988290895",
+        "https://openalex.org/W2154307880",
         "https://openalex.org/W2092569987",
         "https://openalex.org/W2102284379",
-        "https://openalex.org/W2022168065",
-        "https://openalex.org/W2741000561"
+        "https://openalex.org/W2183582574",
+        "https://openalex.org/W2741000561",
+        "https://openalex.org/W2119092724",
+        "https://openalex.org/W1982460781",
+        "https://openalex.org/W1976146385"
       ],
       "related_works": [
         "https://openalex.org/W2142316164",
@@ -15760,7 +16229,7 @@
           "cited_by_count": 7
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -16249,7 +16718,7 @@
       "has_fulltext": true,
       "cited_by_count": 14,
       "citation_normalized_percentile": {
-        "value": 0.74850665,
+        "value": 0.74845442,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16815,13 +17284,24 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7699999809265137
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320324706",
+          "display_name": "Saudi Aramco",
+          "ror": "https://ror.org/03ypap427"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -16901,623 +17381,7 @@
         "https://openalex.org/W4295025095",
         "https://openalex.org/W2056604271"
       ],
-      "abstract_inverted_index": {
-        "Abstract": [
-          0
-        ],
-        "Fuel": [
-          1
-        ],
-        "components": [
-          2
-        ],
-        "such": [
-          3,
-          73
-        ],
-        "as": [
-          4
-        ],
-        "benzene,": [
-          5
-        ],
-        "toluene,": [
-          6
-        ],
-        "and": [
-          7,
-          89,
-          108,
-          117,
-          181,
-          195,
-          199,
-          207,
-          216,
-          236,
-          272
-        ],
-        "methyl": [
-          8
-        ],
-        "tertiary-butyl": [
-          9
-        ],
-        "ether": [
-          10
-        ],
-        "(MTBE)": [
-          11
-        ],
-        "are": [
-          12
-        ],
-        "frequently": [
-          13
-        ],
-        "detected": [
-          14
-        ],
-        "pollutants": [
-          15,
-          246
-        ],
-        "in": [
-          16,
-          66,
-          175,
-          268
-        ],
-        "groundwater": [
-          17
-        ],
-        "resources.": [
-          18
-        ],
-        "Ex-situ": [
-          19
-        ],
-        "remediation": [
-          20,
-          49,
-          289
-        ],
-        "technologies": [
-          21
-        ],
-        "by": [
-          22,
-          129,
-          188,
-          212
-        ],
-        "activated": [
-          23,
-          87,
-          93,
-          106,
-          111,
-          131,
-          140,
-          151,
-          214,
-          219,
-          284
-        ],
-        "carbon": [
-          24,
-          56,
-          88,
-          94,
-          107,
-          112,
-          132,
-          152,
-          215,
-          220,
-          267,
-          285
-        ],
-        "have": [
-          25
-        ],
-        "been": [
-          26,
-          44
-        ],
-        "used": [
-          27
-        ],
-        "for": [
-          28,
-          30,
-          69,
-          136,
-          197,
-          286
-        ],
-        "treatment": [
-          29
-        ],
-        "many": [
-          31
-        ],
-        "years.": [
-          32
-        ],
-        "However,": [
-          33
-        ],
-        "due": [
-          34
-        ],
-        "to": [
-          35,
-          46,
-          95,
-          260,
-          278
-        ],
-        "high": [
-          36
-        ],
-        "cost": [
-          37
-        ],
-        "of": [
-          38,
-          51,
-          72,
-          82,
-          102,
-          120,
-          143,
-          149,
-          164,
-          179,
-          245,
-          264,
-          282,
-          290
-        ],
-        "these": [
-          39,
-          97
-        ],
-        "technology,": [
-          40
-        ],
-        "more": [
-          41,
-          256
-        ],
-        "attention": [
-          42
-        ],
-        "has": [
-          43
-        ],
-        "given": [
-          45
-        ],
-        "the": [
-          47,
-          70,
-          80,
-          103,
-          144,
-          161,
-          167,
-          176,
-          186,
-          242,
-          248,
-          262,
-          280,
-          287
-        ],
-        "in-situ": [
-          48,
-          288
-        ],
-        "methods": [
-          50
-        ],
-        "contaminated": [
-          52,
-          291
-        ],
-        "groundwaters": [
-          53
-        ],
-        "using": [
-          54,
-          64,
-          83,
-          124
-        ],
-        "liquid": [
-          55,
-          67,
-          86,
-          92,
-          105,
-          110,
-          139,
-          150,
-          213,
-          218,
-          283
-        ],
-        "adsorbents.": [
-          57
-        ],
-        "Literature": [
-          58
-        ],
-        "search": [
-          59
-        ],
-        "showed": [
-          60,
-          171,
-          204
-        ],
-        "limited": [
-          61
-        ],
-        "studies": [
-          62
-        ],
-        "on": [
-          63,
-          155,
-          241
-        ],
-        "adsorbents": [
-          65
-        ],
-        "form": [
-          68
-        ],
-        "removal": [
-          71,
-          162,
-          187,
-          243
-        ],
-        "contaminants.": [
-          74
-        ],
-        "Therefore,": [
-          75
-        ],
-        "this": [
-          76
-        ],
-        "lab-scale": [
-          77
-        ],
-        "study": [
-          78,
-          145,
-          249
-        ],
-        "investigates": [
-          79
-        ],
-        "capacity": [
-          81,
-          263
-        ],
-        "raw": [
-          84
-        ],
-        "biochar-based": [
-          85,
-          91,
-          265
-        ],
-        "iron-modified": [
-          90,
-          109,
-          217
-        ],
-        "remove": [
-          96
-        ],
-        "pollutants.": [
-          98
-        ],
-        "The": [
-          99
-        ],
-        "adsorption": [
-          100,
-          177
-        ],
-        "efficiency": [
-          101,
-          163,
-          178,
-          244
-        ],
-        "synthesized": [
-          104
-        ],
-        "mixed": [
-          113
-        ],
-        "with": [
-          114,
-          138,
-          192
-        ],
-        "sand,": [
-          115
-        ],
-        "limestone,": [
-          116
-        ],
-        "1:1": [
-          118
-        ],
-        "mixture": [
-          119
-        ],
-        "sand/limestone,": [
-          121
-        ],
-        "was": [
-          122,
-          133,
-          190
-        ],
-        "tested": [
-          123
-        ],
-        "batch": [
-          125
-        ],
-        "suspension": [
-          126
-        ],
-        "experiments.": [
-          127
-        ],
-        "Adsorption": [
-          128
-        ],
-        "granular": [
-          130
-        ],
-        "also": [
-          134,
-          203,
-          229
-        ],
-        "investigated": [
-          135
-        ],
-        "comparison": [
-          137
-        ],
-        "carbon.": [
-          141
-        ],
-        "Results": [
-          142,
-          202
-        ],
-        "revealed": [
-          146
-        ],
-        "that": [
-          147,
-          205,
-          231,
-          255,
-          275
-        ],
-        "mixing": [
-          148
-        ],
-        "or": [
-          153
-        ],
-        "LAC-Fe": [
-          154
-        ],
-        "subsurface": [
-          156
-        ],
-        "materials": [
-          157
-        ],
-        "had": [
-          158,
-          238
-        ],
-        "not": [
-          159
-        ],
-        "improved": [
-          160
-        ],
-        "MTBE.": [
-          165
-        ],
-        "At": [
-          166
-        ],
-        "same": [
-          168
-        ],
-        "time,": [
-          169
-        ],
-        "it": [
-          170
-        ],
-        "a": [
-          172
-        ],
-        "slight": [
-          173
-        ],
-        "improvement": [
-          174
-        ],
-        "benzene": [
-          180,
-          206,
-          271
-        ],
-        "toluene.": [
-          182
-        ],
-        "In": [
-          183
-        ],
-        "all": [
-          184
-        ],
-        "cases,": [
-          185
-        ],
-        "GAC": [
-          189
-        ],
-        "higher": [
-          191
-        ],
-        "around": [
-          193
-        ],
-        "80%": [
-          194
-        ],
-        "90%": [
-          196
-        ],
-        "MTBE": [
-          198,
-          224
-        ],
-        "BT,": [
-          200
-        ],
-        "respectively.": [
-          201
-        ],
-        "toluene": [
-          208,
-          273
-        ],
-        "were": [
-          209
-        ],
-        "better": [
-          210
-        ],
-        "removed": [
-          211
-        ],
-        "(∼": [
-          221,
-          225
-        ],
-        "40%)": [
-          222
-        ],
-        "than": [
-          223
-        ],
-        "20%).": [
-          226
-        ],
-        "It": [
-          227,
-          251
-        ],
-        "is": [
-          228,
-          258
-        ],
-        "found": [
-          230
-        ],
-        "water": [
-          232
-        ],
-        "chemistry": [
-          233
-        ],
-        "(i.e.,": [
-          234
-        ],
-        "salinity": [
-          235
-        ],
-        "pH)": [
-          237
-        ],
-        "insignificant": [
-          239
-        ],
-        "effects": [
-          240
-        ],
-        "under": [
-          247
-        ],
-        "conditions.": [
-          250
-        ],
-        "can": [
-          252
-        ],
-        "be": [
-          253
-        ],
-        "concluded": [
-          254
-        ],
-        "research": [
-          257
-        ],
-        "needed": [
-          259
-        ],
-        "improve": [
-          261,
-          279
-        ],
-        "liquid-activated": [
-          266
-        ],
-        "removing": [
-          269
-        ],
-        "MTBE,": [
-          270
-        ],
-        "compounds": [
-          274
-        ],
-        "will": [
-          276
-        ],
-        "lead": [
-          277
-        ],
-        "utilization": [
-          281
-        ],
-        "groundwaters.": [
-          292
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2025,
@@ -17532,7 +17396,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -17976,7 +17840,7 @@
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.81724932,
+        "value": 0.81717654,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18351,13 +18215,24 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.41999998688697815,
           "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water",
-          "score": 0.41999998688697815
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -18423,11 +18298,11 @@
         "https://openalex.org/W2115314373",
         "https://openalex.org/W6701964430",
         "https://openalex.org/W2528334314",
-        "https://openalex.org/W2330903344",
-        "https://openalex.org/W2008068458",
         "https://openalex.org/W2035508669",
+        "https://openalex.org/W2122926182",
         "https://openalex.org/W195523536",
-        "https://openalex.org/W2122926182"
+        "https://openalex.org/W2008068458",
+        "https://openalex.org/W2330903344"
       ],
       "related_works": [
         "https://openalex.org/W13714583",
@@ -18951,7 +18826,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -19740,9 +19615,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.6100000143051147
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -21137,9 +21012,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water",
-          "score": 0.6899999976158142
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
@@ -21844,7 +21719,7 @@
       "has_fulltext": true,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.90516923,
+        "value": 0.90434301,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -22130,13 +22005,24 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.41999998688697815,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.41999998688697815
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": false
@@ -22183,8 +22069,8 @@
         "https://openalex.org/W2027447908",
         "https://openalex.org/W2170482959",
         "https://openalex.org/W2125460652",
-        "https://openalex.org/W2068451724",
         "https://openalex.org/W2420064727",
+        "https://openalex.org/W2068451724",
         "https://openalex.org/W4233118064"
       ],
       "related_works": [
@@ -22825,7 +22711,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-12-26T23:08:49.675405",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -24795,9 +24681,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.46000000834465027
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -26740,9 +26626,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure",
-          "score": 0.44999998807907104
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
@@ -28115,9 +28001,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.8399999737739563
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -30356,9 +30242,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.7200000286102295
+          "display_name": "Life in Land"
         }
       ],
       "awards": [
@@ -31987,9 +31873,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.4399999976158142
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -33076,7 +32962,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.56241714,
+        "value": 0.56242369,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33583,7 +33469,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -34249,7 +34146,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -34880,9 +34777,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.5299999713897705
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -36275,9 +36172,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5,
           "id": "https://metadata.un.org/sdg/12",
-          "display_name": "Responsible consumption and production",
-          "score": 0.5
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -37398,9 +37295,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.41999998688697815,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.41999998688697815
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -38367,9 +38264,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.7400000095367432
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [
@@ -40398,9 +40295,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.49000000953674316,
           "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure",
-          "score": 0.49000000953674316
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
@@ -45155,9 +45052,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.800000011920929,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.800000011920929
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -45933,9 +45830,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.5
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -46827,9 +46724,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.6899999976158142
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -47961,9 +47858,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6800000071525574,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.6800000071525574
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -51584,9 +51481,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.550000011920929,
           "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.550000011920929
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -52485,9 +52382,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8100000023841858,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8100000023841858
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -53334,9 +53231,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4300000071525574,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.4300000071525574
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -53766,9 +53663,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6200000047683716,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.6200000047683716
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -54687,9 +54584,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7599999904632568
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -56522,9 +56419,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.44999998807907104
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -57376,9 +57273,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.7900000214576721,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7900000214576721
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -60935,9 +60832,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8199999928474426,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8199999928474426
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -61568,9 +61465,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.5099999904632568
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -73893,9 +73790,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7363361120223999,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.7363361120223999
+          "display_name": "Climate action"
         }
       ],
       "awards": [],

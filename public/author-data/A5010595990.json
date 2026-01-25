@@ -1026,9 +1026,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4300000071525574,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "score": 0.4300000071525574
         }
       ],
       "awards": [],
@@ -2313,9 +2313,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8100000023841858,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8100000023841858
         }
       ],
       "awards": [],
@@ -3903,9 +3903,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6200000047683716,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6200000047683716
         }
       ],
       "awards": [],
@@ -9560,9 +9560,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7900000214576721,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.7900000214576721
         }
       ],
       "awards": [],
@@ -10348,9 +10348,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5
         }
       ],
       "awards": [],
@@ -13464,9 +13464,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.41999998688697815
         }
       ],
       "awards": [],
@@ -15500,9 +15500,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5400000214576721,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5400000214576721
         }
       ],
       "awards": [],
@@ -16397,7 +16397,7 @@
       "has_fulltext": true,
       "cited_by_count": 47,
       "citation_normalized_percentile": {
-        "value": 0.97506367,
+        "value": 0.97505139,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16833,6 +16833,11 @@
           "id": "https://openalex.org/F4320322323",
           "display_name": "King Fahd University of Petroleum and Minerals",
           "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
         }
       ],
       "has_content": {
@@ -16862,8 +16867,8 @@
         "https://openalex.org/W2084912237",
         "https://openalex.org/W2159502031",
         "https://openalex.org/W2030381156",
-        "https://openalex.org/W2502140723",
-        "https://openalex.org/W623525486"
+        "https://openalex.org/W623525486",
+        "https://openalex.org/W2502140723"
       ],
       "related_works": [
         "https://openalex.org/W4395956798",
@@ -17513,7 +17518,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -18083,9 +18088,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.49000000953674316
         }
       ],
       "awards": [],
@@ -20913,9 +20918,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6399999856948853,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6399999856948853
         }
       ],
       "awards": [],
@@ -27036,9 +27041,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.49000000953674316
         }
       ],
       "awards": [
@@ -27973,7 +27978,7 @@
       "has_fulltext": true,
       "cited_by_count": 19,
       "citation_normalized_percentile": {
-        "value": 0.5988463,
+        "value": 0.59889841,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28292,13 +28297,19 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6700000166893005,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.6700000166893005
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -28311,6 +28322,21 @@
       "referenced_works": [
         "https://openalex.org/W1602867958",
         "https://openalex.org/W1455514332",
+        "https://openalex.org/W2272090139",
+        "https://openalex.org/W2150184367",
+        "https://openalex.org/W2179815051",
+        "https://openalex.org/W2252427731",
+        "https://openalex.org/W3135751560",
+        "https://openalex.org/W2905612440",
+        "https://openalex.org/W4256437335",
+        "https://openalex.org/W4245515747",
+        "https://openalex.org/W4239615295",
+        "https://openalex.org/W3022821031",
+        "https://openalex.org/W4251333093",
+        "https://openalex.org/W2032965911",
+        "https://openalex.org/W2038868477",
+        "https://openalex.org/W2042592104",
+        "https://openalex.org/W2063559234",
         "https://openalex.org/W61443940",
         "https://openalex.org/W1538285846",
         "https://openalex.org/W959660992",
@@ -28319,26 +28345,6 @@
         "https://openalex.org/W18189937",
         "https://openalex.org/W2093839474",
         "https://openalex.org/W2108569495",
-        "https://openalex.org/W2272090139",
-        "https://openalex.org/W2150184367",
-        "https://openalex.org/W2179815051",
-        "https://openalex.org/W2252427731",
-        "https://openalex.org/W2018865112",
-        "https://openalex.org/W2014931954",
-        "https://openalex.org/W2026785911",
-        "https://openalex.org/W2005396054",
-        "https://openalex.org/W2032965911",
-        "https://openalex.org/W2038868477",
-        "https://openalex.org/W2042592104",
-        "https://openalex.org/W3135751560",
-        "https://openalex.org/W2905612440",
-        "https://openalex.org/W4256437335",
-        "https://openalex.org/W4245515747",
-        "https://openalex.org/W4239615295",
-        "https://openalex.org/W3022821031",
-        "https://openalex.org/W4251333093",
-        "https://openalex.org/W1972503569",
-        "https://openalex.org/W1970751991",
         "https://openalex.org/W2800151839",
         "https://openalex.org/W2335182416",
         "https://openalex.org/W2806338123",
@@ -28346,7 +28352,12 @@
         "https://openalex.org/W1976481289",
         "https://openalex.org/W1985392238",
         "https://openalex.org/W1980951791",
-        "https://openalex.org/W2063559234"
+        "https://openalex.org/W2018865112",
+        "https://openalex.org/W2014931954",
+        "https://openalex.org/W2026785911",
+        "https://openalex.org/W2005396054",
+        "https://openalex.org/W1972503569",
+        "https://openalex.org/W1970751991"
       ],
       "related_works": [
         "https://openalex.org/W2022438866",
@@ -28733,7 +28744,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -29207,9 +29218,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6600000262260437,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6600000262260437
         }
       ],
       "awards": [],
@@ -30229,9 +30240,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6299999952316284,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.6299999952316284
         }
       ],
       "awards": [
@@ -32751,9 +32762,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7699999809265137,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.7699999809265137
         }
       ],
       "awards": [],
@@ -33704,9 +33715,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8399999737739563,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.8399999737739563
         }
       ],
       "awards": [],
@@ -36565,9 +36576,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.44999998807907104,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
@@ -38302,7 +38313,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.72741567,
+        "value": 0.72724549,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -38749,9 +38760,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.7699999809265137,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.7699999809265137
         }
       ],
       "awards": [],
@@ -39546,7 +39557,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -42299,9 +42310,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5899999737739563,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5899999737739563
         }
       ],
       "awards": [],
@@ -45290,9 +45301,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.4399999976158142,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.4399999976158142
         }
       ],
       "awards": [],
@@ -45966,7 +45977,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.8586823,
+        "value": 0.85876937,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46610,13 +46621,19 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6000000238418579,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6000000238418579
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -46657,10 +46674,10 @@
         "https://openalex.org/W2768077165",
         "https://openalex.org/W2895934712",
         "https://openalex.org/W2535601037",
+        "https://openalex.org/W1973763658",
         "https://openalex.org/W2034170371",
         "https://openalex.org/W1592249425",
-        "https://openalex.org/W260909492",
-        "https://openalex.org/W1973763658"
+        "https://openalex.org/W260909492"
       ],
       "related_works": [
         "https://openalex.org/W1503749078",
@@ -47476,7 +47493,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2020-07-29T00:00:00"
     },
     {
@@ -47991,9 +48008,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5699999928474426,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5699999928474426
         }
       ],
       "awards": [
@@ -48644,9 +48661,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4300000071525574,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.4300000071525574
         }
       ],
       "awards": [],
@@ -50160,9 +50177,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4099999964237213,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.4099999964237213
         }
       ],
       "awards": [],
@@ -51385,9 +51402,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "score": 0.5
         }
       ],
       "awards": [],
@@ -52541,9 +52558,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.44999998807907104,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
@@ -53224,9 +53241,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4300000071525574,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.4300000071525574
         }
       ],
       "awards": [],
@@ -54277,9 +54294,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6499999761581421,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6499999761581421
         }
       ],
       "awards": [],
@@ -61563,9 +61580,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5199999809265137,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "score": 0.5199999809265137
         }
       ],
       "awards": [],
@@ -62895,9 +62912,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5099999904632568,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.5099999904632568
         }
       ],
       "awards": [],
@@ -63566,9 +63583,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.41999998688697815
         }
       ],
       "awards": [],
@@ -66131,9 +66148,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.47999998927116394,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.47999998927116394
         }
       ],
       "awards": [],
@@ -71670,9 +71687,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5799999833106995,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5799999833106995
         }
       ],
       "awards": [
@@ -77777,9 +77794,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5400000214576721,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5400000214576721
         }
       ],
       "awards": [],
@@ -79687,7 +79704,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.08845051,
+        "value": 0.08822975,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -80069,7 +80086,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322997",
+          "display_name": "King Abdulaziz City for Science and Technology",
+          "ror": "https://ror.org/05tdz6m39"
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -80490,7 +80513,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -80854,9 +80877,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.41999998688697815
         }
       ],
       "awards": [],
@@ -81398,9 +81421,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6000000238418579,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6000000238418579
         }
       ],
       "awards": [],
@@ -82774,9 +82797,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6100000143051147,
+          "id": "https://metadata.un.org/sdg/2",
           "display_name": "Zero hunger",
-          "id": "https://metadata.un.org/sdg/2"
+          "score": 0.6100000143051147
         }
       ],
       "awards": [],
@@ -84677,9 +84700,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5799999833106995,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5799999833106995
         }
       ],
       "awards": [],
@@ -85345,9 +85368,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6700000166893005,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6700000166893005
         }
       ],
       "awards": [
@@ -85970,9 +85993,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.5699999928474426,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.5699999928474426
         }
       ],
       "awards": [],

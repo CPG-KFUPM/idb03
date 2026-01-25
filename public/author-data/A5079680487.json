@@ -1501,7 +1501,7 @@
       "has_fulltext": true,
       "cited_by_count": 82,
       "citation_normalized_percentile": {
-        "value": 0.8888064,
+        "value": 0.88875258,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1892,7 +1892,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -2014,15 +2025,15 @@
         "https://openalex.org/W2912397703",
         "https://openalex.org/W2600782883",
         "https://openalex.org/W2119743251",
-        "https://openalex.org/W4285719527",
         "https://openalex.org/W1588908417",
         "https://openalex.org/W586055078",
-        "https://openalex.org/W2005788962",
-        "https://openalex.org/W2061956027",
         "https://openalex.org/W2149490601",
         "https://openalex.org/W2160723963",
         "https://openalex.org/W2157965106",
-        "https://openalex.org/W2201874844"
+        "https://openalex.org/W2201874844",
+        "https://openalex.org/W2005788962",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2061956027"
       ],
       "related_works": [
         "https://openalex.org/W3158725635",
@@ -2510,7 +2521,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -2916,8 +2927,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4300000071525574
         }
       ],
@@ -4059,7 +4070,7 @@
       "has_fulltext": true,
       "cited_by_count": 31,
       "citation_normalized_percentile": {
-        "value": 0.89850178,
+        "value": 0.89857296,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4563,13 +4574,24 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.550000011920929
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -4705,13 +4727,15 @@
         "https://openalex.org/W2131275361",
         "https://openalex.org/W2923613555",
         "https://openalex.org/W1991194359",
-        "https://openalex.org/W2097610284",
-        "https://openalex.org/W2077421426",
-        "https://openalex.org/W2084573545",
         "https://openalex.org/W56199184",
         "https://openalex.org/W1505352099",
         "https://openalex.org/W1481245961",
         "https://openalex.org/W1541717936",
+        "https://openalex.org/W2097610284",
+        "https://openalex.org/W2077421426",
+        "https://openalex.org/W2084573545",
+        "https://openalex.org/W4251198028",
+        "https://openalex.org/W3213726711",
         "https://openalex.org/W2158561878",
         "https://openalex.org/W2143797720",
         "https://openalex.org/W2102565948",
@@ -4719,22 +4743,20 @@
         "https://openalex.org/W2509538834",
         "https://openalex.org/W2492206253",
         "https://openalex.org/W2489252044",
-        "https://openalex.org/W2611678802",
-        "https://openalex.org/W2800983634",
-        "https://openalex.org/W2586256972",
-        "https://openalex.org/W2305961264",
+        "https://openalex.org/W2038439082",
+        "https://openalex.org/W2019674908",
+        "https://openalex.org/W2037443710",
         "https://openalex.org/W2973613076",
         "https://openalex.org/W2976210669",
-        "https://openalex.org/W4251198028",
-        "https://openalex.org/W3213726711",
         "https://openalex.org/W2069341796",
         "https://openalex.org/W2067983188",
         "https://openalex.org/W2053683526",
         "https://openalex.org/W2051229022",
-        "https://openalex.org/W1782649302",
-        "https://openalex.org/W2038439082",
-        "https://openalex.org/W2019674908",
-        "https://openalex.org/W2037443710"
+        "https://openalex.org/W2611678802",
+        "https://openalex.org/W2800983634",
+        "https://openalex.org/W2586256972",
+        "https://openalex.org/W2305961264",
+        "https://openalex.org/W1782649302"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -5302,7 +5324,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2020-11-09T00:00:00"
     },
     {
@@ -7283,8 +7305,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.6399999856948853
         }
       ],
@@ -9773,8 +9795,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5799999833106995
         }
       ],
@@ -14718,8 +14740,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.41999998688697815
         }
       ],
@@ -17171,7 +17193,7 @@
       "has_fulltext": true,
       "cited_by_count": 25,
       "citation_normalized_percentile": {
-        "value": 0.79895213,
+        "value": 0.7989464,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17582,7 +17604,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -17665,15 +17698,15 @@
         "https://openalex.org/W1991523231",
         "https://openalex.org/W2311450836",
         "https://openalex.org/W2067011133",
-        "https://openalex.org/W1980408084",
-        "https://openalex.org/W2479361942",
         "https://openalex.org/W1999969383",
-        "https://openalex.org/W2065371499",
         "https://openalex.org/W563326298",
         "https://openalex.org/W1590454857",
         "https://openalex.org/W598329784",
         "https://openalex.org/W1510543474",
-        "https://openalex.org/W2156093183"
+        "https://openalex.org/W2065371499",
+        "https://openalex.org/W1980408084",
+        "https://openalex.org/W2156093183",
+        "https://openalex.org/W2479361942"
       ],
       "related_works": [
         "https://openalex.org/W2021000631",
@@ -18170,7 +18203,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -25170,8 +25203,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.6399999856948853
         }
       ],
@@ -25748,8 +25781,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4000000059604645
         }
       ],
@@ -28970,7 +29003,7 @@
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.80120381,
+        "value": 0.80107077,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29398,7 +29431,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320322997",
+          "display_name": "King Abdulaziz City for Science and Technology",
+          "ror": "https://ror.org/05tdz6m39"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -29432,27 +29476,27 @@
         "https://openalex.org/W2080333467",
         "https://openalex.org/W1972658648",
         "https://openalex.org/W2052457215",
-        "https://openalex.org/W2103774779",
-        "https://openalex.org/W2085029223",
-        "https://openalex.org/W2091277777",
-        "https://openalex.org/W2134432605",
-        "https://openalex.org/W2125677837",
-        "https://openalex.org/W3151261567",
-        "https://openalex.org/W3122425769",
-        "https://openalex.org/W3044006004",
-        "https://openalex.org/W2787959293",
-        "https://openalex.org/W2299647821",
-        "https://openalex.org/W2270878276",
         "https://openalex.org/W1977360274",
-        "https://openalex.org/W2045350842",
+        "https://openalex.org/W2075749005",
         "https://openalex.org/W2033402214",
         "https://openalex.org/W1530054495",
         "https://openalex.org/W1584611818",
         "https://openalex.org/W1553338987",
+        "https://openalex.org/W2299647821",
+        "https://openalex.org/W2270878276",
+        "https://openalex.org/W2103774779",
+        "https://openalex.org/W2085029223",
+        "https://openalex.org/W2091277777",
+        "https://openalex.org/W3151261567",
+        "https://openalex.org/W3122425769",
+        "https://openalex.org/W3044006004",
+        "https://openalex.org/W2787959293",
+        "https://openalex.org/W2045350842",
+        "https://openalex.org/W2014254762",
         "https://openalex.org/W24434454",
         "https://openalex.org/W69681244",
-        "https://openalex.org/W2075749005",
-        "https://openalex.org/W2014254762"
+        "https://openalex.org/W2134432605",
+        "https://openalex.org/W2125677837"
       ],
       "related_works": [
         "https://openalex.org/W2947935779",
@@ -29813,7 +29857,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -30845,8 +30889,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.4399999976158142
         }
       ],
@@ -31056,12 +31100,52 @@
             "display_name": "Zhihao Jia",
             "orcid": "https://orcid.org/0000-0002-3462-0246"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": true,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN",
+            "SA"
+          ],
+          "is_corresponding": false,
           "raw_author_name": "Zhihao Jia",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31070,12 +31154,34 @@
             "display_name": "Renyi Cao",
             "orcid": "https://orcid.org/0000-0002-2508-7152"
           },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
           "raw_author_name": "Renyi Cao",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31084,12 +31190,34 @@
             "display_name": "Baobiao Pu",
             "orcid": "https://orcid.org/0009-0008-9636-7478"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Baobiao Pu",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31098,12 +31226,34 @@
             "display_name": "Linsong Cheng",
             "orcid": "https://orcid.org/0000-0001-9863-7445"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Linsong Cheng",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31112,12 +31262,34 @@
             "display_name": "Peiyu Li",
             "orcid": "https://orcid.org/0009-0002-5316-0641"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Peiyu Li",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "Unconventional Petroleum Research Institute, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Unconventional Petroleum Research Institute, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31126,12 +31298,34 @@
             "display_name": "Abeeb A. Awotunde",
             "orcid": "https://orcid.org/0000-0002-2281-1483"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Abeeb A. Awotunde",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31140,12 +31334,52 @@
             "display_name": "Yan-Bo Lin",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210112595",
+              "display_name": "Research Institute of Petroleum Exploration and Development",
+              "ror": "https://ror.org/02awe6g05",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210112595",
+                "https://openalex.org/I98227222"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Yanbo Lin",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+            "Research Institute of Exploration & Development, PetroChina Changqing Oilfield Company, Xi'an, 710018, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Research Institute of Exploration & Development, PetroChina Changqing Oilfield Company, Xi'an, 710018, China",
+              "institution_ids": [
+                "https://openalex.org/I4210112595"
+              ]
+            }
+          ]
         },
         {
           "author_position": "middle",
@@ -31154,12 +31388,34 @@
             "display_name": "Quanyu Pan",
             "orcid": "https://orcid.org/0000-0003-3601-3033"
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Quanyu Pan",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         },
         {
           "author_position": "last",
@@ -31168,21 +31424,45 @@
             "display_name": "Yuying Sun",
             "orcid": null
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I204553293",
+              "display_name": "China University of Petroleum, Beijing",
+              "ror": "https://ror.org/041qf4r12",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Yuying Sun",
-          "raw_affiliation_strings": [],
-          "affiliations": []
+          "raw_affiliation_strings": [
+            "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Petroleum Engineering, China University of Petroleum, Beijing, 102245, China",
+              "institution_ids": [
+                "https://openalex.org/I204553293"
+              ]
+            }
+          ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
+      "countries_distinct_count": 2,
       "institutions_distinct_count": 9,
       "corresponding_author_ids": [
-        "https://openalex.org/A5019000607"
+        "https://openalex.org/A5017854627"
       ],
-      "corresponding_institution_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I204553293"
+      ],
       "apc_list": {
         "value": 3980,
         "currency": "USD",
@@ -31193,7 +31473,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.75949776,
+        "value": 0.75829809,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31646,7 +31926,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-24T23:23:39.755997",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -33228,8 +33508,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5299999713897705
         }
       ],
@@ -34915,7 +35195,7 @@
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.81037181,
+        "value": 0.81035654,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35307,8 +35587,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.47999998927116394
         }
       ],
@@ -35399,10 +35679,10 @@
         "https://openalex.org/W2060506373",
         "https://openalex.org/W1983155457",
         "https://openalex.org/W2170480532",
-        "https://openalex.org/W2036583026",
-        "https://openalex.org/W2031534386",
         "https://openalex.org/W1576426930",
-        "https://openalex.org/W1581807583"
+        "https://openalex.org/W1581807583",
+        "https://openalex.org/W2036583026",
+        "https://openalex.org/W2031534386"
       ],
       "related_works": [
         "https://openalex.org/W2890654716",
@@ -35893,7 +36173,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -38097,8 +38377,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.550000011920929
         }
       ],
@@ -38942,7 +39222,7 @@
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.62077394,
+        "value": 0.62091835,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -39306,6 +39586,11 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
           "id": "https://openalex.org/F4320336956",
           "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
           "ror": null
@@ -39365,9 +39650,9 @@
         "https://openalex.org/W1530035894",
         "https://openalex.org/W2967256202",
         "https://openalex.org/W31564373",
-        "https://openalex.org/W1559818734",
         "https://openalex.org/W2130985122",
         "https://openalex.org/W3119025646",
+        "https://openalex.org/W1559818734",
         "https://openalex.org/W2103810229"
       ],
       "related_works": [
@@ -39828,7 +40113,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -40344,8 +40629,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.699999988079071
         }
       ],
@@ -45958,8 +46243,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.46000000834465027
         }
       ],
@@ -46750,8 +47035,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.5699999928474426
         }
       ],
@@ -47222,8 +47507,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.6000000238418579
         }
       ],
@@ -49641,8 +49926,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.7599999904632568
         }
       ],
@@ -51179,8 +51464,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.699999988079071
         }
       ],
@@ -55002,8 +55287,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5099999904632568
         }
       ],
@@ -55959,8 +56244,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.41999998688697815
         }
       ],
@@ -56728,8 +57013,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.49000000953674316
         }
       ],
@@ -57767,8 +58052,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.6200000047683716
         }
       ],
@@ -61289,8 +61574,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water",
           "score": 0.6899999976158142
         }
       ],
@@ -62632,8 +62917,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5799999833106995
         }
       ],
@@ -64411,8 +64696,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.5
         }
       ],
@@ -69363,8 +69648,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5600000023841858
         }
       ],

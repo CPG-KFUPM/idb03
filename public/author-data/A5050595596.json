@@ -1471,7 +1471,7 @@
       "has_fulltext": true,
       "cited_by_count": 746,
       "citation_normalized_percentile": {
-        "value": 0.99868615,
+        "value": 0.99868531,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -2056,7 +2056,28 @@
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320309036",
+          "display_name": "Purdue University",
+          "ror": "https://ror.org/02dqehb95"
+        },
+        {
+          "id": "https://openalex.org/F4320309667",
+          "display_name": "Purdue Research Foundation",
+          "ror": "https://ror.org/007n03h88"
+        },
+        {
+          "id": "https://openalex.org/F4320321010",
+          "display_name": "Universiteit Utrecht",
+          "ror": "https://ror.org/04pp8hn57"
+        },
+        {
+          "id": "https://openalex.org/F4320333555",
+          "display_name": "Purdue Climate Change Research Center, Purdue University",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -2093,51 +2114,51 @@
         "https://openalex.org/W2015872291",
         "https://openalex.org/W2003040848",
         "https://openalex.org/W2159081561",
-        "https://openalex.org/W2055600689",
-        "https://openalex.org/W2056542719",
+        "https://openalex.org/W2123445693",
+        "https://openalex.org/W2134643081",
+        "https://openalex.org/W2130957548",
         "https://openalex.org/W2138511808",
+        "https://openalex.org/W2166683934",
+        "https://openalex.org/W2164810656",
+        "https://openalex.org/W2160464752",
+        "https://openalex.org/W2147241030",
+        "https://openalex.org/W2157517587",
+        "https://openalex.org/W2152162668",
+        "https://openalex.org/W2070940534",
+        "https://openalex.org/W2068368877",
+        "https://openalex.org/W2019940598",
+        "https://openalex.org/W378346767",
+        "https://openalex.org/W417295717",
+        "https://openalex.org/W33286007",
+        "https://openalex.org/W1489155911",
+        "https://openalex.org/W655934160",
+        "https://openalex.org/W1980258206",
+        "https://openalex.org/W1989279896",
+        "https://openalex.org/W1983571408",
         "https://openalex.org/W2090351585",
         "https://openalex.org/W2079446047",
         "https://openalex.org/W2087985655",
         "https://openalex.org/W1513231985",
         "https://openalex.org/W1531643369",
         "https://openalex.org/W1610719105",
-        "https://openalex.org/W378346767",
-        "https://openalex.org/W417295717",
-        "https://openalex.org/W33286007",
-        "https://openalex.org/W1489155911",
-        "https://openalex.org/W655934160",
         "https://openalex.org/W2009084577",
         "https://openalex.org/W1999809323",
         "https://openalex.org/W1995336154",
         "https://openalex.org/W2006835924",
         "https://openalex.org/W2003575828",
         "https://openalex.org/W2008019457",
-        "https://openalex.org/W2115575384",
-        "https://openalex.org/W2092358033",
-        "https://openalex.org/W2019940598",
-        "https://openalex.org/W1971944533",
-        "https://openalex.org/W1971701422",
-        "https://openalex.org/W1970304739",
-        "https://openalex.org/W1969568109",
-        "https://openalex.org/W1980258206",
-        "https://openalex.org/W1989279896",
-        "https://openalex.org/W1983571408",
+        "https://openalex.org/W2055600689",
+        "https://openalex.org/W2056542719",
         "https://openalex.org/W2034278169",
         "https://openalex.org/W2031481912",
         "https://openalex.org/W2031075788",
         "https://openalex.org/W2043606014",
-        "https://openalex.org/W2070940534",
-        "https://openalex.org/W2068368877",
-        "https://openalex.org/W2123445693",
-        "https://openalex.org/W2134643081",
-        "https://openalex.org/W2130957548",
-        "https://openalex.org/W2166683934",
-        "https://openalex.org/W2164810656",
-        "https://openalex.org/W2160464752",
-        "https://openalex.org/W2147241030",
-        "https://openalex.org/W2157517587",
-        "https://openalex.org/W2152162668"
+        "https://openalex.org/W2115575384",
+        "https://openalex.org/W2092358033",
+        "https://openalex.org/W1971944533",
+        "https://openalex.org/W1971701422",
+        "https://openalex.org/W1970304739",
+        "https://openalex.org/W1969568109"
       ],
       "related_works": [
         "https://openalex.org/W4249616540",
@@ -2214,7 +2235,7 @@
           "cited_by_count": 46
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2016-06-24T00:00:00"
     },
     {
@@ -4651,7 +4672,7 @@
       "has_fulltext": true,
       "cited_by_count": 198,
       "citation_normalized_percentile": {
-        "value": 0.9962524,
+        "value": 0.99627041,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -5280,13 +5301,6 @@
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G4728864244",
-          "display_name": null,
-          "funder_award_id": "NE/S001352/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
           "id": "https://openalex.org/G2844535386",
           "display_name": null,
           "funder_award_id": "41730530",
@@ -5313,9 +5327,21 @@
           "funder_award_id": "41476112",
           "funder_id": "https://openalex.org/F4320321001",
           "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G4728864244",
+          "display_name": null,
+          "funder_award_id": "NE/S001352/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
         }
       ],
       "funders": [
+        {
+          "id": "https://openalex.org/F4320311731",
+          "display_name": "University of Essex",
+          "ror": "https://ror.org/02nkf1q06"
+        },
         {
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
@@ -5327,9 +5353,29 @@
           "ror": "https://ror.org/01h0zpd94"
         },
         {
+          "id": "https://openalex.org/F4320321133",
+          "display_name": "Chinese Academy of Sciences",
+          "ror": "https://ror.org/034t30j35"
+        },
+        {
+          "id": "https://openalex.org/F4320323180",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320335787",
+          "display_name": "Fundamental Research Funds for the Central Universities",
+          "ror": null
+        },
+        {
+          "id": "https://openalex.org/F4320338151",
+          "display_name": "National Program on Global Change and Air-Sea Interaction",
+          "ror": null
         }
       ],
       "has_content": {
@@ -5521,7 +5567,7 @@
           "cited_by_count": 8
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -6551,9 +6597,9 @@
       "apc_paid": null,
       "fwci": 2.83791289,
       "has_fulltext": true,
-      "cited_by_count": 110,
+      "cited_by_count": 111,
       "citation_normalized_percentile": {
-        "value": 0.89337235,
+        "value": 0.89343087,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6974,7 +7020,23 @@
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320308269",
+          "display_name": "Alexander von Humboldt-Stiftung",
+          "ror": "https://ror.org/012kf4317"
+        },
+        {
+          "id": "https://openalex.org/F4320320240",
+          "display_name": "Research Councils UK",
+          "ror": "https://ror.org/00dq2kk65"
+        },
+        {
+          "id": "https://openalex.org/F4320320879",
+          "display_name": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -7037,14 +7099,14 @@
         "https://openalex.org/W2067393639",
         "https://openalex.org/W1999199167",
         "https://openalex.org/W2096532104",
-        "https://openalex.org/W1991608935",
+        "https://openalex.org/W1966228241",
+        "https://openalex.org/W1578042020",
+        "https://openalex.org/W2243447724",
         "https://openalex.org/W21064841",
         "https://openalex.org/W640826481",
         "https://openalex.org/W390185188",
-        "https://openalex.org/W2243447724",
-        "https://openalex.org/W1578042020",
-        "https://openalex.org/W2131920195",
-        "https://openalex.org/W1966228241"
+        "https://openalex.org/W1991608935",
+        "https://openalex.org/W2131920195"
       ],
       "related_works": [
         "https://openalex.org/W2765830541",
@@ -7062,7 +7124,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -7121,7 +7183,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -12168,7 +12230,7 @@
       "has_fulltext": false,
       "cited_by_count": 66,
       "citation_normalized_percentile": {
-        "value": 0.87194862,
+        "value": 0.87188233,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12630,6 +12692,21 @@
           "id": "https://openalex.org/F4320306076",
           "display_name": "National Science Foundation",
           "ror": "https://ror.org/021nxhr62"
+        },
+        {
+          "id": "https://openalex.org/F4320307899",
+          "display_name": "ConocoPhillips",
+          "ror": "https://ror.org/04hadnb81"
+        },
+        {
+          "id": "https://openalex.org/F4320324684",
+          "display_name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
+          "ror": "https://ror.org/01gntjh03"
+        },
+        {
+          "id": "https://openalex.org/F4320327262",
+          "display_name": "Netherlands Earth System Science Centre",
+          "ror": null
         }
       ],
       "has_content": {
@@ -12688,13 +12765,13 @@
         "https://openalex.org/W2165977355",
         "https://openalex.org/W2158374637",
         "https://openalex.org/W2089498979",
+        "https://openalex.org/W2891648898",
+        "https://openalex.org/W2240236968",
         "https://openalex.org/W1868181626",
         "https://openalex.org/W115150208",
         "https://openalex.org/W1772521552",
         "https://openalex.org/W60353427",
-        "https://openalex.org/W2240236968",
-        "https://openalex.org/W2005802362",
-        "https://openalex.org/W2891648898"
+        "https://openalex.org/W2005802362"
       ],
       "related_works": [
         "https://openalex.org/W2169271265",
@@ -12751,7 +12828,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -15007,7 +15084,7 @@
       "has_fulltext": true,
       "cited_by_count": 42,
       "citation_normalized_percentile": {
-        "value": 0.89031312,
+        "value": 0.89033967,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15406,6 +15483,13 @@
       ],
       "awards": [
         {
+          "id": "https://openalex.org/G444040677",
+          "display_name": "UEA-2011-DTG-Funding 13 Studentships",
+          "funder_award_id": "NE/J500069/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
           "id": "https://openalex.org/G1469174862",
           "display_name": null,
           "funder_award_id": "bgs05002",
@@ -15418,13 +15502,6 @@
           "funder_award_id": "bgs05002",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G444040677",
-          "display_name": "UEA-2011-DTG-Funding 13 Studentships",
-          "funder_award_id": "NE/J500069/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
@@ -15432,6 +15509,11 @@
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
           "ror": "https://ror.org/03z2py885"
+        },
+        {
+          "id": "https://openalex.org/F4320321464",
+          "display_name": "British Geological Survey",
+          "ror": "https://ror.org/04a7gbp98"
         },
         {
           "id": "https://openalex.org/F4320334631",
@@ -15489,8 +15571,8 @@
         "https://openalex.org/W2045136634",
         "https://openalex.org/W2741727984",
         "https://openalex.org/W2582743722",
-        "https://openalex.org/W2016964999",
-        "https://openalex.org/W1964735963"
+        "https://openalex.org/W1964735963",
+        "https://openalex.org/W2016964999"
       ],
       "related_works": [
         "https://openalex.org/W2335241039",
@@ -15555,7 +15637,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2016-06-24T00:00:00"
     },
     {
@@ -18500,7 +18582,7 @@
       "has_fulltext": true,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.94942418,
+        "value": 0.94894924,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -18959,6 +19041,27 @@
       ],
       "awards": [
         {
+          "id": "https://openalex.org/G2026700912",
+          "display_name": null,
+          "funder_award_id": "BB/W012731/1",
+          "funder_id": "https://openalex.org/F4320334629",
+          "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+        },
+        {
+          "id": "https://openalex.org/G3727533490",
+          "display_name": null,
+          "funder_award_id": "NE/P012671/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
+          "id": "https://openalex.org/G3987959056",
+          "display_name": null,
+          "funder_award_id": "NE/X000990/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
           "id": "https://openalex.org/G1686285920",
           "display_name": null,
           "funder_award_id": "NE/X000990/1",
@@ -18999,27 +19102,6 @@
           "funder_award_id": "NE/X014428/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G2026700912",
-          "display_name": null,
-          "funder_award_id": "BB/W012731/1",
-          "funder_id": "https://openalex.org/F4320334629",
-          "funder_display_name": "Biotechnology and Biological Sciences Research Council"
-        },
-        {
-          "id": "https://openalex.org/G3727533490",
-          "display_name": null,
-          "funder_award_id": "NE/P012671/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G3987959056",
-          "display_name": null,
-          "funder_award_id": "NE/X000990/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
         }
       ],
       "funders": [
@@ -19027,6 +19109,21 @@
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
           "ror": "https://ror.org/03z2py885"
+        },
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320322440",
+          "display_name": "Ocean University of China",
+          "ror": "https://ror.org/04rdtx186"
+        },
+        {
+          "id": "https://openalex.org/F4320324174",
+          "display_name": "Natural Science Foundation of Shandong Province",
+          "ror": null
         },
         {
           "id": "https://openalex.org/F4320334629",
@@ -19037,6 +19134,11 @@
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320335787",
+          "display_name": "Fundamental Research Funds for the Central Universities",
+          "ror": null
         }
       ],
       "has_content": {
@@ -19138,7 +19240,515 @@
         "https://openalex.org/W2018540637",
         "https://openalex.org/W2335508567"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "14": [
+          75
+        ],
+        "27": [
+          103
+        ],
+        "750": [
+          61
+        ],
+        "Abstract": [
+          0
+        ],
+        "Hadal": [
+          1
+        ],
+        "trenches": [
+          2
+        ],
+        "are": [
+          3,
+          203
+        ],
+        "characterized": [
+          4
+        ],
+        "by": [
+          5,
+          80
+        ],
+        "enhanced": [
+          6
+        ],
+        "and": [
+          7,
+          21,
+          85,
+          95,
+          117,
+          122,
+          132,
+          146,
+          182,
+          211
+        ],
+        "infrequent": [
+          8
+        ],
+        "high-rate": [
+          9,
+          38,
+          168
+        ],
+        "episodic": [
+          10,
+          39,
+          169
+        ],
+        "sedimentation": [
+          11,
+          40,
+          155,
+          170
+        ],
+        "events": [
+          12,
+          156,
+          171
+        ],
+        "that": [
+          13,
+          28
+        ],
+        "likely": [
+          14,
+          78,
+          204
+        ],
+        "introduce": [
+          15
+        ],
+        "not": [
+          16
+        ],
+        "only": [
+          17
+        ],
+        "labile": [
+          18
+        ],
+        "organic": [
+          19,
+          123
+        ],
+        "carbon": [
+          20,
+          55
+        ],
+        "key": [
+          22
+        ],
+        "nutrients": [
+          23
+        ],
+        "but": [
+          24
+        ],
+        "also": [
+          25
+        ],
+        "new": [
+          26
+        ],
+        "microbes": [
+          27
+        ],
+        "significantly": [
+          29
+        ],
+        "alter": [
+          30
+        ],
+        "the": [
+          31,
+          35,
+          43,
+          46,
+          67,
+          86,
+          100,
+          174,
+          184,
+          213
+        ],
+        "subseafloor": [
+          32,
+          48,
+          215
+        ],
+        "microbiosphere.": [
+          33
+        ],
+        "Currently,": [
+          34
+        ],
+        "role": [
+          36,
+          166
+        ],
+        "of": [
+          37,
+          45,
+          54,
+          89,
+          157,
+          163
+        ],
+        "in": [
+          41,
+          58,
+          99,
+          119,
+          172,
+          177,
+          206
+        ],
+        "controlling": [
+          42,
+          173
+        ],
+        "composition": [
+          44,
+          57,
+          94,
+          133
+        ],
+        "hadal": [
+          47,
+          197
+        ],
+        "microbiosphere": [
+          49,
+          176
+        ],
+        "is": [
+          50,
+          161
+        ],
+        "unknown.": [
+          51
+        ],
+        "Here,": [
+          52
+        ],
+        "analyses": [
+          53
+        ],
+        "isotope": [
+          56
+        ],
+        "a": [
+          59,
+          164,
+          191
+        ],
+        "~": [
+          60,
+          102
+        ],
+        "cm": [
+          62,
+          104
+        ],
+        "long": [
+          63
+        ],
+        "sediment": [
+          64,
+          115
+        ],
+        "core": [
+          65
+        ],
+        "from": [
+          66,
+          106
+        ],
+        "Challenger": [
+          68
+        ],
+        "Deep": [
+          69
+        ],
+        "revealed": [
+          70
+        ],
+        "noncontinuous": [
+          71
+        ],
+        "deposition,": [
+          72
+        ],
+        "with": [
+          73,
+          142
+        ],
+        "anomalous": [
+          74
+        ],
+        "C": [
+          76
+        ],
+        "ages": [
+          77
+        ],
+        "caused": [
+          79
+        ],
+        "seismically": [
+          81
+        ],
+        "driven": [
+          82
+        ],
+        "mass": [
+          83
+        ],
+        "transport": [
+          84
+        ],
+        "funneling": [
+          87
+        ],
+        "effect": [
+          88
+        ],
+        "trench": [
+          90
+        ],
+        "geomorphology.": [
+          91
+        ],
+        "Microbial": [
+          92
+        ],
+        "community": [
+          93
+        ],
+        "diverse": [
+          96
+        ],
+        "enzyme": [
+          97,
+          144
+        ],
+        "activities": [
+          98
+        ],
+        "upper": [
+          101
+        ],
+        "differed": [
+          105
+        ],
+        "those": [
+          107
+        ],
+        "at": [
+          108,
+          138
+        ],
+        "lower": [
+          109,
+          127
+        ],
+        "depths,": [
+          110,
+          128
+        ],
+        "probably": [
+          111
+        ],
+        "due": [
+          112,
+          151
+        ],
+        "to": [
+          113,
+          152,
+          186,
+          195
+        ],
+        "sudden": [
+          114,
+          154
+        ],
+        "deposition": [
+          116
+        ],
+        "differences": [
+          118
+        ],
+        "redox": [
+          120
+        ],
+        "condition": [
+          121
+        ],
+        "matter": [
+          124
+        ],
+        "availability.": [
+          125
+        ],
+        "At": [
+          126
+        ],
+        "microbial": [
+          129,
+          147
+        ],
+        "population": [
+          130
+        ],
+        "numbers,": [
+          131
+        ],
+        "remained": [
+          134
+        ],
+        "relatively": [
+          135
+        ],
+        "constant,": [
+          136
+        ],
+        "except": [
+          137
+        ],
+        "some": [
+          139
+        ],
+        "discrete": [
+          140
+        ],
+        "depths": [
+          141
+        ],
+        "altered": [
+          143
+        ],
+        "activity": [
+          145
+        ],
+        "phyla": [
+          148
+        ],
+        "abundance,": [
+          149
+        ],
+        "possibly": [
+          150
+        ],
+        "additional": [
+          153
+        ],
+        "different": [
+          158
+        ],
+        "magnitude.": [
+          159
+        ],
+        "Evidence": [
+          160
+        ],
+        "provided": [
+          162
+        ],
+        "unique": [
+          165
+        ],
+        "for": [
+          167
+        ],
+        "subsurface": [
+          175
+        ],
+        "Earth’s": [
+          178
+        ],
+        "deepest": [
+          179
+        ],
+        "ocean": [
+          180
+        ],
+        "floor": [
+          181
+        ],
+        "highlight": [
+          183
+        ],
+        "need": [
+          185
+        ],
+        "perform": [
+          187
+        ],
+        "thorough": [
+          188
+        ],
+        "analysis": [
+          189
+        ],
+        "over": [
+          190
+        ],
+        "large": [
+          192
+        ],
+        "depth": [
+          193
+        ],
+        "range": [
+          194
+        ],
+        "characterize": [
+          196
+        ],
+        "benthic": [
+          198
+        ],
+        "populations.": [
+          199
+        ],
+        "Such": [
+          200
+        ],
+        "depositional": [
+          201
+        ],
+        "processes": [
+          202
+        ],
+        "crucial": [
+          205
+        ],
+        "shaping": [
+          207
+        ],
+        "deep-water": [
+          208
+        ],
+        "geochemical": [
+          209
+        ],
+        "environments": [
+          210
+        ],
+        "thereby": [
+          212
+        ],
+        "deep": [
+          214
+        ],
+        "biosphere.": [
+          216
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2025,
@@ -19149,7 +19759,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-20T17:24:06.736184",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -21024,7 +21634,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.80342729,
+        "value": 0.80258519,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21359,6 +21969,13 @@
       ],
       "awards": [
         {
+          "id": "https://openalex.org/G7604170890",
+          "display_name": null,
+          "funder_award_id": "UNCE/SCI/006",
+          "funder_id": "https://openalex.org/F4320333932",
+          "funder_display_name": "Center for Geosphere Dynamics, Charles University"
+        },
+        {
           "id": "https://openalex.org/G5521292038",
           "display_name": null,
           "funder_award_id": "40217",
@@ -21371,16 +21988,14 @@
           "funder_award_id": "20-06134S",
           "funder_id": "https://openalex.org/F4320321006",
           "funder_display_name": "Grantová Agentura České Republiky"
-        },
-        {
-          "id": "https://openalex.org/G7604170890",
-          "display_name": null,
-          "funder_award_id": "UNCE/SCI/006",
-          "funder_id": "https://openalex.org/F4320333932",
-          "funder_display_name": "Center for Geosphere Dynamics, Charles University"
         }
       ],
       "funders": [
+        {
+          "id": "https://openalex.org/F4320306076",
+          "display_name": "National Science Foundation",
+          "ror": "https://ror.org/021nxhr62"
+        },
         {
           "id": "https://openalex.org/F4320309755",
           "display_name": "Univerzita Karlova v Praze",
@@ -21502,13 +22117,13 @@
         "https://openalex.org/W3081787187",
         "https://openalex.org/W2020080256",
         "https://openalex.org/W2093401326",
-        "https://openalex.org/W2486092158",
-        "https://openalex.org/W1548502618",
-        "https://openalex.org/W1909417450",
+        "https://openalex.org/W1999761984",
         "https://openalex.org/W4252880307",
         "https://openalex.org/W4248641712",
-        "https://openalex.org/W1999761984",
-        "https://openalex.org/W2030334586"
+        "https://openalex.org/W1548502618",
+        "https://openalex.org/W2486092158",
+        "https://openalex.org/W2030334586",
+        "https://openalex.org/W1909417450"
       ],
       "related_works": [
         "https://openalex.org/W2758836683",
@@ -21533,7 +22148,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -23948,7 +24563,7 @@
       "has_fulltext": true,
       "cited_by_count": 49,
       "citation_normalized_percentile": {
-        "value": 0.9648095,
+        "value": 0.96481365,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -24485,6 +25100,16 @@
           "id": "https://openalex.org/F4320307862",
           "display_name": "Inter-American Development Bank",
           "ror": "https://ror.org/02gjn4306"
+        },
+        {
+          "id": "https://openalex.org/F4320320006",
+          "display_name": "Royal Society",
+          "ror": "https://ror.org/03wnrjx87"
+        },
+        {
+          "id": "https://openalex.org/F4320334631",
+          "display_name": "Natural Environment Research Council",
+          "ror": "https://ror.org/02b5d8509"
         }
       ],
       "has_content": {
@@ -24524,13 +25149,13 @@
         "https://openalex.org/W2029257306",
         "https://openalex.org/W2015726086",
         "https://openalex.org/W3016270394",
-        "https://openalex.org/W2015032635",
-        "https://openalex.org/W146626679",
-        "https://openalex.org/W641385692",
+        "https://openalex.org/W2166915931",
+        "https://openalex.org/W2273397155",
         "https://openalex.org/W2136126485",
         "https://openalex.org/W2100468073",
-        "https://openalex.org/W2166915931",
-        "https://openalex.org/W2273397155"
+        "https://openalex.org/W146626679",
+        "https://openalex.org/W641385692",
+        "https://openalex.org/W2015032635"
       ],
       "related_works": [
         "https://openalex.org/W2354881517",
@@ -24984,7 +25609,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -29365,7 +29990,7 @@
       "has_fulltext": false,
       "cited_by_count": 33,
       "citation_normalized_percentile": {
-        "value": 0.9426601,
+        "value": 0.94264323,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -29741,7 +30366,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320274",
+          "display_name": "University of East Anglia",
+          "ror": "https://ror.org/026k5mg93"
+        }
+      ],
       "has_content": {
         "pdf": false,
         "grobid_xml": false
@@ -29883,12 +30514,12 @@
         "https://openalex.org/W1967612447",
         "https://openalex.org/W2083699275",
         "https://openalex.org/W2096532104",
-        "https://openalex.org/W2587679884",
-        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2017752297",
         "https://openalex.org/W1668469117",
         "https://openalex.org/W196739373",
         "https://openalex.org/W1654781408",
-        "https://openalex.org/W2017752297"
+        "https://openalex.org/W2587679884",
+        "https://openalex.org/W4285719527"
       ],
       "related_works": [
         "https://openalex.org/W4387497383",
@@ -30389,7 +31020,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -31411,7 +32042,7 @@
       "has_fulltext": false,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.89885138,
+        "value": 0.89872231,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31876,6 +32507,16 @@
           "id": "https://openalex.org/F4320307862",
           "display_name": "Inter-American Development Bank",
           "ror": "https://ror.org/02gjn4306"
+        },
+        {
+          "id": "https://openalex.org/F4320320006",
+          "display_name": "Royal Society",
+          "ror": "https://ror.org/03wnrjx87"
+        },
+        {
+          "id": "https://openalex.org/F4320334631",
+          "display_name": "Natural Environment Research Council",
+          "ror": "https://ror.org/02b5d8509"
         }
       ],
       "has_content": {
@@ -31957,24 +32598,24 @@
         "https://openalex.org/W2041161441",
         "https://openalex.org/W2176956584",
         "https://openalex.org/W6654318746",
+        "https://openalex.org/W1912142590",
+        "https://openalex.org/W2119862318",
+        "https://openalex.org/W2939474406",
+        "https://openalex.org/W2505529796",
+        "https://openalex.org/W3152100734",
+        "https://openalex.org/W4299501080",
+        "https://openalex.org/W2015726086",
+        "https://openalex.org/W2012317085",
+        "https://openalex.org/W2071352614",
+        "https://openalex.org/W2174501920",
+        "https://openalex.org/W2222984321",
         "https://openalex.org/W208610410",
         "https://openalex.org/W658192690",
         "https://openalex.org/W1503154400",
         "https://openalex.org/W1555963603",
         "https://openalex.org/W1580961126",
         "https://openalex.org/W1566644351",
-        "https://openalex.org/W1709559841",
-        "https://openalex.org/W2012317085",
-        "https://openalex.org/W2939474406",
-        "https://openalex.org/W2119862318",
-        "https://openalex.org/W2505529796",
-        "https://openalex.org/W3152100734",
-        "https://openalex.org/W4299501080",
-        "https://openalex.org/W2071352614",
-        "https://openalex.org/W2015726086",
-        "https://openalex.org/W1912142590",
-        "https://openalex.org/W2174501920",
-        "https://openalex.org/W2222984321"
+        "https://openalex.org/W1709559841"
       ],
       "related_works": [
         "https://openalex.org/W3034779966",
@@ -31988,582 +32629,7 @@
         "https://openalex.org/W2145249086",
         "https://openalex.org/W2604217432"
       ],
-      "abstract_inverted_index": {
-        "3": [
-          42
-        ],
-        "2009": [
-          52,
-          69
-        ],
-        "We": [
-          0,
-          240
-        ],
-        "use": [
-          1
-        ],
-        "first": [
-          2
-        ],
-        "field-based": [
-          3
-        ],
-        "observations": [
-          4
-        ],
-        "of": [
-          5,
-          28,
-          36,
-          44,
-          75,
-          90,
-          98,
-          154,
-          171,
-          178,
-          186,
-          195,
-          199,
-          202,
-          209,
-          214,
-          263
-        ],
-        "precipitation": [
-          6,
-          77,
-          86,
-          139,
-          173
-        ],
-        "and": [
-          7,
-          18,
-          53,
-          70,
-          82,
-          114,
-          227,
-          232,
-          245
-        ],
-        "river": [
-          8,
-          155
-        ],
-        "isotopic": [
-          9,
-          152,
-          174
-        ],
-        "chemistry": [
-          10,
-          153,
-          201
-        ],
-        "from": [
-          11,
-          129,
-          183
-        ],
-        "a": [
-          12,
-          47,
-          260
-        ],
-        "three-year": [
-          13
-        ],
-        "study": [
-          14
-        ],
-        "(2009–2011)": [
-          15
-        ],
-        "in": [
-          16,
-          21,
-          51,
-          58,
-          60,
-          68,
-          72,
-          105,
-          140,
-          161,
-          225,
-          266
-        ],
-        "rainforest": [
-          17,
-          31
-        ],
-        "nearby": [
-          19
-        ],
-        "savannah": [
-          20
-        ],
-        "central": [
-          22
-        ],
-        "Guyana": [
-          23
-        ],
-        "at": [
-          24,
-          123
-        ],
-        "the": [
-          25,
-          29,
-          34,
-          63,
-          95,
-          106,
-          125,
-          134,
-          141,
-          184,
-          187,
-          190,
-          196,
-          206,
-          212,
-          215,
-          218,
-          223
-        ],
-        "northern": [
-          26,
-          207
-        ],
-        "rim": [
-          27,
-          208
-        ],
-        "Amazon": [
-          30
-        ],
-        "to": [
-          32,
-          62,
-          112,
-          131,
-          146,
-          211,
-          257
-        ],
-        "establish": [
-          33
-        ],
-        "quality": [
-          35
-        ],
-        "modelled": [
-          37,
-          172
-        ],
-        "or": [
-          38
-        ],
-        "remotely-sensed": [
-          39
-        ],
-        "datasets.": [
-          40
-        ],
-        "Our": [
-          41,
-          148,
-          220
-        ],
-        "years": [
-          43
-        ],
-        "data": [
-          45,
-          92,
-          150,
-          249,
-          254
-        ],
-        "capture": [
-          46,
-          94
-        ],
-        "reduced": [
-          48
-        ],
-        "rainfall": [
-          49,
-          103
-        ],
-        "regime": [
-          50
-        ],
-        "an": [
-          54
-        ],
-        "extended": [
-          55
-        ],
-        "wet": [
-          56,
-          108,
-          191
-        ],
-        "season": [
-          57,
-          109,
-          128,
-          143,
-          192
-        ],
-        "2010,": [
-          59
-        ],
-        "contrast": [
-          61
-        ],
-        "widely": [
-          64
-        ],
-        "documented": [
-          65
-        ],
-        "Amazonian": [
-          66
-        ],
-        "floods": [
-          67
-        ],
-        "droughts": [
-          71
-        ],
-        "2010.": [
-          73
-        ],
-        "Comparisons": [
-          74
-        ],
-        "observed": [
-          76
-        ],
-        "with": [
-          78,
-          167,
-          250
-        ],
-        "satellite": [
-          79
-        ],
-        "derived": [
-          80,
-          182
-        ],
-        "TRMM": [
-          81,
-          118
-        ],
-        "ECMWF": [
-          83
-        ],
-        "ERA-Interim": [
-          84,
-          135
-        ],
-        "reanalysis": [
-          85
-        ],
-        "show": [
-          87,
-          157
-        ],
-        "that": [
-          88,
-          158,
-          242
-        ],
-        "both": [
-          89
-        ],
-        "these": [
-          91
-        ],
-        "sets": [
-          93
-        ],
-        "general": [
-          96
-        ],
-        "pattern": [
-          97
-        ],
-        "seasonality,": [
-          99
-        ],
-        "but": [
-          100,
-          133
-        ],
-        "substantially": [
-          101
-        ],
-        "underestimate": [
-          102
-        ],
-        "amounts": [
-          104
-        ],
-        "primary": [
-          107
-        ],
-        "(by": [
-          110
-        ],
-        "up": [
-          111,
-          145
-        ],
-        "50%": [
-          113
-        ],
-        "72%": [
-          115
-        ],
-        "respectively).": [
-          116
-        ],
-        "The": [
-          117,
-          176
-        ],
-        "dataset": [
-          119
-        ],
-        "is": [
-          120,
-          255
-        ],
-        "generally": [
-          121
-        ],
-        "better": [
-          122
-        ],
-        "characterising": [
-          124
-        ],
-        "main": [
-          126
-        ],
-        "dry": [
-          127,
-          142
-        ],
-        "September": [
-          130
-        ],
-        "December": [
-          132
-        ],
-        "model": [
-          136,
-          238,
-          253
-        ],
-        "can": [
-          137
-        ],
-        "overestimate": [
-          138
-        ],
-        "by": [
-          144
-        ],
-        "175%.": [
-          147
-        ],
-        "new": [
-          149
-        ],
-        "on": [
-          151,
-          205
-        ],
-        "waters": [
-          156
-        ],
-        "δ2H/δ18O": [
-          159
-        ],
-        "values": [
-          160
-        ],
-        "this": [
-          162
-        ],
-        "region": [
-          163
-        ],
-        "are": [
-          164
-        ],
-        "broadly": [
-          165
-        ],
-        "consistent": [
-          166
-        ],
-        "interpolated": [
-          168
-        ],
-        "global": [
-          169
-        ],
-        "datasets": [
-          170
-        ],
-        "signatures.": [
-          175
-        ],
-        "dominance": [
-          177
-        ],
-        "isotopically": [
-          179
-        ],
-        "lighter": [
-          180
-        ],
-        "water": [
-          181,
-          200
-        ],
-        "rains": [
-          185
-        ],
-        "ITCZ": [
-          188,
-          216
-        ],
-        "during": [
-          189
-        ],
-        "provides": [
-          193
-        ],
-        "evidence": [
-          194
-        ],
-        "close": [
-          197
-        ],
-        "coupling": [
-          198
-        ],
-        "headwater": [
-          203
-        ],
-        "rivers": [
-          204
-        ],
-        "Amazonia": [
-          210
-        ],
-        "positioning": [
-          213
-        ],
-        "over": [
-          217
-        ],
-        "region.": [
-          219
-        ],
-        "results": [
-          221
-        ],
-        "highlight": [
-          222
-        ],
-        "challenge": [
-          224
-        ],
-        "understanding": [
-          226,
-          262
-        ],
-        "representing": [
-          228
-        ],
-        "local": [
-          229,
-          246
-        ],
-        "scale": [
-          230,
-          237,
-          247,
-          252
-        ],
-        "hydrological": [
-          231
-        ],
-        "biogeochemical": [
-          233
-        ],
-        "characteristics": [
-          234
-        ],
-        "using": [
-          235
-        ],
-        "regional": [
-          236
-        ],
-        "data.": [
-          239
-        ],
-        "argue": [
-          241
-        ],
-        "combining": [
-          243
-        ],
-        "point": [
-          244
-        ],
-        "field": [
-          248
-        ],
-        "larger": [
-          251
-        ],
-        "necessary": [
-          256
-        ],
-        "progress": [
-          258
-        ],
-        "towards": [
-          259
-        ],
-        "comprehensive": [
-          261
-        ],
-        "climate–hydrology": [
-          264
-        ],
-        "interactions": [
-          265
-        ],
-        "Amazonia.": [
-          267
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2025,
@@ -32594,7 +32660,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -37202,7 +37268,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.81833306,
+        "value": 0.81824988,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37793,9 +37859,29 @@
           "ror": "https://ror.org/03z2py885"
         },
         {
+          "id": "https://openalex.org/F4320320277",
+          "display_name": "University of Southampton",
+          "ror": "https://ror.org/01ryk1543"
+        },
+        {
+          "id": "https://openalex.org/F4320324888",
+          "display_name": "Norges Miljø- og Biovitenskapelige Universitet",
+          "ror": "https://ror.org/04a1mvv97"
+        },
+        {
+          "id": "https://openalex.org/F4320332183",
+          "display_name": "U.S. Geological Survey",
+          "ror": "https://ror.org/035a68863"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320336013",
+          "display_name": "Norsk institutt for Bioøkonomi",
+          "ror": null
         }
       ],
       "has_content": {
@@ -37870,10 +37956,10 @@
         "https://openalex.org/W6791242475",
         "https://openalex.org/W2272804069",
         "https://openalex.org/W1874818045",
-        "https://openalex.org/W2151663063",
-        "https://openalex.org/W2155220709",
         "https://openalex.org/W3131045442",
         "https://openalex.org/W2582743722",
+        "https://openalex.org/W2151663063",
+        "https://openalex.org/W2155220709",
         "https://openalex.org/W2767707172"
       ],
       "related_works": [
@@ -38522,7 +38608,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {

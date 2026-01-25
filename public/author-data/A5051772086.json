@@ -2127,8 +2127,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.5400000214576721
         }
       ],
@@ -3451,8 +3451,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.4300000071525574
         }
       ],
@@ -4441,8 +4441,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.6200000047683716
         }
       ],
@@ -5396,8 +5396,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4699999988079071
         }
       ],
@@ -7349,7 +7349,7 @@
       "has_fulltext": false,
       "cited_by_count": 43,
       "citation_normalized_percentile": {
-        "value": 0.87482378,
+        "value": 0.87478996,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7646,7 +7646,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320334593",
+          "display_name": "Natural Sciences and Engineering Research Council of Canada",
+          "ror": "https://ror.org/01h531d29"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -7690,8 +7696,8 @@
         "https://openalex.org/W2113561908",
         "https://openalex.org/W2079426490",
         "https://openalex.org/W2106987068",
-        "https://openalex.org/W2220819173",
-        "https://openalex.org/W2464231115"
+        "https://openalex.org/W2464231115",
+        "https://openalex.org/W2220819173"
       ],
       "related_works": [
         "https://openalex.org/W2360488578",
@@ -8182,7 +8188,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8411,7 +8417,7 @@
       "has_fulltext": true,
       "cited_by_count": 42,
       "citation_normalized_percentile": {
-        "value": 0.91351634,
+        "value": 0.91351257,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8906,6 +8912,11 @@
           "id": "https://openalex.org/F4320322010",
           "display_name": "Ministry of Land, Infrastructure and Transport",
           "ror": "https://ror.org/04xt5aa77"
+        },
+        {
+          "id": "https://openalex.org/F4320324625",
+          "display_name": "Korea Agency for Infrastructure Technology Advancement",
+          "ror": "https://ror.org/00rxf7n07"
         }
       ],
       "has_content": {
@@ -8951,8 +8962,8 @@
         "https://openalex.org/W2754535167",
         "https://openalex.org/W2106791205",
         "https://openalex.org/W1977168082",
-        "https://openalex.org/W2951424872",
         "https://openalex.org/W647889288",
+        "https://openalex.org/W2951424872",
         "https://openalex.org/W2485780519"
       ],
       "related_works": [
@@ -9472,7 +9483,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -11237,8 +11248,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
           "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.41999998688697815
         }
       ],
@@ -12697,8 +12708,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "No poverty",
           "id": "https://metadata.un.org/sdg/1",
+          "display_name": "No poverty",
           "score": 0.5600000023841858
         }
       ],
@@ -14113,16 +14124,6 @@
           },
           "institutions": [
             {
-              "id": "https://openalex.org/I25757504",
-              "display_name": "China University of Mining and Technology",
-              "ror": "https://ror.org/01xt2dr21",
-              "country_code": "CN",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I25757504"
-              ]
-            },
-            {
               "id": "https://openalex.org/I4210111575",
               "display_name": "Xinjiang Institute of Engineering",
               "ror": "https://ror.org/01s5hh873",
@@ -14131,6 +14132,16 @@
               "lineage": [
                 "https://openalex.org/I4210111575",
                 "https://openalex.org/I4210157944"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I25757504",
+              "display_name": "China University of Mining and Technology",
+              "ror": "https://ror.org/01xt2dr21",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I25757504"
               ]
             }
           ],
@@ -14418,8 +14429,8 @@
         "https://openalex.org/A5045862554"
       ],
       "corresponding_institution_ids": [
-        "https://openalex.org/I25757504",
-        "https://openalex.org/I4210111575"
+        "https://openalex.org/I4210111575",
+        "https://openalex.org/I25757504"
       ],
       "apc_list": {
         "value": 2200,
@@ -14435,7 +14446,7 @@
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.73477575,
+        "value": 0.73429761,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14857,20 +14868,35 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.49000000953674316
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320321145",
+          "display_name": "King Saud University",
+          "ror": "https://ror.org/02f81g417"
+        },
+        {
+          "id": "https://openalex.org/F4320335787",
+          "display_name": "Fundamental Research Funds for the Central Universities",
+          "ror": null
+        }
+      ],
       "has_content": {
         "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": false
       },
       "content_urls": {
-        "pdf": "https://content.openalex.org/works/W4390402953.pdf",
-        "grobid_xml": "https://content.openalex.org/works/W4390402953.grobid-xml"
+        "pdf": "https://content.openalex.org/works/W4390402953.pdf"
       },
       "referenced_works_count": 83,
       "referenced_works": [
@@ -15724,7 +15750,7 @@
           "cited_by_count": 6
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -17771,7 +17797,7 @@
       "has_fulltext": true,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.78425093,
+        "value": 0.78424208,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18165,7 +18191,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320671",
+          "display_name": "National Research Foundation",
+          "ror": "https://ror.org/05s0g1g46"
+        },
+        {
+          "id": "https://openalex.org/F4320322120",
+          "display_name": "National Research Foundation of Korea",
+          "ror": "https://ror.org/013aysd81"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -18741,7 +18778,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -23607,8 +23644,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.5600000023841858
         }
       ],
@@ -24372,8 +24409,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.41999998688697815
         }
       ],
@@ -26645,8 +26682,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.550000011920929
         }
       ],
@@ -31778,8 +31815,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.7599999904632568
         }
       ],
@@ -33915,8 +33952,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5299999713897705
         }
       ],
@@ -35631,7 +35668,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321145",
+          "display_name": "King Saud University",
+          "ror": "https://ror.org/02f81g417"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -36388,7 +36431,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2023-01-06T00:00:00"
     },
     {
@@ -38108,8 +38151,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4099999964237213
         }
       ],
@@ -41365,7 +41408,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.69332821,
+        "value": 0.69188843,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41564,7 +41607,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320971",
+          "display_name": "Monash University",
+          "ror": "https://ror.org/02bfwt286"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": false
@@ -41596,8 +41645,8 @@
         "https://openalex.org/W2610842381",
         "https://openalex.org/W2192079199",
         "https://openalex.org/W2079305979",
-        "https://openalex.org/W2485738731",
-        "https://openalex.org/W1586019852"
+        "https://openalex.org/W1586019852",
+        "https://openalex.org/W2485738731"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -41978,7 +42027,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-12-26T23:08:49.675405",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -42490,8 +42539,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.5
         }
       ],
@@ -45438,8 +45487,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
           "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.6000000238418579
         }
       ],
@@ -49268,8 +49317,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.5299999713897705
         }
       ],
@@ -49809,8 +49858,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water",
           "score": 0.46000000834465027
         }
       ],
@@ -51632,7 +51681,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322010",
+          "display_name": "Ministry of Land, Infrastructure and Transport",
+          "ror": "https://ror.org/04xt5aa77"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -51650,26 +51705,26 @@
         "https://openalex.org/W7056572810",
         "https://openalex.org/W3022591838",
         "https://openalex.org/W2020124992",
-        "https://openalex.org/W2047627453",
-        "https://openalex.org/W2045362451",
-        "https://openalex.org/W1977168082",
-        "https://openalex.org/W2141681593",
-        "https://openalex.org/W2900839335",
-        "https://openalex.org/W2951424872",
-        "https://openalex.org/W2073729911",
-        "https://openalex.org/W647889288",
-        "https://openalex.org/W2495545910",
-        "https://openalex.org/W2485780519",
-        "https://openalex.org/W2467741826",
         "https://openalex.org/W2763432138",
         "https://openalex.org/W2724397819",
+        "https://openalex.org/W2141681593",
         "https://openalex.org/W2039148615",
-        "https://openalex.org/W2067852644",
-        "https://openalex.org/W2043534441",
+        "https://openalex.org/W2106791205",
+        "https://openalex.org/W2073729911",
+        "https://openalex.org/W2047627453",
+        "https://openalex.org/W2045362451",
         "https://openalex.org/W599756832",
         "https://openalex.org/W1549613661",
         "https://openalex.org/W217022991",
-        "https://openalex.org/W2106791205"
+        "https://openalex.org/W2495545910",
+        "https://openalex.org/W2485780519",
+        "https://openalex.org/W2467741826",
+        "https://openalex.org/W647889288",
+        "https://openalex.org/W1977168082",
+        "https://openalex.org/W2067852644",
+        "https://openalex.org/W2043534441",
+        "https://openalex.org/W2900839335",
+        "https://openalex.org/W2951424872"
       ],
       "related_works": [
         "https://openalex.org/W2616259412",
@@ -52161,7 +52216,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -54769,8 +54824,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.7099999785423279
         }
       ],
@@ -57804,8 +57859,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
           "score": 0.6299999952316284
         }
       ],
@@ -60389,8 +60444,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.47999998927116394
         }
       ],

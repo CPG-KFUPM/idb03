@@ -961,16 +961,16 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.4399999976158142,
           "display_name": "Responsible consumption and production",
-          "score": 0.4399999976158142
+          "id": "https://metadata.un.org/sdg/12"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4377020857.pdf"
@@ -2338,8 +2338,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2014266572.pdf",
@@ -3148,8 +3148,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -3844,16 +3844,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/3",
+          "score": 0.8700000047683716,
           "display_name": "Good health and well-being",
-          "score": 0.8700000047683716
+          "id": "https://metadata.un.org/sdg/3"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 42,
@@ -4396,8 +4396,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 24,
@@ -5268,9 +5268,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/16",
+          "score": 0.7900000214576721,
           "display_name": "Peace, Justice and strong institutions",
-          "score": 0.7900000214576721
+          "id": "https://metadata.un.org/sdg/16"
         }
       ],
       "awards": [],
@@ -5282,8 +5282,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -5909,8 +5909,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
@@ -7145,8 +7145,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 19,
@@ -7711,7 +7711,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.39464464,
+        "value": 0.39340989,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8037,10 +8037,16 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4413480696.pdf",
@@ -8422,7 +8428,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     }
   ]

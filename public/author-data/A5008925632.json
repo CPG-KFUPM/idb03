@@ -616,7 +616,7 @@
       "has_fulltext": true,
       "cited_by_count": 24,
       "citation_normalized_percentile": {
-        "value": 0.85876262,
+        "value": 0.85877499,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1015,7 +1015,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -1666,7 +1672,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -2387,8 +2393,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8700000047683716
         }
       ],
@@ -5080,8 +5086,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8600000143051147
         }
       ],
@@ -6575,8 +6581,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.7699999809265137
         }
       ],
@@ -7985,8 +7991,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8600000143051147
         }
       ],
@@ -9040,8 +9046,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8500000238418579
         }
       ],
@@ -12730,8 +12736,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6700000166893005
         }
       ],
@@ -15066,8 +15072,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.8600000143051147
         }
       ],

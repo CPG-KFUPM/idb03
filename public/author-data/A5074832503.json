@@ -5699,7 +5699,7 @@
       "has_fulltext": true,
       "cited_by_count": 31,
       "citation_normalized_percentile": {
-        "value": 0.89850178,
+        "value": 0.89857296,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6209,7 +6209,18 @@
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -6345,13 +6356,15 @@
         "https://openalex.org/W2131275361",
         "https://openalex.org/W2923613555",
         "https://openalex.org/W1991194359",
-        "https://openalex.org/W2097610284",
-        "https://openalex.org/W2077421426",
-        "https://openalex.org/W2084573545",
         "https://openalex.org/W56199184",
         "https://openalex.org/W1505352099",
         "https://openalex.org/W1481245961",
         "https://openalex.org/W1541717936",
+        "https://openalex.org/W2097610284",
+        "https://openalex.org/W2077421426",
+        "https://openalex.org/W2084573545",
+        "https://openalex.org/W4251198028",
+        "https://openalex.org/W3213726711",
         "https://openalex.org/W2158561878",
         "https://openalex.org/W2143797720",
         "https://openalex.org/W2102565948",
@@ -6359,22 +6372,20 @@
         "https://openalex.org/W2509538834",
         "https://openalex.org/W2492206253",
         "https://openalex.org/W2489252044",
-        "https://openalex.org/W2611678802",
-        "https://openalex.org/W2800983634",
-        "https://openalex.org/W2586256972",
-        "https://openalex.org/W2305961264",
+        "https://openalex.org/W2038439082",
+        "https://openalex.org/W2019674908",
+        "https://openalex.org/W2037443710",
         "https://openalex.org/W2973613076",
         "https://openalex.org/W2976210669",
-        "https://openalex.org/W4251198028",
-        "https://openalex.org/W3213726711",
         "https://openalex.org/W2069341796",
         "https://openalex.org/W2067983188",
         "https://openalex.org/W2053683526",
         "https://openalex.org/W2051229022",
-        "https://openalex.org/W1782649302",
-        "https://openalex.org/W2038439082",
-        "https://openalex.org/W2019674908",
-        "https://openalex.org/W2037443710"
+        "https://openalex.org/W2611678802",
+        "https://openalex.org/W2800983634",
+        "https://openalex.org/W2586256972",
+        "https://openalex.org/W2305961264",
+        "https://openalex.org/W1782649302"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -6942,7 +6953,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2020-11-09T00:00:00"
     },
     {
@@ -15487,7 +15498,7 @@
       "has_fulltext": true,
       "cited_by_count": 25,
       "citation_normalized_percentile": {
-        "value": 0.79895213,
+        "value": 0.7989464,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15898,7 +15909,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -15981,15 +16003,15 @@
         "https://openalex.org/W1991523231",
         "https://openalex.org/W2311450836",
         "https://openalex.org/W2067011133",
-        "https://openalex.org/W1980408084",
-        "https://openalex.org/W2479361942",
         "https://openalex.org/W1999969383",
-        "https://openalex.org/W2065371499",
         "https://openalex.org/W563326298",
         "https://openalex.org/W1590454857",
         "https://openalex.org/W598329784",
         "https://openalex.org/W1510543474",
-        "https://openalex.org/W2156093183"
+        "https://openalex.org/W2065371499",
+        "https://openalex.org/W1980408084",
+        "https://openalex.org/W2156093183",
+        "https://openalex.org/W2479361942"
       ],
       "related_works": [
         "https://openalex.org/W2021000631",
@@ -16486,7 +16508,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -21264,7 +21286,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.80711635,
+        "value": 0.80708322,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21719,18 +21741,18 @@
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G8793362874",
-          "display_name": null,
-          "funder_award_id": "# KU-201004",
-          "funder_id": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals"
-        },
-        {
           "id": "https://openalex.org/G6265497110",
           "display_name": null,
           "funder_award_id": "# KU-KFUPM-2020–28",
           "funder_id": "https://openalex.org/F4320322334",
           "funder_display_name": "Khalifa University of Science, Technology and Research"
+        },
+        {
+          "id": "https://openalex.org/G8793362874",
+          "display_name": null,
+          "funder_award_id": "# KU-201004",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
       "funders": [
@@ -21808,9 +21830,9 @@
         "https://openalex.org/W1992985564",
         "https://openalex.org/W2945842644",
         "https://openalex.org/W3186193298",
-        "https://openalex.org/W2971852481",
         "https://openalex.org/W1990627808",
-        "https://openalex.org/W2055293358"
+        "https://openalex.org/W2055293358",
+        "https://openalex.org/W2971852481"
       ],
       "related_works": [
         "https://openalex.org/W2920901296",
@@ -22528,7 +22550,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {

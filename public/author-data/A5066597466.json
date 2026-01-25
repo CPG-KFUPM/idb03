@@ -1383,8 +1383,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 81,
@@ -2592,9 +2592,9 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8299999833106995,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "score": 0.8299999833106995
         }
       ],
       "awards": [],
@@ -2606,8 +2606,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 67,
@@ -3564,7 +3564,7 @@
       "has_fulltext": false,
       "cited_by_count": 53,
       "citation_normalized_percentile": {
-        "value": 0.83777719,
+        "value": 0.83778433,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3928,9 +3928,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.75,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy"
+          "display_name": "Affordable and clean energy",
+          "score": 0.75
         }
       ],
       "awards": [
@@ -3958,6 +3958,11 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320320671",
+          "display_name": "National Research Foundation",
+          "ror": "https://ror.org/05s0g1g46"
+        },
+        {
           "id": "https://openalex.org/F4320320751",
           "display_name": "Ministry of Education - Singapore",
           "ror": "https://ror.org/01kcva023"
@@ -3966,11 +3971,16 @@
           "id": "https://openalex.org/F4320321114",
           "display_name": "Bundesministerium für Bildung und Forschung",
           "ror": "https://ror.org/04pz7b180"
+        },
+        {
+          "id": "https://openalex.org/F4320322724",
+          "display_name": "Ministry of Education, India",
+          "ror": "https://ror.org/048xjjh50"
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 67,
@@ -4467,7 +4477,7 @@
           "cited_by_count": 6
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2018-11-29T00:00:00"
     },
     {
@@ -5148,7 +5158,7 @@
       "has_fulltext": true,
       "cited_by_count": 30,
       "citation_normalized_percentile": {
-        "value": 0.75110478,
+        "value": 0.75106422,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5503,16 +5513,37 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8700000047683716,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy"
+          "display_name": "Affordable and clean energy",
+          "score": 0.8700000047683716
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321114",
+          "display_name": "Bundesministerium für Bildung und Forschung",
+          "ror": "https://ror.org/04pz7b180"
+        },
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
+          "id": "https://openalex.org/F4320327248",
+          "display_name": "Fuel Cells and Hydrogen Joint Undertaking",
+          "ror": null
+        },
+        {
+          "id": "https://openalex.org/F4320328631",
+          "display_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+          "ror": "https://ror.org/01zy2cs03"
+        }
+      ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2972833210.pdf",
@@ -5578,8 +5609,8 @@
         "https://openalex.org/W1868849675",
         "https://openalex.org/W2884014467",
         "https://openalex.org/W2047877383",
-        "https://openalex.org/W2601709297",
-        "https://openalex.org/W4301154521"
+        "https://openalex.org/W4301154521",
+        "https://openalex.org/W2601709297"
       ],
       "related_works": [
         "https://openalex.org/W1970775275",
@@ -6122,7 +6153,7 @@
           "cited_by_count": 6
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -6836,16 +6867,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8700000047683716,
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy"
+          "display_name": "Affordable and clean energy",
+          "score": 0.8700000047683716
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 79,
@@ -7798,8 +7829,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 37,
@@ -8770,9 +8801,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "score": 0.4699999988079071
         }
       ],
       "awards": [],
@@ -8784,8 +8815,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 56,
@@ -10129,8 +10160,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W1868849675.pdf",
@@ -11191,16 +11222,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6600000262260437,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "score": 0.6600000262260437
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 61,
@@ -12106,8 +12137,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 76,
@@ -12736,8 +12767,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 40,
@@ -14229,16 +14260,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "score": 0.6700000166893005
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2768487777.pdf",
@@ -14856,16 +14887,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "score": 0.7400000095367432
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W137456331.pdf"
@@ -15841,8 +15872,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -16085,16 +16116,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5799999833106995,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger"
+          "display_name": "Zero hunger",
+          "score": 0.5799999833106995
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -16539,8 +16570,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2950927619.pdf"
@@ -17614,8 +17645,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 61,
@@ -18678,8 +18709,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4414258623.pdf"

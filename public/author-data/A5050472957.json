@@ -1003,15 +1003,15 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.49000000953674316,
-          "display_name": "Responsible consumption and production"
+          "display_name": "Responsible consumption and production",
+          "score": 0.49000000953674316
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -1361,7 +1361,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.62042932,
+        "value": 0.62049462,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1837,10 +1837,21 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3083060816.pdf",
@@ -1862,9 +1873,9 @@
         "https://openalex.org/W2610805115",
         "https://openalex.org/W2096105657",
         "https://openalex.org/W2009420010",
+        "https://openalex.org/W2506302436",
         "https://openalex.org/W2803048119",
-        "https://openalex.org/W2733018613",
-        "https://openalex.org/W2506302436"
+        "https://openalex.org/W2733018613"
       ],
       "related_works": [
         "https://openalex.org/W2320818229",
@@ -2388,7 +2399,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -3019,8 +3030,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -3390,8 +3401,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -3661,7 +3672,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.47683344,
+        "value": 0.47678515,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4045,11 +4056,16 @@
           "id": "https://openalex.org/F4320322323",
           "display_name": "King Fahd University of Petroleum and Minerals",
           "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4293662957.pdf",
@@ -4691,7 +4707,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -5097,8 +5113,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -5577,8 +5593,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 7,
@@ -6265,8 +6281,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -6592,15 +6608,15 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5299999713897705,
-          "display_name": "Climate action"
+          "display_name": "Climate action",
+          "score": 0.5299999713897705
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -7209,8 +7225,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,

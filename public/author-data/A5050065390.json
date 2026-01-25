@@ -2233,9 +2233,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land",
-          "score": 0.6299999952316284
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -6687,9 +6687,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8700000047683716,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8700000047683716
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -7757,9 +7757,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.4699999988079071
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -10387,9 +10387,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8299999833106995,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8299999833106995
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -12442,9 +12442,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.5600000023841858,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.5600000023841858
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -13988,9 +13988,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.5199999809265137,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.5199999809265137
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -15140,9 +15140,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.550000011920929,
           "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water",
-          "score": 0.550000011920929
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
@@ -17130,7 +17130,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.52381956,
+        "value": 0.52344451,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17485,7 +17485,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "grobid_xml": false,
         "pdf": true
@@ -17531,14 +17542,430 @@
         "https://openalex.org/W1932970760",
         "https://openalex.org/W2912972024"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "In": [
+          1,
+          91
+        ],
+        "treatments": [
+          2
+        ],
+        "that": [
+          3,
+          17,
+          36,
+          153
+        ],
+        "involve": [
+          4
+        ],
+        "multiple": [
+          5,
+          141
+        ],
+        "stages": [
+          6
+        ],
+        "and": [
+          7,
+          87,
+          111
+        ],
+        "clusters,": [
+          8,
+          51
+        ],
+        "one": [
+          9
+        ],
+        "of": [
+          10,
+          125,
+          138
+        ],
+        "the": [
+          11,
+          18,
+          31,
+          46,
+          60,
+          71,
+          76,
+          104,
+          117,
+          136,
+          165,
+          181
+        ],
+        "most": [
+          12
+        ],
+        "important": [
+          13
+        ],
+        "challenges": [
+          14
+        ],
+        "is": [
+          15,
+          20,
+          27,
+          99,
+          177
+        ],
+        "ensuring": [
+          16
+        ],
+        "proppant": [
+          19,
+          32,
+          47,
+          105,
+          118,
+          156,
+          166,
+          175,
+          182
+        ],
+        "evenly": [
+          21,
+          168
+        ],
+        "distributed": [
+          22
+        ],
+        "across": [
+          23,
+          140,
+          169
+        ],
+        "all": [
+          24,
+          37
+        ],
+        "clusters.": [
+          25,
+          171
+        ],
+        "It": [
+          26
+        ],
+        "crucial": [
+          28
+        ],
+        "to": [
+          29,
+          34,
+          42,
+          74,
+          101,
+          134,
+          163
+        ],
+        "distribute": [
+          30
+        ],
+        "equally": [
+          33
+        ],
+        "ensure": [
+          35
+        ],
+        "perforation": [
+          38,
+          50,
+          109,
+          170
+        ],
+        "clusters": [
+          39,
+          142
+        ],
+        "are": [
+          40
+        ],
+        "contributing": [
+          41
+        ],
+        "production.": [
+          43
+        ],
+        "To": [
+          44
+        ],
+        "forecast": [
+          45,
+          103
+        ],
+        "distribution": [
+          48,
+          106,
+          119,
+          137,
+          176
+        ],
+        "between": [
+          49
+        ],
+        "an": [
+          52,
+          94
+        ],
+        "experimental": [
+          53,
+          97
+        ],
+        "correlation": [
+          54,
+          98,
+          114,
+          130,
+          151
+        ],
+        "was": [
+          55,
+          68
+        ],
+        "established": [
+          56
+        ],
+        "using": [
+          57,
+          70,
+          107
+        ],
+        "data": [
+          58
+        ],
+        "from": [
+          59,
+          79
+        ],
+        "literature": [
+          61
+        ],
+        "on": [
+          62
+        ],
+        "horizontal": [
+          63
+        ],
+        "wellbores.": [
+          64
+        ],
+        "A": [
+          65
+        ],
+        "dimensional": [
+          66
+        ],
+        "analysis": [
+          67
+        ],
+        "performed": [
+          69
+        ],
+        "Buckingham": [
+          72
+        ],
+        "Pi-theorem": [
+          73
+        ],
+        "develop": [
+          75
+        ],
+        "correlation.": [
+          77
+        ],
+        "Data": [
+          78
+        ],
+        "different": [
+          80
+        ],
+        "independent": [
+          81
+        ],
+        "variables,": [
+          82
+        ],
+        "such": [
+          83
+        ],
+        "as": [
+          84
+        ],
+        "completion": [
+          85
+        ],
+        "designs": [
+          86
+        ],
+        "orientations,": [
+          88
+        ],
+        "were": [
+          89
+        ],
+        "incorporated.": [
+          90
+        ],
+        "this": [
+          92
+        ],
+        "study,": [
+          93
+        ],
+        "improved": [
+          95
+        ],
+        "novel": [
+          96
+        ],
+        "proposed": [
+          100
+        ],
+        "accurately": [
+          102
+        ],
+        "various": [
+          108
+        ],
+        "configurations": [
+          110
+        ],
+        "orientations.": [
+          112
+        ],
+        "The": [
+          113,
+          149
+        ],
+        "can": [
+          115
+        ],
+        "predict": [
+          116,
+          135
+        ],
+        "with": [
+          120
+        ],
+        "a": [
+          121,
+          144,
+          158,
+          173
+        ],
+        "low": [
+          122
+        ],
+        "percentage": [
+          123
+        ],
+        "difference": [
+          124
+        ],
+        "less": [
+          126
+        ],
+        "than": [
+          127
+        ],
+        "20%.": [
+          128
+        ],
+        "This": [
+          129
+        ],
+        "may": [
+          131,
+          161
+        ],
+        "be": [
+          132
+        ],
+        "upscaled": [
+          133
+        ],
+        "proppants": [
+          139
+        ],
+        "in": [
+          143
+        ],
+        "single-stage": [
+          145
+        ],
+        "hydraulic": [
+          146
+        ],
+        "fracturing": [
+          147
+        ],
+        "stimulation.": [
+          148
+        ],
+        "developed": [
+          150
+        ],
+        "illustrates": [
+          152
+        ],
+        "injecting": [
+          154
+        ],
+        "more": [
+          155,
+          167
+        ],
+        "at": [
+          157
+        ],
+        "higher": [
+          159
+        ],
+        "rate": [
+          160
+        ],
+        "help": [
+          162
+        ],
+        "allocate": [
+          164
+        ],
+        "However,": [
+          172
+        ],
+        "nonuniform": [
+          174
+        ],
+        "obtained": [
+          178
+        ],
+        "by": [
+          179
+        ],
+        "increasing": [
+          180
+        ],
+        "median": [
+          183
+        ],
+        "diameter.": [
+          184
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2025,
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-12-26T23:08:49.675405",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -18134,9 +18561,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.7099999785423279,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7099999785423279
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -19436,9 +19863,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.44999998807907104
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
@@ -21974,9 +22401,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.5099999904632568
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -24328,9 +24755,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8399999737739563
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],

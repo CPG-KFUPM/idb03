@@ -1185,8 +1185,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 34,
@@ -1954,7 +1954,7 @@
       "has_fulltext": true,
       "cited_by_count": 81,
       "citation_normalized_percentile": {
-        "value": 0.96270447,
+        "value": 0.96267734,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2476,16 +2476,16 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G8216308687",
+          "id": "https://openalex.org/G1813919320",
           "display_name": null,
-          "funder_award_id": "KAUST CRG3 Award Ref:2281",
+          "funder_award_id": "KAUST CRG4 Award Ref:2584",
           "funder_id": "https://openalex.org/F4320322320",
           "funder_display_name": "King Abdullah University of Science and Technology"
         },
         {
-          "id": "https://openalex.org/G1813919320",
+          "id": "https://openalex.org/G8216308687",
           "display_name": null,
-          "funder_award_id": "KAUST CRG4 Award Ref:2584",
+          "funder_award_id": "KAUST CRG3 Award Ref:2281",
           "funder_id": "https://openalex.org/F4320322320",
           "funder_display_name": "King Abdullah University of Science and Technology"
         }
@@ -2498,8 +2498,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2764128407.pdf",
@@ -2583,7 +2583,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -2846,7 +2846,7 @@
       "has_fulltext": false,
       "cited_by_count": 71,
       "citation_normalized_percentile": {
-        "value": 0.98322047,
+        "value": 0.98314142,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3243,16 +3243,22 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Reduced inequalities",
           "id": "https://metadata.un.org/sdg/10",
-          "score": 0.4000000059604645
+          "score": 0.4000000059604645,
+          "display_name": "Reduced inequalities"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        }
+      ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
@@ -3278,16 +3284,16 @@
         "https://openalex.org/W2002926750",
         "https://openalex.org/W2057638322",
         "https://openalex.org/W6813223041",
+        "https://openalex.org/W4231428347",
+        "https://openalex.org/W2803516188",
+        "https://openalex.org/W2476154690",
         "https://openalex.org/W2316418224",
         "https://openalex.org/W196710731",
         "https://openalex.org/W105972687",
         "https://openalex.org/W105785986",
         "https://openalex.org/W1593505867",
         "https://openalex.org/W1538934584",
-        "https://openalex.org/W4231428347",
-        "https://openalex.org/W2803516188",
-        "https://openalex.org/W2119436275",
-        "https://openalex.org/W2476154690"
+        "https://openalex.org/W2119436275"
       ],
       "related_works": [
         "https://openalex.org/W2103218814",
@@ -3301,262 +3307,7 @@
         "https://openalex.org/W2037688108",
         "https://openalex.org/W3152905387"
       ],
-      "abstract_inverted_index": {
-        "In": [
-          0,
-          20
-        ],
-        "this": [
-          1
-        ],
-        "work": [
-          2
-        ],
-        "we": [
-          3,
-          22,
-          86
-        ],
-        "consider": [
-          4,
-          23,
-          87
-        ],
-        "quasi-optimal": [
-          5,
-          61
-        ],
-        "versions": [
-          6
-        ],
-        "of": [
-          7,
-          26,
-          31,
-          38,
-          41,
-          52,
-          95,
-          103
-        ],
-        "the": [
-          8,
-          24,
-          39,
-          42,
-          47,
-          53,
-          101
-        ],
-        "Stochastic": [
-          9
-        ],
-        "Galerkin": [
-          10,
-          67
-        ],
-        "method": [
-          11
-        ],
-        "for": [
-          12
-        ],
-        "solving": [
-          13
-        ],
-        "linear": [
-          14
-        ],
-        "elliptic": [
-          15
-        ],
-        "PDEs": [
-          16
-        ],
-        "with": [
-          17,
-          44,
-          92
-        ],
-        "stochastic": [
-          18
-        ],
-        "coefficients.": [
-          19
-        ],
-        "particular,": [
-          21
-        ],
-        "case": [
-          25
-        ],
-        "a": [
-          27,
-          50,
-          60,
-          66,
-          70,
-          78,
-          83,
-          88
-        ],
-        "finite": [
-          28
-        ],
-        "number": [
-          29
-        ],
-        "$N$": [
-          30
-        ],
-        "random": [
-          32,
-          96
-        ],
-        "inputs": [
-          33
-        ],
-        "and": [
-          34,
-          76
-        ],
-        "an": [
-          35
-        ],
-        "analytic": [
-          36
-        ],
-        "dependence": [
-          37
-        ],
-        "solution": [
-          40
-        ],
-        "PDE": [
-          43
-        ],
-        "respect": [
-          45
-        ],
-        "to": [
-          46
-        ],
-        "parameters": [
-          48
-        ],
-        "in": [
-          49
-        ],
-        "polydisc": [
-          51
-        ],
-        "complex": [
-          54
-        ],
-        "plane": [
-          55
-        ],
-        "$C^N$.": [
-          56
-        ],
-        "We": [
-          57
-        ],
-        "show": [
-          58,
-          100
-        ],
-        "that": [
-          59
-        ],
-        "approximation": [
-          62
-        ],
-        "is": [
-          63
-        ],
-        "given": [
-          64
-        ],
-        "by": [
-          65
-        ],
-        "projection": [
-          68
-        ],
-        "on": [
-          69
-        ],
-        "weighted": [
-          71
-        ],
-        "(anisotropic)": [
-          72
-        ],
-        "total": [
-          73
-        ],
-        "degree": [
-          74
-        ],
-        "space": [
-          75
-        ],
-        "prove": [
-          77
-        ],
-        "(sub)exponential": [
-          79
-        ],
-        "convergence": [
-          80
-        ],
-        "rate.": [
-          81
-        ],
-        "As": [
-          82
-        ],
-        "specific": [
-          84
-        ],
-        "application": [
-          85
-        ],
-        "thermal": [
-          89
-        ],
-        "conduction": [
-          90
-        ],
-        "problem": [
-          91
-        ],
-        "non-overlapping": [
-          93
-        ],
-        "inclusions": [
-          94
-        ],
-        "conductivity.": [
-          97
-        ],
-        "Numerical": [
-          98
-        ],
-        "results": [
-          99
-        ],
-        "sharpness": [
-          102
-        ],
-        "our": [
-          104
-        ],
-        "estimates.": [
-          105
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2024,
@@ -3599,7 +3350,7 @@
           "cited_by_count": 7
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -4260,7 +4011,7 @@
       "has_fulltext": true,
       "cited_by_count": 43,
       "citation_normalized_percentile": {
-        "value": 0.98698625,
+        "value": 0.98698852,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4877,19 +4628,12 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4099999964237213
+          "score": 0.4099999964237213,
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [
-        {
-          "id": "https://openalex.org/G7384046864",
-          "display_name": "Probability, Uncertainty and Risk in the Natural Environment",
-          "funder_award_id": "NE/J016497/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
         {
           "id": "https://openalex.org/G5957705530",
           "display_name": null,
@@ -4933,20 +4677,6 @@
           "funder_display_name": "Natural Environment Research Council"
         },
         {
-          "id": "https://openalex.org/G1084081462",
-          "display_name": null,
-          "funder_award_id": "NE/E01545X/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G3739757212",
-          "display_name": null,
-          "funder_award_id": "NE/P01660X/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
           "id": "https://openalex.org/G6939662381",
           "display_name": null,
           "funder_award_id": "NE/V012894/1",
@@ -4973,6 +4703,27 @@
           "funder_award_id": "NE/I024127/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G1084081462",
+          "display_name": null,
+          "funder_award_id": "NE/E01545X/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
+          "id": "https://openalex.org/G3739757212",
+          "display_name": null,
+          "funder_award_id": "NE/P01660X/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
+          "id": "https://openalex.org/G7384046864",
+          "display_name": "Probability, Uncertainty and Risk in the Natural Environment",
+          "funder_award_id": "NE/J016497/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
@@ -4988,8 +4739,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4309680563.pdf",
@@ -5083,410 +4834,7 @@
         "https://openalex.org/W2030789237",
         "https://openalex.org/W2125369662"
       ],
-      "abstract_inverted_index": {
-        "36": [
-          57
-        ],
-        "Abstract": [
-          0
-        ],
-        "Surface": [
-          1
-        ],
-        "faulting": [
-          2
-        ],
-        "earthquakes": [
-          3
-        ],
-        "are": [
-          4,
-          30,
-          54,
-          116,
-          144
-        ],
-        "known": [
-          5
-        ],
-        "to": [
-          6,
-          98,
-          120
-        ],
-        "cluster": [
-          7
-        ],
-        "in": [
-          8,
-          47,
-          123
-        ],
-        "time": [
-          9
-        ],
-        "from": [
-          10
-        ],
-        "historical": [
-          11
-        ],
-        "and": [
-          12,
-          26,
-          33,
-          79,
-          92,
-          112
-        ],
-        "palaeoseismic": [
-          13
-        ],
-        "studies,": [
-          14
-        ],
-        "but": [
-          15
-        ],
-        "the": [
-          16,
-          151
-        ],
-        "mechanism(s)": [
-          17
-        ],
-        "responsible": [
-          18
-        ],
-        "for": [
-          19,
-          148
-        ],
-        "clustering,": [
-          20,
-          149
-        ],
-        "such": [
-          21
-        ],
-        "as": [
-          22,
-          76
-        ],
-        "fault": [
-          23
-        ],
-        "interaction,": [
-          24
-        ],
-        "strain-storage,": [
-          25
-        ],
-        "evolving": [
-          27
-        ],
-        "dynamic": [
-          28
-        ],
-        "topography,": [
-          29
-        ],
-        "poorly": [
-          31
-        ],
-        "quantified,": [
-          32
-        ],
-        "hence": [
-          34
-        ],
-        "not": [
-          35
-        ],
-        "well": [
-          36
-        ],
-        "understood.": [
-          37
-        ],
-        "We": [
-          38,
-          102
-        ],
-        "present": [
-          39
-        ],
-        "a": [
-          40,
-          145
-        ],
-        "quantified": [
-          41
-        ],
-        "replication": [
-          42
-        ],
-        "of": [
-          43,
-          64,
-          117
-        ],
-        "observed": [
-          44
-        ],
-        "earthquake": [
-          45,
-          77
-        ],
-        "clustering": [
-          46
-        ],
-        "central": [
-          48
-        ],
-        "Italy.": [
-          49
-        ],
-        "Six": [
-          50
-        ],
-        "active": [
-          51
-        ],
-        "normal": [
-          52
-        ],
-        "faults": [
-          53
-        ],
-        "studied": [
-          55
-        ],
-        "using": [
-          56
-        ],
-        "Cl": [
-          58
-        ],
-        "cosmogenic": [
-          59
-        ],
-        "dating,": [
-          60
-        ],
-        "revealing": [
-          61
-        ],
-        "out-of-phase": [
-          62
-        ],
-        "periods": [
-          63
-        ],
-        "high": [
-          65
-        ],
-        "or": [
-          66
-        ],
-        "low": [
-          67
-        ],
-        "surface": [
-          68
-        ],
-        "slip-rate": [
-          69,
-          131
-        ],
-        "on": [
-          70,
-          94,
-          125,
-          133
-        ],
-        "neighboring": [
-          71
-        ],
-        "structures": [
-          72,
-          97
-        ],
-        "that": [
-          73,
-          104,
-          129,
-          141
-        ],
-        "we": [
-          74
-        ],
-        "interpret": [
-          75
-        ],
-        "clusters": [
-          78,
-          91
-        ],
-        "anticlusters.": [
-          80
-        ],
-        "Our": [
-          81
-        ],
-        "calculations": [
-          82
-        ],
-        "link": [
-          83
-        ],
-        "stress": [
-          84,
-          107
-        ],
-        "transfer": [
-          85
-        ],
-        "caused": [
-          86
-        ],
-        "by": [
-          87
-        ],
-        "slip": [
-          88
-        ],
-        "averaged": [
-          89
-        ],
-        "over": [
-          90
-        ],
-        "anti-clusters": [
-          93
-        ],
-        "coupled": [
-          95
-        ],
-        "fault/shear-zone": [
-          96,
-          110,
-          142
-        ],
-        "viscous": [
-          99,
-          126
-        ],
-        "flow": [
-          100
-        ],
-        "laws.": [
-          101
-        ],
-        "show": [
-          103
-        ],
-        "(1)": [
-          105
-        ],
-        "differential": [
-          106
-        ],
-        "fluctuates": [
-          108
-        ],
-        "during": [
-          109
-        ],
-        "interactions,": [
-          111
-        ],
-        "(2)": [
-          113
-        ],
-        "these": [
-          114
-        ],
-        "fluctuations": [
-          115
-        ],
-        "sufficient": [
-          118
-        ],
-        "magnitude": [
-          119
-        ],
-        "produce": [
-          121
-        ],
-        "changes": [
-          122,
-          132
-        ],
-        "strain-rate": [
-          124
-        ],
-        "shear": [
-          127
-        ],
-        "zones": [
-          128
-        ],
-        "explain": [
-          130
-        ],
-        "their": [
-          134
-        ],
-        "overlying": [
-          135
-        ],
-        "brittle": [
-          136
-        ],
-        "faults.": [
-          137
-        ],
-        "These": [
-          138
-        ],
-        "results": [
-          139
-        ],
-        "suggest": [
-          140
-        ],
-        "interactions": [
-          143
-        ],
-        "plausible": [
-          146
-        ],
-        "explanation": [
-          147
-        ],
-        "opening": [
-          150
-        ],
-        "path": [
-          152
-        ],
-        "towards": [
-          153
-        ],
-        "process-led": [
-          154
-        ],
-        "seismic": [
-          155
-        ],
-        "hazard": [
-          156
-        ],
-        "assessments.": [
-          157
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2026,
@@ -5505,7 +4853,7 @@
           "cited_by_count": 10
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -5703,7 +5051,7 @@
       "has_fulltext": true,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.89137472,
+        "value": 0.89135731,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6073,37 +5421,23 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5199999809265137
+          "score": 0.5199999809265137,
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [
         {
-          "id": "https://openalex.org/G6466972340",
+          "id": "https://openalex.org/G5957705530",
           "display_name": null,
           "funder_award_id": "NE/I024127/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G4986265078",
-          "display_name": null,
-          "funder_award_id": "NE/J017434/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
         },
         {
-          "id": "https://openalex.org/G2013725163",
+          "id": "https://openalex.org/G8463050843",
           "display_name": null,
           "funder_award_id": "NE/E016545/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G8699254276",
-          "display_name": null,
-          "funder_award_id": "NE/J016497/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
         },
@@ -6122,6 +5456,20 @@
           "funder_display_name": "Natural Environment Research Council"
         },
         {
+          "id": "https://openalex.org/G8699254276",
+          "display_name": null,
+          "funder_award_id": "NE/J016497/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G2013725163",
+          "display_name": null,
+          "funder_award_id": "NE/E016545/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
           "id": "https://openalex.org/G2682546509",
           "display_name": null,
           "funder_award_id": "NE/J016497/1",
@@ -6129,16 +5477,16 @@
           "funder_display_name": "Sight Research UK"
         },
         {
-          "id": "https://openalex.org/G5957705530",
+          "id": "https://openalex.org/G6466972340",
           "display_name": null,
           "funder_award_id": "NE/I024127/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
         },
         {
-          "id": "https://openalex.org/G8463050843",
+          "id": "https://openalex.org/G4986265078",
           "display_name": null,
-          "funder_award_id": "NE/E016545/1",
+          "funder_award_id": "NE/J017434/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
         }
@@ -6150,14 +5498,19 @@
           "ror": "https://ror.org/03z2py885"
         },
         {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2803326567.pdf",
@@ -6206,10 +5559,10 @@
         "https://openalex.org/W2730746958",
         "https://openalex.org/W2001464954",
         "https://openalex.org/W2067997703",
+        "https://openalex.org/W2143158097",
         "https://openalex.org/W1214771670",
         "https://openalex.org/W598435696",
         "https://openalex.org/W1530329870",
-        "https://openalex.org/W2143158097",
         "https://openalex.org/W2797452937"
       ],
       "related_works": [
@@ -6812,7 +6165,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-11-25T14:43:58.451035",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -7344,8 +6697,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 99,
@@ -8445,8 +7798,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -9675,9 +9028,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8999999761581421
+          "score": 0.8999999761581421,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -9718,8 +9071,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 64,
@@ -10278,7 +9631,7 @@
       "has_fulltext": true,
       "cited_by_count": 45,
       "citation_normalized_percentile": {
-        "value": 0.98026758,
+        "value": 0.98026698,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10811,6 +10164,11 @@
           "ror": "https://ror.org/03z2py885"
         },
         {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
@@ -10822,8 +10180,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3217409573.pdf",
@@ -10900,8 +10258,8 @@
         "https://openalex.org/W2083496824",
         "https://openalex.org/W2070632355",
         "https://openalex.org/W2009425598",
-        "https://openalex.org/W2143158097",
-        "https://openalex.org/W1999007384"
+        "https://openalex.org/W1999007384",
+        "https://openalex.org/W2143158097"
       ],
       "related_works": [
         "https://openalex.org/W3162200841",
@@ -10942,7 +10300,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2021-12-06T00:00:00"
     },
     {
@@ -11657,8 +11015,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 46,
@@ -12547,7 +11905,7 @@
       "has_fulltext": true,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.94701753,
+        "value": 0.94700904,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12999,34 +12357,6 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G4986265078",
-          "display_name": null,
-          "funder_award_id": "NE/J017434/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G8345229326",
-          "display_name": null,
-          "funder_award_id": "NE/P016367/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G5976369871",
-          "display_name": null,
-          "funder_award_id": "NE/L002752/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G7583076630",
-          "display_name": null,
-          "funder_award_id": "EP/I006079/1",
-          "funder_id": "https://openalex.org/F4320334627",
-          "funder_display_name": "Engineering and Physical Sciences Research Council"
-        },
-        {
           "id": "https://openalex.org/G8879879873",
           "display_name": null,
           "funder_award_id": "NE/J017434/1",
@@ -13048,18 +12378,71 @@
           "funder_display_name": "Sight Research UK"
         },
         {
+          "id": "https://openalex.org/G4986265078",
+          "display_name": null,
+          "funder_award_id": "NE/J017434/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G7583076630",
+          "display_name": null,
+          "funder_award_id": "EP/I006079/1",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        },
+        {
+          "id": "https://openalex.org/G8345229326",
+          "display_name": null,
+          "funder_award_id": "NE/P016367/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
           "id": "https://openalex.org/G6641252456",
           "display_name": null,
           "funder_award_id": "EP/P020275/1",
           "funder_id": "https://openalex.org/F4320334627",
           "funder_display_name": "Engineering and Physical Sciences Research Council"
+        },
+        {
+          "id": "https://openalex.org/G5976369871",
+          "display_name": null,
+          "funder_award_id": "NE/L002752/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320320006",
+          "display_name": "Royal Society",
+          "ror": "https://ror.org/03wnrjx87"
+        },
+        {
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
           "ror": "https://ror.org/03z2py885"
+        },
+        {
+          "id": "https://openalex.org/F4320320290",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110"
+        },
+        {
+          "id": "https://openalex.org/F4320321056",
+          "display_name": "Irish Research Council",
+          "ror": "https://ror.org/051xex213"
+        },
+        {
+          "id": "https://openalex.org/F4320322192",
+          "display_name": "Magyar Tudományos Akadémia",
+          "ror": "https://ror.org/02ks8qq67"
+        },
+        {
+          "id": "https://openalex.org/F4320331674",
+          "display_name": "Global Challenges Research Fund",
+          "ror": null
         },
         {
           "id": "https://openalex.org/F4320334627",
@@ -13070,11 +12453,21 @@
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320334771",
+          "display_name": "Science and Engineering Research Board",
+          "ror": "https://ror.org/03ffdsr55"
+        },
+        {
+          "id": "https://openalex.org/F4320335908",
+          "display_name": "Nemzeti Kutatási, Fejlesztési és Innovaciós Alap",
+          "ror": null
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2916956826.pdf",
@@ -13128,12 +12521,12 @@
         "https://openalex.org/W263039478",
         "https://openalex.org/W1520142888",
         "https://openalex.org/W2030903330",
-        "https://openalex.org/W2158422596",
-        "https://openalex.org/W2122338824",
+        "https://openalex.org/W2290761674",
         "https://openalex.org/W2739390750",
         "https://openalex.org/W2659654975",
         "https://openalex.org/W2789574902",
-        "https://openalex.org/W2290761674",
+        "https://openalex.org/W2158422596",
+        "https://openalex.org/W2122338824",
         "https://openalex.org/W3106167398",
         "https://openalex.org/W3104371212",
         "https://openalex.org/W3104740666",
@@ -13549,7 +12942,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-25T14:43:58.451035",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -13800,9 +13193,9 @@
       },
       "fwci": 3.40453159,
       "has_fulltext": false,
-      "cited_by_count": 26,
+      "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.9437962,
+        "value": 0.94379448,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -14197,9 +13590,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.5099999904632568
+          "score": 0.5099999904632568,
+          "display_name": "Life below water"
         }
       ],
       "awards": [
@@ -14234,6 +13627,11 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320313467",
+          "display_name": "Alan Turing Institute",
+          "ror": "https://ror.org/035dkdb55"
+        },
+        {
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
           "ror": "https://ror.org/03z2py885"
@@ -14250,8 +13648,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 48,
@@ -14832,7 +14230,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 5
+          "cited_by_count": 6
         },
         {
           "year": 2024,
@@ -14851,7 +14249,7 @@
           "cited_by_count": 7
         }
       ],
-      "updated_date": "2025-11-25T14:43:58.451035",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -15581,16 +14979,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8299999833106995
+          "score": 0.8299999833106995,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 46,
@@ -16304,7 +15702,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.94089231,
+        "value": 0.94032972,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16776,20 +16174,6 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G2572951765",
-          "display_name": "Testing Theoretical models for Earthquake Clustering using Cl-36 Cosmogenic Exposure Dating of Active Normal Faults in Central Italy",
-          "funder_award_id": "NE/E01545X/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G367897188",
-          "display_name": null,
-          "funder_award_id": "NE/V012894/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
           "id": "https://openalex.org/G7217247008",
           "display_name": "Earthquake hazard from 36-Cl exposure dating of elapsed time and Coulomb stress transfer",
           "funder_award_id": "NE/I024127/1",
@@ -16858,6 +16242,20 @@
           "funder_award_id": "NE/J016497/1",
           "funder_id": "https://openalex.org/F4320334631",
           "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G2572951765",
+          "display_name": "Testing Theoretical models for Earthquake Clustering using Cl-36 Cosmogenic Exposure Dating of Active Normal Faults in Central Italy",
+          "funder_award_id": "NE/E01545X/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G367897188",
+          "display_name": null,
+          "funder_award_id": "NE/V012894/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
@@ -16873,8 +16271,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 125,
@@ -16994,16 +16392,16 @@
         "https://openalex.org/W2766192788",
         "https://openalex.org/W1960471763",
         "https://openalex.org/W2089955915",
-        "https://openalex.org/W3009357954",
-        "https://openalex.org/W2946942252",
         "https://openalex.org/W2148534890",
         "https://openalex.org/W2168687360",
+        "https://openalex.org/W60014203",
         "https://openalex.org/W2768975424",
         "https://openalex.org/W2615346218",
         "https://openalex.org/W2607592869",
         "https://openalex.org/W4243437659",
-        "https://openalex.org/W3204292175",
-        "https://openalex.org/W60014203"
+        "https://openalex.org/W3009357954",
+        "https://openalex.org/W2946942252",
+        "https://openalex.org/W3204292175"
       ],
       "related_works": [
         "https://openalex.org/W2060018217",
@@ -17742,7 +17140,7 @@
           "cited_by_count": 7
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -18411,8 +17809,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W1505115960.pdf",
@@ -18717,7 +18115,7 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.86373021,
+        "value": 0.86369269,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19170,6 +18568,27 @@
       "sustainable_development_goals": [],
       "awards": [
         {
+          "id": "https://openalex.org/G5128091834",
+          "display_name": null,
+          "funder_award_id": "EP/K032208/1",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        },
+        {
+          "id": "https://openalex.org/G479958439",
+          "display_name": null,
+          "funder_award_id": "URF/1/2281-01-01",
+          "funder_id": "https://openalex.org/F4320322320",
+          "funder_display_name": "King Abdullah University of Science and Technology"
+        },
+        {
+          "id": "https://openalex.org/G3567729266",
+          "display_name": null,
+          "funder_award_id": "680448",
+          "funder_id": "https://openalex.org/F4320335254",
+          "funder_display_name": "Horizon 2020"
+        },
+        {
           "id": "https://openalex.org/G5181818582",
           "display_name": null,
           "funder_award_id": "URF/1/2584-01-01",
@@ -19182,27 +18601,6 @@
           "funder_award_id": "EP/K032208/1",
           "funder_id": "https://openalex.org/F4320334627",
           "funder_display_name": "Engineering and Physical Sciences Research Council"
-        },
-        {
-          "id": "https://openalex.org/G3567729266",
-          "display_name": null,
-          "funder_award_id": "680448",
-          "funder_id": "https://openalex.org/F4320335254",
-          "funder_display_name": "Horizon 2020"
-        },
-        {
-          "id": "https://openalex.org/G479958439",
-          "display_name": null,
-          "funder_award_id": "URF/1/2281-01-01",
-          "funder_id": "https://openalex.org/F4320322320",
-          "funder_display_name": "King Abdullah University of Science and Technology"
-        },
-        {
-          "id": "https://openalex.org/G5128091834",
-          "display_name": null,
-          "funder_award_id": "EP/K032208/1",
-          "funder_id": "https://openalex.org/F4320334627",
-          "funder_display_name": "Engineering and Physical Sciences Research Council"
         }
       ],
       "funders": [
@@ -19210,6 +18608,16 @@
           "id": "https://openalex.org/F4320322320",
           "display_name": "King Abdullah University of Science and Technology",
           "ror": "https://ror.org/01q3tbs38"
+        },
+        {
+          "id": "https://openalex.org/F4320329205",
+          "display_name": "Banff International Research Station for Mathematical Innovation and Discovery",
+          "ror": null
+        },
+        {
+          "id": "https://openalex.org/F4320334079",
+          "display_name": "Gruppo Nazionale per il Calcolo Scientifico",
+          "ror": null
         },
         {
           "id": "https://openalex.org/F4320334627",
@@ -19220,11 +18628,16 @@
           "id": "https://openalex.org/F4320335254",
           "display_name": "Horizon 2020",
           "ror": null
+        },
+        {
+          "id": "https://openalex.org/F4320337380",
+          "display_name": "Division of Mathematical Sciences",
+          "ror": "https://ror.org/051fftw81"
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 91,
@@ -19290,17 +18703,10 @@
         "https://openalex.org/W2002763251",
         "https://openalex.org/W2079423956",
         "https://openalex.org/W2130350269",
-        "https://openalex.org/W2303654018",
-        "https://openalex.org/W2247834996",
-        "https://openalex.org/W2489340779",
-        "https://openalex.org/W2497428828",
-        "https://openalex.org/W2483714367",
-        "https://openalex.org/W2344867159",
-        "https://openalex.org/W2476154690",
-        "https://openalex.org/W4302086093",
-        "https://openalex.org/W4239957396",
-        "https://openalex.org/W4290828441",
-        "https://openalex.org/W4299862296",
+        "https://openalex.org/W2997967655",
+        "https://openalex.org/W2951381089",
+        "https://openalex.org/W2762305195",
+        "https://openalex.org/W2620614010",
         "https://openalex.org/W1595193945",
         "https://openalex.org/W1601255184",
         "https://openalex.org/W1538934584",
@@ -19311,15 +18717,22 @@
         "https://openalex.org/W575374134",
         "https://openalex.org/W1913273139",
         "https://openalex.org/W1777426557",
+        "https://openalex.org/W2489340779",
+        "https://openalex.org/W2497428828",
+        "https://openalex.org/W2483714367",
+        "https://openalex.org/W2344867159",
+        "https://openalex.org/W2476154690",
+        "https://openalex.org/W2549218983",
+        "https://openalex.org/W2303654018",
+        "https://openalex.org/W2247834996",
+        "https://openalex.org/W4302086093",
+        "https://openalex.org/W4239957396",
+        "https://openalex.org/W4290828441",
+        "https://openalex.org/W4299862296",
         "https://openalex.org/W3103019089",
-        "https://openalex.org/W2762305195",
-        "https://openalex.org/W2620614010",
-        "https://openalex.org/W3097156152",
         "https://openalex.org/W2133593730",
         "https://openalex.org/W2147532514",
-        "https://openalex.org/W2549218983",
-        "https://openalex.org/W2997967655",
-        "https://openalex.org/W2951381089"
+        "https://openalex.org/W3097156152"
       ],
       "related_works": [
         "https://openalex.org/W2097777509",
@@ -19352,7 +18765,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -19608,7 +19021,7 @@
       "has_fulltext": true,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.90506088,
+        "value": 0.90496575,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -20147,16 +19560,22 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Decent work and economic growth",
           "id": "https://metadata.un.org/sdg/8",
-          "score": 0.4300000071525574
+          "score": 0.4300000071525574,
+          "display_name": "Decent work and economic growth"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        }
+      ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2120059173.pdf",
@@ -20182,13 +19601,13 @@
         "https://openalex.org/W2163299986",
         "https://openalex.org/W2143591652",
         "https://openalex.org/W2018159038",
-        "https://openalex.org/W1998021317",
         "https://openalex.org/W2142863015",
         "https://openalex.org/W2296270829",
         "https://openalex.org/W3021293439",
         "https://openalex.org/W2403013574",
         "https://openalex.org/W3145008516",
-        "https://openalex.org/W2033022456"
+        "https://openalex.org/W2033022456",
+        "https://openalex.org/W1998021317"
       ],
       "related_works": [
         "https://openalex.org/W4255016916",
@@ -20501,7 +19920,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -21088,8 +20507,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 37,
@@ -21336,7 +20755,7 @@
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.7196705,
+        "value": 0.71959351,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21610,12 +21029,26 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5099999904632568
+          "score": 0.5099999904632568,
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [
+        {
+          "id": "https://openalex.org/G2013725163",
+          "display_name": null,
+          "funder_award_id": "NE/E016545/1",
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
+        },
+        {
+          "id": "https://openalex.org/G4986265078",
+          "display_name": null,
+          "funder_award_id": "NE/J017434/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
         {
           "id": "https://openalex.org/G8463050843",
           "display_name": null,
@@ -21634,20 +21067,6 @@
           "id": "https://openalex.org/G8879879873",
           "display_name": null,
           "funder_award_id": "NE/J017434/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G4986265078",
-          "display_name": null,
-          "funder_award_id": "NE/J017434/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G2013725163",
-          "display_name": null,
-          "funder_award_id": "NE/E016545/1",
           "funder_id": "https://openalex.org/F4320320022",
           "funder_display_name": "Sight Research UK"
         },
@@ -21673,14 +21092,19 @@
           "ror": "https://ror.org/03z2py885"
         },
         {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4239927569.pdf",
@@ -21689,38 +21113,38 @@
       "referenced_works_count": 33,
       "referenced_works": [
         "https://openalex.org/W4239927569",
-        "https://openalex.org/W3015234498",
         "https://openalex.org/W2043650408",
         "https://openalex.org/W2073318487",
         "https://openalex.org/W2098854240",
         "https://openalex.org/W2086069100",
         "https://openalex.org/W2067997703",
-        "https://openalex.org/W2029506146",
-        "https://openalex.org/W2025909913",
-        "https://openalex.org/W4241673240",
-        "https://openalex.org/W4247985008",
-        "https://openalex.org/W4242549474",
-        "https://openalex.org/W4292403327",
+        "https://openalex.org/W2001464954",
+        "https://openalex.org/W2009342655",
+        "https://openalex.org/W2015288730",
+        "https://openalex.org/W2603442705",
+        "https://openalex.org/W2730746958",
         "https://openalex.org/W1975350041",
         "https://openalex.org/W1981579808",
         "https://openalex.org/W1804188941",
         "https://openalex.org/W1650803202",
         "https://openalex.org/W1967107641",
         "https://openalex.org/W1960471763",
-        "https://openalex.org/W2603442705",
-        "https://openalex.org/W2730746958",
+        "https://openalex.org/W3015234498",
+        "https://openalex.org/W4241673240",
+        "https://openalex.org/W4247985008",
+        "https://openalex.org/W4242549474",
+        "https://openalex.org/W4292403327",
         "https://openalex.org/W2168687360",
         "https://openalex.org/W2168517632",
+        "https://openalex.org/W2029506146",
+        "https://openalex.org/W2025909913",
         "https://openalex.org/W2139777922",
         "https://openalex.org/W2148534890",
         "https://openalex.org/W2145137020",
         "https://openalex.org/W2109936031",
         "https://openalex.org/W2167208776",
         "https://openalex.org/W2110527274",
-        "https://openalex.org/W2155744993",
-        "https://openalex.org/W2001464954",
-        "https://openalex.org/W2009342655",
-        "https://openalex.org/W2015288730"
+        "https://openalex.org/W2155744993"
       ],
       "related_works": [
         "https://openalex.org/W3087071515",
@@ -22307,7 +21731,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-25T14:43:58.451035",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -23041,8 +22465,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 45,
@@ -23759,7 +23183,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.65529354,
+        "value": 0.65528301,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24094,9 +23518,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.5
+          "score": 0.5,
+          "display_name": "Life below water"
         }
       ],
       "awards": [
@@ -24117,14 +23541,19 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320313467",
+          "display_name": "Alan Turing Institute",
+          "ror": "https://ror.org/035dkdb55"
+        },
+        {
           "id": "https://openalex.org/F4320334627",
           "display_name": "Engineering and Physical Sciences Research Council",
           "ror": "https://ror.org/0439y7842"
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3149875909.pdf",
@@ -24654,7 +24083,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-25T14:43:58.451035",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -24909,7 +24338,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.67578648,
+        "value": 0.67591824,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25452,9 +24881,24 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
           "id": "https://openalex.org/F4320322874",
           "display_name": "Università degli Studi di Pavia",
           "ror": "https://ror.org/00s6t1f81"
+        },
+        {
+          "id": "https://openalex.org/F4320334079",
+          "display_name": "Gruppo Nazionale per il Calcolo Scientifico",
+          "ror": null
         },
         {
           "id": "https://openalex.org/F4320334678",
@@ -25463,8 +24907,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2758417045.pdf",
@@ -25519,14 +24963,15 @@
         "https://openalex.org/W6669885672",
         "https://openalex.org/W2078121534",
         "https://openalex.org/W2066671865",
-        "https://openalex.org/W2573211908",
-        "https://openalex.org/W2519243971",
-        "https://openalex.org/W2743508538",
+        "https://openalex.org/W2162870748",
         "https://openalex.org/W2796520447",
         "https://openalex.org/W3144433089",
         "https://openalex.org/W2997967655",
         "https://openalex.org/W3097156152",
         "https://openalex.org/W4290828441",
+        "https://openalex.org/W2573211908",
+        "https://openalex.org/W2519243971",
+        "https://openalex.org/W2743508538",
         "https://openalex.org/W7553988",
         "https://openalex.org/W262738176",
         "https://openalex.org/W1586623601",
@@ -25537,8 +24982,7 @@
         "https://openalex.org/W591292934",
         "https://openalex.org/W1800345484",
         "https://openalex.org/W1902968321",
-        "https://openalex.org/W280715389",
-        "https://openalex.org/W2162870748"
+        "https://openalex.org/W280715389"
       ],
       "related_works": [
         "https://openalex.org/W1940709639",
@@ -25567,7 +25011,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -26294,8 +25738,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 37,
@@ -26726,7 +26170,7 @@
       "publication_date": "2016-01-01",
       "ids": {
         "openalex": "https://openalex.org/W1958913642",
-        "doi": "https://doi.org/10.1137/140989613",
+        "doi": "https://doi.org/10.48550/arxiv.1410.0215",
         "mag": "1958913642"
       },
       "language": "en",
@@ -26866,7 +26310,7 @@
       "has_fulltext": true,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.81323434,
+        "value": 0.81319434,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27342,11 +26786,11 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G4986265078",
+          "id": "https://openalex.org/G8879879873",
           "display_name": null,
           "funder_award_id": "NE/J017434/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
+          "funder_id": "https://openalex.org/F4320320022",
+          "funder_display_name": "Sight Research UK"
         },
         {
           "id": "https://openalex.org/G8678996877",
@@ -27356,11 +26800,11 @@
           "funder_display_name": "Engineering and Physical Sciences Research Council"
         },
         {
-          "id": "https://openalex.org/G8879879873",
+          "id": "https://openalex.org/G4986265078",
           "display_name": null,
           "funder_award_id": "NE/J017434/1",
-          "funder_id": "https://openalex.org/F4320320022",
-          "funder_display_name": "Sight Research UK"
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
@@ -27368,6 +26812,11 @@
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
           "ror": "https://ror.org/03z2py885"
+        },
+        {
+          "id": "https://openalex.org/F4320320286",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895"
         },
         {
           "id": "https://openalex.org/F4320334627",
@@ -27378,11 +26827,16 @@
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320334632",
+          "display_name": "Science and Technology Facilities Council",
+          "ror": "https://ror.org/057g20z61"
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W1958913642.pdf",
@@ -27416,19 +26870,19 @@
         "https://openalex.org/W2091553539",
         "https://openalex.org/W2143284311",
         "https://openalex.org/W1987516878",
-        "https://openalex.org/W2112147653",
-        "https://openalex.org/W2101267844",
-        "https://openalex.org/W2099111195",
+        "https://openalex.org/W1859632260",
         "https://openalex.org/W225560312",
+        "https://openalex.org/W2466363234",
         "https://openalex.org/W2168464387",
         "https://openalex.org/W2186850983",
         "https://openalex.org/W2204394100",
-        "https://openalex.org/W2466363234",
+        "https://openalex.org/W2112147653",
+        "https://openalex.org/W2101267844",
+        "https://openalex.org/W2099111195",
+        "https://openalex.org/W2131824593",
         "https://openalex.org/W1591699755",
         "https://openalex.org/W1746819321",
-        "https://openalex.org/W1584066809",
-        "https://openalex.org/W2131824593",
-        "https://openalex.org/W1859632260"
+        "https://openalex.org/W1584066809"
       ],
       "related_works": [
         "https://openalex.org/W1982082014",
@@ -27792,7 +27246,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -28636,8 +28090,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 44,
@@ -29283,9 +28737,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6499999761581421
+          "score": 0.6499999761581421,
+          "display_name": "Climate action"
         }
       ],
       "awards": [
@@ -29359,8 +28813,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 122,
@@ -30379,8 +29833,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4408310342.pdf"
@@ -31563,9 +31017,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6299999952316284
+          "score": 0.6299999952316284,
+          "display_name": "Climate action"
         }
       ],
       "awards": [
@@ -31592,8 +31046,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 126,
@@ -32269,16 +31723,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.4000000059604645
+          "score": 0.4000000059604645,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2149195548.pdf",
@@ -33677,8 +33131,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -34380,8 +33834,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -35134,16 +34588,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.7300000190734863
+          "score": 0.7300000190734863,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -35571,7 +35025,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09886842,
+        "value": 0.09881517,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35989,10 +35443,31 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        },
+        {
+          "id": "https://openalex.org/F4320322874",
+          "display_name": "Università degli Studi di Pavia",
+          "ror": "https://ror.org/00s6t1f81"
+        },
+        {
+          "id": "https://openalex.org/F4320334079",
+          "display_name": "Gruppo Nazionale per il Calcolo Scientifico",
+          "ror": null
+        }
+      ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2739940775.pdf",
@@ -36373,7 +35848,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T04:12:42.849631",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -36946,8 +36421,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -37672,16 +37147,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.6700000166893005
+          "score": 0.6700000166893005,
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -38352,16 +37827,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.7200000286102295
+          "score": 0.7200000286102295,
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -39132,16 +38607,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.75
+          "score": 0.75,
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -39553,16 +39028,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8299999833106995
+          "score": 0.8299999833106995,
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40020,8 +39495,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40507,7 +39982,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.22849965,
+        "value": 0.22871151,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40884,20 +40359,6 @@
       "sustainable_development_goals": [],
       "awards": [
         {
-          "id": "https://openalex.org/G5381535978",
-          "display_name": null,
-          "funder_award_id": "NE/P01660X/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
-          "id": "https://openalex.org/G367897188",
-          "display_name": null,
-          "funder_award_id": "NE/V012894/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
-        },
-        {
           "id": "https://openalex.org/G3739757212",
           "display_name": null,
           "funder_award_id": "NE/P01660X/1",
@@ -40910,13 +40371,6 @@
           "funder_award_id": "NE/E01545X/1",
           "funder_id": "https://openalex.org/F4320320022",
           "funder_display_name": "Sight Research UK"
-        },
-        {
-          "id": "https://openalex.org/G7661705449",
-          "display_name": null,
-          "funder_award_id": "NE/E01545X/1",
-          "funder_id": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council"
         },
         {
           "id": "https://openalex.org/G5957705530",
@@ -40938,9 +40392,35 @@
           "funder_award_id": "NE/I024127/1",
           "funder_id": "https://openalex.org/F4320320022",
           "funder_display_name": "Sight Research UK"
+        },
+        {
+          "id": "https://openalex.org/G5381535978",
+          "display_name": null,
+          "funder_award_id": "NE/P01660X/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G367897188",
+          "display_name": null,
+          "funder_award_id": "NE/V012894/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
+        },
+        {
+          "id": "https://openalex.org/G7661705449",
+          "display_name": null,
+          "funder_award_id": "NE/E01545X/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
       "funders": [
+        {
+          "id": "https://openalex.org/F4320307458",
+          "display_name": "Garrett B. Smith Foundation",
+          "ror": "https://ror.org/04631ba92"
+        },
         {
           "id": "https://openalex.org/F4320320022",
           "display_name": "Sight Research UK",
@@ -40950,11 +40430,16 @@
           "id": "https://openalex.org/F4320334631",
           "display_name": "Natural Environment Research Council",
           "ror": "https://ror.org/02b5d8509"
+        },
+        {
+          "id": "https://openalex.org/F4320334764",
+          "display_name": "Japan Society for the Promotion of Science",
+          "ror": "https://ror.org/00hhkn466"
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3134819289.pdf",
@@ -40986,26 +40471,6 @@
         "https://openalex.org/W2022811156",
         "https://openalex.org/W2088360875",
         "https://openalex.org/W2056464157",
-        "https://openalex.org/W2944670246",
-        "https://openalex.org/W2006656449",
-        "https://openalex.org/W1998796828",
-        "https://openalex.org/W4249417869",
-        "https://openalex.org/W3217409573",
-        "https://openalex.org/W4247372046",
-        "https://openalex.org/W3045780744",
-        "https://openalex.org/W4241673240",
-        "https://openalex.org/W4249720440",
-        "https://openalex.org/W4239927569",
-        "https://openalex.org/W2920053351",
-        "https://openalex.org/W2092638868",
-        "https://openalex.org/W2072972967",
-        "https://openalex.org/W2086069100",
-        "https://openalex.org/W2071153400",
-        "https://openalex.org/W2089110295",
-        "https://openalex.org/W2092086965",
-        "https://openalex.org/W2018411847",
-        "https://openalex.org/W2010681628",
-        "https://openalex.org/W60014203",
         "https://openalex.org/W1804188941",
         "https://openalex.org/W1967107641",
         "https://openalex.org/W1911119983",
@@ -41014,8 +40479,22 @@
         "https://openalex.org/W1782121173",
         "https://openalex.org/W1968718481",
         "https://openalex.org/W1972433207",
-        "https://openalex.org/W2336354020",
+        "https://openalex.org/W2507187131",
+        "https://openalex.org/W2509956324",
+        "https://openalex.org/W2333080226",
+        "https://openalex.org/W60014203",
+        "https://openalex.org/W2920053351",
+        "https://openalex.org/W2018411847",
+        "https://openalex.org/W2010681628",
         "https://openalex.org/W2069331377",
+        "https://openalex.org/W4249417869",
+        "https://openalex.org/W3217409573",
+        "https://openalex.org/W4247372046",
+        "https://openalex.org/W3045780744",
+        "https://openalex.org/W4241673240",
+        "https://openalex.org/W4249720440",
+        "https://openalex.org/W4239927569",
+        "https://openalex.org/W2944670246",
         "https://openalex.org/W2139777922",
         "https://openalex.org/W2122924693",
         "https://openalex.org/W2110527274",
@@ -41027,12 +40506,18 @@
         "https://openalex.org/W2112617137",
         "https://openalex.org/W2111061528",
         "https://openalex.org/W2102303007",
-        "https://openalex.org/W2507187131",
-        "https://openalex.org/W2509956324",
+        "https://openalex.org/W2092638868",
+        "https://openalex.org/W2072972967",
+        "https://openalex.org/W2086069100",
+        "https://openalex.org/W2071153400",
+        "https://openalex.org/W2089110295",
+        "https://openalex.org/W2092086965",
         "https://openalex.org/W2766186185",
         "https://openalex.org/W2747949310",
         "https://openalex.org/W2624907436",
-        "https://openalex.org/W2333080226"
+        "https://openalex.org/W2006656449",
+        "https://openalex.org/W1998796828",
+        "https://openalex.org/W2336354020"
       ],
       "related_works": [
         "https://openalex.org/W2095373610",
@@ -41445,7 +40930,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -41972,55 +41457,66 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.47999998927116394
+          "score": 0.47999998927116394,
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320313467",
+          "display_name": "Alan Turing Institute",
+          "ror": "https://ror.org/035dkdb55"
+        },
+        {
+          "id": "https://openalex.org/F4320334627",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842"
+        }
+      ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
       "referenced_works": [
-        "https://openalex.org/W1990153816",
-        "https://openalex.org/W2014782452",
-        "https://openalex.org/W2000989137",
-        "https://openalex.org/W1990720724",
-        "https://openalex.org/W2052242710",
-        "https://openalex.org/W2078029362",
-        "https://openalex.org/W2091553539",
-        "https://openalex.org/W2085356018",
-        "https://openalex.org/W2604251004",
-        "https://openalex.org/W2589463074",
-        "https://openalex.org/W2606414217",
-        "https://openalex.org/W2626727723",
+        "https://openalex.org/W3028470359",
+        "https://openalex.org/W2990626249",
+        "https://openalex.org/W3038353174",
         "https://openalex.org/W4254688347",
         "https://openalex.org/W3121304761",
         "https://openalex.org/W3166982882",
-        "https://openalex.org/W1607830411",
-        "https://openalex.org/W108762621",
         "https://openalex.org/W2185177222",
+        "https://openalex.org/W2760755352",
         "https://openalex.org/W2100981277",
         "https://openalex.org/W2098720801",
         "https://openalex.org/W2096980175",
         "https://openalex.org/W2110068678",
         "https://openalex.org/W2124799255",
         "https://openalex.org/W2117705482",
+        "https://openalex.org/W2604251004",
+        "https://openalex.org/W2589463074",
+        "https://openalex.org/W2606414217",
+        "https://openalex.org/W2626727723",
         "https://openalex.org/W2850285118",
-        "https://openalex.org/W2760755352",
-        "https://openalex.org/W3028470359",
-        "https://openalex.org/W2990626249",
-        "https://openalex.org/W3038353174",
+        "https://openalex.org/W2052242710",
+        "https://openalex.org/W2078029362",
+        "https://openalex.org/W2091553539",
+        "https://openalex.org/W2085356018",
+        "https://openalex.org/W1990153816",
+        "https://openalex.org/W2014782452",
+        "https://openalex.org/W2000989137",
+        "https://openalex.org/W1990720724",
         "https://openalex.org/W2884288549",
         "https://openalex.org/W2937486258",
         "https://openalex.org/W2962851339",
         "https://openalex.org/W2916956826",
         "https://openalex.org/W2963032837",
-        "https://openalex.org/W2901761063"
+        "https://openalex.org/W2901761063",
+        "https://openalex.org/W1607830411",
+        "https://openalex.org/W108762621"
       ],
       "related_works": [
         "https://openalex.org/W2154523322",
@@ -42550,7 +42046,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2022-05-12T00:00:00"
     },
     {
@@ -42882,16 +42378,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8100000023841858
+          "score": 0.8100000023841858,
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -43330,8 +42826,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -44385,8 +43881,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -45846,8 +45342,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -46674,7 +46170,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.07994063,
+        "value": 0.07985798,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46930,10 +46426,21 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320308269",
+          "display_name": "Alexander von Humboldt-Stiftung",
+          "ror": "https://ror.org/012kf4317"
+        },
+        {
+          "id": "https://openalex.org/F4320322320",
+          "display_name": "King Abdullah University of Science and Technology",
+          "ror": "https://ror.org/01q3tbs38"
+        }
+      ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4380085992.pdf",
@@ -47467,7 +46974,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-01-20T17:24:06.736184",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -48436,16 +47943,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.6100000143051147
+          "score": 0.6100000143051147,
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -49216,8 +48723,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -50794,8 +50301,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 105,

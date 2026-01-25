@@ -11787,7 +11787,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.72741567,
+        "value": 0.72724549,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13031,7 +13031,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -31735,6 +31735,1868 @@
       "counts_by_year": [],
       "updated_date": "2026-01-19T04:01:09.351973",
       "created_date": "2026-01-02T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7125515389",
+      "doi": "https://doi.org/10.2118/218924-pa",
+      "title": "A Novel Multifrequency Dielectric Technique for Analyzing Foam Flow in Porous Media for Enhanced Oil Recovery and CO2 Sequestration",
+      "display_name": "A Novel Multifrequency Dielectric Technique for Analyzing Foam Flow in Porous Media for Enhanced Oil Recovery and CO2 Sequestration",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W7125515389",
+        "doi": "https://doi.org/10.2118/218924-pa"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2118/218924-pa",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2118/218924-pa",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S35794861",
+          "display_name": "SPE Journal",
+          "issn_l": "1086-055X",
+          "issn": [
+            "1086-055X",
+            "1930-0220"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4322614974",
+          "host_organization_name": "Society of Petroleum Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322614974"
+          ],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SPE Journal",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5121494921",
+            "display_name": "Ahmed Bashir",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Ahmed Bashir",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5034076237",
+            "display_name": "Amjed Mohammed Hassan",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Amjed Hassan",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia (Corresponding author)"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia (Corresponding author)",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008145904",
+            "display_name": "Hussein Attia",
+            "orcid": "https://orcid.org/0000-0002-6407-9251"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hussein Attia",
+          "raw_affiliation_strings": [
+            "Electrical Engineering Department, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia / Interdisciplinary Research Center for Communication Systems and Sensing, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Electrical Engineering Department, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia / Interdisciplinary Research Center for Communication Systems and Sensing, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5113878758",
+            "display_name": "Assad Barri",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Assad Barri",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5018001631",
+            "display_name": "Ridha Al-Abdrabalnabi",
+            "orcid": "https://orcid.org/0000-0002-2452-1674"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ridha Al-Abdrabalnabi",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5123632045",
+            "display_name": "Shirish Patil",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shirish Patil",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5123664706",
+            "display_name": "Muhammad Shahzad Kamal",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Muhammad Shahzad Kamal",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5104249407",
+            "display_name": "A. A. El-Husseiny",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ammar El-Husseiny",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5054042571",
+            "display_name": "Mahmoud Ma",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohamed Mahmoud",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 9,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5121494921"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.97862979,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "19"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10491",
+        "display_name": "Enhanced Oil Recovery Techniques",
+        "score": 0.9120317101478577,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10491",
+          "display_name": "Enhanced Oil Recovery Techniques",
+          "score": 0.9120317101478577,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11915",
+          "display_name": "Pickering emulsions and particle stabilization",
+          "score": 0.015420513227581978,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12603",
+          "display_name": "NMR spectroscopy and applications",
+          "score": 0.011567884124815464,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3106",
+            "display_name": "Nuclear and High Energy Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/dielectric",
+          "display_name": "Dielectric",
+          "score": 0.667751133441925
+        },
+        {
+          "id": "https://openalex.org/keywords/enhanced-oil-recovery",
+          "display_name": "Enhanced oil recovery",
+          "score": 0.6643338799476624
+        },
+        {
+          "id": "https://openalex.org/keywords/porous-medium",
+          "display_name": "Porous medium",
+          "score": 0.5698469281196594
+        },
+        {
+          "id": "https://openalex.org/keywords/conductivity",
+          "display_name": "Conductivity",
+          "score": 0.5549839735031128
+        },
+        {
+          "id": "https://openalex.org/keywords/bubble",
+          "display_name": "Bubble",
+          "score": 0.47393491864204407
+        },
+        {
+          "id": "https://openalex.org/keywords/porosity",
+          "display_name": "Porosity",
+          "score": 0.4618770480155945
+        },
+        {
+          "id": "https://openalex.org/keywords/coaxial",
+          "display_name": "Coaxial",
+          "score": 0.4556463062763214
+        },
+        {
+          "id": "https://openalex.org/keywords/pulmonary-surfactant",
+          "display_name": "Pulmonary surfactant",
+          "score": 0.42413637042045593
+        },
+        {
+          "id": "https://openalex.org/keywords/permittivity",
+          "display_name": "Permittivity",
+          "score": 0.41829580068588257
+        },
+        {
+          "id": "https://openalex.org/keywords/network-analyzer",
+          "display_name": "Network analyzer (electrical)",
+          "score": 0.35695090889930725
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.7638140320777893
+        },
+        {
+          "id": "https://openalex.org/C133386390",
+          "wikidata": "https://www.wikidata.org/wiki/Q184996",
+          "display_name": "Dielectric",
+          "level": 2,
+          "score": 0.667751133441925
+        },
+        {
+          "id": "https://openalex.org/C2779681308",
+          "wikidata": "https://www.wikidata.org/wiki/Q1049254",
+          "display_name": "Enhanced oil recovery",
+          "level": 2,
+          "score": 0.6643338799476624
+        },
+        {
+          "id": "https://openalex.org/C105569014",
+          "wikidata": "https://www.wikidata.org/wiki/Q3271208",
+          "display_name": "Porous medium",
+          "level": 3,
+          "score": 0.5698469281196594
+        },
+        {
+          "id": "https://openalex.org/C131540310",
+          "wikidata": "https://www.wikidata.org/wiki/Q907564",
+          "display_name": "Conductivity",
+          "level": 2,
+          "score": 0.5549839735031128
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.48119837045669556
+        },
+        {
+          "id": "https://openalex.org/C157915830",
+          "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+          "display_name": "Bubble",
+          "level": 2,
+          "score": 0.47393491864204407
+        },
+        {
+          "id": "https://openalex.org/C6648577",
+          "wikidata": "https://www.wikidata.org/wiki/Q622669",
+          "display_name": "Porosity",
+          "level": 2,
+          "score": 0.4618770480155945
+        },
+        {
+          "id": "https://openalex.org/C51221625",
+          "wikidata": "https://www.wikidata.org/wiki/Q1751466",
+          "display_name": "Coaxial",
+          "level": 2,
+          "score": 0.4556463062763214
+        },
+        {
+          "id": "https://openalex.org/C58226133",
+          "wikidata": "https://www.wikidata.org/wiki/Q1324199",
+          "display_name": "Pulmonary surfactant",
+          "level": 2,
+          "score": 0.42413637042045593
+        },
+        {
+          "id": "https://openalex.org/C168651791",
+          "wikidata": "https://www.wikidata.org/wiki/Q211569",
+          "display_name": "Permittivity",
+          "level": 3,
+          "score": 0.41829580068588257
+        },
+        {
+          "id": "https://openalex.org/C99101257",
+          "wikidata": "https://www.wikidata.org/wiki/Q1529374",
+          "display_name": "Network analyzer (electrical)",
+          "level": 2,
+          "score": 0.35695090889930725
+        },
+        {
+          "id": "https://openalex.org/C69990965",
+          "wikidata": "https://www.wikidata.org/wiki/Q65402698",
+          "display_name": "Electrical resistivity and conductivity",
+          "level": 2,
+          "score": 0.34679511189460754
+        },
+        {
+          "id": "https://openalex.org/C95238685",
+          "wikidata": "https://www.wikidata.org/wiki/Q1326902",
+          "display_name": "Electrohydrodynamics",
+          "level": 3,
+          "score": 0.3362675905227661
+        },
+        {
+          "id": "https://openalex.org/C205049153",
+          "wikidata": "https://www.wikidata.org/wiki/Q2698605",
+          "display_name": "Polarization (electrochemistry)",
+          "level": 2,
+          "score": 0.33597925305366516
+        },
+        {
+          "id": "https://openalex.org/C17829176",
+          "wikidata": "https://www.wikidata.org/wiki/Q179043",
+          "display_name": "Electrical impedance",
+          "level": 2,
+          "score": 0.323641836643219
+        },
+        {
+          "id": "https://openalex.org/C113196181",
+          "wikidata": "https://www.wikidata.org/wiki/Q485223",
+          "display_name": "Analytical Chemistry (journal)",
+          "level": 2,
+          "score": 0.3232330083847046
+        },
+        {
+          "id": "https://openalex.org/C7040849",
+          "wikidata": "https://www.wikidata.org/wiki/Q899580",
+          "display_name": "Dielectric spectroscopy",
+          "level": 4,
+          "score": 0.31754618883132935
+        },
+        {
+          "id": "https://openalex.org/C68801617",
+          "wikidata": "https://www.wikidata.org/wiki/Q162908",
+          "display_name": "Electrolyte",
+          "level": 3,
+          "score": 0.3020293414592743
+        },
+        {
+          "id": "https://openalex.org/C2778913249",
+          "wikidata": "https://www.wikidata.org/wiki/Q422241",
+          "display_name": "Sodium dodecyl sulfate",
+          "level": 2,
+          "score": 0.30101442337036133
+        },
+        {
+          "id": "https://openalex.org/C2775952280",
+          "wikidata": "https://www.wikidata.org/wiki/Q416873",
+          "display_name": "Silicone oil",
+          "level": 2,
+          "score": 0.29847240447998047
+        },
+        {
+          "id": "https://openalex.org/C196806460",
+          "wikidata": "https://www.wikidata.org/wiki/Q188603",
+          "display_name": "Capillary action",
+          "level": 2,
+          "score": 0.2909511923789978
+        },
+        {
+          "id": "https://openalex.org/C91066073",
+          "wikidata": "https://www.wikidata.org/wiki/Q1417868",
+          "display_name": "Dielectric loss",
+          "level": 3,
+          "score": 0.2887206971645355
+        },
+        {
+          "id": "https://openalex.org/C149792144",
+          "wikidata": "https://www.wikidata.org/wiki/Q2071902",
+          "display_name": "Coalescence (physics)",
+          "level": 2,
+          "score": 0.2836480438709259
+        },
+        {
+          "id": "https://openalex.org/C2992840811",
+          "wikidata": "https://www.wikidata.org/wiki/Q5526318",
+          "display_name": "Gas analyzer",
+          "level": 2,
+          "score": 0.2794046998023987
+        },
+        {
+          "id": "https://openalex.org/C74525527",
+          "wikidata": "https://www.wikidata.org/wiki/Q759922",
+          "display_name": "Foaming agent",
+          "level": 3,
+          "score": 0.2701374888420105
+        },
+        {
+          "id": "https://openalex.org/C104892082",
+          "wikidata": "https://www.wikidata.org/wiki/Q17156810",
+          "display_name": "Low frequency",
+          "level": 2,
+          "score": 0.2698637843132019
+        },
+        {
+          "id": "https://openalex.org/C13760523",
+          "wikidata": "https://www.wikidata.org/wiki/Q4027242",
+          "display_name": "Relative permittivity",
+          "level": 4,
+          "score": 0.26686257123947144
+        },
+        {
+          "id": "https://openalex.org/C44838205",
+          "wikidata": "https://www.wikidata.org/wiki/Q127995",
+          "display_name": "Microwave",
+          "level": 2,
+          "score": 0.2586986720561981
+        },
+        {
+          "id": "https://openalex.org/C172120300",
+          "wikidata": "https://www.wikidata.org/wiki/Q1134348",
+          "display_name": "Volumetric flow rate",
+          "level": 2,
+          "score": 0.25164929032325745
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2118/218924-pa",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2118/218924-pa",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S35794861",
+            "display_name": "SPE Journal",
+            "issn_l": "1086-055X",
+            "issn": [
+              "1086-055X",
+              "1930-0220"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4322614974",
+            "host_organization_name": "Society of Petroleum Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614974"
+            ],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SPE Journal",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "score": 0.6815276741981506,
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 46,
+      "referenced_works": [
+        "https://openalex.org/W4323308478",
+        "https://openalex.org/W2898569930",
+        "https://openalex.org/W3176093319",
+        "https://openalex.org/W4376959656",
+        "https://openalex.org/W2582620293",
+        "https://openalex.org/W4307664754",
+        "https://openalex.org/W2907303070",
+        "https://openalex.org/W2077007432",
+        "https://openalex.org/W2137650839",
+        "https://openalex.org/W1993203143",
+        "https://openalex.org/W4395083505",
+        "https://openalex.org/W4396703275",
+        "https://openalex.org/W3212818097",
+        "https://openalex.org/W2971324830",
+        "https://openalex.org/W4213174522",
+        "https://openalex.org/W2904371917",
+        "https://openalex.org/W4306399555",
+        "https://openalex.org/W2004133568",
+        "https://openalex.org/W4200420961",
+        "https://openalex.org/W2062864053",
+        "https://openalex.org/W2010878425",
+        "https://openalex.org/W2951333774",
+        "https://openalex.org/W2034991137",
+        "https://openalex.org/W2139907827",
+        "https://openalex.org/W2013544826",
+        "https://openalex.org/W2125819309",
+        "https://openalex.org/W2946170987",
+        "https://openalex.org/W3045463489",
+        "https://openalex.org/W4281953031",
+        "https://openalex.org/W2746118223",
+        "https://openalex.org/W2068492511",
+        "https://openalex.org/W2041890166",
+        "https://openalex.org/W3137305441",
+        "https://openalex.org/W2042834842",
+        "https://openalex.org/W3081463624",
+        "https://openalex.org/W4308030091",
+        "https://openalex.org/W2808953377",
+        "https://openalex.org/W1993745607",
+        "https://openalex.org/W3195500991",
+        "https://openalex.org/W2346434518",
+        "https://openalex.org/W4391489361",
+        "https://openalex.org/W6940543293",
+        "https://openalex.org/W4394722261",
+        "https://openalex.org/W4397050089",
+        "https://openalex.org/W2345745478",
+        "https://openalex.org/W2037875486"
+      ],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "Summary": [
+          0
+        ],
+        "Foam": [
+          1,
+          302
+        ],
+        "has": [
+          2
+        ],
+        "been": [
+          3
+        ],
+        "widely": [
+          4
+        ],
+        "used": [
+          5,
+          331
+        ],
+        "to": [
+          6,
+          29,
+          152,
+          162,
+          187,
+          193,
+          257,
+          274,
+          290,
+          298,
+          313,
+          332,
+          358,
+          363,
+          387
+        ],
+        "control": [
+          7
+        ],
+        "gas": [
+          8,
+          21,
+          44,
+          390
+        ],
+        "mobility": [
+          9
+        ],
+        "during": [
+          10,
+          320
+        ],
+        "subsurface": [
+          11
+        ],
+        "oil": [
+          12,
+          31
+        ],
+        "displacement": [
+          13
+        ],
+        "processes,": [
+          14
+        ],
+        "mitigating": [
+          15
+        ],
+        "challenges": [
+          16
+        ],
+        "such": [
+          17
+        ],
+        "as": [
+          18
+        ],
+        "reservoir": [
+          19
+        ],
+        "heterogeneity,": [
+          20
+        ],
+        "channeling,": [
+          22
+        ],
+        "and": [
+          23,
+          34,
+          42,
+          59,
+          77,
+          105,
+          117,
+          136,
+          143,
+          167,
+          216,
+          254,
+          270,
+          276,
+          281,
+          286,
+          310,
+          317,
+          338,
+          365,
+          392,
+          413,
+          418,
+          430,
+          437,
+          442
+        ],
+        "gravity": [
+          24
+        ],
+        "override.": [
+          25
+        ],
+        "Its": [
+          26
+        ],
+        "applications": [
+          27
+        ],
+        "extend": [
+          28
+        ],
+        "enhanced": [
+          30
+        ],
+        "recovery": [
+          32
+        ],
+        "(EOR)": [
+          33
+        ],
+        "CO2": [
+          35
+        ],
+        "storage,": [
+          36
+        ],
+        "where": [
+          37
+        ],
+        "foam": [
+          38,
+          51,
+          76,
+          78,
+          95,
+          100,
+          176,
+          233,
+          259,
+          315,
+          335,
+          388,
+          405,
+          410
+        ],
+        "improves": [
+          39
+        ],
+        "sweep": [
+          40
+        ],
+        "efficiency": [
+          41
+        ],
+        "reduces": [
+          43
+        ],
+        "leakage.": [
+          45
+        ],
+        "However,": [
+          46
+        ],
+        "the": [
+          47,
+          86,
+          108,
+          112,
+          209,
+          236,
+          239,
+          299,
+          342,
+          349,
+          375,
+          396,
+          425
+        ],
+        "thermodynamic": [
+          48
+        ],
+        "instability": [
+          49
+        ],
+        "of": [
+          50,
+          56,
+          89,
+          103,
+          111,
+          408,
+          427,
+          439
+        ],
+        "necessitates": [
+          52
+        ],
+        "a": [
+          53,
+          67,
+          90,
+          150,
+          163,
+          174,
+          401,
+          432
+        ],
+        "reliable": [
+          54
+        ],
+        "evaluation": [
+          55
+        ],
+        "its": [
+          57
+        ],
+        "quality": [
+          58,
+          104
+        ],
+        "stability": [
+          60,
+          316
+        ],
+        "before": [
+          61
+        ],
+        "field": [
+          62
+        ],
+        "deployment.": [
+          63
+        ],
+        "This": [
+          64,
+          83
+        ],
+        "work": [
+          65
+        ],
+        "introduces": [
+          66
+        ],
+        "novel": [
+          68
+        ],
+        "multifrequency": [
+          69,
+          91,
+          397
+        ],
+        "dielectric": [
+          70,
+          92,
+          114,
+          240,
+          265,
+          321,
+          327,
+          353,
+          382,
+          398
+        ],
+        "technique": [
+          71,
+          93,
+          399
+        ],
+        "for": [
+          72,
+          94,
+          121,
+          404,
+          434
+        ],
+        "characterizing": [
+          73
+        ],
+        "both": [
+          74,
+          308,
+          416
+        ],
+        "bulk": [
+          75,
+          122,
+          206,
+          376,
+          417
+        ],
+        "flow": [
+          79,
+          260
+        ],
+        "in": [
+          80,
+          200,
+          261,
+          381,
+          415
+        ],
+        "porous": [
+          81,
+          262,
+          419
+        ],
+        "media.": [
+          82,
+          263
+        ],
+        "study": [
+          84,
+          346
+        ],
+        "presents": [
+          85
+        ],
+        "first": [
+          87,
+          109
+        ],
+        "application": [
+          88
+        ],
+        "characterization,": [
+          96
+        ],
+        "validated": [
+          97
+        ],
+        "against": [
+          98
+        ],
+        "conventional": [
+          99
+        ],
+        "analyzer": [
+          101
+        ],
+        "measurements": [
+          102
+        ],
+        "stability.": [
+          106,
+          234
+        ],
+        "In": [
+          107,
+          235
+        ],
+        "part": [
+          110
+        ],
+        "study,": [
+          113
+        ],
+        "properties": [
+          115,
+          328
+        ],
+        "(permittivity": [
+          116
+        ],
+        "conductivity)": [
+          118
+        ],
+        "were": [
+          119,
+          147,
+          169,
+          305
+        ],
+        "measured": [
+          120,
+          243
+        ],
+        "foams": [
+          123,
+          283,
+          295
+        ],
+        "generated": [
+          124,
+          197
+        ],
+        "with": [
+          125,
+          171,
+          184,
+          198,
+          220,
+          227,
+          231
+        ],
+        "sodium": [
+          126
+        ],
+        "dodecyl": [
+          127
+        ],
+        "sulfate": [
+          128
+        ],
+        "(SDS)": [
+          129
+        ],
+        "surfactant": [
+          130,
+          217
+        ],
+        "at": [
+          131,
+          191,
+          355
+        ],
+        "two": [
+          132
+        ],
+        "concentrations": [
+          133
+        ],
+        "(0.1": [
+          134
+        ],
+        "wt%": [
+          135
+        ],
+        "0.3": [
+          137
+        ],
+        "wt%)": [
+          138
+        ],
+        "using": [
+          139,
+          156
+        ],
+        "deionized": [
+          140
+        ],
+        "water": [
+          141
+        ],
+        "(DW)": [
+          142
+        ],
+        "seawater": [
+          144
+        ],
+        "(SW).": [
+          145
+        ],
+        "Measurements": [
+          146
+        ],
+        "performed": [
+          148,
+          306
+        ],
+        "across": [
+          149
+        ],
+        "1-MHz": [
+          151
+        ],
+        "3-GHz": [
+          153
+        ],
+        "frequency": [
+          154,
+          185
+        ],
+        "range": [
+          155
+        ],
+        "an": [
+          157
+        ],
+        "open-ended": [
+          158
+        ],
+        "coaxial": [
+          159
+        ],
+        "probe": [
+          160
+        ],
+        "connected": [
+          161
+        ],
+        "Keysight": [
+          164
+        ],
+        "impedance": [
+          165
+        ],
+        "analyzer,": [
+          166
+        ],
+        "results": [
+          168,
+          324
+        ],
+        "compared": [
+          170
+        ],
+        "those": [
+          172
+        ],
+        "from": [
+          173
+        ],
+        "standard": [
+          175
+        ],
+        "analyzer.": [
+          177
+        ],
+        "The": [
+          178,
+          264,
+          323,
+          345,
+          378,
+          421
+        ],
+        "findings": [
+          179
+        ],
+        "showed": [
+          180
+        ],
+        "that": [
+          181,
+          326
+        ],
+        "conductivity": [
+          182,
+          287
+        ],
+        "increased": [
+          183,
+          225
+        ],
+        "due": [
+          186
+        ],
+        "ion": [
+          188
+        ],
+        "polarization,": [
+          189
+        ],
+        "particularly": [
+          190
+        ],
+        "low": [
+          192,
+          356
+        ],
+        "intermediate": [
+          194
+        ],
+        "frequencies.": [
+          195
+        ],
+        "Foams": [
+          196
+        ],
+        "SDS": [
+          199,
+          228
+        ],
+        "DW": [
+          201
+        ],
+        "exhibited": [
+          202,
+          284
+        ],
+        "lower": [
+          203,
+          271
+        ],
+        "permittivity": [
+          204,
+          285
+        ],
+        "than": [
+          205
+        ],
+        "water,": [
+          207
+        ],
+        "reflecting": [
+          208
+        ],
+        "reduced": [
+          210
+        ],
+        "polarization": [
+          211,
+          350,
+          361,
+          373
+        ],
+        "caused": [
+          212
+        ],
+        "by": [
+          213
+        ],
+        "air": [
+          214
+        ],
+        "bubbles": [
+          215
+        ],
+        "molecules": [
+          218
+        ],
+        "interfering": [
+          219
+        ],
+        "water’s": [
+          221
+        ],
+        "electric": [
+          222
+        ],
+        "field.": [
+          223
+        ],
+        "Conductivity": [
+          224
+        ],
+        "slightly": [
+          226
+        ],
+        "concentration,": [
+          229
+        ],
+        "correlating": [
+          230
+        ],
+        "improved": [
+          232
+        ],
+        "second": [
+          237
+        ],
+        "part,": [
+          238
+        ],
+        "response": [
+          241
+        ],
+        "was": [
+          242
+        ],
+        "along": [
+          244
+        ],
+        "core": [
+          245
+        ],
+        "samples": [
+          246
+        ],
+        "under": [
+          247,
+          307
+        ],
+        "different": [
+          248
+        ],
+        "conditions,": [
+          249,
+          278
+        ],
+        "including": [
+          250
+        ],
+        "dry,": [
+          251
+        ],
+        "brine-saturated,": [
+          252
+        ],
+        "surfactant-saturated,": [
+          253
+        ],
+        "foam-filled": [
+          255
+        ],
+        "states,": [
+          256
+        ],
+        "characterize": [
+          258
+        ],
+        "profiles": [
+          266
+        ],
+        "defined": [
+          267
+        ],
+        "clear": [
+          268
+        ],
+        "upper": [
+          269
+        ],
+        "boundaries": [
+          272
+        ],
+        "corresponding": [
+          273
+        ],
+        "brine-saturated": [
+          275
+        ],
+        "dry-rock": [
+          277,
+          300
+        ],
+        "respectively.": [
+          279
+        ],
+        "Stable": [
+          280
+        ],
+        "high-quality": [
+          282
+        ],
+        "values": [
+          288
+        ],
+        "closer": [
+          289,
+          297
+        ],
+        "surfactant-saturated": [
+          291
+        ],
+        "profiles,": [
+          292
+        ],
+        "while": [
+          293,
+          368
+        ],
+        "poor": [
+          294
+        ],
+        "are": [
+          296
+        ],
+        "behavior.": [
+          301
+        ],
+        "flooding": [
+          303
+        ],
+        "experiments": [
+          304
+        ],
+        "high-": [
+          309
+        ],
+        "low-pressure": [
+          311
+        ],
+        "conditions": [
+          312
+        ],
+        "investigate": [
+          314
+        ],
+        "potential": [
+          318
+        ],
+        "disruption": [
+          319
+        ],
+        "measurements.": [
+          322
+        ],
+        "demonstrate": [
+          325
+        ],
+        "can": [
+          329
+        ],
+        "be": [
+          330
+        ],
+        "quantitatively": [
+          333
+        ],
+        "assess": [
+          334
+        ],
+        "distribution,": [
+          336
+        ],
+        "texture,": [
+          337
+        ],
+        "gas/liquid": [
+          339,
+          364
+        ],
+        "saturation": [
+          340
+        ],
+        "within": [
+          341,
+          374
+        ],
+        "pore": [
+          343
+        ],
+        "structure.": [
+          344
+        ],
+        "further": [
+          347
+        ],
+        "discusses": [
+          348
+        ],
+        "mechanisms": [
+          351
+        ],
+        "governing": [
+          352
+        ],
+        "behavior": [
+          354
+        ],
+        "frequencies": [
+          357,
+          370
+        ],
+        "capture": [
+          359
+        ],
+        "interfacial": [
+          360
+        ],
+        "related": [
+          362
+        ],
+        "rock/fluid": [
+          366
+        ],
+        "interactions,": [
+          367
+        ],
+        "high": [
+          369
+        ],
+        "reflect": [
+          371
+        ],
+        "dipolar": [
+          372
+        ],
+        "foam.": [
+          377
+        ],
+        "observed": [
+          379
+        ],
+        "decline": [
+          380
+        ],
+        "constant": [
+          383
+        ],
+        "over": [
+          384
+        ],
+        "time": [
+          385
+        ],
+        "corresponds": [
+          386
+        ],
+        "drainage,": [
+          389
+        ],
+        "expansion,": [
+          391
+        ],
+        "bubble": [
+          393
+        ],
+        "coalescence.": [
+          394
+        ],
+        "Overall,": [
+          395
+        ],
+        "provides": [
+          400
+        ],
+        "new": [
+          402
+        ],
+        "approach": [
+          403
+        ],
+        "evaluation,": [
+          406
+        ],
+        "capable": [
+          407
+        ],
+        "quantifying": [
+          409
+        ],
+        "quality,": [
+          411
+        ],
+        "stability,": [
+          412
+        ],
+        "propagation": [
+          414
+        ],
+        "systems.": [
+          420
+        ],
+        "proposed": [
+          422
+        ],
+        "method": [
+          423
+        ],
+        "enhances": [
+          424
+        ],
+        "understanding": [
+          426
+        ],
+        "foam/rock/fluid": [
+          428
+        ],
+        "interactions": [
+          429
+        ],
+        "offers": [
+          431
+        ],
+        "foundation": [
+          433
+        ],
+        "real-time": [
+          435
+        ],
+        "monitoring": [
+          436
+        ],
+        "optimization": [
+          438
+        ],
+        "foam-based": [
+          440
+        ],
+        "EOR": [
+          441
+        ],
+        "carbon": [
+          443
+        ],
+        "dioxide": [
+          444
+        ],
+        "(CO2)": [
+          445
+        ],
+        "storage": [
+          446
+        ],
+        "operations.": [
+          447
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-01-24T23:27:35.965710",
+      "created_date": "2026-01-24T00:00:00"
     }
   ]
 }

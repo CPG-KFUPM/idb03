@@ -1033,9 +1033,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6200000047683716,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.6200000047683716
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -2762,9 +2762,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.8600000143051147,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.8600000143051147
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -3608,9 +3608,9 @@
       },
       "sustainable_development_goals": [
         {
+          "score": 0.8899999856948853,
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.8899999856948853
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -3837,7 +3837,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.02645681,
+        "value": 0.02638188,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4270,7 +4270,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -6194,9 +6194,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.4099999964237213,
           "display_name": "Peace, Justice and strong institutions",
-          "id": "https://metadata.un.org/sdg/16",
-          "score": 0.4099999964237213
+          "id": "https://metadata.un.org/sdg/16"
         }
       ],
       "awards": [],
@@ -7579,7 +7579,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.64933716,
+        "value": 0.64932645,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7920,7 +7920,13 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -7963,11 +7969,11 @@
         "https://openalex.org/W2089045238",
         "https://openalex.org/W2113987921",
         "https://openalex.org/W2792036335",
-        "https://openalex.org/W2740681717",
-        "https://openalex.org/W2623567129",
-        "https://openalex.org/W3038057404",
         "https://openalex.org/W2216515686",
         "https://openalex.org/W2302043185",
+        "https://openalex.org/W3038057404",
+        "https://openalex.org/W2740681717",
+        "https://openalex.org/W2623567129",
         "https://openalex.org/W1581625917"
       ],
       "related_works": [
@@ -8461,7 +8467,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8943,7 +8949,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.56241714,
+        "value": 0.56242369,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9450,7 +9456,18 @@
       },
       "sustainable_development_goals": [],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
+          "id": "https://openalex.org/F4320336956",
+          "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
+          "ror": null
+        }
+      ],
       "has_content": {
         "grobid_xml": true,
         "pdf": true
@@ -10116,7 +10133,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -10627,9 +10644,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 0.6200000047683716,
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6200000047683716
+          "id": "https://metadata.un.org/sdg/13"
         }
       ],
       "awards": [],

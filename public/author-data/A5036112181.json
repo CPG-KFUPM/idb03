@@ -852,8 +852,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "score": 0.6000000238418579,
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.6000000238418579
         }
       ],
       "awards": [],
@@ -1892,8 +1892,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.75,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.75
         }
       ],
       "awards": [
@@ -5054,8 +5054,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.44999998807907104,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
@@ -8409,8 +8409,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6200000047683716,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6200000047683716
         }
       ],
       "awards": [],
@@ -9166,8 +9166,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.7200000286102295,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.7200000286102295
         }
       ],
       "awards": [],
@@ -9845,8 +9845,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.800000011920929,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.800000011920929
         }
       ],
       "awards": [],
@@ -11273,8 +11273,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "score": 0.5799999833106995,
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.5799999833106995
         }
       ],
       "awards": [],
@@ -12740,8 +12740,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "score": 0.44999998807907104,
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
@@ -13791,8 +13791,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.7099999785423279,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.7099999785423279
         }
       ],
       "awards": [],
@@ -14782,7 +14782,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.94066698,
+        "value": 0.93960218,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -15131,12 +15131,18 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "score": 0.5199999809265137,
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "score": 0.5199999809265137
         }
       ],
       "awards": [],
-      "funders": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
       "has_content": {
         "pdf": true,
         "grobid_xml": true
@@ -15254,633 +15260,14 @@
         "https://openalex.org/W4388017567",
         "https://openalex.org/W2984055460"
       ],
-      "abstract_inverted_index": {
-        "30": [
-          177
-        ],
-        "200": [
-          84
-        ],
-        "Foam": [
-          0,
-          135
-        ],
-        "has": [
-          1
-        ],
-        "been": [
-          2,
-          36
-        ],
-        "widely": [
-          3
-        ],
-        "used": [
-          4
-        ],
-        "for": [
-          5,
-          30,
-          176,
-          234
-        ],
-        "enhanced": [
-          6,
-          158
-        ],
-        "oil": [
-          7
-        ],
-        "recovery": [
-          8
-        ],
-        "(EOR)": [
-          9
-        ],
-        "and": [
-          10,
-          21,
-          44,
-          64,
-          104,
-          119,
-          127,
-          130,
-          142,
-          148,
-          170,
-          184,
-          239
-        ],
-        "CO<sub>2</sub>": [
-          11,
-          240
-        ],
-        "sequestration": [
-          12
-        ],
-        "due": [
-          13
-        ],
-        "to": [
-          14,
-          17,
-          67,
-          166
-        ],
-        "its": [
-          15
-        ],
-        "ability": [
-          16
-        ],
-        "improve": [
-          18
-        ],
-        "sweep": [
-          19
-        ],
-        "efficiency": [
-          20
-        ],
-        "control": [
-          22
-        ],
-        "gas": [
-          23
-        ],
-        "mobility.": [
-          24
-        ],
-        "However,": [
-          25
-        ],
-        "foam": [
-          26,
-          39,
-          69,
-          144,
-          159,
-          162,
-          235
-        ],
-        "instability": [
-          27
-        ],
-        "poses": [
-          28
-        ],
-        "challenges": [
-          29
-        ],
-        "long-term": [
-          31
-        ],
-        "applications.": [
-          32
-        ],
-        "While": [
-          33
-        ],
-        "nanoparticles": [
-          34,
-          55,
-          229
-        ],
-        "have": [
-          35
-        ],
-        "explored": [
-          37
-        ],
-        "as": [
-          38,
-          61,
-          230
-        ],
-        "stabilizers,": [
-          40
-        ],
-        "their": [
-          41
-        ],
-        "high": [
-          42
-        ],
-        "cost": [
-          43
-        ],
-        "limited": [
-          45
-        ],
-        "availability": [
-          46
-        ],
-        "hinder": [
-          47
-        ],
-        "large-scale": [
-          48
-        ],
-        "use.": [
-          49
-        ],
-        "This": [
-          50,
-          221
-        ],
-        "study": [
-          51
-        ],
-        "investigates": [
-          52
-        ],
-        "red": [
-          53,
-          227
-        ],
-        "mud-derived": [
-          54,
-          228
-        ],
-        "(RMNPs),": [
-          56
-        ],
-        "synthesized": [
-          57
-        ],
-        "from": [
-          58
-        ],
-        "industrial": [
-          59
-        ],
-        "waste,": [
-          60
-        ],
-        "an": [
-          62
-        ],
-        "affordable": [
-          63
-        ],
-        "sustainable": [
-          65
-        ],
-        "alternative": [
-          66
-        ],
-        "traditional": [
-          68
-        ],
-        "stabilizers.": [
-          70
-        ],
-        "RMNPs": [
-          71,
-          89,
-          156
-        ],
-        "were": [
-          72,
-          110
-        ],
-        "produced": [
-          73
-        ],
-        "by": [
-          74,
-          164
-        ],
-        "ball": [
-          75
-        ],
-        "milling": [
-          76,
-          79
-        ],
-        "at": [
-          77,
-          209
-        ],
-        "varying": [
-          78
-        ],
-        "durations,": [
-          80
-        ],
-        "achieving": [
-          81
-        ],
-        "sizes": [
-          82
-        ],
-        "below": [
-          83
-        ],
-        "nm.": [
-          85
-        ],
-        "Characterization": [
-          86
-        ],
-        "of": [
-          87,
-          195,
-          226
-        ],
-        "the": [
-          88,
-          121,
-          196,
-          224
-        ],
-        "was": [
-          90,
-          137
-        ],
-        "conducted": [
-          91
-        ],
-        "using": [
-          92,
-          146
-        ],
-        "scanning": [
-          93
-        ],
-        "electron": [
-          94
-        ],
-        "microscopy": [
-          95
-        ],
-        "(SEM),": [
-          96
-        ],
-        "energy-dispersive": [
-          97
-        ],
-        "X-ray": [
-          98
-        ],
-        "spectroscopy": [
-          99
-        ],
-        "(EDX),": [
-          100
-        ],
-        "zeta": [
-          101
-        ],
-        "potential": [
-          102,
-          189,
-          225
-        ],
-        "measurements,": [
-          103
-        ],
-        "particle": [
-          105
-        ],
-        "size": [
-          106
-        ],
-        "analysis.": [
-          107
-        ],
-        "Foaming": [
-          108
-        ],
-        "solutions": [
-          109
-        ],
-        "prepared": [
-          111
-        ],
-        "with": [
-          112,
-          118,
-          168,
-          172
-        ],
-        "alpha-olefin": [
-          113
-        ],
-        "sulfonate": [
-          114
-        ],
-        "(AOS)": [
-          115
-        ],
-        "anionic": [
-          116
-        ],
-        "surfactant,": [
-          117
-        ],
-        "without": [
-          120
-        ],
-        "RMNPs,": [
-          122,
-          197
-        ],
-        "in": [
-          123,
-          200,
-          237
-        ],
-        "deionized": [
-          124
-        ],
-        "water,": [
-          125
-        ],
-        "seawater,": [
-          126
-        ],
-        "brines": [
-          128
-        ],
-        "(NaCl": [
-          129
-        ],
-        "CaCl<sub>2</sub>),": [
-          131
-        ],
-        "covering": [
-          132
-        ],
-        "pH": [
-          133,
-          203,
-          210
-        ],
-        "3-11.": [
-          134
-        ],
-        "stability": [
-          136,
-          199,
-          208
-        ],
-        "evaluated": [
-          138
-        ],
-        "via": [
-          139
-        ],
-        "handshake": [
-          140
-        ],
-        "tests": [
-          141,
-          205
-        ],
-        "dynamic": [
-          143
-        ],
-        "analyses": [
-          145
-        ],
-        "nitrogen": [
-          147,
-          169
-        ],
-        "carbon": [
-          149
-        ],
-        "dioxide": [
-          150
-        ],
-        "gases.": [
-          151
-        ],
-        "Results": [
-          152
-        ],
-        "showed": [
-          153
-        ],
-        "that": [
-          154
-        ],
-        "incorporating": [
-          155
-        ],
-        "significantly": [
-          157
-        ],
-        "stability,": [
-          160
-        ],
-        "increasing": [
-          161
-        ],
-        "half-life": [
-          163
-        ],
-        "up": [
-          165
-        ],
-        "60%": [
-          167
-        ],
-        "57%": [
-          171
-        ],
-        "CO<sub>2</sub>.": [
-          173
-        ],
-        "Nanoparticles": [
-          174
-        ],
-        "milled": [
-          175
-        ],
-        "h": [
-          178
-        ],
-        "yielded": [
-          179
-        ],
-        "optimal": [
-          180,
-          207
-        ],
-        "performance,": [
-          181
-        ],
-        "forming": [
-          182
-        ],
-        "fine": [
-          183
-        ],
-        "uniform": [
-          185
-        ],
-        "bubble": [
-          186
-        ],
-        "structures.": [
-          187
-        ],
-        "Zeta": [
-          188
-        ],
-        "analysis": [
-          190
-        ],
-        "confirmed": [
-          191
-        ],
-        "strong": [
-          192
-        ],
-        "hydrophilic": [
-          193
-        ],
-        "properties": [
-          194
-        ],
-        "promoting": [
-          198
-        ],
-        "aqueous": [
-          201
-        ],
-        "solutions.": [
-          202
-        ],
-        "sensitivity": [
-          204
-        ],
-        "indicated": [
-          206
-        ],
-        "4-5,": [
-          211
-        ],
-        "while": [
-          212
-        ],
-        "highly": [
-          213
-        ],
-        "acidic": [
-          214
-        ],
-        "conditions": [
-          215
-        ],
-        "(pH": [
-          216
-        ],
-        "3)": [
-          217
-        ],
-        "negatively": [
-          218
-        ],
-        "affected": [
-          219
-        ],
-        "stability.": [
-          220
-        ],
-        "work": [
-          222
-        ],
-        "highlights": [
-          223
-        ],
-        "a": [
-          231
-        ],
-        "low-cost": [
-          232
-        ],
-        "stabilizer": [
-          233
-        ],
-        "applications": [
-          236
-        ],
-        "EOR": [
-          238
-        ],
-        "sequestration,": [
-          241
-        ],
-        "supporting": [
-          242
-        ],
-        "further": [
-          243
-        ],
-        "optimization": [
-          244
-        ],
-        "under": [
-          245
-        ],
-        "reservoir": [
-          246
-        ],
-        "conditions.": [
-          247
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2025,
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-01-13T01:12:25.745995",
+      "updated_date": "2026-01-25T03:40:55.926884",
       "created_date": "2025-07-31T00:00:00"
     },
     {
@@ -20507,7 +19894,7 @@
       "keywords": [],
       "concepts": [],
       "mesh": [],
-      "locations_count": 2,
+      "locations_count": 3,
       "locations": [
         {
           "id": "doi:10.1038/s41598-025-32469-x",
@@ -20572,6 +19959,35 @@
           "is_published": true,
           "raw_source_name": "Scientific reports",
           "raw_type": null
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:12823596",
+          "is_oa": true,
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823596/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Sci Rep",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
