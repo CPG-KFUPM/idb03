@@ -958,8 +958,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
@@ -1649,15 +1649,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.4399999976158142,
-          "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 40,
@@ -2421,8 +2421,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "awards": [
@@ -2442,8 +2442,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 52,
@@ -3393,8 +3393,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "awards": [
@@ -3419,8 +3419,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -3936,8 +3936,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 142,
@@ -4564,6 +4564,790 @@
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4404844299",
+      "doi": "https://doi.org/10.1016/j.cis.2024.103362",
+      "title": "Green solution for oil spills: A review on the role of surface-active ionic liquids",
+      "display_name": "Green solution for oil spills: A review on the role of surface-active ionic liquids",
+      "publication_year": 2024,
+      "publication_date": "2024-11-30",
+      "ids": {
+        "openalex": "https://openalex.org/W4404844299",
+        "doi": "https://doi.org/10.1016/j.cis.2024.103362",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/39626337"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.cis.2024.103362",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.cis.2024.103362",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S28247071",
+          "display_name": "Advances in Colloid and Interface Science",
+          "issn_l": "0001-8686",
+          "issn": [
+            "0001-8686",
+            "1873-3727"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Advances in Colloid and Interface Science",
+        "raw_type": "journal-article"
+      },
+      "type": "review",
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5102396283",
+            "display_name": "Masooma Nazar",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Masooma Nazar",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: masooma.nazar@kfupm.edu.sa"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: masooma.nazar@kfupm.edu.sa",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101189126",
+            "display_name": "Aqeel Ahmad",
+            "orcid": "https://orcid.org/0000-0001-5389-6734"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Aqeel Ahmad",
+          "raw_affiliation_strings": [
+            "Interdisciplinary Research Center for Refining and Advanced Chemicals, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Interdisciplinary Research Center for Refining and Advanced Chemicals, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5022552999",
+            "display_name": "Syed Muhammad Shakil Hussain",
+            "orcid": "https://orcid.org/0000-0002-6806-2326"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Syed Muhammad Shakil Hussain",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5048482246",
+            "display_name": "Aliyu Adebayo Sulaimon",
+            "orcid": "https://orcid.org/0000-0003-4205-0746"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I203899302",
+              "display_name": "Universiti Teknologi Petronas",
+              "ror": "https://ror.org/048g2sh07",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I203899302"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Aliyu Adebayo Sulaimon",
+          "raw_affiliation_strings": [
+            "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I203899302"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5014271929",
+            "display_name": "Muhammad Moniruzzaman",
+            "orcid": "https://orcid.org/0000-0002-2523-4159"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I203899302",
+              "display_name": "Universiti Teknologi Petronas",
+              "ror": "https://ror.org/048g2sh07",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I203899302"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Muhammad Moniruzzaman",
+          "raw_affiliation_strings": [
+            "Department of Chemical Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia. Electronic address: m.moniruzzaman@utp.edu.my"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Chemical Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia. Electronic address: m.moniruzzaman@utp.edu.my",
+              "institution_ids": [
+                "https://openalex.org/I203899302"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5102396283",
+        "https://openalex.org/A5014271929"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113",
+        "https://openalex.org/I203899302"
+      ],
+      "apc_list": {
+        "value": 4850,
+        "currency": "USD",
+        "value_usd": 4850
+      },
+      "apc_paid": null,
+      "fwci": 2.81027407,
+      "has_fulltext": false,
+      "cited_by_count": 10,
+      "citation_normalized_percentile": {
+        "value": 0.80448436,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "336",
+        "issue": null,
+        "first_page": "103362",
+        "last_page": "103362"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12316",
+        "display_name": "Oil Spill Detection and Mitigation",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2310",
+          "display_name": "Pollution"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12316",
+          "display_name": "Oil Spill Detection and Mitigation",
+          "score": 0.9951000213623047,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2310",
+            "display_name": "Pollution"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13092",
+          "display_name": "Environmental Chemistry and Analysis",
+          "score": 0.9688000082969666,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2304",
+            "display_name": "Environmental Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12071",
+          "display_name": "Marine Biology and Environmental Chemistry",
+          "score": 0.9430999755859375,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/oil-spill",
+          "display_name": "Oil spill",
+          "score": 0.7493062019348145
+        },
+        {
+          "id": "https://openalex.org/keywords/ionic-liquid",
+          "display_name": "Ionic liquid",
+          "score": 0.6998311281204224
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-engineering",
+          "display_name": "Chemical engineering",
+          "score": 0.5325813293457031
+        },
+        {
+          "id": "https://openalex.org/keywords/ionic-bonding",
+          "display_name": "Ionic bonding",
+          "score": 0.5188566446304321
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-chemistry",
+          "display_name": "Environmental chemistry",
+          "score": 0.46046707034111023
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.4423283040523529
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-science",
+          "display_name": "Environmental science",
+          "score": 0.3702113926410675
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.3342546820640564
+        },
+        {
+          "id": "https://openalex.org/keywords/nanotechnology",
+          "display_name": "Nanotechnology",
+          "score": 0.33295080065727234
+        },
+        {
+          "id": "https://openalex.org/keywords/organic-chemistry",
+          "display_name": "Organic chemistry",
+          "score": 0.19831892848014832
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-engineering",
+          "display_name": "Environmental engineering",
+          "score": 0.18200784921646118
+        },
+        {
+          "id": "https://openalex.org/keywords/ion",
+          "display_name": "Ion",
+          "score": 0.08719021081924438
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.087027907371521
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2985668151",
+          "wikidata": "https://www.wikidata.org/wiki/Q220187",
+          "display_name": "Oil spill",
+          "level": 2,
+          "score": 0.7493062019348145
+        },
+        {
+          "id": "https://openalex.org/C154881586",
+          "wikidata": "https://www.wikidata.org/wiki/Q898579",
+          "display_name": "Ionic liquid",
+          "level": 3,
+          "score": 0.6998311281204224
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.5325813293457031
+        },
+        {
+          "id": "https://openalex.org/C2182769",
+          "wikidata": "https://www.wikidata.org/wiki/Q62500",
+          "display_name": "Ionic bonding",
+          "level": 3,
+          "score": 0.5188566446304321
+        },
+        {
+          "id": "https://openalex.org/C107872376",
+          "wikidata": "https://www.wikidata.org/wiki/Q321355",
+          "display_name": "Environmental chemistry",
+          "level": 1,
+          "score": 0.46046707034111023
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.4423283040523529
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.3702113926410675
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.3342546820640564
+        },
+        {
+          "id": "https://openalex.org/C171250308",
+          "wikidata": "https://www.wikidata.org/wiki/Q11468",
+          "display_name": "Nanotechnology",
+          "level": 1,
+          "score": 0.33295080065727234
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.19831892848014832
+        },
+        {
+          "id": "https://openalex.org/C87717796",
+          "wikidata": "https://www.wikidata.org/wiki/Q146326",
+          "display_name": "Environmental engineering",
+          "level": 1,
+          "score": 0.18200784921646118
+        },
+        {
+          "id": "https://openalex.org/C145148216",
+          "wikidata": "https://www.wikidata.org/wiki/Q36496",
+          "display_name": "Ion",
+          "level": 2,
+          "score": 0.08719021081924438
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.087027907371521
+        },
+        {
+          "id": "https://openalex.org/C161790260",
+          "wikidata": "https://www.wikidata.org/wiki/Q82264",
+          "display_name": "Catalysis",
+          "level": 2,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.cis.2024.103362",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.cis.2024.103362",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S28247071",
+            "display_name": "Advances in Colloid and Interface Science",
+            "issn_l": "0001-8686",
+            "issn": [
+              "0001-8686",
+              "1873-3727"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Advances in Colloid and Interface Science",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:39626337",
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39626337",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Advances in colloid and interface science",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320323380",
+          "display_name": "Universiti Teknologi Petronas",
+          "ror": "https://ror.org/048g2sh07"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 158,
+      "referenced_works": [
+        "https://openalex.org/W796460541",
+        "https://openalex.org/W1430138607",
+        "https://openalex.org/W1805953322",
+        "https://openalex.org/W1970493259",
+        "https://openalex.org/W1970516013",
+        "https://openalex.org/W1972113364",
+        "https://openalex.org/W1973600411",
+        "https://openalex.org/W1977748669",
+        "https://openalex.org/W1992841845",
+        "https://openalex.org/W1996901449",
+        "https://openalex.org/W2007227915",
+        "https://openalex.org/W2017623695",
+        "https://openalex.org/W2029170212",
+        "https://openalex.org/W2030541978",
+        "https://openalex.org/W2034560599",
+        "https://openalex.org/W2036106644",
+        "https://openalex.org/W2036614481",
+        "https://openalex.org/W2038969192",
+        "https://openalex.org/W2041678603",
+        "https://openalex.org/W2045698709",
+        "https://openalex.org/W2062047519",
+        "https://openalex.org/W2062248854",
+        "https://openalex.org/W2065909234",
+        "https://openalex.org/W2068713391",
+        "https://openalex.org/W2069030667",
+        "https://openalex.org/W2072709567",
+        "https://openalex.org/W2076153175",
+        "https://openalex.org/W2097074384",
+        "https://openalex.org/W2105015791",
+        "https://openalex.org/W2107952269",
+        "https://openalex.org/W2108507776",
+        "https://openalex.org/W2111054870",
+        "https://openalex.org/W2149105593",
+        "https://openalex.org/W2190843616",
+        "https://openalex.org/W2284171046",
+        "https://openalex.org/W2314996013",
+        "https://openalex.org/W2317326155",
+        "https://openalex.org/W2327433765",
+        "https://openalex.org/W2345218275",
+        "https://openalex.org/W2407060516",
+        "https://openalex.org/W2418647475",
+        "https://openalex.org/W2526307477",
+        "https://openalex.org/W2563049099",
+        "https://openalex.org/W2739078722",
+        "https://openalex.org/W2758730284",
+        "https://openalex.org/W2759665618",
+        "https://openalex.org/W2761159698",
+        "https://openalex.org/W2766784725",
+        "https://openalex.org/W2767764347",
+        "https://openalex.org/W2768187609",
+        "https://openalex.org/W2783872398",
+        "https://openalex.org/W2790042926",
+        "https://openalex.org/W2883737991",
+        "https://openalex.org/W2885826896",
+        "https://openalex.org/W2888472084",
+        "https://openalex.org/W2900125733",
+        "https://openalex.org/W2903585375",
+        "https://openalex.org/W2921746828",
+        "https://openalex.org/W2925877212",
+        "https://openalex.org/W2936772925",
+        "https://openalex.org/W2943559547",
+        "https://openalex.org/W2944286073",
+        "https://openalex.org/W2945946526",
+        "https://openalex.org/W2966084415",
+        "https://openalex.org/W2966520118",
+        "https://openalex.org/W2982046812",
+        "https://openalex.org/W2991451924",
+        "https://openalex.org/W2993800614",
+        "https://openalex.org/W2999344113",
+        "https://openalex.org/W3005147528",
+        "https://openalex.org/W3005405369",
+        "https://openalex.org/W3007908140",
+        "https://openalex.org/W3012516433",
+        "https://openalex.org/W3015066153",
+        "https://openalex.org/W3020711175",
+        "https://openalex.org/W3025521633",
+        "https://openalex.org/W3089587537",
+        "https://openalex.org/W3091129191",
+        "https://openalex.org/W3092091811",
+        "https://openalex.org/W3092128881",
+        "https://openalex.org/W3096154377",
+        "https://openalex.org/W3109960500",
+        "https://openalex.org/W3126757171",
+        "https://openalex.org/W3128289823",
+        "https://openalex.org/W3134856963",
+        "https://openalex.org/W3149904710",
+        "https://openalex.org/W3153146985",
+        "https://openalex.org/W3158940972",
+        "https://openalex.org/W3159229281",
+        "https://openalex.org/W3159650356",
+        "https://openalex.org/W3159810273",
+        "https://openalex.org/W3162582923",
+        "https://openalex.org/W3164043563",
+        "https://openalex.org/W3168206095",
+        "https://openalex.org/W3194992274",
+        "https://openalex.org/W3207618284",
+        "https://openalex.org/W3209762752",
+        "https://openalex.org/W3215291605",
+        "https://openalex.org/W3216930481",
+        "https://openalex.org/W4210274249",
+        "https://openalex.org/W4220926833",
+        "https://openalex.org/W4223620959",
+        "https://openalex.org/W4225276295",
+        "https://openalex.org/W4226268044",
+        "https://openalex.org/W4250462812",
+        "https://openalex.org/W4281621410",
+        "https://openalex.org/W4281629266",
+        "https://openalex.org/W4283579399",
+        "https://openalex.org/W4285796732",
+        "https://openalex.org/W4293153047",
+        "https://openalex.org/W4294217082",
+        "https://openalex.org/W4298009582",
+        "https://openalex.org/W4307644747",
+        "https://openalex.org/W4319791725",
+        "https://openalex.org/W4321465689",
+        "https://openalex.org/W4322619055",
+        "https://openalex.org/W4380987214",
+        "https://openalex.org/W4384007258",
+        "https://openalex.org/W4385461435",
+        "https://openalex.org/W4386196651",
+        "https://openalex.org/W4387041346",
+        "https://openalex.org/W4387490985",
+        "https://openalex.org/W4393853969",
+        "https://openalex.org/W4398210754",
+        "https://openalex.org/W4400380613",
+        "https://openalex.org/W6766967653",
+        "https://openalex.org/W6769764384",
+        "https://openalex.org/W6771163003",
+        "https://openalex.org/W6771485955",
+        "https://openalex.org/W6773750166",
+        "https://openalex.org/W6774155071",
+        "https://openalex.org/W6774224384",
+        "https://openalex.org/W6777273793",
+        "https://openalex.org/W6783716184",
+        "https://openalex.org/W6783870409",
+        "https://openalex.org/W6786476611",
+        "https://openalex.org/W6790633391",
+        "https://openalex.org/W6793661652",
+        "https://openalex.org/W6794780503",
+        "https://openalex.org/W6795262264",
+        "https://openalex.org/W6796299835",
+        "https://openalex.org/W6802490807",
+        "https://openalex.org/W6803052912",
+        "https://openalex.org/W6804061008",
+        "https://openalex.org/W6804284240",
+        "https://openalex.org/W6805806341",
+        "https://openalex.org/W6807527306",
+        "https://openalex.org/W6810264020",
+        "https://openalex.org/W6838304985",
+        "https://openalex.org/W6839161756",
+        "https://openalex.org/W6839226121",
+        "https://openalex.org/W6842436509",
+        "https://openalex.org/W6844267896",
+        "https://openalex.org/W6850431092",
+        "https://openalex.org/W6850491279",
+        "https://openalex.org/W6853584682",
+        "https://openalex.org/W6855727298",
+        "https://openalex.org/W6857007556"
+      ],
+      "related_works": [
+        "https://openalex.org/W2002226878",
+        "https://openalex.org/W2072536863",
+        "https://openalex.org/W2352741502",
+        "https://openalex.org/W2912484274",
+        "https://openalex.org/W2074311840",
+        "https://openalex.org/W2166530799",
+        "https://openalex.org/W2352093165",
+        "https://openalex.org/W2383223347",
+        "https://openalex.org/W2095578419",
+        "https://openalex.org/W2378638929"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 9
+        }
+      ],
+      "updated_date": "2026-01-27T00:41:06.130819",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -5229,8 +6013,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 57,
@@ -6497,8 +7281,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8399999737739563,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "awards": [
@@ -6518,8 +7302,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 52,
@@ -7928,8 +8712,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.49000000953674316,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
@@ -7941,8 +8725,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4385461435.pdf"
@@ -9387,8 +10171,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 63,
@@ -10133,8 +10917,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.46000000834465027,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -10151,8 +10935,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 41,
@@ -10724,786 +11508,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4404844299",
-      "doi": "https://doi.org/10.1016/j.cis.2024.103362",
-      "title": "Green solution for oil spills: A review on the role of surface-active ionic liquids",
-      "display_name": "Green solution for oil spills: A review on the role of surface-active ionic liquids",
-      "publication_year": 2024,
-      "publication_date": "2024-11-30",
-      "ids": {
-        "openalex": "https://openalex.org/W4404844299",
-        "doi": "https://doi.org/10.1016/j.cis.2024.103362",
-        "pmid": "https://pubmed.ncbi.nlm.nih.gov/39626337"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.cis.2024.103362",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.cis.2024.103362",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S28247071",
-          "display_name": "Advances in Colloid and Interface Science",
-          "issn_l": "0001-8686",
-          "issn": [
-            "0001-8686",
-            "1873-3727"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [
-            "Elsevier BV"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Advances in Colloid and Interface Science",
-        "raw_type": "journal-article"
-      },
-      "type": "review",
-      "indexed_in": [
-        "crossref",
-        "pubmed"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5102396283",
-            "display_name": "Masooma Nazar",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Masooma Nazar",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: masooma.nazar@kfupm.edu.sa"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia. Electronic address: masooma.nazar@kfupm.edu.sa",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5101189126",
-            "display_name": "Aqeel Ahmad",
-            "orcid": "https://orcid.org/0000-0001-5389-6734"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Aqeel Ahmad",
-          "raw_affiliation_strings": [
-            "Interdisciplinary Research Center for Refining and Advanced Chemicals, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Interdisciplinary Research Center for Refining and Advanced Chemicals, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5022552999",
-            "display_name": "Syed Muhammad Shakil Hussain",
-            "orcid": "https://orcid.org/0000-0002-6806-2326"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Syed Muhammad Shakil Hussain",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5048482246",
-            "display_name": "Aliyu Adebayo Sulaimon",
-            "orcid": "https://orcid.org/0000-0003-4205-0746"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I203899302",
-              "display_name": "Universiti Teknologi Petronas",
-              "ror": "https://ror.org/048g2sh07",
-              "country_code": "MY",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I203899302"
-              ]
-            }
-          ],
-          "countries": [
-            "MY"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Aliyu Adebayo Sulaimon",
-          "raw_affiliation_strings": [
-            "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia",
-              "institution_ids": [
-                "https://openalex.org/I203899302"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5014271929",
-            "display_name": "Muhammad Moniruzzaman",
-            "orcid": "https://orcid.org/0000-0002-2523-4159"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I203899302",
-              "display_name": "Universiti Teknologi Petronas",
-              "ror": "https://ror.org/048g2sh07",
-              "country_code": "MY",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I203899302"
-              ]
-            }
-          ],
-          "countries": [
-            "MY"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Muhammad Moniruzzaman",
-          "raw_affiliation_strings": [
-            "Department of Chemical Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia. Electronic address: m.moniruzzaman@utp.edu.my"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Department of Chemical Engineering, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia. Electronic address: m.moniruzzaman@utp.edu.my",
-              "institution_ids": [
-                "https://openalex.org/I203899302"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 2,
-      "institutions_distinct_count": 5,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5102396283",
-        "https://openalex.org/A5014271929"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113",
-        "https://openalex.org/I203899302"
-      ],
-      "apc_list": {
-        "value": 4850,
-        "currency": "USD",
-        "value_usd": 4850
-      },
-      "apc_paid": null,
-      "fwci": 2.52924666,
-      "has_fulltext": false,
-      "cited_by_count": 9,
-      "citation_normalized_percentile": {
-        "value": 0.78338945,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
-      "cited_by_percentile_year": {
-        "min": 98,
-        "max": 99
-      },
-      "biblio": {
-        "volume": "336",
-        "issue": null,
-        "first_page": "103362",
-        "last_page": "103362"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T12316",
-        "display_name": "Oil Spill Detection and Mitigation",
-        "score": 0.9951000213623047,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2310",
-          "display_name": "Pollution"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T12316",
-          "display_name": "Oil Spill Detection and Mitigation",
-          "score": 0.9951000213623047,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2310",
-            "display_name": "Pollution"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/23",
-            "display_name": "Environmental Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T13092",
-          "display_name": "Environmental Chemistry and Analysis",
-          "score": 0.9688000082969666,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2304",
-            "display_name": "Environmental Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/23",
-            "display_name": "Environmental Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12071",
-          "display_name": "Marine Biology and Environmental Chemistry",
-          "score": 0.9430999755859375,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/oil-spill",
-          "display_name": "Oil spill",
-          "score": 0.7493062019348145
-        },
-        {
-          "id": "https://openalex.org/keywords/ionic-liquid",
-          "display_name": "Ionic liquid",
-          "score": 0.6998311281204224
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-engineering",
-          "display_name": "Chemical engineering",
-          "score": 0.5325813293457031
-        },
-        {
-          "id": "https://openalex.org/keywords/ionic-bonding",
-          "display_name": "Ionic bonding",
-          "score": 0.5188566446304321
-        },
-        {
-          "id": "https://openalex.org/keywords/environmental-chemistry",
-          "display_name": "Environmental chemistry",
-          "score": 0.46046707034111023
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.4423283040523529
-        },
-        {
-          "id": "https://openalex.org/keywords/environmental-science",
-          "display_name": "Environmental science",
-          "score": 0.3702113926410675
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.3342546820640564
-        },
-        {
-          "id": "https://openalex.org/keywords/nanotechnology",
-          "display_name": "Nanotechnology",
-          "score": 0.33295080065727234
-        },
-        {
-          "id": "https://openalex.org/keywords/organic-chemistry",
-          "display_name": "Organic chemistry",
-          "score": 0.19831892848014832
-        },
-        {
-          "id": "https://openalex.org/keywords/environmental-engineering",
-          "display_name": "Environmental engineering",
-          "score": 0.18200784921646118
-        },
-        {
-          "id": "https://openalex.org/keywords/ion",
-          "display_name": "Ion",
-          "score": 0.08719021081924438
-        },
-        {
-          "id": "https://openalex.org/keywords/engineering",
-          "display_name": "Engineering",
-          "score": 0.087027907371521
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2985668151",
-          "wikidata": "https://www.wikidata.org/wiki/Q220187",
-          "display_name": "Oil spill",
-          "level": 2,
-          "score": 0.7493062019348145
-        },
-        {
-          "id": "https://openalex.org/C154881586",
-          "wikidata": "https://www.wikidata.org/wiki/Q898579",
-          "display_name": "Ionic liquid",
-          "level": 3,
-          "score": 0.6998311281204224
-        },
-        {
-          "id": "https://openalex.org/C42360764",
-          "wikidata": "https://www.wikidata.org/wiki/Q83588",
-          "display_name": "Chemical engineering",
-          "level": 1,
-          "score": 0.5325813293457031
-        },
-        {
-          "id": "https://openalex.org/C2182769",
-          "wikidata": "https://www.wikidata.org/wiki/Q62500",
-          "display_name": "Ionic bonding",
-          "level": 3,
-          "score": 0.5188566446304321
-        },
-        {
-          "id": "https://openalex.org/C107872376",
-          "wikidata": "https://www.wikidata.org/wiki/Q321355",
-          "display_name": "Environmental chemistry",
-          "level": 1,
-          "score": 0.46046707034111023
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.4423283040523529
-        },
-        {
-          "id": "https://openalex.org/C39432304",
-          "wikidata": "https://www.wikidata.org/wiki/Q188847",
-          "display_name": "Environmental science",
-          "level": 0,
-          "score": 0.3702113926410675
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.3342546820640564
-        },
-        {
-          "id": "https://openalex.org/C171250308",
-          "wikidata": "https://www.wikidata.org/wiki/Q11468",
-          "display_name": "Nanotechnology",
-          "level": 1,
-          "score": 0.33295080065727234
-        },
-        {
-          "id": "https://openalex.org/C178790620",
-          "wikidata": "https://www.wikidata.org/wiki/Q11351",
-          "display_name": "Organic chemistry",
-          "level": 1,
-          "score": 0.19831892848014832
-        },
-        {
-          "id": "https://openalex.org/C87717796",
-          "wikidata": "https://www.wikidata.org/wiki/Q146326",
-          "display_name": "Environmental engineering",
-          "level": 1,
-          "score": 0.18200784921646118
-        },
-        {
-          "id": "https://openalex.org/C145148216",
-          "wikidata": "https://www.wikidata.org/wiki/Q36496",
-          "display_name": "Ion",
-          "level": 2,
-          "score": 0.08719021081924438
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0.087027907371521
-        },
-        {
-          "id": "https://openalex.org/C161790260",
-          "wikidata": "https://www.wikidata.org/wiki/Q82264",
-          "display_name": "Catalysis",
-          "level": 2,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 2,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.cis.2024.103362",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.cis.2024.103362",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S28247071",
-            "display_name": "Advances in Colloid and Interface Science",
-            "issn_l": "0001-8686",
-            "issn": [
-              "0001-8686",
-              "1873-3727"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [
-              "Elsevier BV"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Advances in Colloid and Interface Science",
-          "raw_type": "journal-article"
-        },
-        {
-          "id": "pmid:39626337",
-          "is_oa": false,
-          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39626337",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306525036",
-            "display_name": "PubMed",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Advances in colloid and interface science",
-          "raw_type": null
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [
-        {
-          "id": "https://openalex.org/F4320323380",
-          "display_name": "Universiti Teknologi Petronas",
-          "ror": "https://ror.org/048g2sh07"
-        }
-      ],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 158,
-      "referenced_works": [
-        "https://openalex.org/W6857007556",
-        "https://openalex.org/W6771485955",
-        "https://openalex.org/W4223620959",
-        "https://openalex.org/W2076153175",
-        "https://openalex.org/W2069030667",
-        "https://openalex.org/W6766967653",
-        "https://openalex.org/W2407060516",
-        "https://openalex.org/W4393853969",
-        "https://openalex.org/W2062047519",
-        "https://openalex.org/W2034560599",
-        "https://openalex.org/W3015066153",
-        "https://openalex.org/W2783872398",
-        "https://openalex.org/W2900125733",
-        "https://openalex.org/W2563049099",
-        "https://openalex.org/W6838304985",
-        "https://openalex.org/W2045698709",
-        "https://openalex.org/W2105015791",
-        "https://openalex.org/W2017623695",
-        "https://openalex.org/W2107952269",
-        "https://openalex.org/W6790633391",
-        "https://openalex.org/W6850431092",
-        "https://openalex.org/W3159810273",
-        "https://openalex.org/W6793661652",
-        "https://openalex.org/W3164043563",
-        "https://openalex.org/W2936772925",
-        "https://openalex.org/W6777273793",
-        "https://openalex.org/W6853584682",
-        "https://openalex.org/W6842436509",
-        "https://openalex.org/W3159650356",
-        "https://openalex.org/W4210274249",
-        "https://openalex.org/W6796299835",
-        "https://openalex.org/W6807527306",
-        "https://openalex.org/W6805806341",
-        "https://openalex.org/W6839226121",
-        "https://openalex.org/W4400380613",
-        "https://openalex.org/W2418647475",
-        "https://openalex.org/W6774155071",
-        "https://openalex.org/W4385461435",
-        "https://openalex.org/W4225276295",
-        "https://openalex.org/W4319791725",
-        "https://openalex.org/W3096154377",
-        "https://openalex.org/W2925877212",
-        "https://openalex.org/W3134856963",
-        "https://openalex.org/W6802490807",
-        "https://openalex.org/W4285796732",
-        "https://openalex.org/W3020711175",
-        "https://openalex.org/W6783870409",
-        "https://openalex.org/W6804284240",
-        "https://openalex.org/W6839161756",
-        "https://openalex.org/W6783716184",
-        "https://openalex.org/W6774224384",
-        "https://openalex.org/W6769764384",
-        "https://openalex.org/W6850491279",
-        "https://openalex.org/W4398210754",
-        "https://openalex.org/W2739078722",
-        "https://openalex.org/W3092091811",
-        "https://openalex.org/W2768187609",
-        "https://openalex.org/W4226268044",
-        "https://openalex.org/W2038969192",
-        "https://openalex.org/W3012516433",
-        "https://openalex.org/W2036106644",
-        "https://openalex.org/W1992841845",
-        "https://openalex.org/W6844267896",
-        "https://openalex.org/W2030541978",
-        "https://openalex.org/W2068713391",
-        "https://openalex.org/W2885826896",
-        "https://openalex.org/W2759665618",
-        "https://openalex.org/W3126757171",
-        "https://openalex.org/W4307644747",
-        "https://openalex.org/W2190843616",
-        "https://openalex.org/W1970493259",
-        "https://openalex.org/W1996901449",
-        "https://openalex.org/W1972113364",
-        "https://openalex.org/W2065909234",
-        "https://openalex.org/W2345218275",
-        "https://openalex.org/W1973600411",
-        "https://openalex.org/W2903585375",
-        "https://openalex.org/W4387490985",
-        "https://openalex.org/W2943559547",
-        "https://openalex.org/W2944286073",
-        "https://openalex.org/W6794780503",
-        "https://openalex.org/W4250462812",
-        "https://openalex.org/W1977748669",
-        "https://openalex.org/W2097074384",
-        "https://openalex.org/W1970516013",
-        "https://openalex.org/W2888472084",
-        "https://openalex.org/W3158940972",
-        "https://openalex.org/W6795262264",
-        "https://openalex.org/W6855727298",
-        "https://openalex.org/W3194992274",
-        "https://openalex.org/W6804061008",
-        "https://openalex.org/W4384007258",
-        "https://openalex.org/W2945946526",
-        "https://openalex.org/W2767764347",
-        "https://openalex.org/W2072709567",
-        "https://openalex.org/W2029170212",
-        "https://openalex.org/W2790042926",
-        "https://openalex.org/W2758730284",
-        "https://openalex.org/W2883737991",
-        "https://openalex.org/W6803052912",
-        "https://openalex.org/W796460541",
-        "https://openalex.org/W2284171046",
-        "https://openalex.org/W2766784725",
-        "https://openalex.org/W2314996013",
-        "https://openalex.org/W6773750166",
-        "https://openalex.org/W6786476611",
-        "https://openalex.org/W6810264020",
-        "https://openalex.org/W2761159698",
-        "https://openalex.org/W6771163003",
-        "https://openalex.org/W1430138607",
-        "https://openalex.org/W2041678603",
-        "https://openalex.org/W2111054870",
-        "https://openalex.org/W2036614481",
-        "https://openalex.org/W2317326155",
-        "https://openalex.org/W2327433765",
-        "https://openalex.org/W2921746828",
-        "https://openalex.org/W2108507776",
-        "https://openalex.org/W2526307477",
-        "https://openalex.org/W2007227915",
-        "https://openalex.org/W1805953322",
-        "https://openalex.org/W2982046812",
-        "https://openalex.org/W2966520118",
-        "https://openalex.org/W3007908140",
-        "https://openalex.org/W3025521633",
-        "https://openalex.org/W3005405369",
-        "https://openalex.org/W3005147528",
-        "https://openalex.org/W2991451924",
-        "https://openalex.org/W2966084415",
-        "https://openalex.org/W2999344113",
-        "https://openalex.org/W2993800614",
-        "https://openalex.org/W4293153047",
-        "https://openalex.org/W4386196651",
-        "https://openalex.org/W4283579399",
-        "https://openalex.org/W4294217082",
-        "https://openalex.org/W4298009582",
-        "https://openalex.org/W4322619055",
-        "https://openalex.org/W4387041346",
-        "https://openalex.org/W4321465689",
-        "https://openalex.org/W4380987214",
-        "https://openalex.org/W3128289823",
-        "https://openalex.org/W3149904710",
-        "https://openalex.org/W3168206095",
-        "https://openalex.org/W4220926833",
-        "https://openalex.org/W3159229281",
-        "https://openalex.org/W3209762752",
-        "https://openalex.org/W3207618284",
-        "https://openalex.org/W3091129191",
-        "https://openalex.org/W3216930481",
-        "https://openalex.org/W3092128881",
-        "https://openalex.org/W3153146985",
-        "https://openalex.org/W3215291605",
-        "https://openalex.org/W3089587537",
-        "https://openalex.org/W3109960500",
-        "https://openalex.org/W4281621410",
-        "https://openalex.org/W3162582923",
-        "https://openalex.org/W4281629266",
-        "https://openalex.org/W2062248854",
-        "https://openalex.org/W2149105593"
-      ],
-      "related_works": [
-        "https://openalex.org/W2002226878",
-        "https://openalex.org/W2072536863",
-        "https://openalex.org/W2352741502",
-        "https://openalex.org/W2912484274",
-        "https://openalex.org/W2074311840",
-        "https://openalex.org/W2166530799",
-        "https://openalex.org/W2352093165",
-        "https://openalex.org/W2383223347",
-        "https://openalex.org/W2095578419",
-        "https://openalex.org/W2378638929"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 9
-        }
-      ],
-      "updated_date": "2026-01-21T23:30:37.877113",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W4406778251",
       "doi": "https://doi.org/10.1002/app.56757",
       "title": "The Impact of Ionic Liquids on the Thermomechanical and Biological Properties of Polymer‐<scp>CNT</scp> Composites",
@@ -12012,8 +12016,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -13205,15 +13209,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.4099999964237213,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -14091,8 +14095,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 26,
@@ -14761,8 +14765,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 34,
@@ -15514,15 +15518,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.5299999713897705,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -16223,8 +16227,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 24,
@@ -17358,15 +17362,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.550000011920929,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -18330,15 +18334,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.699999988079071,
-          "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -19007,15 +19011,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.699999988079071,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2936300322.pdf",
@@ -19789,15 +19793,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.6000000238418579,
-          "display_name": "Life in Land",
-          "id": "https://metadata.un.org/sdg/15"
+          "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 42,
@@ -20317,8 +20321,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4386561441.pdf"
@@ -21493,8 +21497,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 157,
@@ -22684,8 +22688,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.47999998927116394,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -22702,8 +22706,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 48,
@@ -23365,8 +23369,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 83,
@@ -24735,15 +24739,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.44999998807907104,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4407870332.pdf"
@@ -25981,8 +25985,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -26661,15 +26665,15 @@
       "sustainable_development_goals": [
         {
           "score": 0.4399999976158142,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 13,
@@ -27226,8 +27230,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -28526,8 +28530,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 43,
@@ -28799,8 +28803,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 82,
@@ -30360,8 +30364,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -30847,8 +30851,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 64,

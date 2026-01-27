@@ -1077,9 +1077,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.800000011920929,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.800000011920929
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -1091,8 +1091,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -2019,8 +2019,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 34,
@@ -2970,8 +2970,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3029627547.pdf",
@@ -4521,9 +4521,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -4535,8 +4535,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -5554,9 +5554,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.41999998688697815,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.41999998688697815
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -5581,8 +5581,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 67,
@@ -6430,9 +6430,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.6899999976158142
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -6444,8 +6444,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -7079,8 +7079,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4383346214.pdf"
@@ -7532,7 +7532,7 @@
           "institutions": [
             {
               "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
+              "display_name": "The University of Sydney",
               "ror": "https://ror.org/0384j8v12",
               "country_code": "AU",
               "type": "education",
@@ -7568,7 +7568,7 @@
           "institutions": [
             {
               "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
+              "display_name": "The University of Sydney",
               "ror": "https://ror.org/0384j8v12",
               "country_code": "AU",
               "type": "education",
@@ -7604,7 +7604,7 @@
           "institutions": [
             {
               "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
+              "display_name": "The University of Sydney",
               "ror": "https://ror.org/0384j8v12",
               "country_code": "AU",
               "type": "education",
@@ -7640,7 +7640,7 @@
           "institutions": [
             {
               "id": "https://openalex.org/I129604602",
-              "display_name": "University of Sydney",
+              "display_name": "The University of Sydney",
               "ror": "https://ror.org/0384j8v12",
               "country_code": "AU",
               "type": "education",
@@ -7690,7 +7690,7 @@
       "has_fulltext": true,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.80412258,
+        "value": 0.80455972,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8060,9 +8060,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.4699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -8074,82 +8074,81 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
-        "pdf": "https://content.openalex.org/works/W4377021940.pdf",
-        "grobid_xml": "https://content.openalex.org/works/W4377021940.grobid-xml"
+        "pdf": "https://content.openalex.org/works/W4377021940.pdf"
       },
       "referenced_works_count": 67,
       "referenced_works": [
         "https://openalex.org/W763910737",
-        "https://openalex.org/W2975922296",
-        "https://openalex.org/W2068573367",
-        "https://openalex.org/W2587442755",
-        "https://openalex.org/W2732516007",
-        "https://openalex.org/W2469115065",
-        "https://openalex.org/W2765332617",
-        "https://openalex.org/W2901819662",
-        "https://openalex.org/W2761613321",
-        "https://openalex.org/W2327557979",
-        "https://openalex.org/W3198874703",
+        "https://openalex.org/W1864735973",
+        "https://openalex.org/W1969583657",
+        "https://openalex.org/W1976035070",
+        "https://openalex.org/W1978337795",
+        "https://openalex.org/W1980090141",
+        "https://openalex.org/W1984989132",
+        "https://openalex.org/W1987185104",
         "https://openalex.org/W1990781648",
-        "https://openalex.org/W2773767785",
+        "https://openalex.org/W1991445071",
+        "https://openalex.org/W1993528207",
+        "https://openalex.org/W1994452113",
+        "https://openalex.org/W1999724770",
+        "https://openalex.org/W2003696872",
+        "https://openalex.org/W2004059220",
+        "https://openalex.org/W2044980528",
+        "https://openalex.org/W2068573367",
+        "https://openalex.org/W2074398030",
+        "https://openalex.org/W2075351671",
+        "https://openalex.org/W2085861173",
+        "https://openalex.org/W2087116384",
         "https://openalex.org/W2090341912",
         "https://openalex.org/W2096398889",
-        "https://openalex.org/W2940030399",
-        "https://openalex.org/W6753527627",
-        "https://openalex.org/W1993528207",
-        "https://openalex.org/W1978337795",
-        "https://openalex.org/W1994452113",
-        "https://openalex.org/W2191339468",
-        "https://openalex.org/W2625875447",
-        "https://openalex.org/W3120805748",
-        "https://openalex.org/W1999724770",
-        "https://openalex.org/W2146767329",
-        "https://openalex.org/W2524653544",
-        "https://openalex.org/W2087116384",
-        "https://openalex.org/W2767971024",
-        "https://openalex.org/W2515182311",
-        "https://openalex.org/W1976035070",
-        "https://openalex.org/W2962736194",
-        "https://openalex.org/W2528245130",
-        "https://openalex.org/W1987185104",
-        "https://openalex.org/W2739848516",
-        "https://openalex.org/W1864735973",
-        "https://openalex.org/W2568287026",
         "https://openalex.org/W2134420995",
-        "https://openalex.org/W7001283717",
-        "https://openalex.org/W2004059220",
         "https://openalex.org/W2137988546",
-        "https://openalex.org/W2809518184",
-        "https://openalex.org/W2335729908",
-        "https://openalex.org/W2075351671",
-        "https://openalex.org/W2530254150",
-        "https://openalex.org/W2903684605",
-        "https://openalex.org/W2154434894",
+        "https://openalex.org/W2146767329",
         "https://openalex.org/W2154232032",
+        "https://openalex.org/W2154434894",
         "https://openalex.org/W2154700052",
-        "https://openalex.org/W4239168462",
-        "https://openalex.org/W1969583657",
-        "https://openalex.org/W2085861173",
-        "https://openalex.org/W2979300515",
-        "https://openalex.org/W2003696872",
-        "https://openalex.org/W2044980528",
-        "https://openalex.org/W2924799270",
-        "https://openalex.org/W2898622099",
-        "https://openalex.org/W1984989132",
-        "https://openalex.org/W3128154475",
-        "https://openalex.org/W2074398030",
-        "https://openalex.org/W4200318742",
+        "https://openalex.org/W2191339468",
+        "https://openalex.org/W2327557979",
+        "https://openalex.org/W2335729908",
+        "https://openalex.org/W2469115065",
+        "https://openalex.org/W2515182311",
+        "https://openalex.org/W2524653544",
+        "https://openalex.org/W2528245130",
+        "https://openalex.org/W2530254150",
+        "https://openalex.org/W2568287026",
+        "https://openalex.org/W2587442755",
+        "https://openalex.org/W2625875447",
+        "https://openalex.org/W2732516007",
+        "https://openalex.org/W2739848516",
+        "https://openalex.org/W2761613321",
+        "https://openalex.org/W2765332617",
+        "https://openalex.org/W2767971024",
+        "https://openalex.org/W2773767785",
         "https://openalex.org/W2790655546",
-        "https://openalex.org/W6645586324",
+        "https://openalex.org/W2809518184",
+        "https://openalex.org/W2898622099",
+        "https://openalex.org/W2901819662",
+        "https://openalex.org/W2903684605",
+        "https://openalex.org/W2924799270",
+        "https://openalex.org/W2940030399",
+        "https://openalex.org/W2962736194",
+        "https://openalex.org/W2975922296",
+        "https://openalex.org/W2979300515",
+        "https://openalex.org/W3120805748",
+        "https://openalex.org/W3128154475",
+        "https://openalex.org/W3198874703",
+        "https://openalex.org/W3208944803",
+        "https://openalex.org/W4200318742",
         "https://openalex.org/W4224247797",
         "https://openalex.org/W4234995766",
-        "https://openalex.org/W3208944803",
-        "https://openalex.org/W1991445071",
-        "https://openalex.org/W1980090141"
+        "https://openalex.org/W4239168462",
+        "https://openalex.org/W6645586324",
+        "https://openalex.org/W6753527627",
+        "https://openalex.org/W7001283717"
       ],
       "related_works": [
         "https://openalex.org/W2994336186",
@@ -8646,7 +8645,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-25T03:40:55.926884",
+      "updated_date": "2026-01-27T00:41:06.130819",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -9255,8 +9254,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 62,
@@ -10421,8 +10420,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 59,
@@ -11394,16 +11393,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7200000286102295
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 12,
@@ -12264,16 +12263,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.47999998927116394
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 19,
@@ -13148,16 +13147,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.5400000214576721,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.5400000214576721
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -14009,16 +14008,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Zero hunger",
+          "score": 0.6200000047683716,
           "id": "https://metadata.un.org/sdg/2",
-          "score": 0.6200000047683716
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 13,
@@ -14860,16 +14859,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Peace, Justice and strong institutions",
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/16",
-          "score": 0.7699999809265137
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -15803,16 +15802,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7699999809265137
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 45,
@@ -17066,9 +17065,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6600000262260437,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6600000262260437
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -17080,8 +17079,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 17,
@@ -17969,16 +17968,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7599999904632568
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 47,
@@ -19087,16 +19086,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.550000011920929,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.550000011920929
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 46,
@@ -20675,8 +20674,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 67,
@@ -21379,8 +21378,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2093762430.pdf",
@@ -22538,9 +22537,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.5400000214576721,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5400000214576721
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -22552,8 +22551,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 41,
@@ -23619,16 +23618,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.8299999833106995,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8299999833106995
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 36,
@@ -24393,8 +24392,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 44,
@@ -25578,9 +25577,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8799999952316284,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8799999952316284
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -25602,8 +25601,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2240548924.pdf",
@@ -26130,8 +26129,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 23,
@@ -26639,8 +26638,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 32,
@@ -27400,16 +27399,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.8100000023841858,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8100000023841858
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 63,
@@ -28055,8 +28054,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 66,
@@ -28757,8 +28756,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -29443,9 +29442,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "No poverty",
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/1",
-          "score": 0.7400000095367432
+          "display_name": "No poverty"
         }
       ],
       "awards": [
@@ -29465,8 +29464,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 26,
@@ -29998,7 +29997,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.934042,
+        "value": 0.93406899,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -30433,9 +30432,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "No poverty",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/1",
-          "score": 0.6100000143051147
+          "display_name": "No poverty"
         }
       ],
       "awards": [
@@ -30460,43 +30459,43 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
       "referenced_works": [
-        "https://openalex.org/W2760427522",
-        "https://openalex.org/W2625004451",
-        "https://openalex.org/W3010683816",
-        "https://openalex.org/W3125701389",
-        "https://openalex.org/W1977442655",
-        "https://openalex.org/W1739386434",
-        "https://openalex.org/W2751989747",
-        "https://openalex.org/W2951856449",
-        "https://openalex.org/W2909687198",
-        "https://openalex.org/W2030210484",
-        "https://openalex.org/W2130435784",
-        "https://openalex.org/W1973302635",
-        "https://openalex.org/W1671607941",
-        "https://openalex.org/W3009155494",
-        "https://openalex.org/W3011486546",
-        "https://openalex.org/W3035011439",
-        "https://openalex.org/W3011771926",
-        "https://openalex.org/W2920150917",
-        "https://openalex.org/W4298180398",
-        "https://openalex.org/W2078345188",
         "https://openalex.org/W1489293997",
-        "https://openalex.org/W2254476522",
-        "https://openalex.org/W4255383141",
-        "https://openalex.org/W2502972556",
+        "https://openalex.org/W1671607941",
         "https://openalex.org/W1674341355",
-        "https://openalex.org/W3092222771",
+        "https://openalex.org/W1739386434",
+        "https://openalex.org/W1973302635",
+        "https://openalex.org/W1977442655",
+        "https://openalex.org/W2030210484",
+        "https://openalex.org/W2078345188",
+        "https://openalex.org/W2130435784",
+        "https://openalex.org/W2254476522",
+        "https://openalex.org/W2502972556",
+        "https://openalex.org/W2625004451",
+        "https://openalex.org/W2751989747",
+        "https://openalex.org/W2760427522",
+        "https://openalex.org/W2909687198",
+        "https://openalex.org/W2920150917",
+        "https://openalex.org/W2951856449",
+        "https://openalex.org/W3009155494",
+        "https://openalex.org/W3010683816",
+        "https://openalex.org/W3011486546",
+        "https://openalex.org/W3011771926",
         "https://openalex.org/W3013308762",
+        "https://openalex.org/W3035011439",
+        "https://openalex.org/W3092222771",
         "https://openalex.org/W3094381122",
         "https://openalex.org/W3103939335",
         "https://openalex.org/W3118338288",
-        "https://openalex.org/W3123051895"
+        "https://openalex.org/W3123051895",
+        "https://openalex.org/W3125701389",
+        "https://openalex.org/W4255383141",
+        "https://openalex.org/W4298180398"
       ],
       "related_works": [
         "https://openalex.org/W1997578433",
@@ -30541,7 +30540,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-01-27T00:41:06.130819",
       "created_date": "2020-07-10T00:00:00"
     },
     {
@@ -31145,8 +31144,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -31763,9 +31762,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Peace, Justice and strong institutions",
+          "score": 0.800000011920929,
           "id": "https://metadata.un.org/sdg/16",
-          "score": 0.800000011920929
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -31782,8 +31781,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2152454959.pdf",
@@ -32796,8 +32795,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 86,
@@ -33559,8 +33558,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 91,
@@ -34774,16 +34773,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.6299999952316284
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4386030286.pdf"
@@ -35900,8 +35899,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -36552,16 +36551,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.75
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 64,
@@ -37291,16 +37290,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7599999904632568
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 44,
@@ -38091,8 +38090,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -38926,9 +38925,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
+          "score": 0.5199999809265137,
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5199999809265137
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -38940,8 +38939,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 66,
@@ -39758,8 +39757,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 62,
@@ -40653,16 +40652,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7400000095367432
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 6,
@@ -41601,8 +41600,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2313176493.pdf",
@@ -42500,16 +42499,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "No poverty",
+          "score": 0.6299999952316284,
           "id": "https://metadata.un.org/sdg/1",
-          "score": 0.6299999952316284
+          "display_name": "No poverty"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -43708,9 +43707,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8399999737739563,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8399999737739563
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -43730,8 +43729,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 37,
@@ -44436,16 +44435,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6800000071525574,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6800000071525574
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2515522503.pdf",
@@ -45190,16 +45189,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.4699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 17,
@@ -46198,16 +46197,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.7400000095367432,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.7400000095367432
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 47,
@@ -47066,8 +47065,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -47676,9 +47675,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [
@@ -47703,8 +47702,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -48750,16 +48749,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Gender equality",
+          "score": 0.4000000059604645,
           "id": "https://metadata.un.org/sdg/5",
-          "score": 0.4000000059604645
+          "display_name": "Gender equality"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3119719792.pdf",
@@ -49400,8 +49399,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 46,
@@ -50022,16 +50021,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4699999988079071
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 24,
@@ -51026,16 +51025,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.5699999928474426,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5699999928474426
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 3,
@@ -52114,16 +52113,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.75
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2507584015.pdf",
@@ -53136,16 +53135,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.47999998927116394
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3025487171.pdf",
@@ -54245,9 +54244,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5299999713897705
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -54259,8 +54258,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 63,
@@ -55239,8 +55238,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 20,
@@ -55782,8 +55781,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 18,
@@ -56325,16 +56324,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.7099999785423279,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7099999785423279
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -57407,16 +57406,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.7599999904632568,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.7599999904632568
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2507215672.pdf",
@@ -58480,9 +58479,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6000000238418579
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -58494,8 +58493,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2097335269.pdf",
@@ -59277,8 +59276,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 14,
@@ -59915,16 +59914,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
+          "score": 0.6800000071525574,
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.6800000071525574
+          "display_name": "Life below water"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2727469025.pdf",
@@ -60567,7 +60566,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.60490037,
+        "value": 0.60596373,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -60963,120 +60962,120 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.699999988079071
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4362584166.pdf"
       },
       "referenced_works_count": 98,
       "referenced_works": [
-        "https://openalex.org/W2128579973",
-        "https://openalex.org/W2983640596",
-        "https://openalex.org/W1990972861",
-        "https://openalex.org/W2161405694",
-        "https://openalex.org/W3049529022",
-        "https://openalex.org/W4206446080",
-        "https://openalex.org/W1998279380",
-        "https://openalex.org/W6804563003",
-        "https://openalex.org/W2945642553",
-        "https://openalex.org/W1979581744",
-        "https://openalex.org/W2009803561",
-        "https://openalex.org/W1970465458",
-        "https://openalex.org/W2002981729",
-        "https://openalex.org/W2494110396",
-        "https://openalex.org/W2341985084",
-        "https://openalex.org/W2044840735",
-        "https://openalex.org/W2802785415",
-        "https://openalex.org/W2082888436",
-        "https://openalex.org/W2037128065",
-        "https://openalex.org/W6753254541",
-        "https://openalex.org/W2054705014",
-        "https://openalex.org/W2621404631",
-        "https://openalex.org/W2915680940",
-        "https://openalex.org/W2902397288",
-        "https://openalex.org/W1978830737",
-        "https://openalex.org/W2064075510",
-        "https://openalex.org/W3010207669",
-        "https://openalex.org/W3005254125",
-        "https://openalex.org/W6793867295",
-        "https://openalex.org/W2944922026",
-        "https://openalex.org/W2946745180",
-        "https://openalex.org/W2334805378",
-        "https://openalex.org/W2027334180",
-        "https://openalex.org/W1981637287",
-        "https://openalex.org/W2811454859",
-        "https://openalex.org/W2609037022",
-        "https://openalex.org/W1921336694",
-        "https://openalex.org/W6726512558",
-        "https://openalex.org/W1979274632",
-        "https://openalex.org/W2049283735",
-        "https://openalex.org/W4213320115",
-        "https://openalex.org/W2981394430",
-        "https://openalex.org/W2055057012",
-        "https://openalex.org/W4307555838",
-        "https://openalex.org/W3082141834",
-        "https://openalex.org/W2793863672",
-        "https://openalex.org/W3168414645",
-        "https://openalex.org/W3048419372",
-        "https://openalex.org/W2883928573",
-        "https://openalex.org/W2170362288",
-        "https://openalex.org/W3104146668",
-        "https://openalex.org/W2781270080",
-        "https://openalex.org/W3217311640",
-        "https://openalex.org/W2002387805",
-        "https://openalex.org/W2062988756",
-        "https://openalex.org/W2051750351",
-        "https://openalex.org/W2801074625",
-        "https://openalex.org/W6748022010",
-        "https://openalex.org/W2980282340",
-        "https://openalex.org/W1981244090",
-        "https://openalex.org/W3188332355",
-        "https://openalex.org/W1987455229",
-        "https://openalex.org/W1589294354",
-        "https://openalex.org/W6773664405",
-        "https://openalex.org/W2889326414",
-        "https://openalex.org/W2337793877",
-        "https://openalex.org/W2094973524",
-        "https://openalex.org/W2408804358",
-        "https://openalex.org/W2066570200",
-        "https://openalex.org/W136199198",
-        "https://openalex.org/W2966770752",
-        "https://openalex.org/W6677847207",
-        "https://openalex.org/W2022780967",
-        "https://openalex.org/W1558597638",
-        "https://openalex.org/W2556156368",
-        "https://openalex.org/W2099653113",
-        "https://openalex.org/W644434857",
-        "https://openalex.org/W2894661298",
         "https://openalex.org/W31704038",
-        "https://openalex.org/W3028260035",
-        "https://openalex.org/W3163848673",
-        "https://openalex.org/W2102917628",
-        "https://openalex.org/W2057285125",
-        "https://openalex.org/W2123388186",
-        "https://openalex.org/W2126271729",
-        "https://openalex.org/W2749115738",
-        "https://openalex.org/W4318263591",
+        "https://openalex.org/W136199198",
+        "https://openalex.org/W644434857",
+        "https://openalex.org/W1558597638",
+        "https://openalex.org/W1589294354",
+        "https://openalex.org/W1921336694",
+        "https://openalex.org/W1970465458",
         "https://openalex.org/W1976183409",
         "https://openalex.org/W1977880817",
-        "https://openalex.org/W3213683638",
-        "https://openalex.org/W2784535859",
-        "https://openalex.org/W4205519016",
+        "https://openalex.org/W1978830737",
+        "https://openalex.org/W1979274632",
+        "https://openalex.org/W1979581744",
+        "https://openalex.org/W1981244090",
+        "https://openalex.org/W1981637287",
+        "https://openalex.org/W1987455229",
+        "https://openalex.org/W1990972861",
+        "https://openalex.org/W1998279380",
+        "https://openalex.org/W2002387805",
+        "https://openalex.org/W2002981729",
+        "https://openalex.org/W2009803561",
+        "https://openalex.org/W2022780967",
+        "https://openalex.org/W2027334180",
+        "https://openalex.org/W2037128065",
+        "https://openalex.org/W2044840735",
+        "https://openalex.org/W2049283735",
+        "https://openalex.org/W2051750351",
+        "https://openalex.org/W2054705014",
+        "https://openalex.org/W2055057012",
+        "https://openalex.org/W2057285125",
+        "https://openalex.org/W2062988756",
+        "https://openalex.org/W2064075510",
+        "https://openalex.org/W2066570200",
+        "https://openalex.org/W2082888436",
+        "https://openalex.org/W2094973524",
+        "https://openalex.org/W2099653113",
+        "https://openalex.org/W2102917628",
+        "https://openalex.org/W2121114411",
+        "https://openalex.org/W2123388186",
+        "https://openalex.org/W2126271729",
+        "https://openalex.org/W2128579973",
+        "https://openalex.org/W2161405694",
+        "https://openalex.org/W2170362288",
         "https://openalex.org/W2187089797",
-        "https://openalex.org/W3153268515",
-        "https://openalex.org/W3216236824",
-        "https://openalex.org/W3006211509",
+        "https://openalex.org/W2334805378",
+        "https://openalex.org/W2337793877",
+        "https://openalex.org/W2341985084",
+        "https://openalex.org/W2408804358",
+        "https://openalex.org/W2494110396",
+        "https://openalex.org/W2556156368",
+        "https://openalex.org/W2609037022",
+        "https://openalex.org/W2621404631",
+        "https://openalex.org/W2749115738",
+        "https://openalex.org/W2781270080",
+        "https://openalex.org/W2784535859",
+        "https://openalex.org/W2793863672",
+        "https://openalex.org/W2801074625",
+        "https://openalex.org/W2802785415",
+        "https://openalex.org/W2811454859",
+        "https://openalex.org/W2883928573",
         "https://openalex.org/W2885558503",
-        "https://openalex.org/W2121114411"
+        "https://openalex.org/W2889326414",
+        "https://openalex.org/W2894661298",
+        "https://openalex.org/W2902397288",
+        "https://openalex.org/W2915680940",
+        "https://openalex.org/W2944922026",
+        "https://openalex.org/W2945642553",
+        "https://openalex.org/W2946745180",
+        "https://openalex.org/W2966770752",
+        "https://openalex.org/W2980282340",
+        "https://openalex.org/W2981394430",
+        "https://openalex.org/W2983640596",
+        "https://openalex.org/W3005254125",
+        "https://openalex.org/W3006211509",
+        "https://openalex.org/W3010207669",
+        "https://openalex.org/W3028260035",
+        "https://openalex.org/W3048419372",
+        "https://openalex.org/W3049529022",
+        "https://openalex.org/W3082141834",
+        "https://openalex.org/W3104146668",
+        "https://openalex.org/W3153268515",
+        "https://openalex.org/W3163848673",
+        "https://openalex.org/W3168414645",
+        "https://openalex.org/W3188332355",
+        "https://openalex.org/W3213683638",
+        "https://openalex.org/W3216236824",
+        "https://openalex.org/W3217311640",
+        "https://openalex.org/W4205519016",
+        "https://openalex.org/W4206446080",
+        "https://openalex.org/W4213320115",
+        "https://openalex.org/W4307555838",
+        "https://openalex.org/W4318263591",
+        "https://openalex.org/W6677847207",
+        "https://openalex.org/W6726512558",
+        "https://openalex.org/W6748022010",
+        "https://openalex.org/W6753254541",
+        "https://openalex.org/W6773664405",
+        "https://openalex.org/W6793867295",
+        "https://openalex.org/W6804563003"
       ],
       "related_works": [
         "https://openalex.org/W2121732741",
@@ -62077,9 +62076,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Peace, Justice and strong institutions",
+          "score": 0.7900000214576721,
           "id": "https://metadata.un.org/sdg/16",
-          "score": 0.7900000214576721
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
@@ -62096,8 +62095,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -62904,16 +62903,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6600000262260437,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6600000262260437
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2510163865.pdf",
@@ -64252,8 +64251,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4400255569.pdf"
@@ -65494,16 +65493,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.75
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2133413503.pdf",
@@ -66436,16 +66435,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -67338,16 +67337,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/12",
-          "score": 0.44999998807907104
+          "display_name": "Responsible consumption and production"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2157915665.pdf",
@@ -68432,16 +68431,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4699999988079071
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -69060,8 +69059,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 9,
@@ -69876,16 +69875,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8500000238418579,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8500000238418579
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 16,
@@ -70769,9 +70768,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8999999761581421
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
@@ -70783,8 +70782,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 2,
@@ -71320,7 +71319,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.5311743,
+        "value": 0.53029427,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -71879,9 +71878,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4399999976158142
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
@@ -71893,8 +71892,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2733309138.pdf",
@@ -71902,26 +71901,26 @@
       },
       "referenced_works_count": 22,
       "referenced_works": [
-        "https://openalex.org/W2069457875",
-        "https://openalex.org/W1984822594",
-        "https://openalex.org/W2324313205",
-        "https://openalex.org/W2171672493",
-        "https://openalex.org/W2104004065",
-        "https://openalex.org/W1996664708",
-        "https://openalex.org/W2995364873",
-        "https://openalex.org/W2066593761",
-        "https://openalex.org/W2170434781",
-        "https://openalex.org/W2110709074",
-        "https://openalex.org/W2097123058",
-        "https://openalex.org/W1997400631",
-        "https://openalex.org/W2120184331",
-        "https://openalex.org/W2335019310",
-        "https://openalex.org/W2158583770",
-        "https://openalex.org/W1983197656",
-        "https://openalex.org/W2070336775",
-        "https://openalex.org/W2018553792",
-        "https://openalex.org/W2081960779",
         "https://openalex.org/W1817819457",
+        "https://openalex.org/W1983197656",
+        "https://openalex.org/W1984822594",
+        "https://openalex.org/W1996664708",
+        "https://openalex.org/W1997400631",
+        "https://openalex.org/W2018553792",
+        "https://openalex.org/W2066593761",
+        "https://openalex.org/W2069457875",
+        "https://openalex.org/W2070336775",
+        "https://openalex.org/W2081960779",
+        "https://openalex.org/W2097123058",
+        "https://openalex.org/W2104004065",
+        "https://openalex.org/W2110709074",
+        "https://openalex.org/W2120184331",
+        "https://openalex.org/W2158583770",
+        "https://openalex.org/W2170434781",
+        "https://openalex.org/W2171672493",
+        "https://openalex.org/W2324313205",
+        "https://openalex.org/W2335019310",
+        "https://openalex.org/W2995364873",
         "https://openalex.org/W3099598501",
         "https://openalex.org/W3101899695"
       ],
@@ -72430,7 +72429,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-25T03:40:55.926884",
+      "updated_date": "2026-01-27T00:41:06.130819",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -72995,8 +72994,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W1562892600.pdf",
@@ -73630,8 +73629,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 6,
@@ -74819,16 +74818,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Peace, Justice and strong institutions",
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/16",
-          "score": 0.75
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -75509,16 +75508,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.5099999904632568
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2516771802.pdf",
@@ -76294,16 +76293,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.6700000166893005
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 1,
@@ -76737,16 +76736,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4399999976158142
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 4,
@@ -77654,16 +77653,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.7799999713897705,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.7799999713897705
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -78676,8 +78675,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2977235606.pdf",
@@ -79649,8 +79648,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2148729570.pdf",
@@ -80552,8 +80551,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 32,
@@ -81597,9 +81596,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
@@ -81611,8 +81610,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2950492646.pdf",
@@ -82432,16 +82431,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.6000000238418579
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -83256,16 +83255,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4099999964237213,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.4099999964237213
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -83895,16 +83894,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Zero hunger",
+          "score": 0.5899999737739563,
           "id": "https://metadata.un.org/sdg/2",
-          "score": 0.5899999737739563
+          "display_name": "Zero hunger"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -84247,8 +84246,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -84817,8 +84816,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -85417,16 +85416,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life in Land",
+          "score": 0.699999988079071,
           "id": "https://metadata.un.org/sdg/15",
-          "score": 0.699999988079071
+          "display_name": "Life in Land"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -86054,8 +86053,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 7,
@@ -86848,16 +86847,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -87725,8 +87724,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -88901,16 +88900,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.6100000143051147
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2952239437.pdf",
@@ -89963,16 +89962,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "No poverty",
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/1",
-          "score": 0.7200000286102295
+          "display_name": "No poverty"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 1,
@@ -90718,16 +90717,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.6100000143051147
+          "display_name": "Affordable and clean energy"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
@@ -91549,8 +91548,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -92331,16 +92330,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Decent work and economic growth",
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/8",
-          "score": 0.6000000238418579
+          "display_name": "Decent work and economic growth"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 76,
@@ -95442,16 +95441,16 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Reduced inequalities",
+          "score": 0.4099999964237213,
           "id": "https://metadata.un.org/sdg/10",
-          "score": 0.4099999964237213
+          "display_name": "Reduced inequalities"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4300545802.pdf",
@@ -96118,8 +96117,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4386614980.pdf"
@@ -97014,8 +97013,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4391670111.pdf"
@@ -97950,8 +97949,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4391987810.pdf"
@@ -98786,8 +98785,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4400267060.pdf"
@@ -99532,8 +99531,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -100112,8 +100111,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4415957094.pdf"
@@ -100846,8 +100845,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -101549,8 +101548,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,

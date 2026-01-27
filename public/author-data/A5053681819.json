@@ -1151,8 +1151,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3096358888.pdf",
@@ -2057,11 +2057,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.85483114,
+      "fwci": 2.44699394,
       "has_fulltext": true,
       "cited_by_count": 31,
       "citation_normalized_percentile": {
-        "value": 0.89857296,
+        "value": 0.87928197,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2079,12 +2079,12 @@
       "is_paratext": false,
       "is_xpac": false,
       "primary_topic": {
-        "id": "https://openalex.org/T10491",
-        "display_name": "Enhanced Oil Recovery Techniques",
+        "id": "https://openalex.org/T10399",
+        "display_name": "Hydrocarbon exploration and reservoir analysis",
         "score": 1,
         "subfield": {
-          "id": "https://openalex.org/subfields/2212",
-          "display_name": "Ocean Engineering"
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
         },
         "field": {
           "id": "https://openalex.org/fields/22",
@@ -2097,12 +2097,12 @@
       },
       "topics": [
         {
-          "id": "https://openalex.org/T10491",
-          "display_name": "Enhanced Oil Recovery Techniques",
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
           "score": 1,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/2211",
+            "display_name": "Mechanics of Materials"
           },
           "field": {
             "id": "https://openalex.org/fields/22",
@@ -2114,12 +2114,12 @@
           }
         },
         {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "id": "https://openalex.org/T10491",
+          "display_name": "Enhanced Oil Recovery Techniques",
           "score": 1,
           "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
           },
           "field": {
             "id": "https://openalex.org/fields/22",
@@ -2565,9 +2565,9 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.550000011920929,
-          "display_name": "Industry, innovation and infrastructure"
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
       "awards": [],
@@ -2584,8 +2584,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3097676505.pdf",
@@ -2593,161 +2593,161 @@
       },
       "referenced_works_count": 155,
       "referenced_works": [
-        "https://openalex.org/W2615790726",
-        "https://openalex.org/W2037097047",
+        "https://openalex.org/W56199184",
         "https://openalex.org/W796460541",
-        "https://openalex.org/W2316115019",
-        "https://openalex.org/W1985400602",
-        "https://openalex.org/W2890288661",
-        "https://openalex.org/W4238875356",
-        "https://openalex.org/W2972304139",
-        "https://openalex.org/W2082233650",
-        "https://openalex.org/W2324717009",
-        "https://openalex.org/W2752698709",
-        "https://openalex.org/W1983143057",
-        "https://openalex.org/W2001542052",
-        "https://openalex.org/W4253151950",
-        "https://openalex.org/W2074672078",
-        "https://openalex.org/W2945858774",
-        "https://openalex.org/W4251328647",
-        "https://openalex.org/W1982433211",
-        "https://openalex.org/W2612049536",
-        "https://openalex.org/W2331212077",
-        "https://openalex.org/W2011254969",
-        "https://openalex.org/W2037041665",
-        "https://openalex.org/W2085424605",
-        "https://openalex.org/W2319032468",
-        "https://openalex.org/W2568889626",
-        "https://openalex.org/W1973774856",
-        "https://openalex.org/W2005293247",
-        "https://openalex.org/W2069204464",
-        "https://openalex.org/W2061874936",
-        "https://openalex.org/W2035810403",
-        "https://openalex.org/W3036112446",
-        "https://openalex.org/W2012893865",
-        "https://openalex.org/W2167860989",
-        "https://openalex.org/W2033703990",
-        "https://openalex.org/W2028086200",
-        "https://openalex.org/W1967491770",
-        "https://openalex.org/W2047604716",
-        "https://openalex.org/W2049764605",
+        "https://openalex.org/W1475513777",
+        "https://openalex.org/W1481245961",
+        "https://openalex.org/W1505352099",
+        "https://openalex.org/W1541717936",
+        "https://openalex.org/W1782649302",
+        "https://openalex.org/W1964167166",
         "https://openalex.org/W1966413406",
+        "https://openalex.org/W1967491770",
+        "https://openalex.org/W1968712245",
+        "https://openalex.org/W1973774856",
+        "https://openalex.org/W1980083955",
+        "https://openalex.org/W1980703814",
+        "https://openalex.org/W1982107574",
+        "https://openalex.org/W1982433211",
+        "https://openalex.org/W1983143057",
+        "https://openalex.org/W1984345107",
+        "https://openalex.org/W1985371973",
+        "https://openalex.org/W1985400602",
+        "https://openalex.org/W1986113254",
+        "https://openalex.org/W1988812183",
+        "https://openalex.org/W1990517151",
+        "https://openalex.org/W1991194359",
+        "https://openalex.org/W1992240614",
+        "https://openalex.org/W1994753685",
+        "https://openalex.org/W1997248559",
+        "https://openalex.org/W2001216753",
+        "https://openalex.org/W2001542052",
+        "https://openalex.org/W2002704298",
+        "https://openalex.org/W2003471214",
+        "https://openalex.org/W2005293247",
+        "https://openalex.org/W2006672077",
+        "https://openalex.org/W2007503504",
+        "https://openalex.org/W2011254969",
+        "https://openalex.org/W2012893865",
+        "https://openalex.org/W2013135527",
+        "https://openalex.org/W2016406069",
+        "https://openalex.org/W2019674908",
+        "https://openalex.org/W2024063797",
+        "https://openalex.org/W2026639229",
+        "https://openalex.org/W2028086200",
+        "https://openalex.org/W2028547786",
+        "https://openalex.org/W2029016331",
+        "https://openalex.org/W2033703990",
+        "https://openalex.org/W2034433636",
+        "https://openalex.org/W2035810403",
+        "https://openalex.org/W2037041665",
+        "https://openalex.org/W2037097047",
+        "https://openalex.org/W2037443710",
+        "https://openalex.org/W2038439082",
+        "https://openalex.org/W2040153588",
+        "https://openalex.org/W2043898094",
+        "https://openalex.org/W2046107702",
+        "https://openalex.org/W2047604716",
+        "https://openalex.org/W2049291554",
+        "https://openalex.org/W2049764605",
+        "https://openalex.org/W2050023691",
+        "https://openalex.org/W2051229022",
+        "https://openalex.org/W2053683526",
+        "https://openalex.org/W2055359573",
+        "https://openalex.org/W2055552433",
+        "https://openalex.org/W2058001015",
+        "https://openalex.org/W2061874936",
+        "https://openalex.org/W2064004450",
+        "https://openalex.org/W2064051845",
+        "https://openalex.org/W2064836701",
+        "https://openalex.org/W2067655208",
+        "https://openalex.org/W2067983188",
+        "https://openalex.org/W2068862715",
+        "https://openalex.org/W2069204464",
+        "https://openalex.org/W2069341796",
+        "https://openalex.org/W2070056456",
+        "https://openalex.org/W2070927964",
+        "https://openalex.org/W2071373177",
+        "https://openalex.org/W2072017715",
+        "https://openalex.org/W2072107302",
+        "https://openalex.org/W2074672078",
+        "https://openalex.org/W2077421426",
+        "https://openalex.org/W2082233650",
+        "https://openalex.org/W2084573545",
+        "https://openalex.org/W2085424605",
+        "https://openalex.org/W2087782249",
+        "https://openalex.org/W2089497776",
+        "https://openalex.org/W2090582737",
+        "https://openalex.org/W2094774149",
+        "https://openalex.org/W2097610284",
+        "https://openalex.org/W2098080253",
+        "https://openalex.org/W2102565948",
+        "https://openalex.org/W2108924478",
+        "https://openalex.org/W2121671488",
+        "https://openalex.org/W2124056742",
+        "https://openalex.org/W2127447043",
+        "https://openalex.org/W2131082957",
+        "https://openalex.org/W2131275361",
+        "https://openalex.org/W2139675348",
+        "https://openalex.org/W2143797720",
+        "https://openalex.org/W2149170151",
+        "https://openalex.org/W2158561878",
+        "https://openalex.org/W2167860989",
+        "https://openalex.org/W2169035347",
+        "https://openalex.org/W2174115550",
+        "https://openalex.org/W2181034942",
+        "https://openalex.org/W2227186012",
+        "https://openalex.org/W2238655440",
+        "https://openalex.org/W2305961264",
+        "https://openalex.org/W2316115019",
+        "https://openalex.org/W2319032468",
+        "https://openalex.org/W2324717009",
+        "https://openalex.org/W2331212077",
+        "https://openalex.org/W2488643631",
+        "https://openalex.org/W2489252044",
+        "https://openalex.org/W2492206253",
+        "https://openalex.org/W2507343877",
+        "https://openalex.org/W2509538834",
+        "https://openalex.org/W2568889626",
+        "https://openalex.org/W2586256972",
+        "https://openalex.org/W2611678802",
+        "https://openalex.org/W2611783303",
+        "https://openalex.org/W2612049536",
+        "https://openalex.org/W2615790726",
+        "https://openalex.org/W2752698709",
+        "https://openalex.org/W2800983634",
+        "https://openalex.org/W2801362906",
+        "https://openalex.org/W2890288661",
+        "https://openalex.org/W2892240753",
+        "https://openalex.org/W2910139084",
+        "https://openalex.org/W2921908103",
+        "https://openalex.org/W2923613555",
+        "https://openalex.org/W2924161339",
+        "https://openalex.org/W2930934105",
+        "https://openalex.org/W2944006854",
         "https://openalex.org/W2944351877",
         "https://openalex.org/W2945546977",
-        "https://openalex.org/W2121671488",
-        "https://openalex.org/W2087782249",
-        "https://openalex.org/W2071373177",
-        "https://openalex.org/W2169035347",
-        "https://openalex.org/W2055359573",
-        "https://openalex.org/W4241718045",
-        "https://openalex.org/W2072017715",
-        "https://openalex.org/W2001216753",
-        "https://openalex.org/W1980703814",
-        "https://openalex.org/W1475513777",
-        "https://openalex.org/W4241843748",
-        "https://openalex.org/W1990517151",
-        "https://openalex.org/W2064051845",
-        "https://openalex.org/W2070056456",
-        "https://openalex.org/W2034433636",
-        "https://openalex.org/W2921908103",
-        "https://openalex.org/W2108924478",
-        "https://openalex.org/W2127447043",
-        "https://openalex.org/W1968712245",
-        "https://openalex.org/W2068862715",
-        "https://openalex.org/W2892240753",
-        "https://openalex.org/W1994753685",
-        "https://openalex.org/W1982107574",
-        "https://openalex.org/W1986113254",
-        "https://openalex.org/W2801362906",
-        "https://openalex.org/W2064836701",
         "https://openalex.org/W2945609618",
-        "https://openalex.org/W2029016331",
-        "https://openalex.org/W4255054566",
-        "https://openalex.org/W1988812183",
-        "https://openalex.org/W3176853188",
-        "https://openalex.org/W2007503504",
-        "https://openalex.org/W2016406069",
-        "https://openalex.org/W2024063797",
-        "https://openalex.org/W2098080253",
-        "https://openalex.org/W2072107302",
-        "https://openalex.org/W2094774149",
-        "https://openalex.org/W1984345107",
-        "https://openalex.org/W4249507655",
-        "https://openalex.org/W4245746752",
-        "https://openalex.org/W2006672077",
-        "https://openalex.org/W2003471214",
-        "https://openalex.org/W2002704298",
-        "https://openalex.org/W2124056742",
-        "https://openalex.org/W2089497776",
-        "https://openalex.org/W2930934105",
-        "https://openalex.org/W2040153588",
-        "https://openalex.org/W2046107702",
-        "https://openalex.org/W2090582737",
-        "https://openalex.org/W2028547786",
-        "https://openalex.org/W2139675348",
-        "https://openalex.org/W1992240614",
-        "https://openalex.org/W1985371973",
-        "https://openalex.org/W2910139084",
-        "https://openalex.org/W2070927964",
-        "https://openalex.org/W4254299888",
-        "https://openalex.org/W2055552433",
-        "https://openalex.org/W1964167166",
-        "https://openalex.org/W2181034942",
-        "https://openalex.org/W2026639229",
-        "https://openalex.org/W2064004450",
-        "https://openalex.org/W1997248559",
-        "https://openalex.org/W2924161339",
-        "https://openalex.org/W2013135527",
-        "https://openalex.org/W2050023691",
-        "https://openalex.org/W1980083955",
-        "https://openalex.org/W2058001015",
-        "https://openalex.org/W4239034232",
+        "https://openalex.org/W2945858774",
         "https://openalex.org/W2964571241",
-        "https://openalex.org/W2611783303",
-        "https://openalex.org/W2131082957",
-        "https://openalex.org/W2049291554",
-        "https://openalex.org/W2507343877",
-        "https://openalex.org/W2238655440",
-        "https://openalex.org/W2488643631",
-        "https://openalex.org/W2043898094",
-        "https://openalex.org/W3160245480",
-        "https://openalex.org/W2227186012",
-        "https://openalex.org/W2944006854",
-        "https://openalex.org/W2067655208",
-        "https://openalex.org/W2174115550",
-        "https://openalex.org/W2131275361",
-        "https://openalex.org/W2923613555",
-        "https://openalex.org/W1991194359",
-        "https://openalex.org/W56199184",
-        "https://openalex.org/W1505352099",
-        "https://openalex.org/W1481245961",
-        "https://openalex.org/W1541717936",
-        "https://openalex.org/W2097610284",
-        "https://openalex.org/W2077421426",
-        "https://openalex.org/W2084573545",
-        "https://openalex.org/W4251198028",
-        "https://openalex.org/W3213726711",
-        "https://openalex.org/W2158561878",
-        "https://openalex.org/W2143797720",
-        "https://openalex.org/W2102565948",
-        "https://openalex.org/W2149170151",
-        "https://openalex.org/W2509538834",
-        "https://openalex.org/W2492206253",
-        "https://openalex.org/W2489252044",
-        "https://openalex.org/W2038439082",
-        "https://openalex.org/W2019674908",
-        "https://openalex.org/W2037443710",
+        "https://openalex.org/W2972304139",
         "https://openalex.org/W2973613076",
         "https://openalex.org/W2976210669",
-        "https://openalex.org/W2069341796",
-        "https://openalex.org/W2067983188",
-        "https://openalex.org/W2053683526",
-        "https://openalex.org/W2051229022",
-        "https://openalex.org/W2611678802",
-        "https://openalex.org/W2800983634",
-        "https://openalex.org/W2586256972",
-        "https://openalex.org/W2305961264",
-        "https://openalex.org/W1782649302"
+        "https://openalex.org/W3036112446",
+        "https://openalex.org/W3160245480",
+        "https://openalex.org/W3176853188",
+        "https://openalex.org/W3213726711",
+        "https://openalex.org/W4238875356",
+        "https://openalex.org/W4239034232",
+        "https://openalex.org/W4241718045",
+        "https://openalex.org/W4241843748",
+        "https://openalex.org/W4245746752",
+        "https://openalex.org/W4249507655",
+        "https://openalex.org/W4251198028",
+        "https://openalex.org/W4251328647",
+        "https://openalex.org/W4253151950",
+        "https://openalex.org/W4254299888",
+        "https://openalex.org/W4255054566"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -3315,7 +3315,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-01-25T03:40:55.926884",
+      "updated_date": "2026-01-27T00:41:06.130819",
       "created_date": "2020-11-09T00:00:00"
     },
     {
@@ -4085,9 +4085,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5799999833106995,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [
@@ -4107,8 +4107,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -4629,8 +4629,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -5666,8 +5666,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -6224,9 +6224,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4300000071525574,
-          "display_name": "Industry, innovation and infrastructure"
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
       "awards": [],
@@ -6238,8 +6238,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 3,
@@ -7370,16 +7370,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.550000011920929,
-          "display_name": "Life in Land"
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -7963,8 +7963,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 60,
@@ -8590,8 +8590,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3215458773.pdf",
@@ -9658,8 +9658,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 21,
@@ -11071,8 +11071,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -12070,16 +12070,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/15",
+          "display_name": "Life in Land",
           "score": 0.46000000834465027,
-          "display_name": "Life in Land"
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 72,
@@ -12862,16 +12862,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action",
           "score": 0.5699999928474426,
-          "display_name": "Climate action"
+          "id": "https://metadata.un.org/sdg/13"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 45,
@@ -13428,16 +13428,16 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.8299999833106995,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2619608747.pdf",
@@ -14387,8 +14387,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 13,
@@ -15441,9 +15441,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
           "score": 0.49000000953674316,
-          "display_name": "Affordable and clean energy"
+          "id": "https://metadata.un.org/sdg/7"
         }
       ],
       "awards": [
@@ -15463,8 +15463,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 29,
@@ -16102,8 +16102,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -16842,16 +16842,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water",
           "score": 0.6899999976158142,
-          "display_name": "Life below water"
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 110,
@@ -18185,16 +18185,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production",
           "score": 0.5799999833106995,
-          "display_name": "Responsible consumption and production"
+          "id": "https://metadata.un.org/sdg/12"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -18891,16 +18891,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure",
           "score": 0.4099999964237213,
-          "display_name": "Industry, innovation and infrastructure"
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -19444,8 +19444,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -20010,8 +20010,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -20875,16 +20875,16 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/3",
+          "display_name": "Good health and well-being",
           "score": 0.8399999737739563,
-          "display_name": "Good health and well-being"
+          "id": "https://metadata.un.org/sdg/3"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2904644978.pdf",
@@ -21372,16 +21372,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/3",
+          "display_name": "Good health and well-being",
           "score": 0.6000000238418579,
-          "display_name": "Good health and well-being"
+          "id": "https://metadata.un.org/sdg/3"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -22550,16 +22550,16 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.5600000023841858,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
