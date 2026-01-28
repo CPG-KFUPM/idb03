@@ -2846,7 +2846,7 @@
       "has_fulltext": false,
       "cited_by_count": 71,
       "citation_normalized_percentile": {
-        "value": 0.98322678,
+        "value": 0.98322173,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3243,9 +3243,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Reduced inequalities",
           "id": "https://metadata.un.org/sdg/10",
-          "score": 0.4000000059604645,
-          "display_name": "Reduced inequalities"
+          "score": 0.4000000059604645
         }
       ],
       "awards": [],
@@ -3307,7 +3307,262 @@
         "https://openalex.org/W2037688108",
         "https://openalex.org/W3152905387"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "In": [
+          0,
+          20
+        ],
+        "this": [
+          1
+        ],
+        "work": [
+          2
+        ],
+        "we": [
+          3,
+          22,
+          86
+        ],
+        "consider": [
+          4,
+          23,
+          87
+        ],
+        "quasi-optimal": [
+          5,
+          61
+        ],
+        "versions": [
+          6
+        ],
+        "of": [
+          7,
+          26,
+          31,
+          38,
+          41,
+          52,
+          95,
+          103
+        ],
+        "the": [
+          8,
+          24,
+          39,
+          42,
+          47,
+          53,
+          101
+        ],
+        "Stochastic": [
+          9
+        ],
+        "Galerkin": [
+          10,
+          67
+        ],
+        "method": [
+          11
+        ],
+        "for": [
+          12
+        ],
+        "solving": [
+          13
+        ],
+        "linear": [
+          14
+        ],
+        "elliptic": [
+          15
+        ],
+        "PDEs": [
+          16
+        ],
+        "with": [
+          17,
+          44,
+          92
+        ],
+        "stochastic": [
+          18
+        ],
+        "coefficients.": [
+          19
+        ],
+        "particular,": [
+          21
+        ],
+        "case": [
+          25
+        ],
+        "a": [
+          27,
+          50,
+          60,
+          66,
+          70,
+          78,
+          83,
+          88
+        ],
+        "finite": [
+          28
+        ],
+        "number": [
+          29
+        ],
+        "$N$": [
+          30
+        ],
+        "random": [
+          32,
+          96
+        ],
+        "inputs": [
+          33
+        ],
+        "and": [
+          34,
+          76
+        ],
+        "an": [
+          35
+        ],
+        "analytic": [
+          36
+        ],
+        "dependence": [
+          37
+        ],
+        "solution": [
+          40
+        ],
+        "PDE": [
+          43
+        ],
+        "respect": [
+          45
+        ],
+        "to": [
+          46
+        ],
+        "parameters": [
+          48
+        ],
+        "in": [
+          49
+        ],
+        "polydisc": [
+          51
+        ],
+        "complex": [
+          54
+        ],
+        "plane": [
+          55
+        ],
+        "$C^N$.": [
+          56
+        ],
+        "We": [
+          57
+        ],
+        "show": [
+          58,
+          100
+        ],
+        "that": [
+          59
+        ],
+        "approximation": [
+          62
+        ],
+        "is": [
+          63
+        ],
+        "given": [
+          64
+        ],
+        "by": [
+          65
+        ],
+        "projection": [
+          68
+        ],
+        "on": [
+          69
+        ],
+        "weighted": [
+          71
+        ],
+        "(anisotropic)": [
+          72
+        ],
+        "total": [
+          73
+        ],
+        "degree": [
+          74
+        ],
+        "space": [
+          75
+        ],
+        "prove": [
+          77
+        ],
+        "(sub)exponential": [
+          79
+        ],
+        "convergence": [
+          80
+        ],
+        "rate.": [
+          81
+        ],
+        "As": [
+          82
+        ],
+        "specific": [
+          84
+        ],
+        "application": [
+          85
+        ],
+        "thermal": [
+          89
+        ],
+        "conduction": [
+          90
+        ],
+        "problem": [
+          91
+        ],
+        "non-overlapping": [
+          93
+        ],
+        "inclusions": [
+          94
+        ],
+        "conductivity.": [
+          97
+        ],
+        "Numerical": [
+          98
+        ],
+        "results": [
+          99
+        ],
+        "sharpness": [
+          102
+        ],
+        "our": [
+          104
+        ],
+        "estimates.": [
+          105
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2024,
@@ -4628,9 +4883,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4099999964237213,
-          "display_name": "Sustainable cities and communities"
+          "score": 0.4099999964237213
         }
       ],
       "awards": [
@@ -5421,9 +5676,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5199999809265137,
-          "display_name": "Sustainable cities and communities"
+          "score": 0.5199999809265137
         }
       ],
       "awards": [
@@ -9028,9 +9283,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8999999761581421,
-          "display_name": "Affordable and clean energy"
+          "score": 0.8999999761581421
         }
       ],
       "awards": [
@@ -13590,9 +13845,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.5099999904632568,
-          "display_name": "Life below water"
+          "score": 0.5099999904632568
         }
       ],
       "awards": [
@@ -14979,9 +15234,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Clean water and sanitation",
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8299999833106995,
-          "display_name": "Clean water and sanitation"
+          "score": 0.8299999833106995
         }
       ],
       "awards": [],
@@ -19021,7 +19276,7 @@
       "has_fulltext": true,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.90538227,
+        "value": 0.90551331,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19560,9 +19815,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Decent work and economic growth",
           "id": "https://metadata.un.org/sdg/8",
-          "score": 0.4300000071525574,
-          "display_name": "Decent work and economic growth"
+          "score": 0.4300000071525574
         }
       ],
       "awards": [],
@@ -19921,7 +20176,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-01-27T00:41:06.130819",
+      "updated_date": "2026-01-28T13:32:53.861360",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -21030,9 +21285,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Sustainable cities and communities",
           "id": "https://metadata.un.org/sdg/11",
-          "score": 0.5099999904632568,
-          "display_name": "Sustainable cities and communities"
+          "score": 0.5099999904632568
         }
       ],
       "awards": [
@@ -22015,7 +22270,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.69081103,
+        "value": 0.69099474,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23519,9 +23774,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.5,
-          "display_name": "Life below water"
+          "score": 0.5
         }
       ],
       "awards": [
@@ -26171,7 +26426,7 @@
       "publication_date": "2016-01-01",
       "ids": {
         "openalex": "https://openalex.org/W1958913642",
-        "doi": "https://doi.org/10.48550/arxiv.1410.0215",
+        "doi": "https://doi.org/10.1137/140989613",
         "mag": "1958913642"
       },
       "language": "en",
@@ -26311,7 +26566,7 @@
       "has_fulltext": true,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.81272707,
+        "value": 0.81268915,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27626,7 +27881,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.63702238,
+        "value": 0.63705282,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29124,9 +29379,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6499999761581421,
-          "display_name": "Climate action"
+          "score": 0.6499999761581421
         }
       ],
       "awards": [
@@ -31404,9 +31659,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6299999952316284,
-          "display_name": "Climate action"
+          "score": 0.6299999952316284
         }
       ],
       "awards": [
@@ -32110,9 +32365,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.4000000059604645,
-          "display_name": "Affordable and clean energy"
+          "score": 0.4000000059604645
         }
       ],
       "awards": [],
@@ -34975,9 +35230,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.7300000190734863,
-          "display_name": "Affordable and clean energy"
+          "score": 0.7300000190734863
         }
       ],
       "awards": [],
@@ -37534,9 +37789,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Industry, innovation and infrastructure",
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.6700000166893005,
-          "display_name": "Industry, innovation and infrastructure"
+          "score": 0.6700000166893005
         }
       ],
       "awards": [],
@@ -38214,9 +38469,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.7200000286102295,
-          "display_name": "Climate action"
+          "score": 0.7200000286102295
         }
       ],
       "awards": [],
@@ -38994,9 +39249,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.75,
-          "display_name": "Climate action"
+          "score": 0.75
         }
       ],
       "awards": [],
@@ -39415,9 +39670,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8299999833106995,
-          "display_name": "Climate action"
+          "score": 0.8299999833106995
         }
       ],
       "awards": [],
@@ -40369,7 +40624,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.22822347,
+        "value": 0.22816258,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41844,9 +42099,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.47999998927116394,
-          "display_name": "Life below water"
+          "score": 0.47999998927116394
         }
       ],
       "awards": [],
@@ -42765,9 +43020,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8100000023841858,
-          "display_name": "Climate action"
+          "score": 0.8100000023841858
         }
       ],
       "awards": [],
@@ -48330,9 +48585,9 @@
       },
       "sustainable_development_goals": [
         {
+          "display_name": "Life below water",
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.6100000143051147,
-          "display_name": "Life below water"
+          "score": 0.6100000143051147
         }
       ],
       "awards": [],
